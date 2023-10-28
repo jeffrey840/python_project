@@ -1,0 +1,27 @@
+
+
+todo: capcha1.py - extractUsingBodyTag.ipynb - proxy.ipynb - google_search.py - Untitled1.ipynb
+todo:
+todo:
+
+
+capcha1.py  and proxy.ipynb
+- generate proxies and makes a proxy_list.txt
+todo:use a rotating proxy when making requests,
+todo: implement the region, when using another proxy the google search uses another language
+
+extractUsingBodyTag.ipynb
+- paste multiple body tags in the, html_content
+todo: turn the results in a txt file
+todo: make a for loop for fetching images
+todo: download images and use google image or mathpix for extracting text then attach the result to question
+
+Untitled1.ipynb
+- makes a tab and searches in google
+
+google_search.py
+makes a 10 tabs and searches in google
+
+testingWebDriver.py
+- searches on google "oracle 1z0-808 question {} exam topics" and then presses the first result,
+todo: after each fetch copy all the body tags

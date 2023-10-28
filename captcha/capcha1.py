@@ -22,4 +22,4 @@ if __name__ == "__main__":
         for proxy in proxies:
             print(proxy, file=file)
 
-#             this code fetchecxs from multiple proxies and creates s afile with the proxies
+#             this code fetches from multiple proxies and creates a file with the proxies

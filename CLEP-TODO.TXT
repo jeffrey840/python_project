@@ -1,4 +1,7 @@
 workflow for clep extraction
+todo: ansKeyFilter.ipynb - filtered&organized.ipynb - organized1-121-questions.ipynb
+todo: fixedQ72.ipynb - Untitled.ipynb - Organized_Q&A.ipynb
+todo: Filtered.ipynb
 
 ansKeyFilter.ipynb
 - copy the anskey and removes the unnesesary clep text,ex: CLEP Western Civilization I,
