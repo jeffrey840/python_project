@@ -1,0 +1,39 @@
+workflow for clep extraction
+
+ansKeyFilter.ipynb
+- copy the anskey and removes the unnesesary clep text,ex: CLEP Western Civilization I,
+then creates and txt file with the filtered text , ex: answerKey[20231024].txt
+
+filtered&organized.ipynb
+- copy only the clep text question and question options and paste them in the text data
+this will generate json todo:make a file where this will be saved
+
+organized1-121-questions.ipynb
+- paste the json text in the data field , like this , {1: {'question': 'The noble revolts kn...
+todo:make a file where this will be saved
+
+        fixedQ72.ipynb
+        - copy all the result from the previous output and paste it into this input text
+        this will make a fixedCompleteQuestion.txt
+        todo: remove the extra "72" in the fixedCompleteQuestion.txt
+
+
+Untitled.ipynb
+- merging the two txt files, fixedCompleteQuestion.txt', 'answerKey[20231024].txt
+todo: make a file with the merged txt files ex: WC_final.txt
+
+
+---- test the following files with another clep exam review before deleting ----
+Organized_Q&A.ipynb
+Filtered.ipynb
+
+
+Filtered.ipynb
+- paste the concatenated code and this will remove the unnesesary text from the question and question number
+
+        Organized_Q&A.ipynb
+        - paste the resulting from teh previous data here
+        - this will then make the json object out of teh question and question options
+
+
+
