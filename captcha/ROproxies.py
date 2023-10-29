@@ -1,22 +1,8 @@
 
-
 from selenium import webdriver
-from selenium.webdriver.firefox.options import Options
-from webdriver_manager.firefox import GeckoDriverManager
+import os
+import time
 
-def get_firefox_with_proxy(ip, port):
-    profile = webdriver.FirefoxProfile()
-    profile.set_preference("network.proxy.type", 1)
-    profile.set_preference("network.proxy.http", ip)
-    profile.set_preference("network.proxy.http_port", port)
-    profile.set_preference("network.proxy.ssl", ip)
-    profile.set_preference("network.proxy.ssl_port", port)
-    profile.update_preferences()
-
-    options = Options()
-    options.profile = profile
-
-    return webdriver.Firefox(options=options, executable_path=GeckoDriverManager().install())
 
 # List of proxies
 proxies = [
@@ -64,16 +50,53 @@ proxies = [
 ]
 
 
-browser = None  # Initialize the browser variable outside the loop
+
+# Function to get Firefox with a specific proxy
+def get_firefox_with_proxy(ip, port):
+    profile = webdriver.FirefoxProfile()
+    profile.set_preference("network.proxy.type", 1)
+    profile.set_preference("network.proxy.http", ip)
+    profile.set_preference("network.proxy.http_port", int(port))
+    profile.set_preference("network.proxy.ssl", ip)
+    profile.set_preference("network.proxy.ssl_port", int(port))
+
+    # Set a common User-Agent
+    profile.set_preference("general.useragent.override", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+
+    # Setting up the Firefox binary and geckodriver path
+    options = webdriver.FirefoxOptions()
+    options.binary_location = "/Applications/Firefox.app/Contents/MacOS/firefox-bin"
+    options.profile = profile
+
+    # Assuming geckodriver is in the PATH. If not, provide the path to the geckodriver executable.
+    service = webdriver.firefox.service.Service(log_path=os.devnull)
+
+    return webdriver.Firefox(options=options, service=service)
+
+
+# Test the proxies
+working_proxies = []
 
 for proxy in proxies:
     try:
         print(f"Trying proxy {proxy['ip']}:{proxy['port']}...")
         browser = get_firefox_with_proxy(proxy["ip"], proxy["port"])
-        browser.get("http://httpbin.org/ip")  # This will show your current IP to verify the proxy
-        # ... [rest of your actions]
+        browser.get("https://www.google.com")
+
+        # Wait for a few seconds to see the browser
+        time.sleep(5)
+
+        # If successful, add to the working proxies list
+        working_proxies.append(proxy)
+
         browser.quit()
     except Exception as e:
         print(f"Error with proxy {proxy['ip']}:{proxy['port']} - {str(e)}")
-        if browser:
+        try:
             browser.quit()
+        except:
+            pass
+
+print("Working proxies:", working_proxies)
+
+

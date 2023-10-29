@@ -6,6 +6,9 @@ from selenium.webdriver.support import expected_conditions as EC
 import requests
 import os
 
+proxies = [{'ip': '64.189.106.6', 'port': 3129}, {'ip': '149.62.183.209', 'port': 3128}, {'ip': '45.189.116.38', 'port': 999}, {'ip': '5.189.172.158', 'port': 3128}, {'ip': '43.156.103.153', 'port': 3128}, {'ip': '14.207.84.214', 'port': 8080}, {'ip': '200.30.138.54', 'port': 3128}, {'ip': '122.155.165.191', 'port': 3128}, {'ip': '45.174.76.22', 'port': 999}, {'ip': '190.239.221.234', 'port': 999}, {'ip': '143.47.244.130', 'port': 3128}, {'ip': '103.53.77.254', 'port': 28080}]
+
+
 def download_image(url, filename):
     response = requests.get(url, stream=True)
     with open(filename, 'wb') as file:
@@ -47,36 +50,57 @@ def extract_question_data(browser):
         file.write("\n")  # Add a newline for separation between questions
 
 
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+
+def get_firefox_with_proxy(proxy_ip, proxy_port):
+    firefox_options = FirefoxOptions()
+    firefox_profile = webdriver.FirefoxProfile()
+    firefox_profile.set_preference("network.proxy.type", 1)
+    firefox_profile.set_preference("network.proxy.http", proxy_ip)
+    firefox_profile.set_preference("network.proxy.http_port", proxy_port)
+    firefox_profile.set_preference("network.proxy.ssl", proxy_ip)
+    firefox_profile.set_preference("network.proxy.ssl_port", proxy_port)
+    firefox_profile.update_preferences()
+    return webdriver.Firefox(firefox_profile=firefox_profile, options=firefox_options, executable_path=GeckoDriverManager().install())
+
+
 def google_search_and_click(queries):
     base_url = "https://www.google.com/search?q={}"
 
     # Ensure geckodriver is installed and set in the PATH
     GeckoDriverManager().install()
 
-    # Initialize the Firefox driver
-    browser = webdriver.Firefox()
-
     for query in queries:
-        # Navigate to the search query using Selenium
-        browser.get(base_url.format(query))
+        for proxy in proxies:
+            try:
+                # Initialize the Firefox driver with the current proxy
+                browser = get_firefox_with_proxy(proxy['ip'], proxy['port'])
 
-        # Wait for the result to be clickable and then click it
-        xpath_to_select = '/html/body/div[5]/div/div[12]/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div/div/span/a'
-        wait = WebDriverWait(browser, 10)
-        element = wait.until(EC.element_to_be_clickable((By.XPATH, xpath_to_select)))
-        element.click()
+                # Navigate to the search query using Selenium
+                browser.get(base_url.format(query))
 
-        # Wait for the content to load on the new page
-        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".question-body")))
+                # Wait for the result to be clickable and then click it
+                xpath_to_select = '/html/body/div[5]/div/div[12]/div/div[2]/div[2]/div/div/div[1]/div/div/div[1]/div/div/span/a'
+                wait = WebDriverWait(browser, 10)
+                element = wait.until(EC.element_to_be_clickable((By.XPATH, xpath_to_select)))
+                element.click()
 
-        # Extract the question data
-        extract_question_data(browser)
+                # Wait for the content to load on the new page
+                wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".question-body")))
 
-    browser.quit()
+                # Extract the question data
+                extract_question_data(browser)
+
+                # Close the browser and break out of the proxy loop
+                browser.quit()
+                break
+            except Exception as e:
+                print(f"Error using proxy {proxy['ip']}:{proxy['port']}. Trying next.")
+                browser.quit()
+                continue
 
 if __name__ == "__main__":
     topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(29, 200)]
     google_search_and_click(topics)
-
 
 # aws cloud practitioner question 3 examtopics
