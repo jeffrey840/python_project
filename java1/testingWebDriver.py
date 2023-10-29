@@ -75,5 +75,5 @@ def google_search_and_click(queries):
     browser.quit()
 
 if __name__ == "__main__":
-    topics = ["oracle 1z0-808 question {} exam topics".format(i) for i in range(202, 206)]
+    topics = ["oracle 1z0-808 question {} exam topics".format(i) for i in range(203, 241)]
     google_search_and_click(topics)

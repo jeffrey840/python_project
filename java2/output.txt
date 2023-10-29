@@ -1,0 +1,59 @@
+Compared with costs in traditional and virtualized data centers, AWS has:
+[Image 1] saved as image_1698552436_0.png
+A. greater variable costs and greater upfront costs.
+B. fixed usage costs and lower upfront costs.
+C. lower variable costs and greater upfront costs.
+D. lower variable costs and lower upfront costs.
+
+A characteristic of edge locations is that they:
+A. host Amazon EC2 instances closer to users.
+B. help lower latency and improve performance for users.
+C. cache frequently changing data without reaching the origin server.
+D. refresh data changes daily.
+
+Which of the following can limit Amazon Storage Service (Amazon S3) bucket access to specific users?
+A. A public and private key-pair
+B. Amazon Inspector
+C. AWS Identity and Access Management (IAM) policies
+D. Security Groups
+
+Which of the following are components of an AWS Site-to-Site VPN connection? (Choose two.)
+A. AWS Storage Gateway
+B. Virtual private gateway
+C. NAT gateway
+D. Customer gateway
+E. Internet gateway
+
+A company needs to establish a connection between two VPCs. The VPCs are located in two different AWS Regions. The company wants to use the existing infrastructure of the VPCs for this connection.
+Which AWS service or feature can be used to establish this connection?
+A. AWS Client VPN
+B. VPC peering
+C. AWS Direct Connect
+D. VPC endpoints
+
+Which AWS feature will reduce the customer's total cost of ownership (TCO)?
+A. Shared responsibility security model
+B. Single tenancy
+C. Elastic computing
+D. Encryption
+
+What are some advantages of using Amazon EC2 instances to host applications in the AWS Cloud instead of on premises? (Choose two.)
+A. EC2 includes operating system patch management.
+B. EC2 integrates with Amazon VPC, AWS CloudTrail, and AWS Identity and Access Management (IAM).
+C. EC2 has a 100% service level agreement (SLA).
+D. EC2 has a flexible, pay-as-you-go pricing model.
+E. EC2 has automatic storage cost optimization.
+
+A user needs to determine whether an Amazon EC2 instance's security groups were modified in the last month.
+How can the user see if a change was made?
+A. Use Amazon EC2 to see if the security group was changed.
+B. Use AWS Identity and Access Management (IAM) to see which user or role changed the security group.
+C. Use AWS CloudTrail to see if the security group was changed.
+D. Use Amazon CloudWatch to see if the security group was changed.
+
+Which AWS service will help protect applications running on AWS from DDoS attacks?
+A. Amazon GuardDuty
+B. AWS WAF
+C. AWS Shield
+D. Amazon Inspector
+

@@ -37,7 +37,7 @@ def extract_question_data(browser):
         saved_images.append(f"[Image {index + 1}] saved as {filename}")
 
     # Save the extracted information to a text file
-    with open("output.txt", "a") as file:  # Use "a" mode to append to the file for multiple pages
+    with open("output2.txt", "a") as file:  # Use "a" mode to append to the file for multiple pages
         file.write(question_text + "\n")
         file.write(saved_images[0] + "\n") if saved_images else None  # Write the first image
         for option in options:
@@ -75,5 +75,8 @@ def google_search_and_click(queries):
     browser.quit()
 
 if __name__ == "__main__":
-    topics = ["oracle 1z0-808 question {} exam topics".format(i) for i in range(202, 206)]
+    topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(29, 200)]
     google_search_and_click(topics)
+
+
+# aws cloud practitioner question 3 examtopics
