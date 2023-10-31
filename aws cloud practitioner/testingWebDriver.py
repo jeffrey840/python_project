@@ -6,6 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 import requests
 import os
 
+# todo: implement selenium base to this
+
 proxies = [{'ip': '64.189.106.6', 'port': 3129}, {'ip': '149.62.183.209', 'port': 3128}, {'ip': '45.189.116.38', 'port': 999}, {'ip': '5.189.172.158', 'port': 3128}, {'ip': '43.156.103.153', 'port': 3128}, {'ip': '14.207.84.214', 'port': 8080}, {'ip': '200.30.138.54', 'port': 3128}, {'ip': '122.155.165.191', 'port': 3128}, {'ip': '45.174.76.22', 'port': 999}, {'ip': '190.239.221.234', 'port': 999}, {'ip': '143.47.244.130', 'port': 3128}, {'ip': '103.53.77.254', 'port': 28080}]
 
 
@@ -63,18 +65,26 @@ def get_firefox_with_proxy(proxy_ip, proxy_port):
     firefox_profile.update_preferences()
     return webdriver.Firefox(firefox_profile=firefox_profile, options=firefox_options, executable_path=GeckoDriverManager().install())
 
+def get_brave_with_proxy(proxy_ip, proxy_port):
+    brave_path = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
+    chrome_options = webdriver.ChromeOptions()
+    chrome_options.binary_location = brave_path
+    chrome_options.add_argument(f"--proxy-server={proxy_ip}:{proxy_port}")
+
+    return webdriver.Chrome(options=chrome_options)
 
 def google_search_and_click(queries):
     base_url = "https://www.google.com/search?q={}"
 
     # Ensure geckodriver is installed and set in the PATH
-    GeckoDriverManager().install()
+    # GeckoDriverManager().install()
 
     for query in queries:
+        base_url = "https://www.google.com/search?q={}"
         for proxy in proxies:
             try:
                 # Initialize the Firefox driver with the current proxy
-                browser = get_firefox_with_proxy(proxy['ip'], proxy['port'])
+                browser = get_brave_with_proxy(proxy['ip'], proxy['port'])
 
                 # Navigate to the search query using Selenium
                 browser.get(base_url.format(query))
@@ -100,7 +110,7 @@ def google_search_and_click(queries):
                 continue
 
 if __name__ == "__main__":
-    topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(29, 200)]
+    topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(29, 35)]
     google_search_and_click(topics)
 
 # aws cloud practitioner question 3 examtopics

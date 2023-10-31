@@ -1,8 +1,8 @@
 from seleniumbase import Driver
 import time
 # todo: this test ran correctly
-#switch my proxy on  system netroks
-# tested it and failed , then i swritvched back to my original proxy
+#  switch my proxy on system network
+#  tested it and failed , then i switched back to my original proxy
 def test_undetected_chrome():
     # Initialize the undetected Chrome driver from SeleniumBase
     driver = Driver(uc=True)
