@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# todo: 200 - 994
+
 
 
 # Paths for Brave and ChromeDriver
@@ -25,7 +25,7 @@ def google_search_and_save_links(queries):
     browser = webdriver.Chrome(options=chrome_options)
 
     # File to save the links
-    with open("links_1-199.txt", "a") as file:
+    with open("links_60-141.txt", "a") as file:
         for query in queries:
             # Navigate to the search query using Selenium
             browser.get(base_url.format(query))
@@ -45,7 +45,24 @@ def google_search_and_save_links(queries):
     browser.quit()
 
 if __name__ == "__main__":
-    topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(147, 199)]
+    topics = ["Amazon Certified Developer Associate DVA-CO2 question {} examtopics".format(i) for i in range(12, 130)]
     google_search_and_save_links(topics)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
