@@ -64,41 +64,6 @@ if __name__ == "__main__":
 
 
 
-# java
-
-
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-808 question {} examtopics".format(i) for i in range(1, 101)]  # Assuming a default range
-    google_search_and_save_links(topics)
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-809 question {} examtopics".format(i) for i in range(1, 101)]  # Assuming a default range
-    google_search_and_save_links(topics)
-
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-819 question {} examtopics".format(i) for i in range(1, 182)]
-    google_search_and_save_links(topics)
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-082 question {} examtopics".format(i) for i in range(1, 164)]
-    google_search_and_save_links(topics)
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-083 question {} examtopics".format(i) for i in range(1, 187)]
-    google_search_and_save_links(topics)
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-1072-22 question {} examtopics".format(i) for i in range(1, 60)]
-    google_search_and_save_links(topics)
-
-if __name__ == "__main__":
-    topics = ["Oracle 1z0-1072-23 question {} examtopics".format(i) for i in range(1, 65)]
-    google_search_and_save_links(topics)
-
-
-
 
 
 # microsoft
