@@ -1,0 +1,25 @@
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 30
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+How does the AWS Cloud pricing model differ from the traditional on-premises storage pricing model?
+A. AWS resources do not incur costs
+B. There are no infrastructure operating costs
+C. There are no upfront cost commitments
+D. There are no software licensing costs
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 31
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+AWS supports which of the following methods to add security to Identity and Access Management (IAM) users? (Choose two.)
+A. Implementing Amazon Rekognition
+B. Using AWS Shield-protected resources
+C. Blocking access with Security Groups
+D. Using Multi-Factor Authentication (MFA)
+E. Enforcing password strength and expiration
+Show Suggested Answer
+
+

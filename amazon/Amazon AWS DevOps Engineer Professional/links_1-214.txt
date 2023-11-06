@@ -5,7 +5,6 @@ https://www.examtopics.com/discussions/amazon/view/3418-exam-aws-devops-engineer
 https://www.examtopics.com/discussions/amazon/view/2749-exam-aws-devops-engineer-professional-topic-1-question-5/
 https://www.examtopics.com/discussions/amazon/view/78510-exam-aws-devops-engineer-professional-topic-1-question-6/
 https://www.examtopics.com/discussions/amazon/view/2810-exam-aws-devops-engineer-professional-topic-1-question-7/
-https://www.examtopics.com/exams/amazon/aws-devops-engineer-professional/view/8/
 https://www.examtopics.com/discussions/amazon/view/2328-exam-aws-devops-engineer-professional-topic-1-question-9/
 https://www.examtopics.com/discussions/amazon/view/3124-exam-aws-devops-engineer-professional-topic-1-question-10/
 https://www.examtopics.com/discussions/amazon/view/3128-exam-aws-devops-engineer-professional-topic-1-question-11/
@@ -31,7 +30,6 @@ https://www.examtopics.com/discussions/amazon/view/5641-exam-aws-devops-engineer
 https://www.examtopics.com/discussions/amazon/view/6514-exam-aws-devops-engineer-professional-topic-1-question-32/
 https://www.examtopics.com/discussions/amazon/view/8953-exam-aws-devops-engineer-professional-topic-1-question-33/
 https://www.examtopics.com/discussions/amazon/view/5034-exam-aws-devops-engineer-professional-topic-1-question-34/
-https://www.examtopics.com/discussions/amazon/view/106199-exam-aws-certified-devops-engineer-professional-dop-c02/
 https://www.examtopics.com/discussions/amazon/view/2840-exam-aws-devops-engineer-professional-topic-1-question-36/
 https://www.examtopics.com/discussions/amazon/view/2841-exam-aws-devops-engineer-professional-topic-1-question-38/
 https://www.examtopics.com/discussions/amazon/view/2373-exam-aws-devops-engineer-professional-topic-1-question-39/
@@ -69,7 +67,6 @@ https://www.examtopics.com/discussions/amazon/view/79173-exam-aws-devops-enginee
 https://www.examtopics.com/discussions/amazon/view/8203-exam-aws-devops-engineer-professional-topic-1-question-79/
 https://www.examtopics.com/discussions/amazon/view/8077-exam-aws-devops-engineer-professional-topic-1-question-80/
 https://www.examtopics.com/discussions/amazon/view/8088-exam-aws-devops-engineer-professional-topic-1-question-81/
-https://www.examtopics.com/discussions/amazon/view/109261-exam-aws-certified-devops-engineer-professional-dop-c02/
 https://www.examtopics.com/discussions/amazon/view/46887-exam-aws-devops-engineer-professional-topic-1-question-83/
 https://www.examtopics.com/discussions/amazon/view/88913-exam-aws-devops-engineer-professional-topic-1-question-84/
 https://www.examtopics.com/discussions/amazon/view/8093-exam-aws-devops-engineer-professional-topic-1-question-87/
@@ -101,7 +98,6 @@ https://www.examtopics.com/discussions/amazon/view/88920-exam-aws-devops-enginee
 https://www.examtopics.com/discussions/amazon/view/88919-exam-aws-devops-engineer-professional-topic-1-question-114/
 https://www.examtopics.com/discussions/amazon/view/8477-exam-aws-devops-engineer-professional-topic-1-question-115/
 https://www.examtopics.com/discussions/amazon/view/8520-exam-aws-devops-engineer-professional-topic-1-question-116/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 117 examtopics
 https://www.examtopics.com/discussions/amazon/view/92576-exam-aws-devops-engineer-professional-topic-1-question-118/
 https://www.examtopics.com/discussions/amazon/view/92516-exam-aws-devops-engineer-professional-topic-1-question-119/
 https://www.examtopics.com/discussions/amazon/view/92577-exam-aws-devops-engineer-professional-topic-1-question-120/
@@ -110,14 +106,12 @@ https://www.examtopics.com/discussions/amazon/view/8534-exam-aws-devops-engineer
 https://www.examtopics.com/discussions/amazon/view/92419-exam-aws-devops-engineer-professional-topic-1-question-123/
 https://www.examtopics.com/discussions/amazon/view/8537-exam-aws-devops-engineer-professional-topic-1-question-124/
 https://www.examtopics.com/discussions/amazon/view/8985-exam-aws-devops-engineer-professional-topic-1-question-125/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 126 examtopics
 https://www.examtopics.com/discussions/amazon/view/8542-exam-aws-devops-engineer-professional-topic-1-question-127/
 https://www.examtopics.com/discussions/amazon/view/8543-exam-aws-devops-engineer-professional-topic-1-question-128/
 https://www.examtopics.com/discussions/amazon/view/92583-exam-aws-devops-engineer-professional-topic-1-question-129/
 https://www.examtopics.com/discussions/amazon/view/8555-exam-aws-devops-engineer-professional-topic-1-question-130/
 https://www.examtopics.com/discussions/amazon/view/8560-exam-aws-devops-engineer-professional-topic-1-question-131/
 https://www.examtopics.com/discussions/amazon/view/93084-exam-aws-devops-engineer-professional-topic-1-question-132/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 133 examtopics
 https://www.examtopics.com/discussions/amazon/view/8567-exam-aws-devops-engineer-professional-topic-1-question-134/
 https://www.examtopics.com/discussions/amazon/view/92563-exam-aws-devops-engineer-professional-topic-1-question-135/
 https://www.examtopics.com/discussions/amazon/view/92564-exam-aws-devops-engineer-professional-topic-1-question-136/
@@ -133,11 +127,9 @@ https://www.examtopics.com/discussions/amazon/view/95097-exam-aws-devops-enginee
 https://www.examtopics.com/discussions/amazon/view/95164-exam-aws-devops-engineer-professional-topic-1-question-146/
 https://www.examtopics.com/discussions/amazon/view/28062-exam-aws-devops-engineer-professional-topic-1-question-147/
 https://www.examtopics.com/discussions/amazon/view/28063-exam-aws-devops-engineer-professional-topic-1-question-148/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 149 examtopics
 https://www.examtopics.com/discussions/amazon/view/28064-exam-aws-devops-engineer-professional-topic-1-question-150/
 https://www.examtopics.com/discussions/amazon/view/28012-exam-aws-devops-engineer-professional-topic-1-question-151/
 https://www.examtopics.com/discussions/amazon/view/28073-exam-aws-devops-engineer-professional-topic-1-question-152/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 153 examtopics
 https://www.examtopics.com/discussions/amazon/view/28581-exam-aws-devops-engineer-professional-topic-1-question-154/
 https://www.examtopics.com/discussions/amazon/view/95456-exam-aws-devops-engineer-professional-topic-1-question-155/
 https://www.examtopics.com/discussions/amazon/view/47828-exam-aws-devops-engineer-professional-topic-1-question-156/
@@ -151,7 +143,6 @@ https://www.examtopics.com/discussions/amazon/view/95426-exam-aws-devops-enginee
 https://www.examtopics.com/discussions/amazon/view/95748-exam-aws-devops-engineer-professional-topic-1-question-164/
 https://www.examtopics.com/discussions/amazon/view/95414-exam-aws-devops-engineer-professional-topic-1-question-165/
 https://www.examtopics.com/discussions/amazon/view/95413-exam-aws-devops-engineer-professional-topic-1-question-166/
-Error encountered with query: Amazon AWS DevOps Engineer Professional question 167 examtopics
 https://www.examtopics.com/discussions/amazon/view/28599-exam-aws-devops-engineer-professional-topic-1-question-168/
 https://www.examtopics.com/discussions/amazon/view/95050-exam-aws-devops-engineer-professional-topic-1-question-169/
 https://www.examtopics.com/discussions/amazon/view/95410-exam-aws-devops-engineer-professional-topic-1-question-170/
