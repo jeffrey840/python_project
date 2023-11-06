@@ -1,0 +1,619 @@
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 12
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A current architecture uses many Lambda functions invoking one another as large state machine. The coordination of this state machine is legacy custom code that breaks easily.
+Which AWS Service can help refactor and manage the state machine?
+A. AWS Data Pipeline
+B. AWS SNS with AWS SQS
+C. Amazon Elastic MapReduce
+D. AWS Step Functions
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 13
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A large e-commerce site is being designed to deliver static objects from Amazon S3. The Amazon S3 bucket will server more than 300 GET requests per second.
+What should be done to optimize performance? (Select TWO.)
+A. Integrate Amazon CloudFront with Amazon S3.
+B. Enable Amazon S3 cross-region replication.
+C. Delete expired Amazon S3 server log files.
+D. Configure Amazon S3 lifecycle rules.
+E. Randomize Amazon S3 key name prefixes.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 14
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company is using AWS Elastic Beanstalk to deploy a three-tier application. The application uses an Amazon RDS DB instance as the database tier. The company wants to decouple the DB instance from the Elastic Beanstalk environment.
+Which combination of steps should a developer lake to meet this requirement? (Choose two.)
+A. Create a new Elastic Beanstalk environment that connects to the DB instance.
+B. Create a new DB instance from a snapshot of the previous DB instance.
+C. Use the Elastic Beanstalk CLI to decouple the DB instance.
+D. Use the AWS CLI to decouple the DB instance.
+E. Modify the current Elastic Beanstalk environment to connect to the DB instance.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 15
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company has point-of-sale devices across thousands of retail shops that synchronize sales transactions with a centralized system. The system includes an
+Amazon API Gateway API that exposes an AWS Lambda function. The Lambda function processes the transactions and stores the transactions in Amazon RDS for MySQL. The number of transactions increases rapidly during the day and is near zero at night.
+How can a developer increase the elasticity of the system MOST cost-effectively?
+A. Migrate from Amazon RDS to Amazon Aurora MySQL. Use an Aurora Auto Scaling policy to scale road replicas based on CPU consumption.
+B. Migrate from Amazon RDS to Amazon Aurora MySQL. Use an Aurora Auto Scaling policy to scale read replicas based on the number of database connections.
+C. Create an Amazon Simple Queue Service (Amazon SQS) queue. Publish transactions to the queue. Set the queue to invoke the Lambda function. Turn on enhanced fanout for the Lambda function.
+D. Create an Amazon Simple Queue Service (Amazon SQS) queue. Publish transactions to the queue. Set the queue to invoke the Lambda function. Set the reserved concurrency of the Lambda function to be less than the number of database connections.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 18
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company that has multiple offices uses an Amazon DynamoDB table to store employee payroll information. Item attributes consist of employee names, office identifiers, and cumulative daily hours worked The most frequently used query extracts a report of an alphabetical subset of employees for a specific office.
+Which design of the DynamoDB table primary key will have the MINIMUM performance impact?
+A. Partition key on the office identifier and sort key on the employee name
+B. Partition key on the employee name and sort key on the office identifier
+C. Partition key on the employee name
+D. Partition key on the office identifier
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 19
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company hosts a microservices application that uses Amazon API Gateway. AWS Lambda, Amazon Simple Queue Service (Amazon SQS), and Amazon
+DynamoDB. One of the Lambda functions adds messages to an SQS FIFO queue.
+When a developer checks the application logs, the developer finds a few duplicated items in a DynamoDB table. The items were inserted by another polling function that processes messages from the queue.
+What is the MOST likely cause of this issue?
+A. Write operations on the DynamoDB table are being throttled.
+B. The SQS queue delivered the message to the function more than once.
+C. API Gateway duplicated the message in the SQS queue.
+D. The polling function timeout is greater than the queue visibility timeout.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 20
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A development team has been using a builder server that is hosted on an Amazon EC2 instance to perform builds and deployments for the last 3 months. The
+EC2 instance's instance profile uses an IAM role that contains the Administrator Access managed policy. The development team must replace that policy with a policy that provides only the required permissions.
+What is the FASTEST way to create a custom 1AM policy for the EC2 instance to meet this requirement?
+A. Create a new IAM policy based on services that the build server deployed or updated in the last 3 months.
+B. Create a new IAM policy that includes all actions that AWS CloudTrail recorded for the IAM role in the last 3 months.
+C. Create a new permissions boundary policy that denies all access. Associate the permissions boundaries with the IAM role.
+D. Create a new IAM policy by using Amazon Athena to query an Amazon S3 bucket that contains AWS CloudTrail events that the IAM role performed in the last 3 months.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 21
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+Company C has recently launched an online commerce site for bicycles on AWS. They have a "Product"
+DynamoDB table that stores details for each bicycle, such as, manufacturer, color, price, quantity and size to display in the online store. Due to customer demand, they want to include an image for each bicycle along with the existing details.
+Which approach below provides the least impact to provisioned throughput on the "Product" table?
+A. Serialize the image and store it in multiple DynamoDB tables
+B. Create an "Images" DynamoDB table to store the Image with a foreign key constraint to the "Product" table
+C. Add an image data type to the "Product" table to store the images in binary format
+D. Store the images in Amazon S3 and add an S3 URL pointer to the "Product" table item for each image
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 22
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer has created a software package to be deployed on multiple EC2 instances using IAM roles.
+What actions could be performed to verify IAM access to get records from Amazon Kinesis Streams? (Choose two.)
+A. Use the AWS CLI to retrieve the IAM group.
+B. Query Amazon EC2 metadata for in-line IAM policies.
+C. Request a token from AWS STS, and perform a describe action.
+D. Perform a get action using the ג€"-dry-run argument.
+E. Validate the IAM role policy with the IAM policy simulator.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 23
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+When a Simple Queue Service message triggers a task that takes 5 minutes to complete, which process below will result in successful processing of the message and remove it from the queue while minimizing the chances of duplicate processing?
+A. Retrieve the message with an increased visibility timeout, process the message, delete the message from the queue
+B. Retrieve the message with an increased visibility timeout, delete the message from the queue, process the message
+C. Retrieve the message with increased DelaySeconds, process the message, delete the message from the queue
+D. Retrieve the message with increased DelaySeconds, delete the message from the queue, process the
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 24
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A developer is creating a solution to track an account's Amazon S3 buckets over time. The developer has created an AWS Lambda function that will run on a schedule. The function will list the account's S3 buckets and will store the list in an Amazon DynamoDB table. The developer receives a permissions error when the developer runs the function with the AWSLambdaBasicExecutionRole AWS managed policy.
+Which combination of permissions should the developer use to resolve this error? (Choose two.)
+A. Cross-account IAM role
+B. Permission for the Lambda function to list buckets in Amazon S3
+C. Permission for the Lambda function to write in DynamoDB
+D. Permission for Amazon S3 to invoke the Lambda function
+E. Permission for DynamoDB to invoke the Lambda function
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 25
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer has an application that can upload tens of thousands of objects per second to Amazon S3 in parallel within a single AWS account. As part of new requirements, data stored in S3 must use server side encryption with AWS KMS (SSE-KMS). After creating this change, performance of the application is slower.
+Which of the following is MOST likely the cause of the application latency?
+A. Amazon S3 throttles the rate at which uploaded objects can be encrypted using Customer Master Keys.
+B. The AWS KMS API calls limit is less than needed to achieve the desired performance.
+C. The client encryption of the objects is using a poor algorithm.
+D. KMS requires that an alias be used to create an independent display name that can be mapped to a CMK.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 26
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company wants to migrate its web application to AWS and leverage Auto Scaling to handle pear workloads. The Solutions Architect determined that the best metric for an Auto Scaling event is the number of concurrent users.
+Based on this information, what should the Developer use to autoscale based on concurrent users?
+A. An Amazon SNS topic to be triggered when a concurrent user threshold is met
+B. An Amazon Cloudwatch Networkin metric
+C. Amazon CloudFront to leverage AWS Edge Locations
+D. A Custom Amazon CloudWatch metric for concurrent users.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 27
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company experienced partial downtime during the last deployment of a new application. AWS Elastic Beanstalk split the environment's Amazon EC2 instances into batches and deployed a new version one batch at a time after taking them out of service. Therefore, full capacity was not maintained during deployment.
+The developer plans to release a new version of the application, and is looking for a policy that will maintain full capacity and minimize the impact of the failed deployment.
+Which deployment policy should the developer use?
+A. Immutable
+B. All at Once
+C. Rolling
+D. Rolling with an Additional Batch
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 28
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+How can you secure data at rest on an EBS volume?
+A. Attach the volume to an instance using EC2's SSL interface.
+B. Write the data randomly instead of sequentially.
+C. Use an encrypted file system on top of the BBS volume.
+D. Encrypt the volume using the S3 server-side encryption service.
+E. Create an IAM policy that restricts read and write access to the volume.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 29
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+Which of the following is chosen as the default region when making an API call with an AWS SDK?
+A. ap-northeast-1
+B. us-west-2
+C. us-east-1
+D. eu-west-1
+E. us-central-1
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 30
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Development team decides to adopt a continuous integration/continuous delivery (CI/CD) process using AWS CodePipeline and AWS CodeCommit for a new application. However, management wants a person to review and approve the code before it is deployed to production.
+How can the Development team add a manual approver to the CI/CD pipeline?
+A. Use AWS SES to send an email to approvers when their action is required. Develop a simple application that allows approvers to accept or reject a build. Invoke an AWS Lambda function to advance the pipeline when a build is accepted.
+B. If approved, add an approved tag when pushing changes to the CodeCommit repository. CodePipeline will proceed to build and deploy approved commits without interruption.
+C. Add an approval step to CodeCommit. Commits will not be saved until approved.
+D. Add an approval action to the pipeline. Configure the approval action to publish to an Amazon SNS topic when approval is required. The pipeline execution will stop and wait for an approval.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 31
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+An application has hundreds of users. Each user may use multiple devices to access the application. The Developer wants to assign unique identifiers to these users regardless of the device they use.
+Which of the following methods should be used to obtain unique identifiers?
+A. Create a user table in Amazon DynamoDB as key-value pairs of users and their devices. Use these keys as unique identifiers.
+B. Use IAM-generated access key IDs for the users as the unique identifier, but do not store secret keys.
+C. Implement developer-authenticated identities by using Amazon Cognito, and get credentials for these identities.
+D. Assign IAM users and roles to the users. Use the unique IAM resource ID as the unique identifier.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 32
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+An application is designed to use Amazon SQS to manage messages from many independent senders. Each sender's messages must be processed in the order they are received.
+Which SQS feature should be implemented by the Developer?
+A. Configure each sender with a unique MessageGroupId
+B. Enable MessageDeduplicationIds on the SQS queue
+C. Configure each message with unique MessageGroupIds.
+D. Enable ContentBasedDeduplication on the SQS queue
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 33
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A deployment package uses the AWS CLI to copy files into any S3 bucket in the account, using access keys stored in environment variables. The package is running on EC2 instances, and the instances have been modified to run with an assumed IAM role and a more restrictive policy that allows access to only one bucket. After the change, the Developer logs into the host and still has the ability to write into all of the S3 buckets in that account.
+What is the MOST likely cause of this situation?
+A. An IAM inline policy is being used on the IAM role
+B. An IAM managed policy is being used on the IAM role
+C. The AWS CLI is corrupt and needs to be reinstalled
+D. The AWS credential provider looks for instance profile credentials last
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 34
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+The developer is creating a web application that collects highly regulated and confidential user data through a POST request. The web application is served through Amazon CloudFront. User names and phone numbers must be encrypted at the edge and must remain encrypted throughout the entire application stack.
+What is the MOST secure way to meet these requirements?
+A. Enforce Match Viewer with HTTPS Only on CloudFront.
+B. Use only the newest TLS security policy on CloudFront.
+C. Enforce a signed URL on CloudFront on the front end.
+D. Use field-level encryption on CloudFront.
+Show Suggested Answer
+[Image 1] saved as image_20_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 35
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+Where should an Elastic Beanstalk configuration file named healthcheckur1.config be placed in the application source bundle?
+A. In the root of the application
+B. In the bin folder
+C. In healthcheckur1.config.ebextension under root
+D. In the .ebextensions folder
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 36
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+Which EC2 API call would you use to retrieve a list of Amazon Machine Images (AMIs)?
+A. DescnbeInstances
+B. DescribeAMls
+C. DescribeImages
+D. GetAMls
+E. You cannot retrieve a list of AMIs as there are over 10,000 AMIs
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 37
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer is creating a Lambda function and will be using external libraries that are not included in the standard Lambda libraries.
+What action would minimize the Lambda compute time consumed?
+A. Install the dependencies and external libraries at the beginning of the Lambda function.
+B. Create a Lambda deployment package that includes the external libraries.
+C. Copy the external libraries to Amazon S3, and reference the external libraries to the S3 location.
+D. Install the external libraries in Lambda to be available to all Lambda functions.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 38
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer is writing a Linux-based application to run on AWS Elastic Beanstalk. Application requirements state that the application must maintain full capacity during updates while minimizing cost.
+Which type of Elastic Beanstalk deployment policy should the Developer specify for the environment?
+A. Immutable
+B. Rolling
+C. All at Once
+D. Rolling with additional batch
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 39
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+Company D is running their corporate website on Amazon S3 accessed from http//www.companyd.com. Their marketing team has published new web fonts to a separate S3 bucket accessed by the S3 endpoint https://s3- us-west-1.amazonaws.com/cdfonts. While testing the new web fonts, Company D recognized the web fonts are being blocked by the browser.
+What should Company D do to prevent the web fonts from being blocked by the browser?
+A. Enable versioning on the cdfonts bucket for each web font
+B. Create a policy on the cdfonts bucket to enable access to everyone
+C. Add the Content-MD5 header to the request for webfonts in the cdfonts bucket from the website
+D. Configure the cdfonts bucket to allow cross-origin requests by creating a CORS configuration
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 40
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer is creating an application that needs to locate the public IPv4 address of the Amazon EC2 instance on which it runs. How can the application locate this information?
+A. Get the instance metadata by retrieving http://169.254.169.254/latest/metadata/.
+B. Get the instance user data by retrieving http://169.254.169.254/latest/userdata/.
+C. Get the application to run IFCONFIG to get the public IP address.
+D. Get the application to run IPCONFIG to get the public IP address.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 41
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+The Lambda function below is being called through an API using Amazon API Gateway. The average execution time for the Lambda function is about 1 second.
+The pseudocode for the Lambda function is as shown in the exhibit.
+
+What two actions can be taken to improve the performance of this Lambda function without increasing the cost of the solution? (Select two.)
+A. Package only the modules the Lambda function requires
+B. Use Amazon DynamoDB instead of Amazon RDS
+C. Move the initialization of the variable Amazon RDS connection outside of the handler function
+D. Implement custom database connection pooling with the Lambda function
+E. Implement local caching of Amazon RDS data so Lambda can re-use the cache
+Show Suggested Answer
+[Image 1] saved as image_27_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 42
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+An application will ingest data at a very high throughput from many sources and must store the data in an Amazon S3 bucket. Which service would BEST accomplish this task?
+A. Amazon Kinesis Firehose
+B. Amazon S3 Acceleration Transfer
+C. Amazon SQS
+D. Amazon SNS
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 43
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+What happens, by default, when one of the resources in a CloudFormation stack cannot be created?
+A. Previously-created resources are kept but the stack creation terminates.
+B. Previously-created resources are deleted and the stack creation terminates.
+C. The stack creation continues, and the final results indicate which steps failed.
+D. CloudFormation templates are parsed in advance so stack creation is guaranteed to succeed.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 44
+Topic #: 2
+[All AWS Certified Developer Associate Questions]
+Which of the following are correct statements with policy evaluation logic in AWS Identity and Access
+Management? (Choose two.)
+A. By default, all requests are denied
+B. An explicit allow overrides an explicit deny
+C. An explicit allow overrides default deny.
+D. An explicit deny does not override an explicit allow
+E. By default, all request are allowed
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 45
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+Amazon S3 has the following structure: S3://BUCKET/FOLDERNAME/FILENAME.zip
+Which S3 best practice would optimize performance with thousands of PUT request each second to a single bucket?
+A. Prefix folder names with user id; for example, s3://BUCKET/2013-FOLDERNAME/FILENAME.zip
+B. Prefix file names with timestamps; for example, s3://BUCKET/FOLDERNAME/2013-26-05-15-00-00-FILENAME.zip
+C. Prefix file names with random hex hashes; for example, s3://BUCKET/FOLDERNAME/23a6-FILENAME.zip
+D. Prefix folder names with random hex hashes; for example, s3://BUCKET/23a6-FOLDERNAME/FILENAME.zip
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 46
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A developer is planning to use an Amazon API Gateway and AWS Lambda to provide a REST API. The developer will have three distinct environments to manage: development, test, and production.
+How should the application be deployed while minimizing the number of resources to manage?
+A. Create a separate API Gateway and separate Lambda function for each environment in the same Region.
+B. Assign a Region for each environment and deploy API Gateway and Lambda to each Region.
+C. Create one API Gateway with multiple stages with one Lambda function with multiple aliases.
+D. Create one API Gateway and one Lambda function, and use a REST parameter to identify the environment.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 47
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer is developing an application that manages financial transactions. To improve security, multi-factor authentication (MFA) will be required as part of the login protocol.
+What services can the Developer use to meet these requirements?
+A. Amazon DynamoDB to store MFA session data, and Amazon SNS to send MFA codes
+B. Amazon Cognito with MFA
+C. AWS Directory Service
+D. AWS IAM with MFA enabled
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 48
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A game stores user game data in an Amazon DynamoDB table. Individual users should not have access to other users' game data. How can this be accomplished?
+A. Encrypt the game data with individual user keys.
+B. Restrict access to specific items based on certain primary key values.
+C. Stage data in SQS queues to inject metadata before accessing DynamoDB.
+D. Read records from DynamoDB and discard irrelevant data client-side.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer - Associate DVA-C02
+Question #: 49
+Topic #: 1
+[All AWS Certified Developer - Associate DVA-C02 Questions]
+A developer has written the following IAM policy to provide access to an Amazon S3 bucket:
+
+Which access does the policy allow regarding the s3:GetObject and s3:PutObject actions?
+A. Access on all buckets except the “DOC-EXAMPLE-BUCKET” bucket
+B. Access on all buckets that start with “DOC-EXAMPLE-BUCKET” except the “DOC-EXAMPLE-BUCKET/secrets” bucket
+C. Access on all objects in the “DOC-EXAMPLE-BUCKET” bucket along with access to all S3 actions for objects in the “DOC-EXAMPLE-BUCKET” bucket that start with “secrets”
+D. Access on all objects in the “DOC-EXAMPLE-BUCKET” bucket except on objects that start with “secrets”
+Show Suggested Answer
+[Image 1] saved as image_35_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 50
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company is building a compute-intensive application that will run on a fleet of Amazon EC2 instances. The application uses attached Amazon EBS disks for storing data. The application will process sensitive information and all the data must be encrypted.
+What should a Developer do to ensure the data is encrypted on disk without impacting performance?
+A. Configure the Amazon EC2 instance fleet to use encrypted EBS volumes for storing data.
+B. Add logic to write all data to an encrypted Amazon S3 bucket.
+C. Add a custom encryption algorithm to the application that will encrypt and decrypt all data.
+D. Create a new Amazon Machine Image (AMI) with an encrypted root volume and store the data to ephemeral disks.
+Show Suggested Answer
+[Image 1] saved as image_36_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 51
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A development team consists of 10 team members. Similar to a home directory for each team member the manager wants to grant access to user-specific folders in an Amazon S3 bucket. For the team member with the username "TeamMemberX", the snippet of the IAM policy looks like this:
+
+Instead of creating distinct policies for each team member, what approach can be used to make this policy snippet generic for all team members?
+A. Use IAM policy condition
+B. Use IAM policy principal
+C. Use IAM policy variables
+D. Use IAM policy resource
+Show Suggested Answer
+[Image 1] saved as image_37_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 52
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A legacy service has an XML-based SOAP interface. The Developer wants to expose the functionality of the service to external clients with the Amazon API
+Gateway. Which technique will accomplish this?
+A. Create a RESTful API with the API Gateway; transform the incoming JSON into a valid XML message for the SOAP interface using mapping templates.
+B. Create a RESTful API with the API Gateway; pass the incoming JSON to the SOAP interface through an Application Load Balancer.
+C. Create a SOAP API with the API Gateway; pass the incoming XML to the SOAP interface through an Application Load Balancer.
+D. Create a SOAP API with the API Gateway; transform the incoming XML into a valid message for the SOAP interface using mapping templates.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 53
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company is using AWS CodeBuild to compile a website from source code stored in AWS CodeCommit. A recent change to the source code has resulted in the
+CodeBuild project being unable to successfully compile the website.
+How should the Developer identify the cause of the failures?
+A. Modify the buildspec.yml file to include steps to send the output of build commands to Amazon CloudWatch.
+B. Use a custom Docker image that includes the AWS X-Ray agent in the AWS CodeBuild project configuration.
+C. Check the build logs of the failed phase in the last build attempt in the AWS CodeBuild project build history.
+D. Manually re-run the build process on a local machine so that the output can be visualized.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 54
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A web application is using Amazon Kinesis Streams for clickstream data that may not be consumed for up to 12 hours.
+How can the Developer implement encryption at rest for data within the Kinesis Streams?
+A. Enable SSL connections to Kinesis
+B. Use Amazon Kinesis Consumer Library
+C. Encrypt the data once it is at rest with a Lambda function
+D. Enable server-side encryption in Kinesis Streams
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 55
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer wants to use AWS X-Ray to trace a user request end-to-end throughput the software stack. The Developer made the necessary changes in the application, tested it, and found that the application is able to send the traces to AWS X-Ray. However, when the application is deployed to an EC2 instance, the traces are not available.
+Which of the following could create this situation? (Choose two.)
+A. The traces are reaching X-Ray, but the Developer does not have access to view the records.
+B. The X-Ray daemon is not installed on the EC2 instance.
+C. The X-Ray endpoint specified in the application configuration is incorrect.
+D. The instance role does not have ג€xray:BatchGetTracesג€ and ג€xray:GetTraceGraphג€ permissions.
+E. The instance role does not have ג€xray:PutTraceSegmentsג€ and ג€xray:PutTelemetryRecordsג€ permissions.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 56
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A Developer executed a AWS CLI command and received the error shown below:
+
+What action should the Developer perform to make this error human-readable?
+A. Make a call to AWS KMS to decode the message.
+B. Use the AWS STS decode-authorization-message API to decode the message.
+C. Use an open source decoding library to decode the message.
+D. Use the AWS IAM decode-authorization-message API to decode this message.
+Show Suggested Answer
+[Image 1] saved as image_42_0.png
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 57
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company is using Amazon API Gateway to manage access to a set of microservices implemented as AWS Lambda functions. Following a bug report, the company makes a minor breaking change to one of the APIs.
+In order to avoid impacting existing clients when the new API is deployed, the company wants to allow clients six months to migrate from v1 to v2.
+Which approach should the Developer use to handle this change?
+A. Update the underlying Lambda function and provide clients with the new Lambda invocation URL.
+B. Use API Gateway to automatically propagate the change to clients, specifying 180 days in the phased deployment parameter.
+C. Use API Gateway to deploy a new stage named v2 to the API and provide users with its URL.
+D. Update the underlying Lambda function, create an Amazon CloudFront distribution with the updated Lambda function as its origin.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 58
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+A company has written a Java AWS Lambda function to be triggered whenever a user uploads an image to an Amazon S3 bucket. The function converts the original image to several different formats and then copies the resulting images to another Amazon S3 bucket.
+The Developers find that no images are being copied to the second Amazon S3 bucket. They have tested the code on an Amazon EC2 instance with 1GB of
+RAM, and it takes an average of 500 seconds to complete.
+What is the MOST likely cause of the problem?
+A. The Lambda function has insufficient memory and needs to be increased to 1 GB to match the Amazon EC2 instance
+B. Files need to be copied to the same Amazon S3 bucket for processing, so the second bucket needs to be deleted.
+C. Lambda functions have a maximum execution limit of 300 seconds, therefore the function is not completing.
+D. There is a problem with the Java runtime for Lambda, and the function needs to be converted to node.js.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Developer Associate
+Question #: 59
+Topic #: 1
+[All AWS Certified Developer Associate Questions]
+An application stops working with the following error: The specified bucket does not exist. Where is the BEST place to start the root cause analysis?
+A. Check the Elastic Load Balancer logs for DeleteBucket requests.
+B. Check the application logs in Amazon CloudWatch Logs for Amazon S3 DeleteBucket errors.
+C. Check AWS X-Ray for Amazon S3 DeleteBucket alarms.
+D. Check AWS CloudTrail for a DeleteBucket event.
+Show Suggested Answer
+
+
