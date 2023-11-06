@@ -1,10 +1,12 @@
 import os
+import time
+import random
 import requests
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-# todo:unfinished here
+
 # Set up for the Brave browser as you have done previously.
 # Assuming you have set up the Brave browser setup code above.
 # Paths for Brave
@@ -29,13 +31,16 @@ def download_image(image_url, folder_name, img_index, image_number):
             file.write(response.content)
     return img_name
 
+def random_delay(min_delay, max_delay):
+    time.sleep(random.uniform(min_delay, max_delay))
+
 # Create image directory if not exists
 images_dir = "downloaded_images"
 if not os.path.exists(images_dir):
     os.makedirs(images_dir)
 
 # Prepare to write to the text file
-output_text_file = "discussion_content2.txt"
+output_text_file = "filtered_1-214.txt"
 
 # Read links from a text file
 with open('links_1-214', 'r') as f:
@@ -44,9 +49,10 @@ with open('links_1-214', 'r') as f:
 # Write header content and images to the text file
 with open(output_text_file, "w") as textfile:
     for index, link in enumerate(links):
+        # Random delay before each request
+        random_delay(0.9, 18.0)  # Waits for a random time between 0.5 and 3.0 seconds
         # Navigate to the webpage
         browser.get(link)
-
         # Wait for the discussion header container to load
         wait = WebDriverWait(browser, 10)
         header_container = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".discussion-header-container")))
