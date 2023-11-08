@@ -1,0 +1,2552 @@
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 801
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to track the relationships among AWS resources. The company also needs to review resource dependencies before the company makes any changes to the resources.
+
+Which AWS service can the company use to meet these requirements?
+A. AWS Trusted Advisor
+B. AWS Config
+C. AWS Resource Access Manager (AWS RAM)
+D. AWS Systems Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 802
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service providers automated backups of data by default?
+A. Amazon S3
+B. Amazon Aurora
+C. Amazon ElastiCache for Memcached
+D. Amazon Elastic File System (Amazon EFS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 803
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following is a characteristic of the AWS account root user?
+A. The root user is the only user that can be configured with multi-factor authentication (MFA).
+B. The root user is the only user that can access the AWS Management Console.
+C. The root user is the first sign-in identity that is available when an AWS account is created.
+D. The root user has a password that cannot be changed.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 804
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS feature grants temporary access to specific AWS resources?
+A. AWS IAM Access Analyzer
+B. Service control policies (SCPs)
+C. Access control lists (ACLs)
+D. IAM roles
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 805
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company hosts its website on Amazon EC2 instances. The company needs to ensure that the website reaches a global audience and provides minimum latency to users.
+Which AWS service should the company use to meet these requirements?
+A. Amazon Route 53
+B. Amazon CloudFront
+C. Elastic Load Balancing
+D. AWS Lambda
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 806
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to move petabytes of historical data into the AWS Cloud. The company needs to transfer the data from a remote location that does not have reliable network services.
+
+Which AWS service will meet these requirements?
+A. AWS Snowball
+B. AWS DataSync
+C. AWS Direct Connect
+D. AWS Site-to-Site VPN
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 807
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs software solutions that are hosted on the AWS platform or that are integrated with the AWS platform. The company needs solutions from independent software vendors as well as management and security vendors.
+Which group or team can provide these solutions?
+A. AWS technical account managers (TAMs)
+B. AWS Partner Network (APN) Consulting Partners
+C. AWS Concierge Support
+D. AWS Partner Network (APN) Technology Partners
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 808
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or tool gives a company the ability to release application changes in an automated way?
+A. Amazon AppFlow
+B. AWS CodeDeploy
+C. AWS PrivateLink
+D. Amazon EKS Distro
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 809
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company's compliance officer wants to review the AWS Service Organization Control (SOC) reports.
+Which AWS service or feature should the compliance officer use to complete this task?
+A. AWS Artifact
+B. AWS Concierge Support
+C. AWS Support
+D. AWS Trusted Advisor
+Show Suggested Answer
+[Image 1] saved as image_8_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 810
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to build an application that consists entirely of microservices.
+
+Which AWS Cloud architecture design principle supports this goal?
+A. Think parallel
+B. Implement elasticity
+C. Stop guessing capacity
+D. Decouple components
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 811
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which pillar of the AWS Well Architected Framework includes the design principle of defining workloads, applications, and infrastructure as code (IaC)?
+A. Operational excellence
+B. Reliability
+C. Performance efficiency
+D. Security
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 812
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Amazon Elastic File System (Amazon EFS) and Amazon FSx offer which type of storage?
+A. File storage
+B. Object storage
+C. Block storage
+D. Instance store
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 813
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature improves network performance by sending traffic through the AWS worldwide network infrastructure?
+A. Route table
+B. AWS Transit Gateway
+C. AWS Global Accelerator
+D. Amazon VPC
+Show Suggested Answer
+[Image 1] saved as image_12_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 814
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is designing a new application that will store and retrieve millions of photos and videos.
+Which AWS service or feature can provide the underlying storage at the LOWEST cost?
+A. Amazon EC2 instance store
+B. Amazon Elastic Block Store (Amazon EBS)
+C. Amazon S3
+D. Amazon Simple Queue Service (Amazon SQS)
+Show Suggested Answer
+[Image 1] saved as image_13_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 815
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature can simplify the management of hundreds of VPC connections across AWS Regions worldwide?
+A. AWS Transit Gateway
+B. Amazon Connect
+C. Security groups
+D. VPC peering
+Show Suggested Answer
+[Image 1] saved as image_14_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 816
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A cloud practitioner wants information on the state of an existing AWS environment compared against established best practices.
+Which AWS services or features should the cloud practitioner use to obtain this information? (Choose two.)
+A. AWS Artifact
+B. AWS Solutions Library
+C. AWS Trusted Advisor
+D. AWS Well-Architected Tool
+E. AWS Personal Health Dashboard
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 817
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which task is shared between AWS and the customer, according to the AWS shared responsibility model?
+A. Physical and environmental controls
+B. Server hardware management and encryption
+C. Application security
+D. Patch management and configuration management
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 818
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+What is an example of a decoupled, scalable, cloud-based application?
+A. A mail and log application that runs on a single Amazon EC2 instance
+B. A webpage that is hosted on Amazon S3 and uses AWS Lambda to update an Amazon DynamoDB database
+C. An Application Load Balancer, web server, and database server that support a monolithic application
+D. A legacy database server that is running on the maximum instance size supported by its license
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 819
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to design its cloud architecture so that its workloads are resilient, can consistently perform their intended functions correctly, and can recover from failure quickly.
+
+Which pillar of the AWS Well-Architected Framework does this architecture represent?
+A. Security
+B. Performance efficiency
+C. Operational excellence
+D. Reliability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 820
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to access a report about the estimated environmental impact of the company's AWS usage.
+
+Which AWS service or feature should the company use to meet this requirement?
+A. AWS Organizations
+B. IAM policy
+C. AWS Billing console
+D. Amazon Simple Metrication Service (Amazon SNS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 821
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature is an example of a relational database management system?
+A. Amazon Athena
+B. Amazon Redshift
+C. Amazon S3 Select
+D. Amazon Kinesis Data Streams
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 822
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A software engineer wants to launch a virtual machine (VM) and MySQL database on AWS.
+
+Which AWS service will meet these requirements with the LEAST operational effort?
+A. Amazon Elastic Container Service (Amazon ECS)
+B. AWS Elastic Beanstalk
+C. Amazon Lightsail
+D. Amazon EC2
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 823
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to automate the retention, creation, and deletion of Amazon Elastic Block Store (Amazon EBS) snapshots.
+Which AWS service or feature can the company use to meet this requirement?
+A. AWS Organizations
+B. Amazon Data Lifecycle Manager (Amazon DLM)
+C. AWS Systems Manager
+D. Amazon S3 Lifecycle policies
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 824
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which pillar of the AWS Well-Architected Framework focuses on the ability to recover automatically from service interruptions?
+A. Security
+B. Performance efficiency
+C. Operational excellence
+D. Reliability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 825
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following are advantages of using AWS for cloud computing? (Choose two.)
+A. Users can increase speed and agility by deploying services with just one click.
+B. Users receive a discount on hardware that they purchase for their data centers.
+C. Users can reserve excess capacity to ensure that resources are always available.
+D. Users trade variable expenses for capital expenses.
+E. Users benefit from massive economies of scale.
+Show Suggested Answer
+[Image 1] saved as image_24_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 826
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services or features provide high availability and low latency by enabling failover across different AWS Regions? (Choose two.)
+A. Amazon Route 53
+B. Network Load Balancer
+C. Amazon S3 Transfer Acceleration
+D. AWS Global Accelerator
+E. Application Load Balancer
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 827
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which action is consistent with the principle of least privilege in terms of AWS Cloud architecture?
+A. Allow users the minimum access that is needed to do a task.
+B. Prevent managers from accessing important source code.
+C. Provide only the permissions that are needed for users to do their jobs in the current month.
+D. Assign permissions that are based on job titles.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 828
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is reviewing its operating policies.
+
+Which policy complies with guidance in the security pillar of the AWS Well-Architected Framework?
+A. Ensure that employees have access to all company data.
+B. Expand employees' permissions as they gain more experience.
+C. Grant all privileges and access to all users.
+D. Apply security requirements at all layers of a process.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 829
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+An ecommerce company recently started using the AWS Cloud.
+Which security-related tasks are the company's responsibility? (Choose two.)
+A. Restrict who is allowed physical access to the hosts that run the company's Amazon EC2 instances.
+B. Install security patches on Amazon EC2 Linux instances.
+C. Choose to encrypt data at rest that is stored on Amazon S3.
+D. Wipe Amazon Elastic Block Store (Amazon EBS) volumes clean before they are decommissioned.
+E. Conduct database patching for Amazon RDS instances.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 830
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or tool creates an audit log of all AWS resources that have been created?
+A. Amazon CloudFront
+B. Amazon CloudWatch
+C. AWS CloudTrail
+D. AWS Application Migration Service (CloudEndure Migration)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 831
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+According to the AWS shared responsibility model, who is responsible for the virtualization layer down to the physical security of the facilities in which AWS services operate?
+A. It is the sole responsibility of the customer.
+B. It is the sole responsibility of AWS.
+C. It is a shared responsibility between AWS and the customer.
+D. The customer's AWS Support plan tier determines who manages the configuration.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 832
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services are eligible for a Compute Savings Plan? (Choose two.)
+A. AWS Lambda
+B. Amazon RDS
+C. Amazon VPC
+D. Amazon DynamoDB
+E. Amazon EC2
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 833
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to use AWS Identity and Access Management (IAM) to attach an IAM policy to all IAM users in an AWS account.
+Which solution meets this requirement?
+A. Attach the IAM policy to each IAM user.
+B. Attach the IAM policy to the IAM group containing all the IAM users.
+C. Attach the IAM policy to the IAM role containing all the IAM users.
+D. Apply the IAM policy to the entire AWS account.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 834
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services or features can a company use to connect the network of its on-premises data center to AWS? (Choose two.)
+A. AWS VPN
+B. AWS Directory Service
+C. AWS Data Pipeline
+D. AWS Direct Connect
+E. AWS CloudHSM
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 835
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is an in-memory data store service?
+A. Amazon Aurora
+B. Amazon RDS
+C. Amazon DynamoDB
+D. Amazon ElastiCache
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 836
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants high levels of detection and near-real-time (NRT) mitigation against large and sophisticated distributed denial of service (DDoS) attacks on applications running on AWS.
+
+Which AWS service should the company use?
+A. Amazon GuardDuty
+B. Amazon Inspector
+C. AWS Shield Advanced
+D. Amazon Macie
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 837
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has an Amazon S3 bucket containing images of scanned financial invoices. The company is building an artificial intelligence (Al)-based application on AWS. The company wants the application to identify and read total balance amounts on the invoices.
+
+Which AWS service will meet these requirements?
+A. Amazon Forecast
+B. Amazon Textract
+C. Amazon Rekogmtion
+D. Amazon Lex
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 838
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to migrate its high performance computing (HPC) application to Amazon EC2 instances. The application has multiple components. The application must have fault tolerance and must have the ability to fail over automatically.
+
+Which AWS infrastructure solution will meet these requirements with the LEAST latency between components?
+A. Multiple AWS Regions
+B. Multiple edge locations
+C. Multiple Availability Zones
+D. Regional edge caches
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 839
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service provides recommendations for rightsizing AWS resources such as Amazon EC2 instances, Amazon Elastic Block Store (Amazon EBS) volumes, and Amazon RDS databases to help users reduce costs?
+A. Amazon Inspector
+B. AWS Trusted Advisor
+C. AWS Service Health Dashboard
+D. Amazon Forecast
+Show Suggested Answer
+[Image 1] saved as image_38_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 840
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Making frequent, small, reversible changes is a design principle of which pillar of the AWS Well-Architected Framework?
+A. Reliability
+B. Operational excellence
+C. Performance efficiency
+D. Cost optimization
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 841
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which factors affect costs in the AWS Cloud? (Choose two.)
+A. The number of unused AWS Lambda functions
+B. The number of configured Amazon S3 buckets
+C. Inbound data transfers without acceleration
+D. Outbound data transfers without acceleration
+E. Compute resources that are currently in use
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 842
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company hosts an application on multiple Amazon EC2 instances. The application uses Amazon Simple Notification Service (Amazon SNS) to send messages.
+Which AWS service or feature will give the application permission to access required AWS services?
+A. AWS Certificate Manager (ACM)
+B. IAM roles
+C. AWS Security Hub
+D. Amazon GuardDuty
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 843
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which option is a perspective that includes foundational capabilities of the AWS Cloud Adoption Framework (AWS CAF)?
+A. Sustainability
+B. Performance efficiency
+C. Governance
+D. Reliability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 844
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which task is the customer's responsibility, according to the AWS shared responsibility model?
+A. Maintain the security of the AWS Cloud.
+B. Configure firewalls and networks.
+C. Patch the operating system of Amazon RDS instances.
+D. Implement physical and environmental controls.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 845
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which activity is considered out of scope for AWS Support?
+A. Solving problems detected by Amazon EC2 health checks
+B. Answering "how to" questions on AWS services and features
+C. Troubleshooting AWS APIs
+D. Tuning database queries
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 846
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+For which AWS service is the customer responsible for maintaining the underlying operating system?
+A. Amazon DynamoDB
+B. Amazon S3
+C. Amazon EC2
+D. AWS Lambda
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 847
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is moving its on-premises key-value database to the AWS Cloud.
+Which AWS service will support this use case?
+A. Amazon RDS
+B. Amazon ElastiCache
+C. Amazon DynamoDB
+D. Amazon Redshift
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 848
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+According to the AWS shared responsibility model, which of the following is the responsibility of AWS?
+A. Data encryption in transit
+B. Firmware updates on hardware
+C. Operating system patching on Amazon EC2 instances
+D. Data encryption at rest
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 849
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or resource is serverless?
+A. AWS Snowball Edge
+B. Amazon EC2
+C. Amazon Elastic Kubernetes Service (Amazon EKS)
+D. Amazon API Gateway
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 850
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has all of its servers in the us-east-1 Region. The company is considering the deployment of additional servers in a different Region.
+Which AWS tool should the company use to find pricing information for other Regions?
+A. Cost Explorer
+B. AWS Budgets
+C. AWS Purchase Order Management
+D. AWS Pricing Calculator
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 851
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A user is designing a service to align with the operational excellence pillar of the AWS Well-Architected Framework.
+Which design principle should the user follow?
+A. Anticipate failure
+B. Make large-scale changes
+C. Perform manual operations
+D. Create static operational procedures
+Show Suggested Answer
+[Image 1] saved as image_50_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 852
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to configure a dedicated connection between its on-premises IT infrastructure and resources in an AWS Region. The company also wants to reduce network latency and congestion.
+Which AWS service or feature should the company choose?
+A. AWS VPN
+B. AWS PrivateLink
+C. Amazon Connect
+D. AWS Direct Connect
+Show Suggested Answer
+[Image 1] saved as image_51_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 853
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS Cloud service provides performance recommendations for an AWS account?
+A. Amazon Inspector
+B. AWS Trusted Advisor
+C. Amazon CloudWatch
+D. AWS CloudTrail
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 854
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs a repository that stores source code. The company needs a way to update the running software when the code changes.
+
+Which combination of AWS services will meet these requirements? (Choose two.)
+A. AWS CodeCommit
+B. AWS CodeDeploy
+C. Amazon DynamoDB
+D. Amazon S3
+E. Amazon Elastic Container Service (Amazon ECS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 855
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services or features give users the ability to create a network connection between two VPCs? (Choose two.)
+A. VPC endpoints
+B. Amazon Route 53
+C. VPC peering
+D. AWS Direct Connect
+E. AWS Transit Gateway
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 856
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is planning to host a large ecommerce application in the AWS Cloud. The company must create an architecture that provides protection against network-based security issues, such as DDoS attacks.
+Which AWS services should the company use to meet this requirement? (Choose two.)
+A. Amazon Inspector
+B. Amazon GuardDuty
+C. Amazon CloudFront
+D. AWS Shield
+E. AWS Identity and Access Management (IAM)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 857
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or tool provides recommendations to help users get rightsized Amazon EC2 instances based on historical workload usage data?
+A. AWS Pricing Calculator
+B. AWS Compute Optimizer
+C. AWS App Runner
+D. AWS Systems Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 858
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is based in a location without an AWS Region but wants to move some of its Windows file servers to AWS. The data must reside in the location that the company is based in.
+
+Which AWS service will meet these requirements?
+A. AWS Outposts
+B. AWS Local Zones
+C. Amazon EC2
+D. Amazon FSx for Windows File Server
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 859
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to send time-critical messages to multiple subscribers through a push mechanism.
+Which AWS service should the company use?
+A. Amazon Kinesis
+B. Amazon MQ
+C. Amazon Simple Queue Service (Amazon SQS)
+D. Amazon Simple Notification Service (Amazon SNS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 860
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS feature grants temporary access to specific AWS resources?
+A. AWS IAM Access Analyzer
+B. Service control policies (SCPs)
+C. Access control lists (ACLs)
+D. IAM roles
+Show Suggested Answer
+[Image 1] saved as image_59_0.png
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 861
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following is a recommended design principle of the AWS Well-Architected Framework?
+A. Reduce downtime by making infrastructure changes infrequently and in large increments.
+B. Invest the time to configure infrastructure manually.
+C. Learn to improve from operational failures.
+D. Use monolithic application design for centralization.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 862
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to create templates that the company can reuse to deploy multiple AWS resources.
+Which AWS service or feature can the company use to meet this requirement?
+A. AWS Marketplace
+B. Amazon Machine Image (AMI)
+C. AWS CloudFormation
+D. AWS OpsWorks
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 863
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company's solutions architect wants to provision a few Amazon EC2 instances in an existing AWS account. The company requires a cost estimate before the company can approve the request.
+Which AWS tool should the solutions architect use to produce the cost estimate?
+A. AWS Pricing Calculator
+B. Cost Explorer
+C. AWS Cost and Usage Report
+D. AWS Budgets
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 864
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature is used to troubleshoot network connectivity issues between Amazon EC2 instances?
+A. AWS Certificate Manager (ACM)
+B. Internet gateway
+C. VPC Flow Logs
+D. AWS CloudHSM
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 865
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS Support plan provides access to an AWS Concierge Support team for account assistance?
+A. AWS Enterprise Support
+B. AWS Business Support
+C. AWS Developer Support
+D. AWS Basic Support
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 866
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to minimize network latency between its Amazon EC2 instances.
+
+Which solution achieves this goal?
+A. Use EC2 instances in a single Availability Zone.
+B. Use EC2 instances in multiple AWS Regions.
+C. Use EC2 instances in multiple edge locations.
+D. Use EC2 instances in the same Availability Zone but in different AWS Regions.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 867
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which pillar of the AWS Well-Architected Framework includes the AWS shared responsibility model?
+A. Operational excellence
+B. Performance efficiency
+C. Reliability
+D. Security
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 868
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature offers security for a VPC by acting as a firewall to control traffic in and out of subnets?
+A. AWS Security Hub
+B. Security groups
+C. Network ACL
+D. AWS WAF
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 869
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or feature enables users to encrypt data at rest in Amazon S3?
+A. IAM policies
+B. Server-side encryption
+C. Amazon GuardDuty
+D. Client-side encryption
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 870
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is always free of charge for users?
+A. Amazon S3
+B. Amazon Aurora
+C. Amazon EC2
+D. AWS Identity and Access Management (IAM)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 871
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A developer wants to use an Amazon S3 bucket to store application logs that contain sensitive data.
+
+Which AWS service or feature should the developer use to restrict read and write access to the S3 bucket?
+A. Security groups
+B. Amazon CloudWatch
+C. AWS CloudTrail
+D. ACLs
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 872
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company deploys its application to multiple AWS Regions and configures automatic failover between those Regions.
+
+Which cloud concept does this architecture represent?
+A. Security
+B. Reliability
+C. Scalability
+D. Cost optimization
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 873
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to centrally manage security policies and billing services within a multi-account AWS environment.
+
+Which AWS service should the company use to meet these requirements?
+A. AWS Identity and Access Management (IAM)
+B. AWS Organizations
+C. AWS Resource Access Manager (AWS RAM)
+D. AWS Config
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 874
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to use an Amazon EC2 instance that has a pre-installed third-party firewall.
+
+Which AWS service or feature can provide this solution?
+A. Security groups
+B. AWS Marketplace
+C. AWS Systems Manager
+D. AWS Certificate Manager (ACM)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 875
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+What does “security of the cloud” refer to in the AWS shared responsibility model?
+A. Availability of AWS services such as Amazon EC2
+B. Security of the cloud infrastructure that runs all the AWS services
+C. Implementation of password policies for IAM users
+D. Security of customer environments by using AWS Network Firewall partners
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 876
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to push VPC Flow Logs to an Amazon S3 bucket.
+
+Which action is the company’s responsibility?
+A. Managing the infrastructure that runs the S3 bucket
+B. Managing the data in transit
+C. Managing the encryption options on the S3 bucket
+D. Managing the operating system updates on the S3 bucket
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 877
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which guidelines are best practices for using AWS Identity and Access Management (IAM)? (Choose two.)
+A. Share access keys.
+B. Create individual IAM users.
+C. Use inline policies instead of customer managed policies.
+D. Grant maximum privileges to IAM users.
+E. Use groups to assign permissions to IAM users.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 878
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to apply security rules to specific Amazon EC2 instances.
+
+Which AWS service or feature provides this functionality?
+A. AWS Shield
+B. Network ACLs
+C. Security groups
+D. AWS Firewall Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 879
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service can a company use to find security and compliance reports, including International Organization for Standardization (ISO) reports?
+A. AWS Artifact
+B. Amazon CloudWatch
+C. AWS Config
+D. AWS Audit Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 880
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company deploys its application on Amazon EC2 instances. The application occasionally experiences sudden increases in demand. The company wants to ensure that its application can respond to changes in demand at the lowest possible cost.
+
+Which AWS service or tool will meet these requirements?
+A. AWS Auto Scaling
+B. AWS Compute Optimizer
+C. AWS Cost Explorer
+D. AWS Well-Architected Framework
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 881
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+What is the recommended use case for Amazon EC2 On-Demand Instances?
+A. A steady-state workload that requires a particular EC2 instance configuration for a long period of time
+B. A workload that can be interrupted for a project that requires the lowest possible cost
+C. An unpredictable workload that does not require a long-term commitment
+D. A workload that is expected to run for longer than 1 year
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 882
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has a compliance requirement to record and evaluate configuration changes, as well as perform remediation actions on AWS resources.
+
+Which AWS service should the company use?
+A. AWS Config
+B. AWS Secrets Manager
+C. AWS CloudTrail
+D. AWS Trusted Advisor
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 883
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants the ability to automatically acquire resources as needed and release the resources when they are no longer needed.
+
+Which cloud concept describes this functionality?
+A. Availability
+B. Elasticity
+C. Durability
+D. Reliability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 884
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service or storage class provides low-cost, long-term data storage?
+A. Amazon S3 Glacier Deep Archive
+B. AWS Snowball
+C. Amazon MQ
+D. AWS Storage Gateway
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 885
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+An auditor is preparing for an annual security audit. The auditor requests certification details for a company’s AWS hosted resources across multiple Availability Zones in the us-east-1 Region.
+
+How should the company respond to the auditor’s request?
+A. Open an AWS Support ticket to request that the AWS technical account manager (TAM) respond and help the auditor.
+B. Open an AWS Support ticket to request that the auditor receive approval to conduct an onsite assessment of the AWS data centers in which the company operates.
+C. Explain to the auditor that AWS does not need to be audited because the company’s application is hosted in multiple Availability Zones.
+D. Use AWS Artifact to download the applicable report for AWS security controls. Provide the report to the auditor.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 886
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which controls are the responsibility of both AWS and AWS customers, according to the AWS shared responsibility model? (Choose two.)
+A. Physical and environmental controls
+B. Patch management
+C. Configuration management
+D. Account structures
+E. Choice of the AWS Region where data is stored
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 887
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which perspective of the AWS Cloud Adoption Framework (AWS CAF) encourages the development of well-architected, cloud-focused applications?
+A. Platform
+B. Operations
+C. Governance
+D. Security
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 888
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which factors affect costs in the AWS Cloud? (Choose two.)
+A. The number of unused AWS Lambda functions
+B. The number of configured Amazon S3 buckets
+C. Inbound data transfers without acceleration
+D. Outbound data transfers without acceleration
+E. Compute resources that are currently in use
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 889
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service, feature, or tool helps visualize the pattern of AWS spending?
+A. Cost Explorer
+B. Amazon DevPay
+C. AWS CloudTrail
+D. Consolidated billing
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 890
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which tasks are the responsibility of the customer, according to the AWS shared responsibility model? (Choose two.)
+A. Patch the Amazon RDS operating system.
+B. Upgrade the firmware of the network infrastructure.
+C. Manage data encryption.
+D. Maintain physical access control in an AWS Region.
+E. Grant least privilege access to IAM users.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 891
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services are examples of NoSQL databases? (Choose two.)
+A. Amazon DynamoDB
+B. Amazon ElastiCache
+C. Amazon Redshift
+D. Amazon Aurora
+E. Amazon RDS for MySQL
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 892
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which pillar of the AWS Well-Architected Framework focuses on the ability to run workloads effectively, gain insight into operations, and continuously improve supporting processes and procedures?
+A. Cost optimization
+B. Reliability
+C. Operational excellence
+D. Performance efficiency
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 893
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A developer who has no AWS Cloud experience wants to use AWS technology to build a web application.
+
+Which AWS service should the developer use to start building the application?
+A. Amazon SageMaker
+B. AWS Lambda
+C. Amazon Lightsail
+D. Amazon Elastic Container Service (Amazon ECS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 894
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A developer who has no AWS Cloud experience wants to use AWS technology to build a web application.
+
+Which AWS service should the developer use to start building the application?
+A. AWS Organizations
+B. AWS Identity and Access Management (IAM)
+C. AWS Billing and Cost Management
+D. Amazon Cognito
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 895
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is migrating to the AWS Cloud to meet storage needs. The company wants to optimize costs based on the amount of storage that the company uses.
+
+Which AWS offering or benefit will meet these requirements MOST cost-effectively?
+A. Pay-as-you-go pricing
+B. Savings Plans
+C. AWS Free Tier
+D. Volume-based discounts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 896
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to update its online data processing application by implementing container-based services that run for 4 hours at a time. The company does not want to provision or manage server instances.
+
+Which AWS service will meet these requirements?
+A. AWS Lambda
+B. AWS Fargate
+C. Amazon EC2
+D. AWS Elastic Beanstalk
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 897
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is expecting a short-term spike in internet traffic for its application. During the traffic increase, the application cannot be interrupted. The company also needs to minimize cost and maximize flexibility.
+
+Which Amazon EC2 instance type should the company use to meet these requirements?
+A. On-Demand Instances
+B. Spot Instances
+C. Reserved Instances
+D. Dedicated Hosts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 898
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to estimate its expected monthly AWS costs. The company also wants to find out the cost of a new set of instances and services.
+
+Which AWS service or tool can the company use to meet these requirements?
+A. AWS Budgets
+B. AWS Pricing Calculator
+C. AWS Trusted Advisor
+D. AWS Marketplace
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 899
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to run a workload for several batch image rendering applications. It is acceptable for the workload to experience downtime.
+
+Which Amazon EC2 pricing model would be MOST cost-effective in this situation?
+A. On-Demand Instances
+B. Reserved Instances
+C. Dedicated Instances
+D. Spot Instances
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 900
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which abilities are benefits of the AWS Cloud? (Choose two.)
+A. Trade variable expenses for capital expenses.
+B. Deploy globally in minutes.
+C. Plan capacity in advance of deployments.
+D. Take advantage of economies of scale.
+E. Reduce dependencies on network connectivity.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 901
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to have one AWS account for the entire company and individual accounts for each department.
+
+Which AWS service should the company use to aggregate and manage all accounts?
+A. AWS Billing and Cost Management
+B. AWS Organizations
+C. AWS Identity and Access Management (IAM)
+D. AWS Resource Access Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 902
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is launching a mobile app. The company wants customers to be able to use the app without upgrading their mobile devices.
+
+Which pillar of the AWS Well-Architected Framework does this goal represent?
+A. Security
+B. Reliability
+C. Cost optimization
+D. Sustainability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 903
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs the ability to acquire resources when the resources are needed. The company also needs the ability to release the resources when the resources are no longer needed.
+
+Which AWS concept represents the company’s goals?
+A. Scalability
+B. Sustainability
+C. Elasticity
+D. Operational excellence
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 904
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services can a company use to achieve a loosely coupled architecture? (Choose two.)
+A. Amazon Workspaces
+B. Amazon Simple Queue Service (Amazon SQS)
+C. Amazon Connect
+D. AWS Trusted Advisor
+E. AWS Step Functions
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 905
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service will allow a user to set custom cost and usage limits, and will alert when the thresholds are exceeded?
+A. AWS Organizations
+B. AWS Budgets
+C. Cost Explorer
+D. AWS Trusted Advisor
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 906
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is hosting a web application on Amazon EC2 instances. The company wants to implement custom conditions to filter and control inbound web traffic.
+
+Which AWS service will meet these requirements?
+A. Amazon GuardDuty
+B. AWS WAF
+C. Amazon Macie
+D. AWS Shield
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 907
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to monitor for misconfigured security groups that are allowing unrestricted access to specific ports.
+
+Which AWS service will meet this requirement?
+A. AWS Trusted Advisor
+B. Amazon CloudWatch
+C. Amazon Guard Duty
+D. AWS Health Dashboard
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 908
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is using a central data platform to manage multiple types of data for its customers. The company wants to use AWS services to discover, transform, and visualize the data.
+
+Which combination of AWS services should the company use to meet these requirements? (Choose two.)
+A. AWS Glue
+B. Amazon Elastic File System (Amazon EFS)
+C. Amazon Redshift
+D. Amazon QuickSight
+E. Amazon Quantum Ledger Database (Amazon QLDB)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 909
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to securely store Amazon RDS database credentials and automatically rotate user passwords periodically.
+
+Which AWS service or capability will meet these requirements?
+A. Amazon S3
+B. AWS Systems Manager Parameter Store
+C. AWS Secrets Manager
+D. AWS CloudTrail
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 910
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is in the early stages of planning a migration to AWS. The company wants to obtain the monthly predicted total AWS cost of ownership for future Amazon EC2 instances and associated storage.
+
+Which AWS service or tool should the company use to meet these requirements?
+A. AWS Pricing Calculator
+B. AWS Compute Optimizer
+C. AWS Trusted Advisor
+D. AWS Application Migration Service
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 911
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which option is an AWS Cloud Adoption Framework (AWS CAF) perspective?
+A. Cloud fluency
+B. Security
+C. Change acceleration
+D. Architecture
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 912
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which Amazon S3 storage class is the MOST cost-effective for long-term storage?
+A. S3 Glacier Deep Archive
+B. S3 Standard
+C. S3 Standard-Infrequent Access (S3 Standard-IA)
+D. S3 One Zone-Infrequent Access (S3 One Zone-IA)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 913
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following are benefits of VPC endpoints? (Choose two.)
+A. A VPC endpoint makes private connections possible between an on-premises environment and supported AWS services.
+B. A VPC endpoint applies encryption to a connection that would be unencrypted otherwise.
+C. A VPC endpoint makes private connections possible between a VPC and supported AWS services.
+D. A VPC endpoint does not require an internet gateway, virtual private gateway, NAT device, VPN connection, or AWS Direct Connect connection.
+E. A VPC endpoint makes public connections possible for applications. Instances in the VPC do not require public IP addresses to communicate with the internet.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 914
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service should be used when a company needs to provide its remote employees with virtual desktops?
+A. Amazon Identity and Access Management (IAM)
+B. AWS Directory Service
+C. AWS IAM Identity Center (AWS Single Sign-On)
+D. Amazon Workspaces
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 915
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is building a mobile app to provide shopping recommendations to its customers. The company wants to use a graph database as part of the shopping recommendation engine.
+
+Which AWS database service should the company choose?
+A. Amazon DynamoDB
+B. Amazon Aurora
+C. Amazon Neptune
+D. Amazon DocumentDB (with MongoDB compatibility)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 916
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is planning its migration to the AWS Cloud. The company is identifying its capability gaps by using the AWS Cloud Adoption Framework (AWS CAF) perspectives.
+
+Which phase of the cloud transformation journey includes these identification activities?
+A. Envision
+B. Align
+C. Scale
+D. Launch
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 917
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company runs a database on Amazon Aurora in the us-east-1 Region. The company has a disaster recovery requirement that the database be available in another Region.
+
+Which solution meets this requirement with minimal disruption to the database operations?
+A. Perform an Aurora Multi-AZ deployment.
+B. Deploy Aurora cross-Region read replicas.
+C. Create Amazon Elastic Block Store (Amazon EBS) volume snapshots for Aurora and copy them to another Region.
+D. Deploy Aurora Replicas.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 918
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is looking for a managed machine learning (ML) service that can recommend products based on a customer’s previous behaviors.
+
+Which AWS service meets this requirement?
+A. Amazon Personalize
+B. Amazon SageMaker
+C. Amazon Pinpoint
+D. Amazon Comprehend
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 919
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+What is the LEAST expensive AWS Support plan that provides the full set of AWS Trusted Advisor best practice checks for cost optimization?
+A. AWS Enterprise Support
+B. AWS Business Support
+C. AWS Developer Support
+D. AWS Basic Support
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 920
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service can provide a dedicated network connection with consistent low latency from on premises to the AWS Cloud?
+A. Amazon VPC
+B. Amazon Kinesis Data Streams
+C. AWS Direct Connect
+D. Amazon OpenSearch Service
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 921
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs a graph database service that is scalable and highly available.
+
+Which AWS service meets these requirements?
+A. Amazon Aurora
+B. Amazon Redshift
+C. Amazon DynamoDB
+D. Amazon Neptune
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 922
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following is a benefit that AWS Professional Services provides?
+A. Management of the ongoing security of user data
+B. Advisory solutions for AWS adoption
+C. Technical support 24 hours a day, 7 days a week
+D. Monitoring of monthly billing costs in AWS accounts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 923
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has set up a VPC on AWS. The company needs a dedicated connection between the VPC and the company’s on-premises network.
+
+Which action should the company take to meet this requirement?
+A. Establish a VPN connection between the VPC and the company’s on-premises network.
+B. Establish an AWS Direct Connect connection between the VPC and the company’s on-premises network.
+C. Attach an internet gateway to the VPUse the AWS public endpoints for connectivity.
+D. Configure Amazon Connect to provide connectivity between the VPC and the company’s on-premises network.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 924
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services can be used to store files? (Choose two.)
+A. Amazon S3
+B. AWS Lambda
+C. Amazon Elastic Block Store (Amazon EBS)
+D. Amazon SageMaker
+E. AWS Storage Gateway
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 925
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is a continuous delivery and deployment solution?
+A. AWS AppSync
+B. AWS CodePipeline
+C. AWS Cloud9
+D. AWS CodeCommit
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 926
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+An ecommerce company wants to design a highly available application that will be hosted on multiple Amazon EC2 instances.
+
+How should the company deploy the EC2 instances to meet these requirements?
+A. Across multiple edge locations
+B. Across multiple VPCs
+C. Across multiple Availability Zones
+D. Across multiple AWS accounts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 927
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has a large number of Linux Amazon EC2 instances across several Availability Zones in an AWS Region. Applications that run on the EC2 instances need access to a common set of files.
+
+Which AWS service or device should the company use to meet this requirement?
+A. AWS Backup
+B. Amazon Elastic File System (Amazon EFS)
+C. Amazon Elastic Block Store (Amazon EBS)
+D. AWS Snowball Edge Storage Optimized
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 928
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company migrated its core application onto multiple workloads in the AWS Cloud. The company wants to improve the application’s reliability.
+
+Which cloud design principle should the company implement to achieve this goal?
+A. Maximize utilization.
+B. Decouple the components.
+C. Rightsize the resources.
+D. Adopt a consumption model.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 929
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is planning to migrate to the AWS Cloud. The company wants to identify measurable business outcomes that will explain the value of the company’s decision to migrate.
+
+Which phase of the cloud transformation journey includes these activities?
+A. Envision
+B. Align
+C. Scale
+D. Launch
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 929
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is planning to migrate to the AWS Cloud. The company wants to identify measurable business outcomes that will explain the value of the company’s decision to migrate.
+
+Which phase of the cloud transformation journey includes these activities?
+A. Envision
+B. Align
+C. Scale
+D. Launch
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 930
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+An ecommerce company wants to distribute traffic between the Amazon EC2 instances that host its website.
+
+Which AWS service or resource will meet these requirements?
+A. Application Load Balancer
+B. AWS WAF
+C. AWS CloudHSM
+D. AWS Direct Connect
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 931
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to run a NoSQL database on Amazon EC2 instances.
+
+Which task is the responsibility of AWS in this scenario?
+A. Update the guest operating system of the EC2 instances.
+B. Maintain high availability at the database layer.
+C. Patch the physical infrastructure that hosts the EC2 instances.
+D. Configure the security group firewall.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 732
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following is a software development framework that a company can use to define cloud resources as code and provision the resources through AWS
+CloudFormation?
+A. AWS CLI
+B. AWS Developer Center
+C. AWS Cloud Development Kit (AWS CDK)
+D. AWS CodeStar
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 933
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to apply security rules to a subnet for Amazon EC2 instances.
+
+Which AWS service or feature provides this functionality?
+A. Network ACLs
+B. Security groups
+C. AWS Certificate Manager (ACM)
+D. AWS Config
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 934
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which task can a company perform by using security groups in the AWS Cloud?
+A. Allow access to an Amazon EC2 instance through only a specific port.
+B. Deny access to malicious IP addresses at a subnet level.
+C. Protect data that is cached by Amazon Cloud Front.
+D. Apply a stateless firewall to an Amazon EC2 instance.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 935
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to move its IOS application development and build activities to AWS.
+
+Which AWS service or resource should the company use for these activities?
+A. AWS CodeCommit
+B. Amazon EC2 M1 Mac instances
+C. AWS Amplify
+D. AWS App Runner
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 936
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is planning a migration to the AWS Cloud and wants to examine the costs that are associated with different workloads.
+
+Which AWS tool will meet these requirements?
+A. AWS Budgets
+B. AWS Cost Explorer
+C. AWS Pricing Calculator
+D. AWS Cost and Usage Report
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 937
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to automatically set up and govern a multi-account AWS environment.
+
+Which AWS service provides this functionality?
+A. AWS IAM Identity Center (AWS Single Sign-On)
+B. AWS Systems Manager
+C. AWS Config
+D. AWS Control Tower
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 938
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants its Amazon EC2 instances to share the same geographic area but use redundant underlying power sources.
+
+Which solution will meet these requirements?
+A. Use EC2 instances across multiple Availability Zones in the same AWS Region.
+B. Use Amazon CloudFront as the database for the EC2 instances.
+C. Use EC2 instances in the same edge location and the same Availability Zone.
+D. Use EC2 instances in AWS OpsWorks stacks in different AWS Regions.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 939
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A global company wants to use a managed security service for protection from SQL injection attacks. The service also must provide detailed logging information about access to the company’s ecommerce applications.
+
+Which AWS service will meet these requirements?
+A. AWS Network Firewall
+B. Amazon RDS for SQL Server
+C. Amazon GuardDuty
+D. AWS WAF
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 940
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company distributes traffic evenly among a fleet of Amazon EC2 instances. The EC2 instances must accommodate unpredictable increases in traffic.
+
+Which benefit does the AWS Cloud provide to meet this requirement?
+A. Scalability
+B. Resilience
+C. Security
+D. Agility
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 941
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs Amazon EC2 instances for a workload that can tolerate interruptions.
+
+Which EC2 instance purchasing option meets this requirement with the LARGEST discount compared to On-Demand prices?
+A. Spot Instances
+B. Convertible Reserved Instances
+C. Standard Reserved Instances
+D. Dedicated Hosts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 942
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following are general AWS Cloud design principles described in the AWS Well-Architected Framework? (Choose two.)
+A. Consolidate key components into monolithic architectures.
+B. Test systems at production scale.
+C. Provision more capacity than a workload is expected to need.
+D. Drive architecture design based on data collected about the workload behavior and requirements.
+E. Make AWS Cloud architectural decisions static, one-time events.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 943
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants its Amazon EC2 instances to provide a low-latency static website to global users.
+
+What should the company do to meet this requirement?
+A. Use the EC2 instances in multiple edge locations.
+B. Use an Application Load Balancer with the EC2 instances configured as the target.
+C. Use the EC2 instances in the same Availability Zone but in different AWS Regions.
+D. Use Amazon Cloud Front with the EC2 instances configured as the source.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 944
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to optimize tong-term compute costs of AWS Lambda functions and Amazon EC2 instances.
+
+Which AWS purchasing option should the company choose to meet these requirements?
+A. Dedicated Hosts
+B. Compute Savings Plans
+C. Reserved Instances
+D. Spot Instances
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 945
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company encourages its teams to test failure scenarios regularly and to validate their understanding of the impact of potential failures.
+
+Which pillar of the AWS Well-Architected Framework does this philosophy represent?
+A. Operational excellence
+B. Cost optimization
+C. Performance efficiency
+D. Security
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 946
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which scenarios represent the concept of elasticity on AWS? (Choose two.)
+A. Scaling the number of Amazon EC2 instances based on traffic
+B. Resizing Amazon RDS instances as business needs change
+C. Automatically directing traffic to less-utilized Amazon EC2 instances
+D. Using AWS compliance documents to accelerate the compliance process
+E. Having the ability to create and govern environments using code
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 947
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which tasks are customer responsibilities, according to the AWS shared responsibility model? (Choose two.)
+A. Configure the AWS provided security group firewall.
+B. Classify company assets in the AWS Cloud.
+C. Determine which Availability Zones to use for Amazon S3 buckets.
+D. Patch or upgrade Amazon DynamoDB.
+E. Select Amazon EC2 instances to run AWS Lambda on.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 948
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which option is AWS responsible for under the AWS shared responsibility model?
+A. Network and firewall configuration
+B. Client-side data encryption
+C. Management of user permissions
+D. Hardware and infrastructure
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 949
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to run some of its workloads on premises to comply with regulatory guidelines. The company wants to use the AWS Cloud to run workloads that are not required to be on premises. The company also wants to be able to use the same API calls for the on-premises workloads and the cloud workloads.
+
+Which AWS service or feature should the company use to meet these requirements?
+A. Dedicated Hosts
+B. AWS Outposts
+C. Availability Zones
+D. AWS Wavelength
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 950
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to use guidelines from the AWS Well-Architected Framework to limit human error and facilitate consistent responses to events.
+
+Which of the following is a Well-Architected design principle that will meet these requirements?
+A. Use AWS Code Deploy.
+B. Perform operations as code.
+C. Migrate workloads to a Dedicated Host.
+D. Use AWS Compute Optimizer.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 951
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company provides a web-based ecommerce service that runs in two Availability Zones within a single AWS Region. The web service distributes content that is stored in the Amazon S3 Standard storage class. The company wants to improve the web service’s performance globally.
+
+What should the company do to meet this requirement?
+A. Change the S3 storage class to S3 Intelligent-Tiering.
+B. Deploy an Amazon CloudFront distribution to cache web server content in edge locations.
+C. Use Amazon API Gateway for the web service.
+D. Migrate the website ecommerce servers to Amazon EC2 with enhanced networking.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 952
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is designed to help users build conversational interfaces into applications using voice and text?
+A. Amazon Lex
+B. Amazon Transcribe
+C. Amazon Comprehend
+D. Amazon Timestream
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 953
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service offers a global content delivery network (CDN) that helps companies securely deliver websites, videos, applications, and APIs at high speeds with low latency?
+A. Amazon EC2
+B. Amazon CloudFront
+C. Amazon CloudWatch
+D. AWS CloudFormation
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 954
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has only basic knowledge of AWS technologies.
+
+Which AWS service provides the SIMPLEST way for the company to establish a website on AWS?
+A. Amazon Elastic File System (Amazon EFS)
+B. AWS Elastic Beanstalk
+C. AWS Lambda
+D. Amazon Lightsail
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 955
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which task can only an AWS account root user perform?
+A. Changing the AWS Support plan
+B. Deleting AWS resources
+C. Creating an Amazon EC2 instance key pair
+D. Configuring AWS WAF
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 956
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company must store call recordings for 6 years. The storage system should be highly durable and cost-effective.
+
+Which AWS service meets these requirements?
+A. AWS Snowball
+B. Amazon S3
+C. AWS Storage Gateway
+D. Amazon Kinesis
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 957
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is preparing to launch a redesigned website on AWS. Users from around the world will download digital handbooks from the website.
+
+Which AWS solution should the company use to provide these static files securely?
+A. Amazon Kinesis Data Streams
+B. Amazon CloudFront with Amazon S3
+C. Amazon EC2 instances with an Application Load Balancer
+D. Amazon Elastic File System (Amazon EFS)
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 958
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is using AWS Organizations to configure AWS accounts.
+
+Which design principle is a best practice for the company to implement?
+A. Organize accounts based on security and operational needs.
+B. Assign multiple sets of related workloads to each production account.
+C. Deploy workloads to the organization’s management account.
+D. Combine production workloads and non-production workloads.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 959
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A user is moving a workload from a local data center to an architecture that is distributed between the local data center and the AWS Cloud.
+
+Which type of migration is this?
+A. On-premises to cloud native
+B. Hybrid to cloud native
+C. On-premises to hybrid
+D. Cloud native to hybrid
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 960
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS solution provides the ability for a company to run AWS services in the company’s on-premises data center?
+A. AWS Direct Connect
+B. AWS Outposts
+C. AWS Systems Manager hybrid activations
+D. AWS Storage Gateway
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 961
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs a data warehouse for analytical workloads. The data warehouse must support standard SQL queries.
+
+Which AWS service meets these requirements?
+A. Amazon EMR
+B. Amazon Athena
+C. Amazon Redshift
+D. Amazon RDS
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 961
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs a data warehouse for analytical workloads. The data warehouse must support standard SQL queries.
+
+Which AWS service meets these requirements?
+A. Amazon EMR
+B. Amazon Athena
+C. Amazon Redshift
+D. Amazon RDS
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 962
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants guidance to optimize the cost and performance of its current AWS environment.
+
+Which AWS service or tool should the company use to identify areas for optimization?
+A. Amazon OuickSight
+B. AWS TrustedAdvisor
+C. AWS Organizations
+D. AWS Budgets
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 963
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is setting up AWS Identity and Access Management (IAM) on an AWS account.
+
+Which recommendation complies with IAM security best practices?
+A. Use the account root user access keys for administrative tasks.
+B. Grant broad permissions so that all company employees can access the resources they need.
+C. Turn on multi-factor authentication (MFA) for added security during the login process.
+D. Avoid rotating credentials to prevent issues in production applications.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 964
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS services can a company use to host and run a MySQL database? (Choose two.)
+A. Amazon RDS
+B. Amazon DynamoDB
+C. Amazon S3
+D. Amazon EC2
+E. Amazon MQ
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 965
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants a key-value NoSQL database that is fully managed and serverless.
+
+Which AWS service will meet these requirements?
+A. Amazon DynamoDB
+B. Amazon RDS
+C. Amazon Aurora
+D. Amazon MemoryDB for Redis
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 966
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is migrating to the AWS Cloud and wants to optimize the use of its current software licenses.
+
+Which AWS services, features, or purchasing options can the company use to meet these requirements? (Choose two.)
+A. AWS Compute Optimizer
+B. Amazon EC2 Dedicated Hosts
+C. Savings Plans
+D. AWS License Manager
+E. AWS Budgets
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 967
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company seeks cost savings in exchange for a commitment to use a specific amount of an AWS service or category of AWS services for 1 year or 3 years.
+
+Which AWS pricing model or offering will meet these requirements?
+A. Pay-as-you-go pricing
+B. Savings Plans
+C. AWS Free Tier
+D. Volume discounts
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 968
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company needs to control inbound and outbound traffic for an Amazon EC2 instance.
+
+Which AWS service or feature can the company associate with the EC2 instance to meet this requirement?
+A. Network ACL
+B. Security group
+C. AWS WAF
+D. VPC route tables
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 969
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to query its server logs to gain insights about its customers’ experiences.
+
+Which AWS service will store this data MOST cost-effectively?
+A. Amazon Aurora
+B. Amazon Elastic File System (Amazon EFS)
+C. Amazon Elastic Block Store (Amazon EBS)
+D. Amazon S3
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 970
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which design principles are included in the reliability pillar of the AWS Well-Architected Framework? (Choose two.)
+A. Automatically recover from failure.
+B. Grant everyone access to increase AWS service quotas.
+C. Stop guessing capacity.
+D. Design applications to run in a single Availability Zone.
+E. Plan to increase AWS service quotas first in a secondary AWS Region.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 971
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company has an environment that includes Amazon EC2 instances, Amazon Lightsail, and on-premises servers. The company wants to automate the security updates for its operating systems and applications.
+
+Which solution will meet these requirements with the LEAST operational effort?
+A. Use AWS Shield to identify and manage security events.
+B. Connect to each server by using a remote desktop connection. Run an update script.
+C. Use the AWS Systems Manager Patch Manager capability.
+D. Schedule Amazon GuardDuty to run on a nightly basis.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 972
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is deployed to VPCs and provides protection from common network threats?
+A. AWS Shield
+B. AWS WAF
+C. AWS Network Firewall
+D. AWS Firewall Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 973
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service provides encryption at rest for Amazon RDS and for Amazon Elastic Block Store (Amazon EBS) volumes?
+A. AWS Lambda
+B. AWS Key Management Service (AWS KMS)
+C. AWS WAF
+D. Amazon Rekognition
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 974
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to minimize network latency between its Amazon EC2 instances. The EC2 instances do not need to be highly available.
+
+Which solution meets these requirements?
+A. Use EC2 instances in a single Availability Zone.
+B. Use Amazon CloudFront as the database for the EC2 instances.
+C. Use EC2 instances in the same edge location and the same Availability Zone.
+D. Use EC2 instances in the same edge location and the same AWS Region.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 975
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+An ecommerce company wants to provide relevant product recommendations to its customers. The recommendations will include products that are frequently purchased with other products that the customer already purchased. The recommendations also will include products of a specific color and products from the customer’s favorite brand.
+
+Which AWS service or feature should the company use to meet these requirements with the LEAST development effort?
+A. Amazon Comprehend
+B. Amazon Forecast
+C. Amazon Personalize
+D. Amazon SageMaker Studio
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 976
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to migrate to the AWS Cloud. The company needs the ability to acquire resources when the resources are necessary. The company also needs the ability to release those resources when the resources are no longer necessary.
+
+Which architecture concept of the AWS Cloud meets these requirements?
+A. Elasticity
+B. Availability
+C. Reliability
+D. Durability
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 977
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which options are common stakeholders for the AWS Cloud Adoption Framework (AWS CAF) platform perspective? (Choose two.)
+A. Chief financial officers (CFOs)
+B. IT architects
+C. Chief information officers (CIOs)
+D. Chief data officers (CDOs)
+E. Engineers
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 978
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is defining its AWS multi-account strategy. The company needs to control access to AWS services and needs to consolidate billing across accounts.
+
+Which AWS service should the company use to meet these requirements?
+A. AWS Organizations
+B. AWS Identity and Access Management (IAM)
+C. AWS Billing and Cost Management
+D. Amazon Cognito
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 979
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which options are AWS Cloud Adoption Framework (AWS CAF) perspectives? (Choose two.)
+A. Cloud fluency
+B. Security
+C. Change acceleration
+D. Architecture
+E. Business
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 980
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A web developer wants to use machine learning to classify images that are uploaded to a website.
+
+Which AWS service or feature will meet these requirements?
+A. Amazon Rekognition
+B. Amazon SageMaker Clarify
+C. Amazon Mechanical Turk
+D. Amazon Transcribe
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 981
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company is launching a critical business application in an AWS Region.
+
+How can the company increase resilience for this application?
+A. Deploy a copy of the application in another AWS account.
+B. Deploy the application by using multiple VPCs.
+C. Deploy the application by using multiple subnets.
+D. Deploy the application by using multiple Availability Zones.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 982
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is always available free of charge to users?
+A. Amazon Athena
+B. AWS Identity and Access Management (IAM)
+C. AWS Secrets Manager
+D. Amazon ElastiCache
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 983
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service provides a relational database management system that is fully compatible with MySQL and PostgreSQL?
+A. Amazon DynamoDB
+B. Amazon Aurora
+C. Amazon Neptune
+D. Amazon Athena
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 984
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to migrate its applications to the AWS Cloud. The company plans to identify and prioritize any business transformation opportunities and evaluate its AWS Cloud readiness.
+
+Which AWS service or tool should the company use to meet these requirements?
+A. AWS Cloud Adoption Framework (AWS CAF)
+B. AWS Managed Services (AMS)
+C. AWS Well-Architected Framework
+D. AWS Migration Hub
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 985
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which of the following is a customer responsibility according to the AWS shared responsibility model?
+A. Apply security patches for Amazon S3 infrastructure devices.
+B. Provide physical security for AWS datacenters.
+C. Install operating system updates on Lambda@Edge.
+D. Implement multi-factor authentication (MFA) for IAM user accounts.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 986
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which option is a pillar of the AWS Well-Architected Framework?
+A. Patch management
+B. Cost optimization
+C. Business technology strategy
+D. Physical and environmental controls
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 987
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company plans to host its data warehouse application on AWS. The company has a machine learning (ML) model and wants to use that model within its data warehouse for data forecasting.
+
+Which AWS service will meet these requirements?
+A. Amazon DynamoDB
+B. Amazon Redshift ML
+C. Amazon Aurora ML
+D. Amazon MemoryDB for Redis
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 988
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to rightsize its Amazon EC2 instances.
+
+Which configuration change will meet this requirement with the LEAST operational overhead?
+A. Add EC2 instances in another Availability Zone.
+B. Change the size and type of the EC2 instances based on utilization.
+C. Convert the payment method from On-Demand to Savings Plans.
+D. Reprovision the EC2 instances with a larger instance type.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 900
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which abilities are benefits of the AWS Cloud? (Choose two.)
+A. Trade variable expenses for capital expenses.
+B. Deploy globally in minutes.
+C. Plan capacity in advance of deployments.
+D. Take advantage of economies of scale.
+E. Reduce dependencies on network connectivity.
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 901
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+A company wants to have one AWS account for the entire company and individual accounts for each department.
+
+Which AWS service should the company use to aggregate and manage all accounts?
+A. AWS Billing and Cost Management
+B. AWS Organizations
+C. AWS Identity and Access Management (IAM)
+D. AWS Resource Access Manager
+Show Suggested Answer
+
+
+Exam question from Amazon's AWS Certified Cloud Practitioner
+Question #: 952
+Topic #: 1
+[All AWS Certified Cloud Practitioner Questions]
+Which AWS service is designed to help users build conversational interfaces into applications using voice and text?
+A. Amazon Lex
+B. Amazon Transcribe
+C. Amazon Comprehend
+D. Amazon Timestream
+Show Suggested Answer
+
+

@@ -35,15 +35,15 @@ def random_delay(min_delay, max_delay):
     time.sleep(random.uniform(min_delay, max_delay))
 
 # Create image directory if not exists
-images_dir = "downloaded_images300-400"
+images_dir = "downloaded_images801-994"
 if not os.path.exists(images_dir):
     os.makedirs(images_dir)
 
 # Prepare to write to the text file
-output_text_file = "filtered_300-400.txt"
+output_text_file = "filtered_801-994.txt"
 
 # Read links from a text file
-with open('links_300-400', 'r') as f:
+with open('links_801-994', 'r') as f:
     links = [line.strip() for line in f]
 
 # Write header content and images to the text file
