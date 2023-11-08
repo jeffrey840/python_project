@@ -1,5 +1,6 @@
 
 
+
 import os
 import time
 import random
@@ -42,10 +43,10 @@ if not os.path.exists(images_dir):
     os.makedirs(images_dir)
 
 # Prepare to write to the text file
-output_text_file = "filtered_1-182.txt"
+output_text_file = "filtered_1-65.txt"
 
 # Read links from a text file
-with open('links_1-182', 'r') as f:
+with open('links_1-65', 'r') as f:
     links = [line.strip() for line in f]
 
 # Write header content and images to the text file
@@ -79,3 +80,4 @@ with open(output_text_file, "w") as textfile:
 
 # Reminder to include the brave browser teardown code here
 browser.quit()
+

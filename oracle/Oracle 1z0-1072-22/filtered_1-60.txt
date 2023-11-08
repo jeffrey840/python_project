@@ -1,0 +1,740 @@
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 2
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which statement is NOT correct regarding the Oracle Cloud Infrastructure (OI) File System snapshots?
+A. Even if nothing has changed within the file system since the last snapshot was taken, a new snapshot consumes more storage
+B. Snapshots are a consistent, point-in-time view of your file systems
+C. Snapshots are accessible under the root directory of the file system at .snapshot/name
+D. Before you can clone a file system, at least one snapshot must exist for the file system
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 3
+Topic #: 1
+[All 1z0-1072-22 Questions]
+What should be created before provisioning an Oracle Cloud Infrastructure (OCI) DB System?
+A. Virtual Cloud Network
+B. Compute Instance
+C. Compartment
+D. Bucket in Object Storage
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 4
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are part of a team that manages a set of workload instances running in an on-premises environment. The Architect team is tasked with designing and configuring Oracle Cloud Infrastructure (OCI) Logging service to collect logs from these instances. There is a requirement to archive Info-level logging data of these instances into the OCI Object Storage.
+Which TWO features of OCI can help you achieve this? (Choose two.)
+A. Cloud Agent Plugin
+B. Grouping Function
+C. Agent Configuration
+D. Service Connectors
+E. ObjectCollection Rule
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 5
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are part of an organization with thousands of users accessing Oracle Cloud Infrastructure (OCI). An unknown user action was executed resulting in configuration errors. You are tasked to quickly identify the details of all users who were active in the last six hours along with any REST API calls that were executed.
+Which OCI service would you use?
+A. Notifications
+B. Audit
+C. Service Connectors
+D. Logging
+E. Management Agent
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 6
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which is NOT a valid statement regarding the Oracle Cloud Infrastructure (OCI) Audit service?
+A. Audit logs are displayed for Compartments.
+B. Changes within the objects stored in an Object Storage bucket are collected as Audit logs.
+C. Audit service can record REST API calls executed by a custom client.
+D. Retention period for Audit logs is 365 days and it cannot be changed.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 8
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You have an instance running in Oracle Cloud Infrastructure (OCI) that cannot be live-migrated during an infrastructure maintenance event. OCI schedules a maintenance due date within 14 to 16 days and sends you a notification.
+What would happen if you choose not to proactively reboot the instance before the scheduled maintenance due date?
+A. The instance is either reboot-migrated or rebuilt in place for you.
+B. The instance will get terminated.
+C. You will receive another notification to reboot within the next 7 days.
+D. You will receive another notification to reboot within the next 14 days.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 9
+Topic #: 1
+[All 1z0-1072-22 Questions]
+As a network architect you have deployed a public subnet on your Virtual Cloud Network (VCN) with this security list:
+
+You have also created a network security group (NSG) as shown in the table here, and assigned it to your bastion host:
+
+You have confirmed that routing is correct but when you SSH to the VM from your home over the Internet, you are unable to connect.
+What could be the problem?
+A. User will be able to SSH to the VM from the Internet as SSH is open on the NSG.
+B. Internet traffic should be allowed only on the NSG.
+C. SSH traffic is not allowed in the security list nor on the NSG from the Internet.
+D. Public subnet does not have a route rule to the Internet Gateway.
+Show Suggested Answer
+[Image 1] saved as image_6_0.png
+[Image 2] saved as image_6_1.png
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 10
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You have three compartments: ProjectA, ProjectB, and ProjectC. For each compartment, there is an admin group set up: A-Admins, B-Admins, and C-Admins.
+Each admin group has full access over their respective compartments as shown in the graphic below.
+Your organization has set up a tag namespace, EmployeeGroup.Role and all your admin groups are tagged with a value of 'Admin'.
+
+You want to set up a Test compartment for members of the three projects to share. You also need to provide admin access to all three of your existing admin groups.
+Which policy would you write to accomplish this task?
+A. Allow dynamic-group to manage all-resources in compartment Test where request.principal.group.tag.EmployeeGroup.Role='Admin'
+B. Allow all-group to manage all-resources in compartment Test where request.principal.group.tag.EmployeeGroup.Role='Admin'
+C. Allow group any-group to manage all-resources in compartment Test where request.principal.group.tag.EmployeeGroup.Role='Admin'
+D. Allow any user to manage all resources in compartment Test where request.principal.group.tag.EmployeeGroup.Role='Admin'
+Show Suggested Answer
+[Image 1] saved as image_7_0.png
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 12
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which of the following statements is true about cloning a volume in the Oracle Cloud Infrastructure (OCI) Block Volume service?
+A. You can change the block volume size when cloning a volume.
+B. You need to detach a volume before cloning it.
+C. Creating a clone takes longer than creating a backup of a volume.
+D. You can clone a volume to another region.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 13
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO statements about the Oracle Cloud Infrastructure (OCI) File Storage Service are accurate? (Choose two.)
+A. File systems use Oracle-managed keys by default.
+B. Mount targets use Oracle-managed keys by default.
+C. Customer can encrypt the communication to a mount target via export options.
+D. Customer can encrypt data in their file system using their own Vault encryption key.
+E. Communication with file systems in a mount target is encrypted via HTTPS.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 14
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO are key benefits of setting up Site-to-Site VPN on Oracle Cloud Infrastructure (OCI)? (Choose two.)
+A. When setting up Site-to-Site VPN, it creates a private connection that provides consistent network experience.
+B. When setting up Site-to-Site VPN, customers can expect bandwidth above 2 Gbps.
+C. When setting up Site-to-Site VPN, OCI provisions redundant VPN tunnels.
+D. When setting up Site-to-Site VPN, customers can configure it to use static or dynamic routing (BGP).
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 15
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which of the following is a valid RFC 1918 CIDR prefix that can be used for creating an Oracle Cloud Infrastructure (OCI) Virtual Cloud Network (VCN)?
+A. 10.0.0.0/8
+B. 0.0.0.0/0
+C. 192.168.0.0/16
+D. 189.215.154.89/32
+E. 192.268.0.0/24
+F. 172.16.0.0/12
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 16
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which is NOT a valid Oracle Cloud Infrastructure (OCI) Virtual Cloud Network (VCN) approach?
+A. Ensure VCN CIDR prefix overlaps with other VCNs in your tenancy or with your organizations private IP network ranges.
+B. Private subnets should ideally have individual route tables to control the flow of traffic within and outside of VCN.
+C. Use OCI tags to tag VCN resources so that all resources follow organizational tagging/naming conventions.
+D. Ensure not all IP addresses are allocated at once within a VCN or subnet; instead reserve some IP addresses for future use.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 17
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO statements are TRUE about Public IP addresses in Oracle Cloud Infrastructure (OCI)? (Choose two.)
+A. By default, an instance in a public subnet has one primary public IP address.
+B. You must use OCI provided public IP addresses. You cannot bring your own IP addresses to OCI.
+C. You can assign a given instance multiple public IPs across one or more VNICs.
+D. Public IP addresses can be ephemeral or reserved.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 18
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO statements are TRUE about Private IP addresses in Oracle Cloud Infrastructure (OCI)? (Choose two.)
+A. Each VNIC can only have one private IP address.
+B. A private IP can have an optional public IP assigned to it if it resides in a public subnet.
+C. By default, the primary VNIC of an instance in a subnet has one primary private IP address and one secondary private IP address.
+D. By default, the primary VNIC of an instance in a subnet has one primary private IP address.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 19
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are using the Oracle Cloud Infrastructure (OCI) Vault service to create and manage Secrets. For your database password, you have created a secret and rotated the secret one time. The secret versions are as follows:
+
+You later realize that you have made a mistake in updating the secret content for version 2 and want to rollback to version 1.
+What should you do to rollback to version 1?
+A. Deprecate version 2 (latest). Create new Secret version 3. Create soft link from version 3 to version 1.
+B. From the version 1 menu on the OCI console, select "Promote to Current".
+C. From the version 2 (latest) menu, select "Rollback" and select version 1 when given the option.
+D. Create a new secret version 3 and set to Pending. Copy the content of version 1 into version 3.
+Show Suggested Answer
+[Image 1] saved as image_15_0.png
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 20
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which statement is NOT true about the Oracle Cloud Infrastructure (OCI) Object Storage service?
+A. Immutable option for data stored in Object Storage can be set via retention rules.
+B. Object lifecycle rules can be used to either archive or delete objects.
+C. Object Storage resources can be shared across tenancies.
+D. Object Versioning is enabled at the namespace level.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 21
+Topic #: 1
+[All 1z0-1072-22 Questions]
+A financial firm is designing an application architecture for its online trading platform that should have high availability and fault tolerance.
+Their solutions architect configured the application to use an Oracle Cloud Infrastructure (OCI) Object Storage bucket located in the US West (us-phoenix-1) region to store large amounts of financial data. The stored financial data in the bucket should not be impacted even if there is an outage in one of the Availability Domains or a complete region.
+What should the architect do to avoid any costly service disruption and ensure data durability?
+A. Create a lifecycle policy to regularly send data from the Standard to Archive storage.
+B. Create a replication policy to send data to a different bucket in another OCI region.
+C. Create a new Object Storage bucket in another region and configure lifecycle policy to move data every 5 days.
+D. Copy the Object Storage bucket to a block volume.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 23
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You have multiple applications running on a compute instance that generate a large amount of log files. You are required to retain these log files for a total of 60 days; at least 15 days on the boot volume, and an additional 45 days in any location.
+Which is the most cost-effective way to meet the 15-day boot volume retention requirement and the 60-day total retention requirement?
+A. Do not delete any logs but resize the boot volume of the instance every time additional space is needed.
+B. Attach a block volume and use a script that moves log files older than 15 days to the new volume and deletes them completely after 60 days.
+C. Create an Object Storage bucket and use a script that runs daily to move log files older than 15 days from the boot volume to the bucket. Create a lifecycle rule for the bucket to delete any logs over 60 days old.
+D. Terminate the instance while preserving the boot volume. Create a new instance from the boot volume and select a DenseIO shape to take advantage of the local NVMe storage.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 24
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You want to create a policy to allow the NetworkAdmins group to manage Virtual Cloud Network (VCN) in compartment C. You want to attach this policy to the tenancy. The compartment hierarchy is shown below.
+
+Which policy statement can be used to accomplish this task?
+A. Allow group NetworkAdmins to manage virtual-network-family in compartment C
+B. Allow group NetworkAdmins to manage virtual-network-family in compartment B:C
+C. Allow group NetworkAdmins to manage virtual-network-family in tenancy
+D. Allow group NetworkAdmins to manage virtual-network-family in compartment A:B:C
+Show Suggested Answer
+[Image 1] saved as image_19_0.png
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 25
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are in the process of migrating several legacy applications from on-premises to Oracle Cloud Infrastructure (OCI). The current servers are already virtualized. However, you notice that the version of CentOS currently running does not align with any of the Oracle-provided compute images.
+How would you migrate your existing virtual server images to OCI?
+A. Export your current image in the VDI format and copy to an Object Storage bucket. Import it as a custom image. Select native mode to ensure the best possible performance.
+B. Export your current image in the QCOW2 format and copy to an Object Storage bucket. Import it as a custom image. Select emulated mode to ensure compatibility with legacy drivers.
+C. Export your current image in the QED format and copy to an Object Storage bucket. Import it as a custom image. Select emulated mode to ensure compatibility with legacy drivers.
+D. Export your current image in the VMDK format and copy to an Object Storage bucket. Import it as a custom image. Select native mode to ensure the best possible performance.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 26
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You just got a last minute request to create a set of instances in Oracle Cloud Infrastructure (OCI). The configuration and installed software are identical for every instance, and you already have a running instance in your OCI tenancy.
+Which image option allows you to achieve this task with the least amount of effort?
+A. Use Oracle-provided images and customize the installation using a third-party tool.
+B. Bring your own image and use it as a template for the new instances.
+C. Select an image from the OCI Marketplace.
+D. Create a custom image and use it as a template for the new instances.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 27
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Your customer would run month-end jobs on their on-premises databases that would take around 14 hours to complete and sometimes even fail due to overloaded database systems. After a detailed evaluation, they migrated their database to Oracle Autonomous Data Warehouse. They realized they could also move their analytics platform to Oracle Analytics Cloud (OAC) and have their best of breed technology platforms meet their critical business requirements.
+After migrating their analytics platform, they want to use one consumer group for running month-end jobs and another consumer group that can be used by the analytics team for performing data analytics tasks everyday.
+How can your customer implement this requirement?
+A. Use consumer group high for data analytics and consumer group low for month-end jobs.
+B. Use consumer group high for both month-end jobs and data analytics.
+C. Use consumer group high for month-end jobs and consumer group medium for data analytics.
+D. Use consumer group medium for month-end jobs and consumer group low for data analytics.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 28
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO components are optional while creating the Monitoring Query Language (MQL) expressions in the Oracle Cloud Infrastructure (OCI) Monitoring service? (Choose two.)
+A. Dimensions
+B. Interval
+C. Statistic
+D. Metric
+E. Grouping Function
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 29
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are backing up your on-premises data to the Oracle Cloud Infrastructure (OCI) Object Storage Service.
+Your requirements are:
+1. Backups need to be retained for at least full 31 days.
+2. Data should be accessible immediately if and when needed after the backup.
+Which OCI Object Storage tier is suitable for storing the backup to minimize cost?
+A. Archive tier
+B. Infrequent Access tier
+C. Standard tier
+D. Auto-Tiering tier
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 30
+Topic #: 1
+[All 1z0-1072-22 Questions]
+The volume of transactions of your rental business is increasing. You anticipate a rise in workload during the upcoming holiday sales event. You want to ensure that the business is not impacted during the event due to an overloaded database system. Based on your database administrator's suggestion, you intend to scale up your Virtual Machine DB System during the event period to address the resource demand.
+Which of the following TWO statements are true about scaling the Virtual Machine DB System? (Choose two.)
+A. You can only scale up a database system, but cannot scale it down.
+B. You can perform scaling operations only after the database system is down.
+C. You can change the shape of a Virtual Machine DB System to change the number of OCPU cores.
+D. You can scale up storage in a Virtual Machine DB System without any downtime.
+E. You can only scale up OCPUs, but not storage.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 31
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Your IT team has asked you to provision an Autonomous Database in Oracle Cloud Infrastructure (OCI), but they want it to operate similar to what you have currently on-premises.
+What are the TWO prerequisites for successfully deploying an Autonomous Dedicated Database in OCI? (Choose two.)
+A. Exadata Infrastructure
+B. Identity and Access Management (IAM) Policies
+C. Object Storage
+D. Autonomous Container Database
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 32
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You need to implement automatic backups for your database system. You can easily check "Enable Automatic Backup" in the web console. Before you do that though, you need to have which of the following TWO prerequisites in place? (Choose two.)
+A. VCN configured with VPN for secure access to the Oracle Cloud Infrastructure (OCI) Object Storage service
+B. Private SSH key to the database
+C. Access to the OCI Object Storage service
+D. Connectivity to Swift endpoints
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 33
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO predefined service names can you use when connecting to an Oracle Cloud Infrastructure (OCI) Autonomous Data Warehouse? (Choose two.)
+A. TP for a connection service when you do not want to run with parallelism.
+B. TPUrgent for a connection service when you do want to run with parallelism.
+C. High for the highest level of resources to process each SQL statement.
+D. Medium for a lower level of resources to process each SQL statement.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 34
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You want to have an exact copy of your database system to demonstrate the feasibility of a method you have in mind. You decide to clone your database system.
+Which of the following statement is true about cloning a database system?
+A. Cloning creates a copy of the source DB system as it exists at the time of scheduling the cloning operation, including the storage configuration software and database volumes.
+B. Cloning creates a copy of the source DB System as it exists at a later time, including the storage configuration software and database volumes.
+C. Cloning creates a copy of the source DB system as it exists at an earlier time, including the storage configuration software and database volumes.
+D. Cloning creates a copy of the source DB system as it exists at the time of the cloning operation, including the storage configuration software and database volumes.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 35
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You create a file system and then add a 2 GB file. You then take a snapshot of the file system.
+What would be the total meteredBytes shown by the File Storage service after the hourly update cycle is complete?
+A. 2.5 GB
+B. 2 GB
+C. 3 GB
+D. 4GB
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 36
+Topic #: 1
+[All 1z0-1072-22 Questions]
+A few Object Storage buckets in your Oracle Cloud Infrastructure (OCI) tenancy should remain public, and yet you do not want the Cloud Guard service to detect these as problems.
+In which TWO ways would you address this requirement? (Choose two.)
+A. Fix the base line by configuring Conditional Groups for the detector.
+B. Dismiss the problems associated with those resources.
+C. Cloud Guard will keep detecting it because a public bucket is a security risk.
+D. Resolve or remediate those problems and you should not see Cloud Guard triggering on these resources ever again.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 37
+Topic #: 1
+[All 1z0-1072-22 Questions]
+In an Object Storage bucket you have two objects named ObjectA and ObjectB. ObjectA was last modified six months ago and ObjectB was modified 14 months ago. You create a retention rule and specify a duration of 1 year.
+What does the rule do?
+A. It prevents the modification or deletion of ObjectA for the next 6 months and allows the modification or deletion of ObjectB.
+B. It prevents the modification or deletion of ObjectA for the next 6 months and prevents the modification or deletion of ObjectB for the next 2 months.
+C. It prevents the modification or deletion of ObjectA for the next 12 months and prevents the modification or deletion of ObjectB for the next 14 months.
+D. It prevents the modification or deletion of ObjectA and ObjectB for the next 12 months.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 38
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM) policy is invalid?
+A. Allow dynamic-group FrontEnd to manage instance-family in compartment Project-A
+B. Allow any-user to inspect users in tenancy
+C. Allow group A-Admins to manage all-resources in compartment Project-A
+D. Allow group A-Developers to create volumes in compartment Project-A
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 39
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO statements are NOT correct regarding the Oracle Cloud Infrastructure (OCI) burstable instances? (Choose two.)
+A. Burstable instances cost less than regular instances with the same total OCPU count.
+B. Burstable instances are designed for scenarios where an instance is not typically idle and has high CPU utilization.
+C. If the instance's average CPU utilization over the past 24 hours is below the baseline, the system allows it to burst above the baseline.
+D. Baseline utilization is a fraction of each CPU core, either 25% or 75%.
+E. Burstable instances are charged according to the baseline OCPU.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 40
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are launching a new project in the US West (Phoenix) region. You would like to reserve the compute capacity mentioned below so that the capacity is available for your workloads when you need it.
+10 VM.Standard2.2 Instances
+6 VM.Standard.E4.Flex Instances
+The project also requires you to be mindful about high availability and place the instances in at least two Availability Domains.
+At a bare minimum, how many capacity reservations would you create to meet this requirement?
+A. One
+B. Four
+C. Two
+D. Three
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 41
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You want to run compute virtual machine (VM) instances in Oracle Cloud Infrastructure (OCI). Your business unit has the following requirements that need to be considered before you launch the VMs:
+Requirement 1: Shared infrastructure should not be used to deploy VMs.
+Requirement 2: Meet node-based licensing requirements that require you to license an entire server.
+Which compute capacity type would you select to meet these requirements?
+A. Preemptible capacity
+B. Dedicated host
+C. Capacity reservation
+D. On-demand capacity
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 42
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which statement is true regarding the run command feature in the Oracle Cloud Infrastructure (OCI) Compute service?
+A. You cannot run commands on an instance if the instance does not have SSH access or open inbound ports.
+B. The maximum size for a script file that you upload directly to an instance in plain text is 4 KB.
+C. The run command feature does not require any Oracle Cloud Agent plugins to be enabled and running.
+D. The run command feature is not supported on compute instances that use the Windows Server platform images.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 43
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You need to set up instance principals so that an application running on an instance can call Oracle Cloud Infrastructure (OCI) public services, without the need to configure user credentials.
+A developer in your team has already configured the application built using an OCI SDK to authenticate using the instance principals provider.
+Which is NOT a necessary step to complete this set up?
+A. Generate Auth Tokens to enable instances in the dynamic group to authenticate with APis.
+B. Create a policy granting permissions to the dynamic group to access services in your compartment or tenancy.
+C. Deploy the application and the SDK to all the instances that belong to the dynamic group.
+D. Create a dynamic group with matching rules to specify which instances can make API calls against services.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 44
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You have a high-demand web application running on Oracle Cloud Infrastructure (OCI). Your tenancy administrator has set up a schedule-based autoscaling policy on instance pool with an initial size of 5 instances for the application.
+Policy 1:
+
+Target pool size: 10 instances -
+Execution time: 8:30 a.m. Monday through Friday, every month, every year
+Cron expression: 0 30 8 ? * MON-FRI *
+Which statement accurately explains the goal of this policy?
+A. Goal: A recurring daily schedule. At 8.30 a.m. on weekday mornings, a scale out to 10 instances.
+B. Goal: A one-time schedule with only one scaling out event. At 8:30 a.m. on December 31, 2022, scale the instance pool to 10 instances from 5.
+C. Goal: A recurring weekly schedule. At 8.30 a.m. on all days of the week, scale out the pool to 10 instances from the initial size of 5.
+D. Goal: A recurring monthly schedule. On all days of the month, set the initial pool size to 5 instances. At 8.30 a.m. every day of the month, scale out to 10 instances.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 45
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You created a virtual cloud network (VCN) with three private subnets. Two of the subnets contain application servers and the third subnet contains a DB System. The application requires a shared file system, therefore you have provisioned one using the file storage service (FSS).
+You have also created the corresponding mount target in one of the application subnets. The VCN security lists are properly configured so that the application servers can access FSS. The security team changed the settings for the DB System to have read-only access to the file system. However, when they test it, they are unable to access FSS.
+How would you allow access to FSS?
+A. Modify the security list associated with the subnet where the mount target resides. Change the ingress rules corresponding to the DB System subnet to be stateless.
+B. Modify the security list associated with the subnet where the mount target resides. Change the ingress rules corresponding to the DB System subnet to be stateful.
+C. Create an NFS export option that allows READ_ONLY access where the source is the CIDR range of the DB System subnet.
+D. Create an instance principal for the DB System. Write an Identity and Access Management (IAM) policy that allows the instance principal read-only access to the file storage service.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 46
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which database option in Oracle Cloud Infrastructure (OCI) provides Oracle Active Data Guard?
+A. Enterprise Edition
+B. Standard Edition
+C. Enterprise Edition High Performance
+D. Enterprise Edition Extreme Performance
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 47
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which TWO statements are TRUE about restoring a volume from a block volume backup in the Oracle Cloud Infrastructure (OCI) Block Volume service? (Choose two.)
+A. You can restore a volume from any full volume backup but not from an incremental backup.
+B. You can restore only one volume from a manual block volume backup.
+C. You can only restore a volume to the same availability domain in which the original block volume resides.
+D. You can restore a block volume backup to a larger volume size.
+E. You can restore a volume to any availability domain within the same region where the backup is stored.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-20
+Question #: 48
+Topic #: 1
+[All 1z0-1072-20 Questions]
+You hired a new employee to run reports from the Oracle Autonomous Data Warehouse (ADW) and are not confident in their SQL writing ability.
+Into which consumer group will you assign this individual to minimize the impact of their code?
+A. Lowest
+B. Highest
+C. Medium
+D. Low
+E. High
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 49
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Company XYZ is spending $300,000.00 USD per month in egress fees for 7 Petabytes that they consume for Outbound Data Transfer in North America with their current cloud provider. The company is seeking to lower that expense considerably without reducing consumption. You propose migration to OCI because the Gigabyte Outbound Data Transfer in North America costs just $0.0085 USD per month. With OCI, how much will they spend per month for 7 Petabytes of Outbound Data Transfer? (1 Petabyte = 1000 Terabytes)
+A. $59,500.00
+B. $150,000.00
+C. $0.00 (free with OCI)
+D. $59,415.00
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 50
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You plan to upload a large file (3 TiB) to Oracle Cloud Infrastructure (OCI) Object Storage. You would like to minimize the impact of network failures while uploading, and therefore you decide to use the multipart upload capability.
+Which TWO statements are true about performing a multipart upload using the Multipart Upload API? (Choose two.)
+A. While a multipart upload is still active, you can keep adding parts as long as the total number is less than 10,000.
+B. When you split the object into individual parts, each part can be as large as 50 GiB.
+C. You do not have to commit the upload after you have uploaded all the object parts.
+D. You do not need to split the object into parts. Object Storage splits the object into parts and uploads all of the parts automatically.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 51
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which statement is TRUE about delegating an existing domain to the Oracle Cloud Infrastructure (OCI) DNS service?
+A. Domains can be delegated to OCI DNS from the Domain Registrar's self-service portal.
+B. All domains can be retrieved to OCI DNS via DYN.
+C. Domains can be delegated to OCI DNS from the OCI Marketplace.
+D. Domains can be self-delegated to OCI DNS from its own service portal.
+E. Domains can be delegated to OCI DNS via FastConnect partners.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 52
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You are responsible for deploying an application on Oracle Cloud Infrastructure (OCI). The application is memory intensive and performs poorly if enough memory is not available. You have created an instance pool of Linux compute instances in OCI to host the application and defined Autoscaling Configuration for the instance pool.
+What should you do to ensure that the instance pool autoscales to prevent poor application performance?
+A. Configure the autoscaling policy to monitor memory usage and scale up the number of instances when it meets the threshold.
+B. Install the monitoring agent on all compute instances, which triggers the autoscaling group.
+C. Configure the autoscaling policy to monitor CPU usage and scale up the number of instances when it meets the threshold.
+D. Install OCI SDK on all compute instances and create a script that triggers the autoscaling event if there is high memory usage.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 53
+Topic #: 1
+[All 1z0-1072-22 Questions]
+Which are the TWO tools you would use for Logical migration? (Choose two.)
+A. GoldenGate
+B. Data Guard
+C. Data Pump
+D. RMAN
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-20
+Question #: 54
+Topic #: 1
+[All 1z0-1072-20 Questions]
+You have multiple applications installed on a compute instance and these applications generate a large amount of log files. These log files must reside on the boot volume for a minimum of 15 days.
+Any log files age over 15 days shouldn't be on boot volume but still must be retained for at least 60 days. The 60-day retention requirement is causing an issue with available disk space.
+What are two Oracle recommended methods to retain the log files for 60 days without filling up the boot volume? (Choose two.)
+A. Terminate the instance while preserving the boot volume. Create a new instance from the boot volume and select a DenseIO shape to take advantage of local NVMe storage.
+B. Resize the boot volume of the instance.
+C. Create and attach a block volume to the compute instance and copy the log files.
+D. Create an object storage bucket and use a script that runs daily to move log files older than 15 days to the bucket.
+E. Write a custom script to remove the log files on a daily basis and free up the space on the boot volume.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-22
+Question #: 55
+Topic #: 1
+[All 1z0-1072-22 Questions]
+You have a block volume created in the US West (Phoenix) region. You enabled Cross Region Replication for the volume and selected US West (San Jose) as the destination region. Now, you would like to create a new volume from the volume replica in the US West (San Jose) region.
+What should you do?
+A. No action required. By default, the replica is available as a block volume.
+B. Trigger the replica.
+C. Activate the replica.
+D. Initiate the replica.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-21
+Question #: 56
+Topic #: 1
+[All 1z0-1072-21 Questions]
+Which Oracle Cloud Infrastructure (OCI) Identity and Access Management (IAM) policy is invalid?
+A. Allow any-user to inspect users in tenancy
+B. Allow dynamic-group FrontEnd to manage instance-family in compartment Project-A
+C. Allow all-groups to inspect users in tenancy
+D. Allow group A-Admins to manage all-resources in compartment Project-A
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-21
+Question #: 57
+Topic #: 1
+[All 1z0-1072-21 Questions]
+Which is NOT a valid action within the Oracle Cloud Infrastructure (OCI) Block Volume service?
+A. Expand an existing volume in place with offline resizing.
+B. Attach a block volume to an instance in a different availability domain.
+C. Clone an existing volume to a new, larger volume.
+D. Restore from a volume backup to a larger volume.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-20
+Question #: 58
+Topic #: 1
+[All 1z0-1072-20 Questions]
+As an Oracle Cloud Infrastructure tenancy administrator, you created predefined lists of values and associated them with tag key definitions.
+One of the users in your tenancy complains that she cannot see these predefined values.
+What is causing this issue?
+A. The user is trying to use free-form tags.
+B. Some of the predefined values are null.
+C. The user is not part of an Identity and Access Management group that gives access to tagging.
+D. The user has breached either the quota or service limit for using tags.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-1072-20
+Question #: 59
+Topic #: 1
+[All 1z0-1072-20 Questions]
+You have compartments C and D under the root compartment in your Oracle Cloud Infrastructure (OCI) tenancy; compartment C contains a sub-compartment also named D. You are trying to move this sub-compartment D to the parent compartment D like shown in the picture, but the move fails.
+
+What is the reason for this error?
+A. You need to move all the compartments in the hierarchy to the new parent compartment.
+B. You cannot move a subcompartment to another parent compartment.
+C. Both parent and child compartments cannot have the same name.
+D. Sub-compartment D needs to be empty before it can be moved.
+Show Suggested Answer
+[Image 1] saved as image_54_0.png
+
+

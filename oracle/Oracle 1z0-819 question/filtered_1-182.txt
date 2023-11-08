@@ -1,0 +1,3258 @@
+Actual exam question from Oracle's 1z0-819
+Question #: 3
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+Which two method definitions at line n1 in the Bar class compile? (Choose two.)
+A. public List<Number> foo(Set<String> m) {...}
+B. public List<Integer> foo(Set<CharSequence> m) {...}
+C. public List<Integer> foo(TreeSet<String> m) {...}
+D. public List<Object> foo(Set<CharSequence> m) {...}
+E. public ArrayList<Integer> foo(Set<String> m) {...}
+F. public ArrayList<Number> foo(Set<CharSequence> m) {...}
+Show Suggested Answer
+[Image 1] saved as image_0_0.png
+[Image 2] saved as image_0_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 7
+Topic #: 1
+[All 1z0-819 Questions]
+Which three initialization statements are correct? (Choose three.)
+A. int[][][] e = {{1,1,1},{2,2,2}};
+B. short sh = (short)’A’;
+C. float x = 1f;
+D. byte b = 10;
+char c = b;
+E. String contact# = “(+2) (999) (232)”;
+F. int x = 12_34;
+G. boolean false = (4 != 4);
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 8
+Topic #: 1
+[All 1z0-819 Questions]
+Your organization makes mlib.jar available to your cloud customers. While working on a new feature for mlib.jar, you see that the customer visible method public void enableService(String hostName, String portNumber) executes this code fragment
+
+and you see this grant is in the security policy file:
+
+What security vulnerability does this expose to your cloud customer's code?
+A. privilege escalation attack against the OS running the customer code
+B. SQL injection attack against the specified host and port
+C. XML injection attack against any mlib server
+D. none because the customer code base must also be granted SocketPermission
+E. denial of service attack against any reachable machine
+Show Suggested Answer
+[Image 1] saved as image_2_0.png
+[Image 2] saved as image_2_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 9
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+What is the result?
+A. Joe -
+null
+B. null
+Mary
+C. Joe -
+Marry
+D. null
+null
+Show Suggested Answer
+[Image 1] saved as image_3_0.png
+[Image 2] saved as image_3_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 13
+Topic #: 1
+[All 1z0-819 Questions]
+Why would you choose to use a peek operation instead of a forEach operation on a Stream?
+A. to process the current item and return void
+B. to remove an item from the end of the stream
+C. to process the current item and return a stream
+D. to remove an item from the beginning of the stream
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 14
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What is the result?
+A. abcd
+B. The compilation fails.
+C. adf
+D. abd
+E. abdf
+Show Suggested Answer
+[Image 1] saved as image_5_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 15
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+List<Integer> list = List.of(11,12,13,12,13);
+Which statement causes a compile time error?
+A. Double d = list.get(0);
+B. double f = list.get(0);
+C. Integer a = Integer.valueOf(list.get(0));
+D. Integer b = list.get(0);
+E. int c = list.get(0);
+F. Double e = Double.valueOf(list.get(0));
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 16
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+Which two are valid usages of the annotation? (Choose two.)
+A. @Meal(mainCourse=”pizza”)
+@Meal(dessert=”pudding”)
+public class Main {
+}
+B. @Meal(mainCourse=null)
+public class Main {
+}
+C. @Meal(starter=”snack”, dessert=”ice cream”)
+public class Main {
+}
+D. @Meal(mainCourse=”pizza”)
+@Meal(mainCourse=”salad”)
+public class Main {
+}
+E. @Meal(mainCourse=”pizza”, starter=”snack”, dessert=”pudding”) public class Main {
+}
+Show Suggested Answer
+[Image 1] saved as image_7_0.png
+[Image 2] saved as image_7_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 17
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and the code fragment:
+
+Which three code fragments, at line n1, prints SPRING? (Choose three.)
+A. System.out.println(Season.valueOf(“SPRING”).ordinal());
+B. System.out.println(Season.values(1));
+C. System.out.println(Season.SPRING);
+D. System.out.println(Season.valueOf(“SPRING”));
+E. System.out.println(Season.valueOf(‘s’));
+F. System.out.println(sA[0]);
+G. System.out.println(sA[1]);
+Show Suggested Answer
+[Image 1] saved as image_8_0.png
+[Image 2] saved as image_8_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 18
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+Which two lines of code when inserted in line 1 correctly modifies instance variables? (Choose two.)
+A. cCount = setCCount(c);
+B. setCCount(c) = cCount;
+C. setGCount(g);
+D. tCount = tCount;
+E. aCount = a;
+Show Suggested Answer
+[Image 1] saved as image_9_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 21
+Topic #: 1
+[All 1z0-819 Questions]
+A company has an existing Java 8 jar file, sales-app-1.1.1.jar, that uses several Apache open source jar files that have not been modularized.
+
+Which module-info.java file should be used to convert sales-app-1.1.jar to a module?
+A. module com.company.sales_app {
+requires commons.beanutils;
+requires org.apache.commons.collections4;
+requires org.apache.commons.lang3;
+requires org.apache.commons.text;
+}
+B. module com.company.sales_app {
+requires org.apache.commons.beanutils;
+requires org.apache.commons.collections4;
+requires org.apache.commons.lang3;
+requires org.apache.commons.text;
+}
+C. module com.company.sales_app {
+requires commons.beanutils;
+requires commons.collections4;
+requires commons.lang3;
+requires commons.text;
+}
+D. module com.company.sales_app {
+requires commons.beanutils-1.9.3;
+requires commons.collections4-4.2;
+requires commons.lang3-3.8.1;
+requires commons.text-1.3;
+}
+Show Suggested Answer
+[Image 1] saved as image_10_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 22
+Topic #: 1
+[All 1z0-819 Questions]
+Which two are valid statements? (Choose two.)
+A. BiPredicate<Integer, Integer> test = (final Integer x, var y) -> (x.equals(y));
+B. BiPredicate<Integer, Integer> test = (var x, final var y) -> (x.equals(y));
+C. BiPredicate<Integer, Integer> test = (Integer x, final var y) -> (x.equals(y));
+D. BiPredicate<Integer, Integer> test = (final var x, y) -> (x.equals(y));
+E. BiPredicate<Integer, Integer> test = (Integer x, final Integer y) -> (x.equals(y));
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 24
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+It is required that if p instanceof Pair then p.isValid() returns true.
+Which is the smallest set of visibility changes to insure this requirement is met?
+A. left, right, setLeft, and setRight must be private.
+B. setLeft and setRight must be protected.
+C. left and right must be private.
+D. isValid must be public.
+Show Suggested Answer
+[Image 1] saved as image_12_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 25
+Topic #: 1
+[All 1z0-819 Questions]
+You want to read data through the reader object.
+Which statement inserted on line 1 will accomplish this?
+A. characters = reader.read();
+B. reader.readLine();
+C. characters.read();
+D. reader.read(characters);
+Show Suggested Answer
+[Image 1] saved as image_13_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 26
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+Which four identifiers from the Foo and Bar classes are visible at line 1? (Choose four.)
+A. e
+B. f
+C. A
+D. j
+E. d
+F. c
+G. i
+H. B
+I. h
+J. g
+Show Suggested Answer
+[Image 1] saved as image_14_0.png
+[Image 2] saved as image_14_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 27
+Topic #: 1
+[All 1z0-819 Questions]
+Which code fragment represents a valid Comparator implementation?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_15_0.png
+[Image 2] saved as image_15_1.png
+[Image 3] saved as image_15_2.png
+[Image 4] saved as image_15_3.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 28
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+Which statement is true?
+A. It never finishes.
+B. The action of CyclicBarrier is called five times.
+C. It finishes without any exception.
+D. Threads in executorService execute for each of the two threads.
+Show Suggested Answer
+[Image 1] saved as image_16_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 29
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What prevents this code from compiling?
+A. The calculateSurfaceArea method within Cylinder must be declared default.
+B. Cylinder is not properly calling the Rectangle and Ellipse interfaces’ calculateSurfaceArea methods.
+C. Cylinder requires an implementation of calculateSurfaceArea with two parameters.
+D. The calculateSurfaceArea method within Rectangle and Ellipse requires a public access modifier.
+Show Suggested Answer
+[Image 1] saved as image_17_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 30
+Topic #: 1
+[All 1z0-819 Questions]
+Given a Member class with fields for name and yearsMembership, including getters and setters and a print method, and a list of clubMembers members:
+
+Which two Stream methods can be changed to use method references? (Choose two.)
+A. .filter(Integer::equals(0))
+B. .map(testName::compareToIgnoreCase)
+C. .filter(Member::getYearsMembership() >= testMembershipLength)
+D. .peek(Member::print)
+Show Suggested Answer
+[Image 1] saved as image_18_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 31
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+Path p1 = Paths.get(“/scratch/exam/topsecret/answers”);
+Path p2 = Paths.get(“/scratch/exam/answers/temp.txt”);
+Path p3 = Paths.get(“/scratch/answers/topsecret”);
+Which two statements print ..\..\..\answers\topsecret? (Choose two.)
+A. System.out.print(p3.relativize(p1));
+B. System.out.print(p2.relativize(p3));
+C. System.out.print(p1.relativize(p3));
+D. System.out.print(p3.relativize(p2));
+E. System.out.print(p1.relativize(p2));
+F. System.out.print(p2.relativize(p1));
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 32
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+Which fields are serialized in a Student object?
+A. studentNo and classes
+B. studentNo and name
+C. studentNo, classes and name
+D. studentNo, classes, name, and address
+Show Suggested Answer
+[Image 1] saved as image_20_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 33
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What is the output?
+A. banana orange apple lemon
+-----
+apple banana lemon orange
+-----
+B. -----
+banana orange apple lemon
+-----
+apple banana lemon orange
+C. -----
+-----
+D. -----
+-----
+banana orange apple lemon apple banana lemon orange
+E. banana orange apple lemon apple banana lemon orange
+-----
+-----
+Show Suggested Answer
+[Image 1] saved as image_21_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 34
+Topic #: 1
+[All 1z0-819 Questions]
+and
+
+What is the output?
+A. Bonjour le monde!
+Bonjour le monde!
+B. Hello world!
+Hello world!
+C. Hello world!
+Bonjour le monde!
+D. Bonjour le monde!
+Hello world!
+Show Suggested Answer
+[Image 1] saved as image_22_0.png
+[Image 2] saved as image_22_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 35
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What is true?
+A. A NoSuchElementException is thrown at run time.
+B. The compilation fails.
+C. This should print the same result each time the program runs.
+D. This may not print the same result each time the program runs.
+Show Suggested Answer
+[Image 1] saved as image_23_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 36
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What is the result?
+A. The compilation fails.
+B. [0). D, | 1). i, | 2). a]
+C. [). o, | 1). a, | 2).]
+D. [0). o, | 1). i, | 2). r]
+E. ArrayIndexOutOfBounds Exception is thrown at runtime.
+Show Suggested Answer
+[Image 1] saved as image_24_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 37
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+What is the result?
+A. An exception is thrown at runtime.
+B. -3
+C. -2
+D. The compilation fails.
+Show Suggested Answer
+[Image 1] saved as image_25_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 38
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+You must make the count variable thread safe.
+Which two modifications meet your requirement? (Choose two.)
+A. replace line 2 with public static synchronized void main(String[] args) {
+B. replace line 1 with private volatile int count = 0;
+C. replace line 3 with
+synchronized(test) {
+test.count++;
+}
+D. replace line 1 with private AtomicInteger count = new AtomicInteger(0); and replace line 3 with test.count.incrementAndGet();
+E. replace line 3 with
+synchronized(test.count) {
+test.count++;
+}
+Show Suggested Answer
+[Image 1] saved as image_26_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 40
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+What is the result?
+A. The compilation fails due to an error in line 2.
+B. 201
+C. de
+D. 203
+E. The compilation fails due to an error in line 3.
+F. The compilation fails due to an error in line 1.
+Show Suggested Answer
+[Image 1] saved as image_27_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 41
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+public void foo(Function<Integer, String> fun) {...}
+Which two compile? (Choose two.)
+A. foo( n -> Integer.toHexString(n) )
+B. foo( toHexString )
+C. foo( n -> n + 1 )
+D. foo( int n -> Integer.toHexString(n) )
+E. foo( n -> Integer::toHexString )
+F. foo( Integer::toHexString )
+G. foo( n::toHexString )
+H. foo( (int n) -> Integer.toHexString(n) )
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 42
+Topic #: 1
+[All 1z0-819 Questions]
+Which declaration of an annotation type is legal?
+A. @interface Author {
+String name() default “”;
+String date();
+}
+B. @interface Author extends Serializable {
+String name() default “”;
+String date();
+}
+C. @interface Author {
+String name() default null;
+String date();
+}
+D. @interface Author {
+String name();
+String date;
+}
+E. @interface Author {
+String name();
+String date default “”;
+}
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 43
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+and
+
+What is the result?
+A. The program prints Process()called 2.
+B. A java.lang.NoSuchMethodException is thrown.
+C. The program prints Process()called 1.
+D. A java.lang.IllegalAccessException is thrown.
+E. The compilation fails.
+Show Suggested Answer
+[Image 1] saved as image_30_0.png
+[Image 2] saved as image_30_1.png
+[Image 3] saved as image_30_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 44
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+Which two interfaces can be used in lambda expressions? (Choose two.)
+A. MyInterface4
+B. MyInterface5
+C. MyInterface1
+D. MyInterface3
+E. MyInterface2
+Show Suggested Answer
+[Image 1] saved as image_31_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 45
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and
+
+and
+
+What is the result?
+A. Good Night, Harry
+B. Good Morning, Potter
+C. Good Morning, Harry
+D. Good Night, Potter
+Show Suggested Answer
+[Image 1] saved as image_32_0.png
+[Image 2] saved as image_32_1.png
+[Image 3] saved as image_32_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 46
+Topic #: 1
+[All 1z0-819 Questions]
+What is the result?
+A. 357
+B. 35
+C. 235
+D. 2357
+E. An ArrayIndexOutOfBoundsException is thrown at runtime.
+Show Suggested Answer
+[Image 1] saved as image_33_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 47
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+Which line of code results in a compilation error?
+A. line n1
+B. line n3
+C. line n2
+D. line n4
+Show Suggested Answer
+[Image 1] saved as image_34_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 48
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+What is the result?
+A. A java.lang.NullPointerException is thrown.
+B. false
+C. A java.lang.UnsupportedOperationException is thrown.
+D. true
+Show Suggested Answer
+[Image 1] saved as image_35_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 49
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+and the code fragment:
+
+What is the result?
+A. 9001: java.io.FileNotFoundException: MyFile.txt-MyFile.txt
+B. 9001: APPLICATION ERROR-9001-MyFile.txt
+9001: java.io.FileNotFoundException: MyFile.txt-MyFile.txt
+C. 9001: APPLICATION ERROR-9001-MyFile.txt
+D. Compilations fails at Line 1.
+Show Suggested Answer
+[Image 1] saved as image_36_0.png
+[Image 2] saved as image_36_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 50
+Topic #: 1
+[All 1z0-819 Questions]
+Which two interfaces are considered to be functional interfaces? (Choose two.)
+A. @FunctionalInterface
+interface InterfaceC {
+public boolean equals(Object o);
+int breed(int x);
+int calculate(int x, int y);
+}
+B. @FunctionalInterface
+interface InterfaceD {
+int breed(int x);
+}
+C. @FunctionalInterface
+interface InterfaceE {
+public boolean equals(int i);
+int breed(int x);
+}
+D. interface InterfaceA {
+int GERM = 13;
+public default int getGERM() { return GERM; }
+}
+E. interface InterfaceB {
+int GERM = 13;
+public default int getGERM() { return get(); }
+private int get() { return GERM; }
+public boolean equals(Object o);
+int breed(int x);
+}
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 51
+Topic #: 1
+[All 1z0-819 Questions]
+Which code fragment does a service use to load the service provider with a Print interface?
+A. private java.util.ServiceLoader loader = ServiceLoader.load(Print.class)
+B. private Print print = new com.service.Provider.PrintImpl();
+C. private java.util.ServiceLoader loader = new java.util.ServiceLoader<>()
+D. private Print print = com.service.Provider.getInstance();
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 52
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. null
+B. HH
+C. Y@<>
+D. The compilation fails
+Show Suggested Answer
+[Image 1] saved as image_39_0.png
+[Image 2] saved as image_39_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 53
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which is true?
+A. Code compiles but throws a runtime exception when run.
+B. It prints 666.
+C. The code compiles and runs successfully but with a wrong answer (i.e., a bug).
+D. The code does not compile successfully.
+Show Suggested Answer
+[Image 1] saved as image_40_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 54
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+What is the result?
+A. 42
+B. The compilation fails due to an error in line 1.
+C. The compilation fails due to an error in line 2.
+D. The compilation fails due to an error in line 3.
+E. The compilation fails due to an error in line 4.
+F. The compilation fails due to an error in line 5.
+G. 17
+Show Suggested Answer
+[Image 1] saved as image_41_0.png
+[Image 2] saved as image_41_1.png
+[Image 3] saved as image_41_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 55
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which statement on line 1 enables this code to compile?
+A. Consumer function = (String f) -> (System.out.println(f);};
+B. Supplier function = () -> fruits.get (0);
+C. Predicate function = a -> a.equals("banana");
+D. Function function = x -> x.substring(0,2);
+Show Suggested Answer
+[Image 1] saved as image_42_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 56
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. A java.util.NoSuchElementException is thrown at run time.
+B. Ans : a
+C. The compilation fails.
+D. Ans :
+Show Suggested Answer
+[Image 1] saved as image_43_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 57
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the correct definition of the JsonField annotation that makes the Point class compile?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_44_0.png
+[Image 2] saved as image_44_1.png
+[Image 3] saved as image_44_2.png
+[Image 4] saved as image_44_3.png
+[Image 5] saved as image_44_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 58
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. AnotherClass#methodA()
+SomeClass#methodA()
+B. A ClassCastException is thrown at runtime.
+C. The compilation fails.
+D. AnotherClass#methodA()
+AnotherClass#methodA()
+E. SomeClass#methodA()
+AnotherClass#methodA()
+F. SomeClass#methodA()
+SomeClass#methodA()
+Show Suggested Answer
+[Image 1] saved as image_45_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 59
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Why does D cause a compilation error?
+A. D does not define any method.
+B. D inherits a() only from C.
+C. D inherits a() from B and C but the return types are incompatible.
+D. D extends more than one interface.
+Show Suggested Answer
+[Image 1] saved as image_46_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 60
+Topic #: 1
+[All 1z0-819 Questions]
+Your organization provides a cloud server to your customer to run their Java code. You are reviewing the changes for the next release and you see this change in one of the config files:
+
+old: JAVA_OPTS="$JAVA_OPTS -Xms8g -Xmx8g"
+new: JAVA_OPTS="$JAVA_OPTS -Xms8g -Xmx8g -noverify"
+
+Which is correct?
+A. You accept the change because -noverify is necessary for your code to run with the latest version of Java.
+B. You reject the change because -Xms8g -Xmx8g uses too much system memory.
+C. You accept the change because -noverify is a standard option that has been supported since Java 1.0.
+D. You reject the change because -noverify is a critical security risk.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 61
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+and
+
+
+
+What needs to change to make these classes compile and still handle all types of Interface Worker?
+A. Replace Line 3 with public void addProcess (Worker w) {.
+B. Replace Line 1 with public class Main extends Thread {.
+C. Replace Line 2 with private List processes = new ArrayList<>();.
+D. Replace Line 3 with public void addProcess(T w) {.
+Show Suggested Answer
+[Image 1] saved as image_48_0.png
+[Image 2] saved as image_48_1.png
+[Image 3] saved as image_48_2.png
+[Image 4] saved as image_48_3.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 62
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the output?
+A. Short value 25
+B. The compilation fails due to an error in line 1.
+C. Byte value 25
+D. Object value 25
+Show Suggested Answer
+[Image 1] saved as image_49_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 63
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+You replace the code on line 1 to use ParallelStream.
+
+Which one is correct?
+A. The code will produce the same result.
+B. The compilation fails.
+C. A NoSuchElementException is thrown at run time.
+D. The code may produce a different result.
+Show Suggested Answer
+[Image 1] saved as image_50_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 64
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+You want to implement the java.io.Serializable interface to the MyPersistenceData class.
+
+Which method should be overridden?
+A. the readExternal method
+B. nothing
+C. the readExternal and writeExternal method
+D. the writeExternal method
+Show Suggested Answer
+[Image 1] saved as image_51_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 65
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+Which three are correct? (Choose three.)
+A. f2.foo(li) prints Hola Mundo!
+B. b1.foo(li) prints Bonjour le monde!
+C. b1.foo(li) prints Hello world!
+D. f1.foo(li) prints Bonjour le monde!
+E. f2.foo(li) prints Hello world!
+F. f2.foo(li) prints Bonjour le monde!
+G. f1.foo(li) prints Hola Mundo!
+H. b1.foo(li) prints Hola Mundo!
+I. f1.foo(li) prints Hello world!
+Show Suggested Answer
+[Image 1] saved as image_52_0.png
+[Image 2] saved as image_52_1.png
+[Image 3] saved as image_52_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 66
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. 10
+B. 1
+C. The compilation fails at line 9.
+D. The compilation fails at line 16.
+E. The compilation fails at line 13.
+Show Suggested Answer
+[Image 1] saved as image_53_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 67
+Topic #: 1
+[All 1z0-819 Questions]
+Given this enum declaration:
+
+
+
+Examine this code:
+
+System.out.println(Alphabet.getFirstLetter());
+
+What code should be written at line 3 to make this code print A?
+A. static String getFirstLetter() { return Alphabet.values()[1].toString();
+B. static String getFirstLetter() { return A.toString(); }
+C. final String getFirstLetter() { return A.toString(); }
+D. String getFirstLetter() { return A.toString(); }
+Show Suggested Answer
+[Image 1] saved as image_54_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 68
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. 5
+B. 11
+C. 15
+D. 21
+E. 23
+Show Suggested Answer
+[Image 1] saved as image_55_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 69
+Topic #: 1
+[All 1z0-819 Questions]
+Given the declaration:
+
+@inteface Resource {
+String[] value();
+}
+
+Examine this code fragment:
+
+/* Loc1 */ class ProcessOrders { ... }
+
+Which two annotations may be applied at Loc1 in the code fragment? (Choose two.)
+A. @Resource({“Customer1”, “Customer2”})
+B. @Resource(value={{}})
+C. @Resource
+D. @Resource(“Customer1”)
+E. @Resource()
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 70
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+public interface Builder {
+public A build(String str);
+}
+
+and
+
+
+
+Assuming that this code compiles correctly, which three statements are true? (Choose three.)
+A. A cannot be abstract.
+B. A cannot be final.
+C. B cannot be abstract.
+D. B cannot be final.
+E. B is a subtype of A.
+F. A is a subtype of B.
+Show Suggested Answer
+[Image 1] saved as image_57_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 71
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the output?
+A. 1 2 [1, 2, 3, four] 3 four
+B. 1 2 [1, 2, 3, 4] 3 4
+C. 1 2 [1, 2, 3, 4] 3 four
+D. 1 2 [1, 2, 3, four] 3 4
+Show Suggested Answer
+[Image 1] saved as image_58_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 72
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which can replace line 2?
+A. UnaryOperator u = (int i) -> i * 2;
+B. UnaryOperator u = (var i) -> (i * 2);
+C. UnaryOperator u = var i -> { return i * 2; };
+D. UnaryOperator u = i -> { return i * 2);
+Show Suggested Answer
+[Image 1] saved as image_59_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 73
+Topic #: 1
+[All 1z0-819 Questions]
+Given the content from lines.txt:
+
+
+C -
+C++
+
+Java -
+
+Go -
+
+Kotlin -
+
+and
+
+
+
+What is the result?
+A. C -
+C++
+
+Go -
+Kotlin
+B. JAVA
+C. C -
+C++
+
+GO -
+KOTLIN
+D. C -
+C++
+
+JAVA -
+
+GO -
+KOTLIN
+Show Suggested Answer
+[Image 1] saved as image_60_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 74
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. 1 2 followed by an exception
+B. 1 2 4 5
+C. A ConcurrentModificationException is thrown at run time.
+D. 1 2 3 followed by an exception
+Show Suggested Answer
+[Image 1] saved as image_61_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 75
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which change would make Foo more secure?
+A. public String beta = "beta";
+B. public static final String ALPHA = "alpha";
+C. private String delta;
+D. protected final String beta = "beta";
+Show Suggested Answer
+[Image 1] saved as image_62_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 76
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+public interface ExampleInterface{ }
+
+Which two statements are valid to be written in this interface? (Choose two.)
+A. public String methodD();
+B. public int x;
+C. final void methodG(){
+System.out.println("G");
+}
+D. final void methodE();
+E. public abstract void methodB();
+F. public void methodF(){
+System.out.println("F") ;
+}
+G. private abstract void methodC();
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 77
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. hey oh hi
+B. yo ey
+C. A compile time error occurs.
+D. oh hi hey
+E. hey oh hi yo ey
+F. hey oh hi ey
+Show Suggested Answer
+[Image 1] saved as image_64_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 78
+Topic #: 1
+[All 1z0-819 Questions]
+Which module defines the foundational APIs of the Java SE Platform?
+A. java.base
+B. java.se
+C. java.lang
+D. java.object
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 79
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+Integer i = 11;
+
+Which two statements compile? (Choose two.)
+A. Double c = (Double) i;
+B. Double b = Double.valueOf(i);
+C. Double a = i;
+D. double e = Double.parseDouble(i);
+E. double d = i;
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 80
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+What is the result?
+A. The compilation fails on line 2.
+B. ab action
+C. An exception is thrown at run time.
+D. a action
+E. The compilation fails on line 1.
+Show Suggested Answer
+[Image 1] saved as image_67_0.png
+[Image 2] saved as image_67_1.png
+[Image 3] saved as image_67_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 81
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which makes class A thread safe?
+A. Class A is thread safe.
+B. Make foo and setB synchronized.
+C. Make foo synchronized.
+D. Make A synchronized.
+E. Make setB synchronized.
+Show Suggested Answer
+[Image 1] saved as image_68_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 82
+Topic #: 1
+[All 1z0-819 Questions]
+A company has an existing Java app that includes two Java 8 jar files, sales-8.10.jar and clients-10.2.jar.
+
+The jar file, sales-8.10.jar, references packages in clients-10.2.jar, but clients-10.2.jar does not reference packages in sales-8.10.jar.
+
+They have decided to modularize clients-10.2. jar.
+
+Which module-info.java file would work for the new library version clients-10.3.jar?
+A. module com.company.clients{
+requires com.company.clients;
+}
+B. module com.company.clients{
+uses com.company.clients;
+}
+C. module com.company.clients {
+exports com.company.clients.Client;
+}
+D. module com.company.clients {
+exports com.company.clients;
+}
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 83
+Topic #: 1
+[All 1z0-819 Questions]
+Which two statements are correct about modules in Java? (Choose two.)
+A. module-info.java cannot be empty.
+B. module-info.java can be placed in any folder inside module-path.
+C. By default, modules can access each other as long as they run in the same folder.
+D. A module must be declared in module-info.java file,
+E. java.base exports all of the Java platforms core packages.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 84
+Topic #: 1
+[All 1z0-819 Questions]
+Assuming the user credentials are correct, which expression will create a Connection?
+A. DriverManager.getConnection("http://database.jdbc.com", "J_SMITH", "dt12%2f3")
+B. DriverManager.getConnection("jdbc:derby:com")
+C. DriverManager.getConnection("jdbc.derby.com")
+D. DriverManager.getConnection()
+E. DriverManager.getConnection("J_SMITH", "dt12%2f3")
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 85
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which is true? (Choose four.)
+A. The compilation fails due to an error in line 4.
+B. The compilation fails due to an error in line 9.
+C. The compilation fails due to an error in line 10.
+D. The compilation fails due to an error in line 2.
+E. The compilation fails due to an error in line 6.
+F. The compilation fails due to an error in line 7.
+G. The compilation succeeds.
+Show Suggested Answer
+[Image 1] saved as image_72_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 86
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and the code fragment:
+
+
+
+Which two Map objects group all employees with a salary greater than 30 by neighborhood? (Choose two.)
+A.
+B.
+C.
+D.
+E.
+Show Suggested Answer
+[Image 1] saved as image_73_0.png
+[Image 2] saved as image_73_1.png
+[Image 3] saved as image_73_2.png
+[Image 4] saved as image_73_3.png
+[Image 5] saved as image_73_4.png
+[Image 6] saved as image_73_5.png
+[Image 7] saved as image_73_6.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 87
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. abyssinian
+oxicat
+korat
+laperm
+bengal
+sphynx
+B. abyssinian
+bengal
+korat
+laperm
+oxicat
+sphynx
+C. sphynx
+oxicat
+laperm
+korat
+bengal
+abyssinian
+D. nothing
+Show Suggested Answer
+[Image 1] saved as image_74_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 88
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. 1.99,2.99,0
+B. 1.99,2.99,0.0
+C. The compilation fails.
+D. 1.99,2.99
+Show Suggested Answer
+[Image 1] saved as image_75_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 89
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Which statement is true?
+A. The memory allocated for Jack object can be reused in line 2.
+B. The memory allocated for Jane object can be reused in line 1.
+C. The memory allocated for Jane object can be reused in line 2.
+D. The memory allocated for John object can be reused in line 1.
+Show Suggested Answer
+[Image 1] saved as image_76_0.png
+[Image 2] saved as image_76_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 90
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Why does this compilation fail?
+A. The method X.print (object) is not accessible to Y.
+B. The method Y.print (Object) does not call the method super.print (Object).
+C. In method X.print (Collection), System.out::println is an invalid Java identifier.
+D. The method Y.print (Object...) cannot override the final method X.print (Object...).
+E. The method print (Object) and the method print (Object...) are duplicates of each other.
+Show Suggested Answer
+[Image 1] saved as image_77_0.png
+[Image 2] saved as image_77_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 91
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which loop incurs a compile time error?
+A. the loop starting line 11
+B. the loop starting line 7
+C. the loop starting line 14
+D. the loop starting line 3
+Show Suggested Answer
+[Image 1] saved as image_78_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 92
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which statement prints the same value of result? (Choose two.)
+A. System.out.printIn(IntStream.range(0, 99).count());
+B. System.out.printIn(IntStream.rangeClosed(1, 100).count());
+C. System.out.printIn(IntStream.range(1, 100).count());
+D. System.out.printIn(IntStream.rangeClosed(0, 100).map(x -> x).count());
+Show Suggested Answer
+[Image 1] saved as image_79_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 93
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. 385
+B. 3
+C. The compilation fails.
+D. 80
+E. 25
+Show Suggested Answer
+[Image 1] saved as image_80_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 94
+Topic #: 1
+[All 1z0-819 Questions]
+Which two var declarations are correct? (Choose two.)
+A. var names = new ArrayList<>();
+B. var _ = 100;
+C. var var = “hello”;
+D. var y = null;
+E. var a;
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 95
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which two changes need to be made to make this class compile? (Choose two.)
+A. Change Line 1 to a class:
+public class API {
+B. Change Line 2 to an abstract method:
+public abstract void checkValue(Object value)
+throws IllegalArgumentException;
+C. Change Line 2 access modifier to protected:
+protected void checkValue(Object value)
+throws IllegalArgumentException;
+D. Change Line 1 to extend java.lang.AutoCloseable:
+public interface API extends AutoCloseable {
+E. Change Line 1 to an abstract class:
+public abstract class API {
+Show Suggested Answer
+[Image 1] saved as image_82_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 96
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+What code inserted into class C would allow it to compile?
+A. public void x() { }
+public void z() { }
+B. public void x() { }
+protected void y() { super.y(); }
+public void z() { }
+C. void x() { }
+public void y() { }
+public void z() { }
+D. void x() { super.y(); }
+public void z() { }
+E. void x() { }
+public void z() { }
+Show Suggested Answer
+[Image 1] saved as image_83_0.png
+[Image 2] saved as image_83_1.png
+[Image 3] saved as image_83_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 97
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which three classes successfully override showFirst()? (Choose three.)
+A.
+B.
+C.
+D.
+E.
+F.
+Show Suggested Answer
+[Image 1] saved as image_84_0.png
+[Image 2] saved as image_84_1.png
+[Image 3] saved as image_84_2.png
+[Image 4] saved as image_84_3.png
+[Image 5] saved as image_84_4.png
+[Image 6] saved as image_84_5.png
+[Image 7] saved as image_84_6.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 98
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Which two lines can replace line 1 so that the Y class compiles? (Choose two.)
+A. super.set(List map)
+B. map.forEach((k, v) -> set(v)));
+C. set(map.values());
+D. set(map)
+E. super.set(map.values());
+Show Suggested Answer
+[Image 1] saved as image_85_0.png
+[Image 2] saved as image_85_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 99
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. 0
+B. It prints 1 in infinite loop.
+C. 1
+D. The program prints nothing.
+E. 1
+Show Suggested Answer
+[Image 1] saved as image_86_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 100
+Topic #: 1
+[All 1z0-819 Questions]
+Given TripleThis.java:
+
+
+
+Compiling TripleThis.java gives this compiler warning:
+
+Note: TripleThis.java uses unchecked or unsafe operations.
+
+Which two replacements remove this compiler warning and prints 12? (Choose two.)
+A. Replace line 12 with public static void printValue(Function f, int num) {
+B. Replace line 12 with public static void printValue(Function f, T num) {
+C. Replace line 9 with Function tripler = x —> { return (Integer) x * 3; }
+D. Replace line 12 with public static void printValue(Function f, Integer num) {
+E. Replace line 9 with Function tripler = x -> { return x * 3; }
+F. Replace line 9 with Function tripler = x -> [ return x * 3; ]
+Show Suggested Answer
+[Image 1] saved as image_87_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 101
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What change on line 1 will make this code compile?
+A. Add catch(M | L e)
+B. Add catch(L e)
+C. Add catch(N | L | M e)
+D. Add catch(L | N e)
+E. Add catch(L | M | N e)
+Show Suggested Answer
+[Image 1] saved as image_88_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 102
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which two code snippets inserted independently inside println method print Mondial:domainmodel? (Choose two.)
+A. Main.prefix + Main.name
+B. prefix + getName
+C. Main.prefix + Main.getName()
+D. new Main().prefix + new Main().name
+E. prefix + name
+F. prefix + Main.name
+Show Suggested Answer
+[Image 1] saved as image_89_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 103
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. [Lettuce, Kale]
+B. A compilation error is thrown.
+C. [Lettuce, Kale]
+[Seabass, Salmon]
+D. [Kale, Lettuce]
+[Salmon, Seabass]
+Show Suggested Answer
+[Image 1] saved as image_90_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 104
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+Automobile.java -
+
+
+
+
+Car.java -
+
+
+
+What must you do so that the code prints 4?
+A. Remove the parameter from wheels method in line 3.
+B. Remove abstract keyword in line 1.
+C. Replace the code in line 2 with Car ob = new Car();.
+D. Add @Override annotation at line 2.
+Show Suggested Answer
+[Image 1] saved as image_91_0.png
+[Image 2] saved as image_91_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 105
+Topic #: 1
+[All 1z0-819 Questions]
+Which module is required for any application using Swing or AWT?
+A. java.desktop
+B. java.prefs
+C. java.se
+D. java.logging
+E. java.rmi
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 106
+Topic #: 1
+[All 1z0-819 Questions]
+Which set of commands is necessary to create and run a custom runtime image from Java source files?
+A. java,jdeps
+B. javac,jlink
+C. javac,jar
+D. jar,jlink
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 107
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which would cause s to be AQCD?
+A. s.replace(s.indexOf("B"), s.indexOf("B"), "Q");
+B. s.replace(s.indexOf("A"), s.indexOf("B"), "Q");
+C. s.replace(s.indexOf("B"), s.indexOf("C"), "Q");
+D. s.replace(s.indexOf("A"), s.indexOf("C"), "Q");
+Show Suggested Answer
+[Image 1] saved as image_94_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 109
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+To secure this code, you want to make sure that the client code cannot modify the public static fields.
+
+Which code will accomplish this?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_95_0.png
+[Image 2] saved as image_95_1.png
+[Image 3] saved as image_95_2.png
+[Image 4] saved as image_95_3.png
+[Image 5] saved as image_95_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 110
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. test:null
+B. test:1
+C. A ClassCastException is thrown at runtime.
+D. null:null
+E. The compilation fails.
+Show Suggested Answer
+[Image 1] saved as image_96_0.png
+[Image 2] saved as image_96_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 111
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Given the directory structure:
+
+
+
+Given the commands to execute at the Test directory prompt:
+
+
+
+Which statement is true?
+A. Create an empty module-info.java file in the Test directory and on execution of the given commands, the program prints:
+
+
+B. On execution of the given commands, the program prints:
+
+
+C. Execute java --module-path pac pac.Hello instead of java -cp pac pac.Hello and on execution the program prints:
+
+
+D. On execution of the given commands, the program prints:
+
+Show Suggested Answer
+[Image 1] saved as image_97_0.png
+[Image 2] saved as image_97_1.png
+[Image 3] saved as image_97_2.png
+[Image 4] saved as image_97_3.png
+[Image 5] saved as image_97_4.png
+[Image 6] saved as image_97_5.png
+[Image 7] saved as image_97_6.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 112
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. 214
+B. 2341
+C. 234
+D. 2134
+Show Suggested Answer
+[Image 1] saved as image_98_0.png
+[Image 2] saved as image_98_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 113
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which code fragment added to line 1 enables the code to compile and print Hello Joe?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_99_0.png
+[Image 2] saved as image_99_1.png
+[Image 3] saved as image_99_2.png
+[Image 4] saved as image_99_3.png
+[Image 5] saved as image_99_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 114
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which statement at line 1 will print Ping Pong?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_100_0.png
+[Image 2] saved as image_100_1.png
+[Image 3] saved as image_100_2.png
+[Image 4] saved as image_100_3.png
+[Image 5] saved as image_100_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 115
+Topic #: 1
+[All 1z0-819 Questions]
+Given the content from the course.txt file:
+
+
+
+Given the code fragment:
+
+
+
+Which code fragment at line 1 prints the lines that contain Java from the course.txt file?
+A.
+B.
+C.
+D.
+E.
+Show Suggested Answer
+[Image 1] saved as image_101_0.png
+[Image 2] saved as image_101_1.png
+[Image 3] saved as image_101_2.png
+[Image 4] saved as image_101_3.png
+[Image 5] saved as image_101_4.png
+[Image 6] saved as image_101_5.png
+[Image 7] saved as image_101_6.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 116
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the output?
+A. A NullPointerException is thrown at run time.
+B. null
+C. Duke
+D. A NoSuchElementException is thrown at run time.
+Show Suggested Answer
+[Image 1] saved as image_102_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 117
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Which code fragment on line 1 makes the m map contain the employee with the highest salary for each neighborhood?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_103_0.png
+[Image 2] saved as image_103_1.png
+[Image 3] saved as image_103_2.png
+[Image 4] saved as image_103_3.png
+[Image 5] saved as image_103_4.png
+[Image 6] saved as image_103_5.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 118
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Taking into account that the order of the elements is unpredictable, what is the output?
+A. {am=2, first=1, mismatch=1, second=2}
+B. {mismatch=2, am=2, first=1, second=1}
+C. {l=mismatch, 2=am}
+D. {mismatch=1, am=2, first=1, second=1}
+Show Suggested Answer
+[Image 1] saved as image_104_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 119
+Topic #: 1
+[All 1z0-819 Questions]
+Given these declarations:
+
+
+
+and these two code fragments:
+
+Fragment 1:
+
+
+
+Fragment 2:
+
+
+
+Which code fragment is preferred and why?
+A. Fragment 1 because it is shorter.
+B. Fragment 2 because it prevents SQL injection.
+C. Fragment 2 because it explicitly specifies the SQL types of the column values.
+D. Fragment 1 because it is more performant.
+Show Suggested Answer
+[Image 1] saved as image_105_0.png
+[Image 2] saved as image_105_1.png
+[Image 3] saved as image_105_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 120
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+How many LocalDate objects are created in this example?
+A. 2
+B. 3
+C. 4
+D. 5
+Show Suggested Answer
+[Image 1] saved as image_106_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 121
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+You want to calculate the average of the Player’s score.
+
+Which statement inserted on line 1 will accomplish this?
+A. players.stream().average().orElse(0.0);
+B. players.stream().mapToInt(a -> a.score).average().orElse(0.0);
+C. players.stream().mapToDouble(a -> a.score).average();
+D. players.stream().map(a -> a.score).average();
+Show Suggested Answer
+[Image 1] saved as image_107_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 122
+Topic #: 1
+[All 1z0-819 Questions]
+Which two expressions create a valid Java Path instance? (Choose two.)
+A. Paths.get("foo")
+B. Paths.getPath("too")
+C. Path.get(new URI("file:///domains/oracle/test.txt"))
+D. new Path("foo")
+E. Paths.get(URL.create("file:///domains/oracle/test.txt"))
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 123
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+How many lines of text does this program print?
+A. four
+B. one
+C. three
+D. two
+Show Suggested Answer
+[Image 1] saved as image_109_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 124
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. 2
+B. -1
+C. 1
+D. -3
+Show Suggested Answer
+[Image 1] saved as image_110_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 125
+Topic #: 1
+[All 1z0-819 Questions]
+Which statement is true?
+A. PrintWriter outputs characters and automatically flushes the stream.
+B. System.exit() invokes the close() method for the InputStream/OutputStream resources.
+C. Console.readPassword() method encrypts the text entered.
+D. PrintStream outputs only bytes.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 126
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which one is correct?
+A. An IllegalThreadStateException is thrown at runtime.
+B. The compilation falls.
+C. Four threads are created.
+D. Three threads are created.
+Show Suggested Answer
+[Image 1] saved as image_112_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 127
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+and
+
+module greeting {
+}
+
+Which statement is true?
+A. All members of com.name are accessible only to the citizen and greeting modules.
+B. public members in the com.name package are accessible only to the greeting module.
+C. Inserting "requires citizen" at greeting's module-info.java, enables com.name members accessible to the greeting module.
+D. All members in the com.name package are accessible only to the greeting module.
+E. public members in the com.name package are accessible to all modules.
+Show Suggested Answer
+[Image 1] saved as image_113_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 128
+Topic #: 1
+[All 1z0-819 Questions]
+Which two commands are used to identify class and module dependencies? (Choose two.)
+A. java --show-module-resolution
+B. jmod describe
+C. java Hello.java
+D. jdeps --list-deps
+E. jar --show-module-resolution
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 129
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Which code fragment, when inserted on line 1, gives the number of employees who were born after January 1, 1989 and have a salary greater than 25?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_115_0.png
+[Image 2] saved as image_115_1.png
+[Image 3] saved as image_115_2.png
+[Image 4] saved as image_115_3.png
+[Image 5] saved as image_115_4.png
+[Image 6] saved as image_115_5.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 131
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. a b c followed by an exception
+B. a b c null
+C. a b c
+D. a b followed by an exception
+Show Suggested Answer
+[Image 1] saved as image_116_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 132
+Topic #: 1
+[All 1z0-819 Questions]
+Which three initialization statements are valid? (Choose three.)
+A. var loc = Arrays.of(“UK”, “US”, “ES”);
+B. var loc = List.of(“UK”, “US”);
+C. var loc = List.of(“UK”, null, “US”);
+D. var loc = Map.of(“UK”, 1, “US”, 2);
+E. var loc = ArrayList.of(“UK”, “US”);
+F. var loc = Set.of(“UK”, “US”, “UK”);
+G. var loc = Set.of(“UK”, “US”);
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 133
+Topic #: 1
+[All 1z0-819 Questions]
+Given this declaration:
+
+@Target(TYPE)
+@interface Resource {}
+
+For which two kinds of declarations can the @Resource annotation be applied? (Choose two.)
+A. An interface declaration
+B. A local variable declaration
+C. A class declaration
+D. A method declaration
+E. A field declaration
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 134
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the output?
+A. Base class
+B. The compilation fails.
+C. Derived class
+D. An exception Is thrown at runtime.
+Show Suggested Answer
+[Image 1] saved as image_119_0.png
+[Image 2] saved as image_119_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 136
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. 3.0
+B. The program prints nothing
+C. 2.0
+D. 1.0
+E. An exception is thrown at runtime
+Show Suggested Answer
+[Image 1] saved as image_120_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 137
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+A. Hello world!
+*** NoSuchMethodError
+B. Bonjour le monde!
+Bonjour le monde!
+Bonjour le monde!
+C. Hello world!
+Bonjour le monde!
+Bonjour le monde!
+D. Hello world!
+Hello world!
+Hello world!
+E. Hello world!
+Bonjour le monde!
+Bonjour le monde!
+Show Suggested Answer
+[Image 1] saved as image_121_0.png
+[Image 2] saved as image_121_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 138
+Topic #: 1
+[All 1z0-819 Questions]
+When running jdeps, which three ways include dependent nonmodular jar files? (Choose three.)
+A. jdeps lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+B. jdeps -classpath lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+C. jdeps --upgrade-module-path lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+D. jdeps application.jar
+E. jdeps --module-path lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+F. jdeps --cp lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+G. jdeps --class-path lib/file1.jar:lib/file2.jar:lib/file3.jar application.jar
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 139
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which two statements inserted independently at line 1 enable this code to print PRRT? (Choose two.)
+A. j--;
+B. break a;
+C. continue a;
+D. continue b;
+E. break b;
+F. i--;
+Show Suggested Answer
+[Image 1] saved as image_123_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 140
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which can replace line 11?
+A. UnaryOperator uo = (var x) -> (x * 3);
+B. UnaryOperator uo = (int x) -> x * 3;
+C. UnaryOperator uo = var x -> ( return x * 3; );
+D. UnaryOperator uo = x -> ( return x * 3);
+Show Suggested Answer
+[Image 1] saved as image_124_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 141
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+A. The class X is not accessible in p2.
+B. The constructor X(List) has lesser visibility rights than the constructor Y(List).
+C. The method X.removeItem(String item) cannot be overridden by Y.removeItem(String item).
+D. The method Y.doProcess() has higher visibility rights than the abstract method X.doProcess().
+E. The constructor X(List) does not match the Y() constructor.
+Show Suggested Answer
+[Image 1] saved as image_125_0.png
+[Image 2] saved as image_125_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 142
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. Hello
+B. NullPointerException is thrown at line 4
+C. NullPointerException is thrown at line 10
+D. A compilation error occurs
+Show Suggested Answer
+[Image 1] saved as image_126_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 143
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. Marry -
+Joe
+B. Mary -
+Mary
+C. null
+null
+D. Joe -
+Joe
+Show Suggested Answer
+[Image 1] saved as image_127_0.png
+[Image 2] saved as image_127_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 144
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. java.lang.NullPointerException is thrown
+B. null
+C. San Francisco
+D. java.lang.IllegalException is thrown
+Show Suggested Answer
+[Image 1] saved as image_128_0.png
+[Image 2] saved as image_128_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 145
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which two actions, independently, enable the code to compile? (Choose two.)
+A. Inserting:
+finally ( in.close(); )
+B. Replacing the catch block with:
+catch (FileNotFoundException | Exception e) ( )
+finally ( in.close(); )
+C. Adding throws FileNotFoundException declaration at the main() method
+D. Replacing the catch block with:
+catch (Exception e) ( )
+E. Replacing the catch block with:
+catch (Exception | IOException e) ( )
+F. Adding throws IOException declaration at the main() method
+Show Suggested Answer
+[Image 1] saved as image_129_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 146
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+public interface InterfaceTwo extends AbstractClass { }
+
+and
+
+
+
+and
+
+
+
+Which three changes make this code compile? (Choose three.)
+A. Implement methodC() in ConcreteClass
+B. Implement methodB() in ConcreteClass
+C. Add the keyword abstract to the methodA() and methodB() declarations in InterfaceOne
+D. Remove methodA() from InterfaceOne
+E. InterfaceTwo should no longer extend AbstractClass
+F. Implement methodA() in ConcreteClass
+G. Remove methodA() from AbstractClass
+Show Suggested Answer
+[Image 1] saved as image_130_0.png
+[Image 2] saved as image_130_1.png
+[Image 3] saved as image_130_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 147
+Topic #: 1
+[All 1z0-819 Questions]
+Which two assignments create Locale instances? (Choose two.)
+A. locale = “fr_FR”;
+B. locale = “en-USA”;
+C. locale = new Locale(“en”, “GB”);
+D. locale = Locale.getAvailableLocales();
+E. locale = Locale.getDefault();
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 148
+Topic #: 1
+[All 1z0-819 Questions]
+Which two can be considered good practices for serializing Java objects? (Choose two.)
+A. Assign null value by default while serializing and deserializing a transient variable.
+B. Ensure that the class definition used is the same as the class definition used by Java runtime at the time when the object was serialized.
+C. Always override the readObject/writeObject methods from the java.io.Serializable interface.
+D. Implement secure serialization by generating secure object hash or using encryption.
+E. Implement serialization for long-term data storage.
+Show Suggested Answer
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 149
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+What is the result?
+A. 2, 0, 0
+2, 1, 0
+0, 0, 0
+B. 0, 0, 0
+1, 0, 0
+2, 1, 0
+C. 0, 0, 0
+2, 1, 0
+2, 0, 0
+D. 0, 0, 0
+2, 1, 0
+2, 1, 0
+E. 1, 0, 0
+1, 1, 0
+0, 0, 0
+Show Suggested Answer
+[Image 1] saved as image_133_0.png
+[Image 2] saved as image_133_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 150
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+The /scratch/exam/temp.txt file exists. The /scratch/exam/new.txt and /scratch/new.txt files do not exist.
+
+What is the result?
+A. A copy of /scratch/exam/new.txt exists in the /scratch directory and /scratch/exam/new.txt is deleted.
+B. The program throws a FileAlreadyExistsException.
+C. /scratch/exam/new.txt and /scratch/new.txt are deleted.
+D. The program throws a NoSuchFileException.
+Show Suggested Answer
+[Image 1] saved as image_134_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 151
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the result?
+A. false
+true
+false
+B. false
+true
+true
+C. false
+false
+false
+D. true
+false
+true
+Show Suggested Answer
+[Image 1] saved as image_135_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 152
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the output?
+A. A runtime exception is thrown.
+B. The compilation fails.
+C. [-3, -2, -l]
+D. [-1, -2, -3]
+Show Suggested Answer
+[Image 1] saved as image_136_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 153
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. The program prints 3 4 and throws a ClassCastException.
+B. 3 4
+C. 3 4 3.14
+D. 3 4 3
+Show Suggested Answer
+[Image 1] saved as image_137_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 154
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the output?
+A. The compilation fails due to an error in line 1.
+B. I am an array
+C. I am an object array
+D. I am an object
+Show Suggested Answer
+[Image 1] saved as image_138_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 155
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+You want to validate a path name before the read file. Before validation, all path names should be canonicalized.
+
+Which code inserted on line n1 will accomplish this?
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_139_0.png
+[Image 2] saved as image_139_1.png
+[Image 3] saved as image_139_2.png
+[Image 4] saved as image_139_3.png
+[Image 5] saved as image_139_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 156
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. The compilation fails.
+B. An unchecked exception is thrown at run time.
+C. Error reading files is printed on the console.
+D. The content from filel.txt and file2.txt is printed on the console.
+Show Suggested Answer
+[Image 1] saved as image_140_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 157
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the output?
+A. 2.0
+B. 2
+C. The compilation fails.
+D. An exception is thrown at runtime.
+Show Suggested Answer
+[Image 1] saved as image_141_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 158
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+Which is the correct implementation of the getRatings method in the Football subclass?
+A. The subclass getRatings method uses public.getRatings() to call the base class method but uses its own named fields in the implementation.
+B. The subclass getRatings method implementation directly accesses the fields in the Sports superclass.
+C. The subclass getRatings method uses new.getRatings() to call the base class method but uses its own named fields in the implementation.
+D. The subclass getRatings method uses super.getRatings() to call the base class method but uses its own named fields in the implementation.
+Show Suggested Answer
+[Image 1] saved as image_142_0.png
+[Image 2] saved as image_142_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 159
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which is true?
+A. The code prints 25.
+B. The code does not compile.
+C. The code throws an exception at runtime.
+D. The code compiles but does not print any result.
+Show Suggested Answer
+[Image 1] saved as image_143_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 160
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which statement on line 1 enables this code to compile?
+A. Supplier function = () -> states.contains(“N”);
+B. Function function = s -> s.contains(‘N”);
+C. Consumer function = s -> {if(s.contains(“N”)) states.remove(s);};
+D. Predicate function = s -> s.contains(“N”);
+Show Suggested Answer
+[Image 1] saved as image_144_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 161
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which is true?
+A. Line 2 is the first line to cause a compilation error.
+B. Line 3 is the first line to cause a compilation error.
+C. It compiles without errors.
+D. Line 1 is the first line to cause a compilation error.
+Show Suggested Answer
+[Image 1] saved as image_145_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 162
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+What is the output?
+A. null
+B. 41 def 42
+C. An exception is thrown at runtime.
+D. def 42
+Show Suggested Answer
+[Image 1] saved as image_146_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 163
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+You want to make the reduction operation parallelized.
+
+Which two modifications will accomplish this?
+A. Replace line 1 with int sum = numbers.stream() .flatMap(a -> a).reduce (0, (n, m) -> n + m);.
+B. Replace line 1 with int sum = numbers.stream().iterate (0, a -> a+1).reduce (0, (n, m) -> n + m)
+C. Replace line 1 with int sum = numbers.parallel ().stream().reduce(0, (n, m) -> n + m)
+D. Replace line 1 with int sum = numbers.parallelStream().reduce (0, (n, m) -> n + m);.
+E. Replace line 1 with int sum = numbers.stream().parallel().reduce(0, (n, m) -> n + m)
+Show Suggested Answer
+[Image 1] saved as image_147_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 164
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. The program prints nothing.
+B. The program prints: 12 and the RuntimeException is thrown.
+C. The program prints: 123 and the RuntimeException is thrown.
+D. The program prints 1234 and a java.lang.IllegalStateException is thrown.
+Show Suggested Answer
+[Image 1] saved as image_148_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 165
+Topic #: 1
+[All 1z0-819 Questions]
+Given the code fragment:
+
+
+
+Which two code fragments, independently, replace line 1 to implement the equivalent reduce operation? (Choose two.)
+A. Integer sum = data.map(a -> a).reduce((a, b) -> a+b);
+B. OptionalInt value = data.mapToInt(a -> a).parallel().reduce(0, (a, b) -> a+b);
+Integer sum = value.getAsInt();
+C. int s = 0;
+Integer sum = data.map(a -> a).reduce(0, (a-> a + s));
+D. OptionalInt value = data.mapToInt(a -> a).parallel().reduce((a, b) -> a+b);
+Integer sum = value.getAsInt();
+E. Integer sum = data.mapToInt(a -> a).reduce(0, (a,b)->a+b));
+Show Suggested Answer
+[Image 1] saved as image_149_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 166
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+Which three are true? (Choose three.)
+A. f1.foo(c) prints Hello world!
+B. f2.foo(c) prints Olá Mundo!
+C. f1.foo(c) prints Bonjour le monde!
+D. f2.foo(c) prints Bonjour le monde!
+E. b1.foo (c) prints Olá Mundo!
+F. f2.foo(c) prints Hello world!
+G. f1.foo(c) prints Olá Mundo!
+H. b1.foo(c) prints Bonjour le monde!
+I. b1.foo(c) prints Hello world!
+Show Suggested Answer
+[Image 1] saved as image_150_0.png
+[Image 2] saved as image_150_1.png
+[Image 3] saved as image_150_2.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 167
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. X is 2
+B. The compilation fails due to an error in line 1
+C. The compilation fails due to an error in line 2
+D. Error parsing value 0
+E. X is 10
+Show Suggested Answer
+[Image 1] saved as image_151_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 168
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which three statements cause a compiler error when inserted at line l? (Choose three.)
+A. int i = theInstance.three++;
+B. int b = two;
+C. int c = three;
+D. int a = one++;
+E. int f = ExampleInterface.three;
+F. int h = theInstance.two;
+G. int e = ExampleInterface.two++;
+H. int a = ExampleInterface.one;
+I. int g = theInstance.one;
+Show Suggested Answer
+[Image 1] saved as image_152_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 169
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+and
+
+
+
+and
+
+
+
+Which code, when inserted at one or more marked position, would allow classes B and C to compile?
+A.
+B.
+C.
+D. public void z() { } // position 3
+Show Suggested Answer
+[Image 1] saved as image_153_0.png
+[Image 2] saved as image_153_1.png
+[Image 3] saved as image_153_2.png
+[Image 4] saved as image_153_3.png
+[Image 5] saved as image_153_4.png
+[Image 6] saved as image_153_5.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 170
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which two code fragments remove the elements from the original list? (Choose two.)
+A.
+B.
+C.
+D.
+Show Suggested Answer
+[Image 1] saved as image_154_0.png
+[Image 2] saved as image_154_1.png
+[Image 3] saved as image_154_2.png
+[Image 4] saved as image_154_3.png
+[Image 5] saved as image_154_4.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 171
+Topic #: 1
+[All 1z0-819 Questions]
+Given these two classes:
+
+
+
+And given this fragment:
+
+
+
+Which describes the fragment?
+A. It throws an IllegalMonitorStateException.
+B. It is subject to deadlock.
+C. It is subject to livelock.
+D. The code does not compile.
+Show Suggested Answer
+[Image 1] saved as image_155_0.png
+[Image 2] saved as image_155_1.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 172
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. -6
+B. -0-1-3-6
+C. The compilation fails due to an error in line 1.
+D. -0-1-3
+Show Suggested Answer
+[Image 1] saved as image_156_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 173
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which statement is true?
+A. The code prints 10.
+B. The code fails to compile at line n2.
+C. The code fails to compile at line n1.
+D. The code fails to compile at line n4.
+E. The code fails to compile at line n3.
+F. The code prints 100.
+Show Suggested Answer
+[Image 1] saved as image_157_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 174
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which action will enable the code to compile?
+A. Replace line 6 with BiFunction func = x -> y -> x * y;
+B. Replace line 6 with Function func = x -> y -> x * y;
+C. Replace line 6 with IntFunction func = x -> y -> x * y;
+D. Replace line 6 with IntFunction func = x -> y -> x * y;
+Show Suggested Answer
+[Image 1] saved as image_158_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 175
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which statement on line 1 enables the Test class to compile?
+A. if(p.test(number)) {
+B. if(p.apply(number)) {
+C. if(p.get(number)) {
+D. if(p.accept(number)) {
+Show Suggested Answer
+[Image 1] saved as image_159_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 176
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+Which two methods modify field values? (Choose two.)
+A. setTCount
+B. setACount
+C. setAllCounts
+D. setGCount
+E. setCCount
+Show Suggested Answer
+[Image 1] saved as image_160_0.png
+
+
+Actual exam question from Oracle's 1z0-819
+Question #: 177
+Topic #: 1
+[All 1z0-819 Questions]
+Given:
+
+
+
+What is the result?
+A. hat at store 1
+B. An IndexOutOfBoundsException is thrown at runtime,
+C. at once 0
+D. hat at store 4
+E. at once 1
+Show Suggested Answer
+[Image 1] saved as image_161_0.png
+
+
