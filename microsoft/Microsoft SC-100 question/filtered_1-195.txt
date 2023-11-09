@@ -1,0 +1,743 @@
+Actual exam question from Microsoft's SC-100
+Question #: 2
+Topic #: 1
+[All SC-100 Questions]
+You have an Azure subscription that has Microsoft Defender for Cloud enabled.
+Suspicious authentication activity alerts have been appearing in the Workload protections dashboard.
+You need to recommend a solution to evaluate and remediate the alerts by using workflow automation. The solution must minimize development effort.
+What should you include in the recommendation?
+A. Azure Monitor webhooks
+B. Azure Event Hubs
+C. Azure Functions apps
+D. Azure Logics Apps
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 3
+Topic #: 1
+[All SC-100 Questions]
+Your company is moving a big data solution to Azure.
+The company plans to use the following storage workloads:
+✑ Azure Storage blob containers
+✑ Azure Data Lake Storage Gen2
+
+Azure Storage file shares -
+
+✑ Azure Disk Storage
+Which two storage workloads support authentication by using Azure Active Directory (Azure AD)? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. Azure Storage file shares
+B. Azure Disk Storage
+C. Azure Storage blob containers
+D. Azure Data Lake Storage Gen2
+Show Suggested Answer
+[Image 1] saved as image_1_0.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 4
+Topic #: 1
+[All SC-100 Questions]
+HOTSPOT -
+Your company is migrating data to Azure. The data contains Personally Identifiable Information (PII).
+The company plans to use Microsoft Information Protection for the PII data store in Azure.
+You need to recommend a solution to discover PII data at risk in the Azure resources.
+What should you include in the recommendation? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_2_0.png
+[Image 2] saved as image_2_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 5
+Topic #: 5
+[All SC-100 Questions]
+You have an Azure AD tenant that syncs with an Active Directory Domain Services (AD DS) domain.
+
+You have an on-premises datacenter that contains 100 servers. The servers run Windows Server and are backed up by using Microsoft Azure Backup Server (MABS).
+
+You are designing a recovery solution for ransomware attacks. The solution follows Microsoft Security Best Practices.
+
+You need to ensure that a compromised administrator account cannot be used to delete the backups.
+
+What should you do?
+A. From Azure Backup, configure multi-user authorization by using Resource Guard.
+B. From Microsoft Azure Backup Setup, register MABS with a Recovery Services vault.
+C. From a Recovery Services vault, generate a security PIN for critical operations.
+D. From Azure AD Privileged Identity Management (PIM), create a role assignment for the Backup Contributor role.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 6
+Topic #: 1
+[All SC-100 Questions]
+Your company has a Microsoft 365 subscription and uses Microsoft Defender for Identity.
+You are informed about incidents that relate to compromised identities.
+You need to recommend a solution to expose several accounts for attackers to exploit. When the attackers attempt to exploit the accounts, an alert must be triggered.
+Which Defender for Identity feature should you include in the recommendation?
+A. sensitivity labels
+B. custom user tags
+C. standalone sensors
+D. honeytoken entity tags
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 8
+Topic #: 4
+[All SC-100 Questions]
+Your company develops several applications that are accessed as custom enterprise applications in Azure Active Directory (Azure AD).
+You need to recommend a solution to prevent users on a specific list of countries from connecting to the applications.
+What should you include in the recommendation?
+A. activity policies in Microsoft Defender for Cloud Apps
+B. sign-in risk policies in Azure AD Identity Protection
+C. Azure AD Conditional Access policies
+D. device compliance policies in Microsoft Endpoint Manager
+E. user risk poticies in Azure AD Identity Protection
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 9
+Topic #: 3
+[All SC-100 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You are designing the encryption standards for data at rest for an Azure resource.
+You need to provide recommendations to ensure that the data at rest is encrypted by using AES-256 keys. The solution must support rotating the encryption keys monthly.
+Solution: For blob containers in Azure Storage, you recommend encryption that uses Microsoft-managed keys within an encryption scope.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 10
+Topic #: 5
+[All SC-100 Questions]
+You have a Microsoft 365 subscription.
+
+You are designing a user access solution that follows the Zero Trust principles of the Microsoft Cybersecurity Reference Architectures (MCRA).
+
+You need to recommend a solution that automatically restricts access to Microsoft Exchange Online, SharePoint Online, and Teams in near-real-time (NRT) in response to the following Azure AD events:
+
+• A user account is disabled or deleted.
+• The password of a user is changed or reset.
+• All the refresh tokens for a user are revoked.
+• Multi-factor authentication (MFA) is enabled for a user.
+
+Which two features should you include in the recommendation? Each correct answer presents part of the solution.
+
+NOTE: Each correct selection is worth one point.
+A. continuous access evaluation
+B. Azure AD Application Proxy
+C. a sign-in risk policy
+D. Azure AD Privileged Identity Management (PIM)
+E. Conditional Access
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 11
+Topic #: 5
+[All SC-100 Questions]
+HOTSPOT
+-
+
+You have an Azure subscription and an on-premises datacenter. The datacenter contains 100 servers that run Windows Server. All the servers are backed up to a Recovery Services vault by using Azure Backup and the Microsoft Azure Recovery Services (MARS) agent.
+
+You need to design a recovery solution for ransomware attacks that encrypt the on-premises servers. The solution must follow Microsoft Security Best Practices and protect against the following risks:
+
+• A compromised administrator account used to delete the backups from Azure Backup before encrypting the servers
+• A compromised administrator account used to disable the backups on the MARS agent before encrypting the servers
+
+What should you use for each risk? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_8_0.png
+[Image 2] saved as image_8_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 12
+Topic #: 3
+[All SC-100 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
+You need to recommend a solution to ensure that the web apps only allow access through the Front Door instance.
+Solution: You recommend access restrictions to allow traffic from the backend IP address of the Front Door instance.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+[Image 1] saved as image_9_0.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 13
+Topic #: 1
+[All SC-100 Questions]
+HOTSPOT -
+You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
+The Azure subscription contains a Microsoft Sentinel workspace. Microsoft Sentinel data connectors are configured for Microsoft 365, Microsoft 365 Defender,
+Defender for Cloud, and Azure.
+You plan to deploy Azure virtual machines that will run Windows Server.
+You need to enable extended detection and response (EDR) and security orchestration, automation, and response (SOAR) capabilities for Microsoft Sentinel.
+How should you recommend enabling each capability? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_10_0.png
+[Image 2] saved as image_10_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 14
+Topic #: 4
+[All SC-100 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
+You need to recommend a solution to ensure that the web apps only allow access through the Front Door instance.
+Solution: You recommend access restrictions that allow traffic from the Front Door service tags.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 15
+Topic #: 4
+[All SC-100 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You are designing a security strategy for providing access to Azure App Service web apps through an Azure Front Door instance.
+You need to recommend a solution to ensure that the web apps only allow access through the Front Door instance.
+Solution: You recommend access restrictions based on HTTP headers that have the Front Door ID.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 16
+Topic #: 3
+[All SC-100 Questions]
+You are planning the security requirements for Azure Cosmos DB Core (SQL) API accounts.
+You need to recommend a solution to audit all users that access the data in the Azure Cosmos DB accounts.
+Which two configurations should you include in the recommendation? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Send the Azure Active Directory (Azure AD) sign-in logs to a Log Analytics workspace.
+B. Enable Microsoft Defender for Identity.
+C. Send the Azure Cosmos DB logs to a Log Analytics workspace.
+D. Disable local authentication for Azure Cosmos DB.
+E. Enable Microsoft Defender for Cosmos DB.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 17
+Topic #: 4
+[All SC-100 Questions]
+You have a Microsoft 365 E5 subscription.
+You are designing a solution to protect confidential data in Microsoft SharePoint Online sites that contain more than one million documents.
+You need to recommend a solution to prevent Personally Identifiable Information (PII) from being shared.
+Which two components should you include in the recommendation? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. data loss prevention (DLP) policies
+B. retention label policies
+C. eDiscovery cases
+D. sensitivity label policies
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 18
+Topic #: 4
+[All SC-100 Questions]
+Your company has the virtual machine infrastructure shown in the following table.
+
+The company plans to use Microsoft Azure Backup Server (MABS) to back up the virtual machines to Azure.
+You need to provide recommendations to increase the resiliency of the backup strategy to mitigate attacks such as ransomware.
+What should you include in the recommendation?
+A. Use geo-redundant storage (GRS).
+B. Maintain multiple copies of the virtual machines.
+C. Encrypt the backups by using customer-managed keys (CMKS).
+D. Require PINs to disable backups.
+Show Suggested Answer
+[Image 1] saved as image_15_0.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 21
+Topic #: 4
+[All SC-100 Questions]
+DRAG DROP
+-
+
+Your company wants to optimize ransomware incident investigations.
+
+You need to recommend a plan to investigate ransomware incidents based on the Microsoft Detection and Response Team (DART) approach.
+
+Which three actions should you recommend performing in sequence in the plan? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+
+Show Suggested Answer
+[Image 1] saved as image_16_0.png
+[Image 2] saved as image_16_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 22
+Topic #: 1
+[All SC-100 Questions]
+You have an Azure AD tenant that syncs with an Active Directory Domain Services (AD DS) domain. Client computers run Windows and are hybrid-joined to Azure AD.
+
+You are designing a strategy to protect endpoints against ransomware. The strategy follows Microsoft Security Best Practices.
+
+You plan to remove all the domain accounts from the Administrators groups on the Windows computers.
+
+You need to recommend a solution that will provide users with administrative access to the Windows computers only when access is required. The solution must minimize the lateral movement of ransomware attacks if an administrator account on a computer is compromised.
+
+What should you include in the recommendation?
+A. Local Administrator Password Solution (LAPS)
+B. Azure AD Identity Protection
+C. Azure AD Privileged Identity Management (PIM)
+D. Privileged Access Workstations (PAWs)
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 23
+Topic #: 3
+[All SC-100 Questions]
+Your company has on-premises Microsoft SQL Server databases.
+The company plans to move the databases to Azure.
+You need to recommend a secure architecture for the databases that will minimize operational requirements for patching and protect sensitive data by using dynamic data masking. The solution must minimize costs.
+What should you include in the recommendation?
+A. Azure SQL Managed Instance
+B. Azure Synapse Analytics dedicated SQL pools
+C. Azure SQL Database
+D. SQL Server on Azure Virtual Machines
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 25
+Topic #: 1
+[All SC-100 Questions]
+You have an on-premises network and a Microsoft 365 subscription.
+
+You are designing a Zero Trust security strategy.
+
+Which two security controls should you include as part of the Zero Trust solution? Each correct answer presents part of the solution.
+
+NOTE: Each correct answer is worth one point.
+A. Always allow connections from the on-premises network.
+B. Disable passwordless sign-in for sensitive accounts.
+C. Block sign-in attempts from unknown locations.
+D. Block sign-in attempts from noncompliant devices.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 26
+Topic #: 1
+[All SC-100 Questions]
+You are designing a ransomware response plan that follows Microsoft Security Best Practices.
+
+You need to recommend a solution to minimize the risk of a ransomware attack encrypting local user files.
+
+What should you include in the recommendation?
+A. Windows Defender Device Guard
+B. Microsoft Defender for Endpoint
+C. Azure Files
+D. BitLocker Drive Encryption (BitLocker)
+E. protected folders
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 27
+Topic #: 3
+[All SC-100 Questions]
+A customer uses Azure to develop a mobile app that will be consumed by external users as shown in the following exhibit.
+
+You need to design an identity strategy for the app. The solution must meet the following requirements:
+✑ Enable the usage of external IDs such as Google, Facebook, and Microsoft accounts.
+✑ Use a customer identity store.
+✑ Support fully customizable branding for the app.
+Which service should you recommend to complete the design?
+A. Azure Active Directory (Azure AD) B2B
+B. Azure Active Directory Domain Services (Azure AD DS)
+C. Azure Active Directory (Azure AD) B2C
+D. Azure AD Connect
+Show Suggested Answer
+[Image 1] saved as image_21_0.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 28
+Topic #: 3
+[All SC-100 Questions]
+Your company has a hybrid cloud infrastructure.
+Data and applications are moved regularly between cloud environments.
+The company's on-premises network is managed as shown in the following exhibit.
+
+You are designing security operations to support the hybrid cloud infrastructure. The solution must meet the following requirements:
+✑ Govern virtual machines and servers across multiple environments.
+✑ Enforce standards for all the resources across all the environments by using Azure Policy.
+Which two components should you recommend for the on-premises network? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. on-premises data gateway
+B. Azure VPN Gateway
+C. guest configuration in Azure Policy
+D. Azure Arc
+E. Azure Bastion
+Show Suggested Answer
+[Image 1] saved as image_22_0.png
+[Image 2] saved as image_22_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 29
+Topic #: 3
+[All SC-100 Questions]
+A customer has a Microsoft 365 E5 subscription and an Azure subscription.
+The customer wants to centrally manage security incidents, analyze logs, audit activities, and search for potential threats across all deployed services
+You need to recommend a solution for the customer.
+What should you include in the recommendation?
+A. Microsoft Defender for Cloud
+B. Microsoft Defender for Cloud Apps
+C. Microsoft 365 Defender
+D. Microsoft Sentinel
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 30
+Topic #: 3
+[All SC-100 Questions]
+HOTSPOT
+-
+
+Your company plans to follow DevSecOps best practices of the Microsoft Cloud Adoption Framework for Azure to integrate DevSecOps processes into continuous integration and continuous deployment (CI/CD) DevOps pipelines.
+
+You need to recommend which security-related tasks to integrate into each stage of the DevOps pipelines.
+
+What should recommend? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_24_0.png
+[Image 2] saved as image_24_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 31
+Topic #: 3
+[All SC-100 Questions]
+For a Microsoft cloud environment, you are designing a security architecture based on the Microsoft Cloud Security Benchmark.
+
+What are three best practices for identity management based on the Azure Security Benchmark? Each correct answer presents a complete solution.
+
+NOTE: Each correct selection is worth one point.
+A. Manage application identities securely and automatically.
+B. Manage the lifecycle of identities and entitlements.
+C. Protect identity and authentication systems.
+D. Enable threat detection for identity and access management.
+E. Use a centralized identity and authentication system.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 33
+Topic #: 3
+[All SC-100 Questions]
+Your company has on-premises Microsoft SQL Server databases.
+
+The company plans to move the databases to Azure.
+
+You need to recommend a secure architecture for the databases that will minimize operational requirements for patching and protect sensitive data by using dynamic data masking. The solution must minimize costs.
+
+What should you include in the recommendation?
+A. SQL Server on Azure Virtual Machines
+B. Azure Synapse Analytics dedicated SQL pools
+C. Azure SQL Database
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 34
+Topic #: 3
+[All SC-100 Questions]
+You are designing a new Azure environment based on the security best practices of the Microsoft Cloud Adoption Framework for Azure. The environment will contain one subscription for shared infrastructure components and three separate subscriptions for applications.
+
+You need to recommend a deployment solution that includes network security groups (NSGs), Azure Firewall, Azure Key Vault, and Azure Bastion. The solution must minimize deployment effort and follow security best practices of the Microsoft Cloud Adoption Framework for Azure.
+
+What should you include in the recommendation?
+A. the Azure landing zone accelerator
+B. the Azure Well-Architected Framework
+C. Azure Security Benchmark v3
+D. Azure Advisor
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 35
+Topic #: 3
+[All SC-100 Questions]
+Your company uses Azure Pipelines and Azure Repos to implement continuous integration and continuous deployment (CI/CD) workflows for the deployment of applications to Azure.
+
+You are updating the deployment process to align with DevSecOps controls guidance in the Microsoft Cloud Adoption Framework for Azure.
+
+You need to recommend a solution to ensure that all code changes are submitted by using pull requests before being deployed by the CI/CD workflow.
+
+What should you include in the recommendation?
+A. custom roles in Azure Pipelines
+B. branch policies in Azure Repos
+C. Azure policies
+D. custom Azure roles
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 37
+Topic #: 2
+[All SC-100 Questions]
+HOTSPOT
+-
+
+You have a Microsoft 365 subscription that is protected by using Microsoft 365 Defender.
+
+You are designing a security operations strategy that will use Microsoft Sentinel to monitor events from Microsoft 365 and Microsoft 365 Defender.
+
+You need to recommend a solution to meet the following requirements:
+
+• Integrate Microsoft Sentinel with a third-party security vendor to access information about known malware.
+• Automatically generate incidents when the IP address of a command-and-control server is detected in the events.
+
+What should you configure in Microsoft Sentinel to meet each requirement? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_29_0.png
+[Image 2] saved as image_29_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 38
+Topic #: 2
+[All SC-100 Questions]
+You have an Azure subscription that has Microsoft Defender for Cloud enabled.
+
+You need to enforce ISO 27001:2013 standards for new resources deployed to the subscription. The solution must ensure that noncompliant resources are automatically detected.
+
+What should you use?
+A. Azure Blueprints
+B. the regulatory compliance dashboard in Defender for Cloud
+C. Azure Policy
+D. Azure role-based access control (Azure RBAC)
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 39
+Topic #: 2
+[All SC-100 Questions]
+DRAG DROP
+-
+
+You have a hybrid Azure AD tenant that has pass-through authentication enabled.
+
+You are designing an identity security strategy.
+
+You need to minimize the impact of brute force password attacks and leaked credentials of hybrid identities.
+
+What should you include in the design? To answer, drag the appropriate features to the correct requirements. Each feature may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_31_0.png
+[Image 2] saved as image_31_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 40
+Topic #: 2
+[All SC-100 Questions]
+HOTSPOT
+-
+
+You are designing the security architecture for a cloud-only environment.
+
+You are reviewing the integration point between Microsoft 365 Defender and other Microsoft cloud services based on Microsoft Cybersecurity Reference Architectures (MCRA).
+
+You need to recommend which Microsoft cloud services integrate directly with Microsoft 365 Defender and meet the following requirements:
+
+• Enforce data loss prevention (DLP) policies that can be managed directly from the Microsoft 365 Defender portal.
+• Detect and respond to security threats based on User and Entity Behavior Analytics (UEBA) with unified alerting.
+
+What should you include in the recommendation for each requirement? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_32_0.png
+[Image 2] saved as image_32_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 41
+Topic #: 2
+[All SC-100 Questions]
+HOTSPOT
+-
+
+You have a Microsoft 365 E5 subscription that uses Microsoft Exchange Online.
+
+You need to recommend a solution to prevent malicious actors from impersonating the email addresses of internal senders.
+
+What should you include in the recommendation? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_33_0.png
+[Image 2] saved as image_33_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 42
+Topic #: 2
+[All SC-100 Questions]
+HOTSPOT
+-
+
+Your network contains an on-premises Active Directory Domain Services (AD DS) domain. The domain contains a server that runs Windows Server and hosts shared folders. The domain syncs with Azure AD by using Azure AD Connect. Azure AD Connect has group writeback enabled.
+
+You have a Microsoft 365 subscription that uses Microsoft SharePoint Online.
+
+You have multiple project teams. Each team has an AD DS group that syncs with Azure AD.
+
+Each group has permissions to a unique SharePoint Online site and a Windows Server shared folder for its project. Users routinely move between project teams.
+
+You need to recommend an Azure AD Identity Governance solution that meets the following requirements:
+
+• Project managers must verify that their project group contains only the current members of their project team.
+• The members of each project team must only have access to the resources of the project to which they are assigned.
+• Users must be removed from a project group automatically if the project manager has NOT verified the group's membership for 30 days.
+• Administrative effort must be minimized.
+
+What should you include in the recommendation? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_34_0.png
+[Image 2] saved as image_34_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 43
+Topic #: 2
+[All SC-100 Questions]
+HOTSPOT
+-
+
+You are designing a privileged access strategy for a company named Contoso, Ltd. and its partner company named Fabrikam, Inc. Contoso has an Azure AD tenant named contoso.com. Fabrikam has an Azure AD tenant named fabrikam.com. Users at Fabrikam must access the resources in contoso.com.
+
+You need to provide the Fabrikam users with access to the Contoso resources by using access packages. The solution must meet the following requirements:
+
+• Ensure that the Fabrikam users can use the Contoso access packages without explicitly creating guest accounts in contoso.com.
+• Allow non-administrative users in contoso.com to create the access packages.
+
+What should you use for each requirement? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_35_0.png
+[Image 2] saved as image_35_1.png
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 44
+Topic #: 2
+[All SC-100 Questions]
+You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
+
+The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
+
+You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
+
+Which security control should you recommend?
+A. app discovery anomaly detection policies in Microsoft Defender for Cloud Apps
+B. Azure Security Benchmark compliance controls in Defender for Cloud
+C. app registrations in Azure AD
+D. application control policies in Microsoft Defender for Endpoint
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 47
+Topic #: 2
+[All SC-100 Questions]
+You have a customer that has a Microsoft 365 subscription and an Azure subscription.
+
+The customer has devices that run either Windows, iOS, Android, or macOS. The Windows devices are deployed on-premises and in Azure.
+
+You need to design a security solution to assess whether all the devices meet the customer's compliance rules.
+
+What should you include in the solution?
+A. Microsoft Sentinel
+B. Microsoft Purview Information Protection
+C. Microsoft Intune
+D. Microsoft Defender for Endpoint
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 1
+Topic #: 4
+[All SC-100 Questions]
+You have a Microsoft 365 subscription and an Azure subscription. Microsoft 365 Defender and Microsoft Defender for Cloud are enabled.
+The Azure subscription contains 50 virtual machines. Each virtual machine runs different applications on Windows Server 2019.
+You need to recommend a solution to ensure that only authorized applications can run on the virtual machines. If an unauthorized application attempts to run or be installed, the application must be blocked automatically until an administrator authorizes the application.
+Which security control should you recommend?
+A. app registrations in Azure Active Directory (Azure AD)
+B. OAuth app policies in Microsoft Defender for Cloud Apps
+C. Azure Security Benchmark compliance controls in Defender for Cloud
+D. application control policies in Microsoft Defender for Endpoint
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's SC-100
+Question #: 9
+Topic #: 4
+[All SC-100 Questions]
+Your company has an Azure subscription that uses Azure Storage.
+The company plans to share specific blobs with vendors.
+You need to recommend a solution to provide the vendors with secure access to specific blobs without exposing the blobs publicly. The access must be time- limited.
+What should you include in the recommendation?
+A. Configure private link connections.
+B. Configure encryption by using customer-managed keys (CMKs).
+C. Share the connection string of the access key.
+D. Create shared access signatures (SAS).
+Show Suggested Answer
+
+

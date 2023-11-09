@@ -51,7 +51,6 @@ https://www.examtopics.com/discussions/microsoft/view/57909-exam-sc-900-topic-1-
 https://www.examtopics.com/discussions/microsoft/view/74487-exam-sc-900-topic-1-question-51-discussion/
 https://www.examtopics.com/discussions/microsoft/view/73883-exam-sc-900-topic-1-question-52-discussion/
 https://www.examtopics.com/discussions/microsoft/view/79071-exam-sc-900-topic-1-question-53-discussion/
-Error encountered with query: Microsoft SC-900 question 54 examtopics
 https://www.examtopics.com/discussions/microsoft/view/78657-exam-sc-900-topic-1-question-55-discussion/
 https://www.examtopics.com/discussions/microsoft/view/81426-exam-sc-900-topic-1-question-56-discussion/
 https://www.examtopics.com/discussions/microsoft/view/57910-exam-sc-900-topic-1-question-57-discussion/
@@ -184,9 +183,3 @@ https://www.examtopics.com/discussions/microsoft/view/115817-exam-sc-900-topic-1
 https://www.examtopics.com/discussions/microsoft/view/115622-exam-sc-900-topic-1-question-184-discussion/
 https://www.examtopics.com/discussions/microsoft/view/115600-exam-sc-900-topic-1-question-185-discussion/
 https://www.examtopics.com/discussions/microsoft/view/115599-exam-sc-900-topic-1-question-186-discussion/
-https://www.examtopics.com/discussions/microsoft/view/50532-exam-ms-900-topic-1-question-187-discussion/
-https://www.examtopics.com/discussions/microsoft/view/51502-exam-az-900-topic-1-question-188-discussion/
-https://www.examtopics.com/discussions/microsoft/view/12634-exam-ms-900-topic-1-question-189-discussion/
-https://www.examtopics.com/discussions/microsoft/view/55300-exam-ms-900-topic-1-question-190-discussion/
-https://www.examtopics.com/discussions/microsoft/view/44117-exam-az-900-topic-1-question-191-discussion/
-https://www.examtopics.com/discussions/microsoft/view/95950-exam-pl-900-topic-1-question-192-discussion/
