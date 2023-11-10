@@ -1,0 +1,1784 @@
+Actual exam question from Microsoft's AZ-400
+Question #: 3
+Topic #: 1
+[All AZ-400 Questions]
+You are making use of Azure DevOps manage build pipelines, and also deploy pipelines.
+The development team is quite large, and is regularly added to.
+You have been informed that the management of users and licenses must be automated when it can be.
+Which of the following is a task that can't be automated?
+A. Group membership changes
+B. License assignment
+C. Assigning entitlements
+D. License procurement
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 4
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements:
+✑ The build must access an on-premises dependency management system.
+✑ The build outputs must be stored as Server artifacts in Azure DevOps.
+✑ The source code must be stored in a Git repository in Azure DevOps.
+Solution: Configure the build pipeline to use a Microsoft-hosted agent pool running a Linux image. Include the Java Tool Installer task in the build pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 5
+Topic #: 1
+[All AZ-400 Questions]
+Your company is currently making use of Team Foundation Server 2013 (TFS 2013), but intend to migrate to Azure DevOps.
+You have been tasked with supplying a migration approach that allows for the preservation of Team Foundation Version Control changesets dates, as well as the changes dates of work items revisions. The approach should also allow for the migration of all TFS artifacts, while keeping migration effort to a minimum.
+You have suggested upgrading TFS to the most recent RTW release.
+Which of the following should also be suggested?
+A. Installing the TFS kava SDK
+B. Using the TFS Database Import Service to perform the upgrade.
+C. Upgrading PowerShell Core to the latest version.
+D. Using the TFS Integration Platform to perform the upgrade.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 6
+Topic #: 1
+[All AZ-400 Questions]
+DRAG DROP -
+You have an on-premises Bitbucket Server with a firewall configured to block inbound Internet traffic. The server is used for Git-based source control.
+You intend to manage the build and release processes using Azure DevOps. This plan requires you to integrate Azure DevOps and Bitbucket.
+Which of the following will allow for this integration? Answer by dragging the correct options from the list to the answer area.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_3_0.png
+[Image 2] saved as image_3_1.png
+[Image 3] saved as image_3_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 7
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You need to recommend an integration strategy for the build process of a Java application. The solution must meet the following requirements:
+✑ The builds must access an on-premises dependency management system.
+✑ The build outputs must be stored as Server artifacts in Azure DevOps.
+✑ The source code must be stored in a Git repository in Azure DevOps.
+Solution: Configure an Octopus Tentacle on an on-premises machine. Use the Package Application task in the build pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 8
+Topic #: 8
+[All AZ-400 Questions]
+HOTSPOT -
+You need to create deployment files for an Azure Kubernetes Service (AKS) cluster. The deployments must meet the provisioning storage requirements shown in the following table.
+
+Which resource type should you use for each deployment? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_5_0.png
+[Image 2] saved as image_5_1.png
+[Image 3] saved as image_5_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 9
+Topic #: 9
+[All AZ-400 Questions]
+HOTSPOT
+-
+
+You have an Azure subscription.
+
+You need to create a storage account by using a Bicep file.
+
+How should you complete the file? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_6_0.png
+[Image 2] saved as image_6_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 11
+Topic #: 1
+[All AZ-400 Questions]
+You need to consider the underlined segment to establish whether it is accurate.
+To compile an Internet Information Services (IIS) web application that runs docker, you should use a Default build agent pool.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+A. No adjustment required.
+B. Hosted Windows Container
+C. Hosted
+D. Hosted macOS
+Show Suggested Answer
+[Image 1] saved as image_7_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 1
+Topic #: 12
+[All AZ-400 Questions]
+You add the virtual machines as managed nodes in Azure Automation State Configuration.
+You need to configure the managed computers in Pool7.
+What should you do next?
+A. Modify the RefreshMode property of the Local Configuration Manager (LCM).
+B. Run the Register-AzureRmAutomationDscNode Azure Powershell cmdlet.
+C. Modify the ConfigurationMode property of the Local Configuration Manager (LCM).
+D. Install PowerShell Core.
+Show Suggested Answer
+[Image 1] saved as image_8_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 13
+Topic #: 8
+[All AZ-400 Questions]
+Your company has an Azure DevOps environment that can only be accessed by Azure Active Directory users
+You are instructed to make sure that the Azure DevOps environment can only be accessed from devices connected to the company's on-premises network.
+Which of the following actions should you take?
+A. Assign the devices to a security group.
+B. Create a GPO.
+C. Configure Security in Project Settings from Azure DevOps.
+D. Configure conditional access in Azure Active Directory.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 14
+Topic #: 8
+[All AZ-400 Questions]
+You are making use of Azure DevOps to configure Azure Pipelines for project, named PROJ-01.
+You are preparing to use a version control system that allows for source code to be stored on a managed Windows server located on the company network.
+Which of the following is the version control system you should use?
+A. Github Enterprise
+B. Bitbucket cloud
+C. Github Professional
+D. Git in Azure Repos
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 1
+Topic #: 15
+[All AZ-400 Questions]
+DRAG DROP -
+You need to replace the existing DevOps tools to support the planned changes.
+What should you use? To answer, drag the appropriate tools to the correct targets. Each tool may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_11_0.png
+[Image 2] saved as image_11_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 16
+Topic #: 6
+[All AZ-400 Questions]
+You have an Azure DevOps organization that contains a project named Project1.
+You need to create a published wiki in Project1.
+What should you do first?
+A. Modify the Storage settings of Project1.
+B. In Project1, create an Azure DevOps pipeline.
+C. In Project1, create an Azure DevOps repository.
+D. Modify the Team configuration settings of Project1.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 17
+Topic #: 1
+[All AZ-400 Questions]
+Your company hosts a web application in Azure, and makes use of Azure Pipelines for managing the build and release of the application.
+When stakeholders report that system performance has been adversely affected by the most recent releases, you configure alerts in Azure Monitor.
+You are informed that new releases must satisfy specified performance baseline conditions in the staging environment before they can be deployed to production.
+You need to make sure that releases not satisfying the performance baseline are prevented from being deployed.
+Which of the following actions should you take?
+A. You should make use of a branch control check.
+B. You should make use of an alert trigger.
+C. You should make use of a gate.
+D. You should make use of an approval check.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 18
+Topic #: 8
+[All AZ-400 Questions]
+SIMULATION -
+You plan to add a new web farm that will be published by using an IP address of 10.0.0.5.
+You need to allow traffic from the web farm to an Azure Database for MySQL server named az400-11566895-mysql.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+[Image 1] saved as image_14_0.png
+[Image 2] saved as image_14_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 21
+Topic #: 8
+[All AZ-400 Questions]
+You are in the process of developing an application, whose source has several branches.
+After making a number of alterations to a branch used for testing, you are required to update the main branch to capture the alterations made to the testing branch and override the Git repository's history.
+You need to select the Git option that will achieve this.
+Which of the following is the option you should select?
+A. Join
+B. Fetch
+C. Merge
+D. Force
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 22
+Topic #: 1
+[All AZ-400 Questions]
+Your company has an Azure DevOps project, which includes a build pipeline that makes use of roughly fifty open source libraries.
+You have been tasked with making sure that you are able to scan project for common security weaknesses in the open source libraries.
+Which of the following actions should you take?
+A. You should create a build task and use the WhiteSource Bolt service.
+B. You should create a deployment task and use the WhiteSource Bolt service.
+C. You should create a build task and use the Chef service.
+D. You should create a deployment task and use the Chef service.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 23
+Topic #: 1
+[All AZ-400 Questions]
+You need to consider the underlined segment to establish whether it is accurate.
+Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+A. No adjustment required.
+B. Maven
+C. Bamboo
+D. CMAKE
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 24
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company has an Azure subscription that includes an Azure SQL database. Your company also has an Azure DevOps project, named PROJ-01.
+You plan to update the Azure SQL database by creating a release pipeline that employs the Azure SQL Database Deployment task.
+You need to deploy the necessary artifact.
+Solution: You deploy a config file.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 25
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company has an Azure subscription that includes an Azure SQL database. Your company also has an Azure DevOps project, named PROJ-01.
+You plan to update the Azure SQL database by creating a release pipeline that employs the Azure SQL Database Deployment task.
+You need to deploy the necessary artifact.
+Solution: You deploy an LDF file.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 26
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company has an Azure subscription that includes an Azure SQL database. Your company also has an Azure DevOps project, named PROJ-01.
+You plan to update the Azure SQL database by creating a release pipeline that employs the Azure SQL Database Deployment task.
+You need to deploy the necessary artifact.
+Solution: You deploy a DACPAC file.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 27
+Topic #: 7
+[All AZ-400 Questions]
+You use a Git repository in Azure Repos to manage the source code of a web application. Developers commit changes directly to the default branch.
+You need to implement a change management procedure that meets the following requirements:
+✑ The default branch must be protected, and new changes must be built in the feature branches first.
+✑ Changes must be reviewed and approved by at least one release manager before each merge.
+✑ Changes must be brought into the default branch by using pull requests.
+What should you configure in Azure Repos?
+A. branch policies of the default branch
+B. Services in Project Settings
+C. Deployment pools in Project Settings
+D. branch security of the default branch
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 28
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are responsible for an Azure DevOps project, which contains package feeds.
+You are preparing to assign a number of developers access that allows them to save packages from upstream sources, without giving them more permissions than necessary.
+Solution: You assign the Owner access level.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+[Image 1] saved as image_22_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 29
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are responsible for an Azure DevOps project, which contains package feeds.
+You are preparing to assign a number of developers access that allows them to save packages from upstream sources, without giving them more permissions than necessary.
+Solution: You assign the Reader access level.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+[Image 1] saved as image_23_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 30
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+You are responsible for an Azure DevOps project, which contains package feeds.
+You are preparing to assign a number of developers access that allows them to save packages from upstream sources, without giving them more permissions than necessary.
+Solution: You assign the Collaborator access level.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+[Image 1] saved as image_24_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 31
+Topic #: 1
+[All AZ-400 Questions]
+You are in the process of building a mobile app aimed at Android and iOS devices.
+All work items and release cycles are managed via Azure DevOps.
+You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.
+Which of the following must be part of your solution?
+A. The Microsoft Test & Feedback extension.
+B. OWASP ZAP
+C. TFS Integration Platform
+D. Code Style
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 33
+Topic #: 8
+[All AZ-400 Questions]
+DRAG DROP -
+You have an Azure DevOps organization named Contoso.
+You have 10 Azure virtual machines that run Windows Server 2019. The virtual machines host an application that you build and deploy by using Azure Pipelines.
+Each virtual machine has the Web Server (IIS) role installed and configured.
+You need to ensure that the web server configurations on the virtual machines is maintained automatically. The solution must provide centralized management of the configuration settings and minimize management overhead.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_26_0.png
+[Image 2] saved as image_26_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 34
+Topic #: 8
+[All AZ-400 Questions]
+You need to consider the underlined segment to establish whether it is accurate.
+Black Duck can be used to make sure that all the open source libraries conform to your company's licensing criteria.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+A. No adjustment required.
+B. Maven
+C. Bamboo
+D. CMAKE
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 35
+Topic #: 6
+[All AZ-400 Questions]
+DRAG DROP
+-
+
+You are implementing a new project in Azure DevOps.
+
+You need to assess the performance of the project. The solution must identify the following metrics:
+• How long it takes to complete a work item
+• The percentage of defects found in production
+
+Which DevOps KPI should you review for each metric? To answer, drag the appropriate KPIs to the correct metrics. Each KPI may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_28_0.png
+[Image 2] saved as image_28_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 36
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company has an Azure DevOps project that includes a release pipeline.
+You want to make use of the Helm package and deploy task to deploy to an Azure Kubernetes Services (AKS) cluster.
+To make sure that the intended deployment is successful, you are required to install the necessary service in the AKS namespace.
+Solution: You install the Azure Container Registry service.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 37
+Topic #: 7
+[All AZ-400 Questions]
+Your company deploys applications in Docker containers.
+You want to detect known exploits in the Docker images used to provision the Docker containers.
+You need to integrate image scanning into the application lifecycle. The solution must expose the exploits as early as possible during the application lifecycle.
+What should you configure?
+A. a task executed in the continuous integration pipeline and a scheduled task that analyzes the image registry
+B. manual tasks performed during the planning phase and the deployment phase
+C. a task executed in the continuous deployment pipeline and a scheduled task against a running production container
+D. a task executed in the continuous integration pipeline and a scheduled task that analyzes the production container
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 38
+Topic #: 8
+[All AZ-400 Questions]
+Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.
+Your company has an Azure DevOps project that includes a release pipeline.
+You want to make use of the Helm package and deploy task to deploy to an Azure Kubernetes Services (AKS) cluster.
+To make sure that the intended deployment is successful, you are required to install the necessary service in the AKS namespace.
+Solution: You install the Tiller service.
+Does the solution meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 39
+Topic #: 2
+[All AZ-400 Questions]
+HOTSPOT
+-
+
+You have an Azure virtual machine named web1.
+
+You need to query the amount of free memory that was available on web1 during the past seven days. The solution must meet the following requirements:
+
+• Display the data as a time chart.
+• Calculate the average value per hour.
+
+How should you complete the KQL query? To answer, select the appropriate options in the answer area.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_32_0.png
+[Image 2] saved as image_32_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 40
+Topic #: 8
+[All AZ-400 Questions]
+You have a private distribution group that contains provisioned and unprovisioned devices.
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.
+What should you do?
+A. Request the Apple ID associated with the user of each device.
+B. Register the devices on the Apple Developer portal.
+C. Create an active subscription in App Center Test.
+D. Add the device owner to the organization in App Center.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 41
+Topic #: 8
+[All AZ-400 Questions]
+You are developing an iOS application by using Azure DevOps.
+You need to test the application manually on 10 devices without releasing the application to the public.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Create a Microsoft Intune device compliance policy.
+B. Deploy a certificate from an internal certification authority (CA) to each device.
+C. Register the application in the iTunes store.
+D. Onboard the devices into Microsoft Intune.
+E. Distribute a new release of the application.
+F. Register the IDs of the devices in the Apple Developer portal.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 42
+Topic #: 8
+[All AZ-400 Questions]
+Your company manages incidents via ServiceNow.
+You have recently created an application that runs on Azure.
+You have to make sure that application authentication failure produces a ticket in ServiceNow.
+Which Azure Log Analytics solution should you use?
+A. Application Insights Connector
+B. Microsoft Azure Connector
+C. IT Service Management Connector (ITSM)
+D. SQL Server Connector
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 43
+Topic #: 7
+[All AZ-400 Questions]
+You are designing an Azure DevOps strategy for your company's development team.
+You suspect that the team's productivity is low due to accumulate technical debt.
+You need to recommend a metric to assess the amount of the team's technical debt.
+What should you recommend?
+A. the number of code modules in an application
+B. the number of unit test failures
+C. the percentage of unit test failures
+D. the percentage of overall time spent on rework
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 44
+Topic #: 8
+[All AZ-400 Questions]
+SIMULATION -
+You plan to deploy a website that will be hosted in two Azure regions.
+You need to create an Azure Traffic Manager profile named az40011566895n1-tm in a resource group named RG1lod11566895. The solution must ensure that users will always connect to a copy of the website that is in the same country.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+[Image 1] saved as image_37_0.png
+[Image 2] saved as image_37_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 45
+Topic #: 8
+[All AZ-400 Questions]
+HOTSPOT -
+Your company uses Git as a source code control system for a complex app named App1.
+You plan to add a new functionality to App1.
+You need to design a branching model for the new functionality.
+Which branch lifetime and branch time should you use in the branching model? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_38_0.png
+[Image 2] saved as image_38_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 46
+Topic #: 8
+[All AZ-400 Questions]
+Your company has a multi-tier application. The application is configured to have an Azure Web Apps front end, with an Azure SQL Database back end.
+You are designing a strategy for capturing and storing telemetry data. Your strategy should allow for baselines to be pinpointed via ad-hoc queries. Also, alerts must be triggered once baseline metrics are surpassed. Furthermore, application and database metrics must be stored centrally.
+Which of the following should be part of your strategy?
+A. Azure Advisor
+B. Azure Security Center
+C. Azure Application Insights
+D. Azure Log Analytics
+Show Suggested Answer
+[Image 1] saved as image_39_0.png
+[Image 2] saved as image_39_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 47
+Topic #: 8
+[All AZ-400 Questions]
+HOTSPOT -
+You have an Azure virtual machine named VM1 that runs Linux.
+You plan to deploy the Desired State Configuration (DSC) extension to VM1.
+You need to grant the Log Analytics agent the appropriate directory permissions.
+How should you complete the command? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_40_0.png
+[Image 2] saved as image_40_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 48
+Topic #: 8
+[All AZ-400 Questions]
+HOTSPOT -
+You are using PowerShell to administer Azure Log Analytics workspaces.
+You need to list the available workspaces and their properties.
+How should you complete the command? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_41_0.png
+[Image 2] saved as image_41_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 49
+Topic #: 8
+[All AZ-400 Questions]
+You have Azure Pipelines and GitHub integrated as a source code repository.
+The build pipeline has continuous integration enabled.
+You plan to trigger an automated build whenever code changes are committed to the repository.
+You need to ensure that the system will wait until a build completes before queuing another build.
+What should you implement?
+A. path filters
+B. batch changes
+C. scheduled builds
+D. branch filters
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 50
+Topic #: 7
+[All AZ-400 Questions]
+You have a build pipeline in Azure Pipelines that uses different jobs to compile an application for 10 different architectures.
+The build pipeline takes approximately one day to complete.
+You need to reduce the time it takes to execute the build pipeline.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Move to a blue/green deployment pattern
+B. Create a deployment group
+C. Increase the number of parallel jobs
+D. Reduce the size of the repository
+E. Create an agent pool
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 51
+Topic #: 7
+[All AZ-400 Questions]
+You are creating a build pipeline in Azure Pipelines.
+You define several tests that might fail due to third-party applications.
+You need to ensure that the build pipeline completes successfully if the third-party applications are unavailable.
+What should you do?
+A. Configure the build pipeline to use parallel jobs
+B. Configure flaky tests
+C. Increase the test pass percentage
+D. Add the Requirements quality widget to your dashboard
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 52
+Topic #: 8
+[All AZ-400 Questions]
+DRAG DROP -
+You need to deploy Internet Information Services (IIS) to an Azure virtual machine that runs Windows Server 2019.
+How should you complete the Desired State Configuration (DSC) configuration script? To answer, drag the appropriate values to the correct locations. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_45_0.png
+[Image 2] saved as image_45_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 53
+Topic #: 8
+[All AZ-400 Questions]
+HOTSPOT -
+You plan to use Desired State Configuration (DSC) to maintain the configuration of a server that runs Windows Server 2019.
+The server must have the following features installed:
+✑ A web server
+✑ An email server
+How should you complete the DSC configuration file? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_46_0.png
+[Image 2] saved as image_46_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 54
+Topic #: 7
+[All AZ-400 Questions]
+You have an Azure DevOps organization named Contoso and an Azure DevOps project named Project1.
+You plan to use Microsoft-hosted agents to build container images that will host full Microsoft .NET Framework apps in a YAML pipeline in Project1.
+What are two possible virtual machine images that you can use for the Microsoft-hosted agent pool? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. vs2017-win2016
+B. ubuntu-16.04
+C. win1803
+D. macOS-10.13
+E. vs.2015-win2012r2
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 55
+Topic #: 7
+[All AZ-400 Questions]
+HOTSPOT -
+You currently use JIRA, Jenkins, and Octopus as part of your DevOps processes.
+You plan to use Azure DevOps to replace these tools.
+Which Azure DevOps service should you use to replace each tool? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_48_0.png
+[Image 2] saved as image_48_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 56
+Topic #: 8
+[All AZ-400 Questions]
+You have a GitHub repository that contains workflows. The workflows contain steps that execute predefined actions. Each action has one or more versions.
+You need to request the specific version of an action to execute.
+Which three attributes can you use to identify the version? Each correct answer presents a complete solution.
+NOTE: Each correct selection is worth one point.
+A. the SHA-based hashes
+B. the tag
+C. the runner
+D. the branch
+E. the serial
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 57
+Topic #: 7
+[All AZ-400 Questions]
+Your company develops a client banking application that processes a large volume of data.
+Code quality is an ongoing issue for the company. Recently, the code quality has deteriorated because of an increase in time pressure on the development team.
+You need to implement static code analysis.
+During which phase should you use static code analysis?
+A. integration testing
+B. staging
+C. production release
+D. build
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 58
+Topic #: 8
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You use Azure Pipelines to build and test a React.js application.
+You have a pipeline that has a single job.
+You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline.
+You need to recommend a solution to reduce the pipeline execution time.
+Solution: You recommend using pipeline artifacts.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 59
+Topic #: 7
+[All AZ-400 Questions]
+HOTSPOT -
+You have the Azure DevOps pipeline shown in the following exhibit.
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_52_0.png
+[Image 2] saved as image_52_1.png
+[Image 3] saved as image_52_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 60
+Topic #: 8
+[All AZ-400 Questions]
+You have an on-premises app named App1 that accesses Azure resources by using credentials stored in a configuration file.
+You plan to upgrade App1 to use an Azure service principal.
+What is required for App1 to programmatically sign in to Azure Active Directory (Azure AD)?
+A. the application ID, a client secret, and the object ID
+B. a client secret, the object ID, and the tenant ID
+C. the application ID, a client secret, and the tenant ID
+D. the application ID, a client secret, and the subscription ID
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 61
+Topic #: 7
+[All AZ-400 Questions]
+SIMULATION -
+You have an Azure function hosted in an App Service plan named az400-9940427-func1.
+You need to configure az400-9940427-func1 to upgrade the functions automatically whenever new code is committed to the master branch of https://github.com/
+Azure-Samples/functions-quickstart.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 62
+Topic #: 8
+[All AZ-400 Questions]
+DRAG DROP -
+You have a web app named App1 that is hosted on multiple servers. App1 uses Application Insights in Azure Monitor.
+You need to compare the daily CPU usage from the last week for all servers.
+How should you complete the query? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all.
+You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_55_0.png
+[Image 2] saved as image_55_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 63
+Topic #: 8
+[All AZ-400 Questions]
+You have an Azure subscription that contains 50 virtual machines.
+You plan to manage the configuration of the virtual machines by using Azure Automation State Configuration.
+You need to create the Desired State Configuration (DSC) configuration files.
+How should you structure the code blocks?
+A. Node > Configuration > Resource
+B. Configuration > Resource > Node
+C. Resource > Configuration > Node
+D. Configuration > Node > Resource
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 64
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You use Azure Pipelines to build and test a React.js application.
+You have a pipeline that has a single job.
+You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline.
+You need to recommend a solution to reduce the pipeline execution time.
+Solution: You recommend enabling pipeline caching.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 65
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You use Azure Pipelines to build and test a React.js application.
+You have a pipeline that has a single job.
+You discover that installing JavaScript packages from npm takes approximately five minutes each time you run the pipeline.
+You need to recommend a solution to reduce the pipeline execution time.
+Solution: You recommend enabling parallel jobs for the pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 66
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
+✑ Two resource groups
+✑ Four Azure virtual machines in one resource group
+✑ Two Azure SQL databases in other resource group
+You need to recommend a solution to deploy the resources.
+Solution: Create two standalone templates, each of which will deploy the resources in its respective group.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 67
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
+✑ Two resource groups
+✑ Four Azure virtual machines in one resource group
+✑ Two Azure SQL databases in other resource group
+You need to recommend a solution to deploy the resources.
+Solution: Create a single standalone template that will deploy all the resources.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 68
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure DevOps project.
+Your build process creates several artifacts.
+You need to deploy the artifacts to on-premises servers.
+Solution: You deploy a Kubernetes cluster on-premises. You deploy a Helm agent to the cluster. You add a Download Build Artifacts task to the deployment pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 69
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure DevOps project.
+Your build process creates several artifacts.
+You need to deploy the artifacts to on-premises servers.
+Solution: You deploy a Docker build to an on-premises server. You add a Download Build Artifacts task to the deployment pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 70
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure DevOps project.
+Your build process creates several artifacts.
+You need to deploy the artifacts to on-premises servers.
+Solution: You deploy an Azure self-hosted agent to an on-premises server. You add a Copy and Publish Build Artifacts task to the deployment pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 71
+Topic #: 7
+[All AZ-400 Questions]
+You have a project in Azure DevOps named Project1. Project1 contains a pipeline that builds a container image named Image1 and pushes Image1 to an Azure container registry named ACR1. Image1 uses a base image stored in Docker Hub.
+You need to ensure that Image1 is updated automatically whenever the base image is updated.
+What should you do?
+A. Enable the Azure Event Grid resource provider and subscribe to registry events.
+B. Add a Docker Hub service connection to Azure Pipelines.
+C. Create and run an Azure Container Registry task.
+D. Create a service hook in Project1.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 72
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You have an Azure DevOps project.
+Your build process creates several artifacts.
+You need to deploy the artifacts to on-premises servers.
+Solution: You deploy an Octopus Deploy server. You deploy a polled Tentacle agent to an on-premises server. You add an Octopus task to the deployment pipeline.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 73
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
+✑ Two resource groups
+✑ Four Azure virtual machines in one resource group
+✑ Two Azure SQL databases in other resource group
+You need to recommend a solution to deploy the resources.
+Solution: Create a main template that will deploy the resources in one resource group and a nested template that will deploy the resources in the other resource group.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 74
+Topic #: 7
+[All AZ-400 Questions]
+Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.
+After you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.
+You plan to create a release pipeline that will deploy Azure resources by using Azure Resource Manager templates. The release pipeline will create the following resources:
+✑ Two resource groups
+✑ Four Azure virtual machines in one resource group
+✑ Two Azure SQL databases in other resource group
+You need to recommend a solution to deploy the resources.
+Solution: Create a main template that has two linked templates, each of which will deploy the resources in its respective group.
+Does this meet the goal?
+A. Yes
+B. No
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 75
+Topic #: 7
+[All AZ-400 Questions]
+DRAG DROP -
+You are building an application that has the following assets:
+✑ Source code
+✑ Logs from automated tests and builds
+✑ Large and frequently updated binary assets
+✑ A common library used by multiple applications
+Where should you store each asset? To answer, drag the appropriate Azure services to the correct assets. Each service may be used once. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_68_0.png
+[Image 2] saved as image_68_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 76
+Topic #: 7
+[All AZ-400 Questions]
+You plan to share packages that you wrote, tested, validated, and deployed by using Azure Artifacts.
+You need to release multiple builds of each package by using a single feed. The solution must limit the release of packages that are in development.
+What should you use?
+A. local symbols
+B. views
+C. global symbols
+D. upstream sources
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 77
+Topic #: 7
+[All AZ-400 Questions]
+You have a project in Azure DevOps named Project1. Project1 contains a build pipeline named Pipe1 that builds an application named App1.
+You have an agent pool named Pool1 that contains a Windows Server 2019-based self-hosted agent. Pipe1 uses Pool1.
+You plan to implement another project named Project2. Project2 will have a build pipeline named Pipe2 that builds an application named App2.
+App1 and App2 have conflicting dependencies.
+You need to minimize the possibility that the two build pipelines will conflict with each other. The solution must minimize infrastructure costs.
+What should you do?
+A. Add another self-hosted agent.
+B. Add a Docker Compose task to the build pipelines.
+C. Change the self-hosted agent to use Red Hat Enterprise Linux (RHEL) 8.
+D. Create two container jobs.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 78
+Topic #: 7
+[All AZ-400 Questions]
+SIMULATION -
+You plan to store signed images in an Azure Container Registry instance named az4009940427acr1.
+You need to modify the SKU for az4009940427acr1 to support the planned images. The solution must minimize costs.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+[Image 1] saved as image_71_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 79
+Topic #: 7
+[All AZ-400 Questions]
+You manage build pipelines and deployment pipelines by using Azure DevOps.
+Your company has a team of 500 developers. New members are added continually to the team.
+You need to automate the management of users and licenses whenever possible.
+Which task must you perform manually?
+A. modifying group memberships
+B. adding users
+C. assigning entitlements
+D. procuring licenses
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 80
+Topic #: 7
+[All AZ-400 Questions]
+HOTSPOT -
+Your company uses Team Foundation Server 2013 (TFS 2013).
+You plan to migrate to Azure DevOps.
+You need to recommend a migration strategy that meets the following requirements:
+✑ Preserves the dates of Team Foundation Version Control changesets
+✑ Preserves the changed dates of work items revisions
+
+Minimizes migration effort -
+
+✑ Migrates all TFS artifacts
+What should you recommend? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_73_0.png
+[Image 2] saved as image_73_1.png
+[Image 3] saved as image_73_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 81
+Topic #: 7
+[All AZ-400 Questions]
+Your company is building a new solution in Java.
+The company currently uses a SonarQube server to analyze the code of .NET solutions.
+You need to analyze and monitor the code quality of the Java solution.
+Which task types should you add to the build pipeline?
+A. Octopus
+B. Chef
+C. CocoaPods
+D. Gradle
+Show Suggested Answer
+[Image 1] saved as image_74_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 82
+Topic #: 7
+[All AZ-400 Questions]
+Your company is building a new solution in Java.
+The company currently uses a SonarQube server to analyze the code of .NET solutions.
+You need to analyze and monitor the code quality of the Java solution.
+Which task types should you add to the build pipeline?
+A. Maven
+B. CocoaPods
+C. Xcode
+D. Gulp
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 83
+Topic #: 7
+[All AZ-400 Questions]
+You have an Azure subscription named Subscription1 that contains a custom Azure policy named Policy1. Policy1 is an audit policy that monitors naming convention compliance for the resources deployed to Subscription1.
+You have a pipeline named Pipeline1 in Azure Pipelines. Pipeline1 deploys Azure Resource Manager (ARM) resources to Subscription1.
+You need to ensure that the resources deployed by Pipeline1 comply with Policy1.
+What should you add to Pipeline1?
+A. a pre-deployment task that runs a security and compliance assessment
+B. a post-deployment task that runs a security and compliance assessment
+C. an ARM template deployment task to assign Policy1 to Subscription1
+D. an ARM template deployment task to deploy Policy1 to Subscription1
+Show Suggested Answer
+[Image 1] saved as image_76_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 84
+Topic #: 7
+[All AZ-400 Questions]
+HOTSPOT -
+You plan to use Desired State Configuration (DSC) to maintain the configuration state of virtual machines that run Windows Server.
+You need to perform the following:
+✑ Install Internet Information Services (IIS) on the virtual machines.
+✑ Update the default home page of the IIS web server.
+How should you configure the DSC configuration file? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_77_0.png
+[Image 2] saved as image_77_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 85
+Topic #: 7
+[All AZ-400 Questions]
+You have a project in Azure DevOps.
+You need to push notifications about pull requests to a Microsoft Teams channel. The solution must minimize development effort.
+What should you do?
+A. Install the Azure Pipelines app for Teams and configure a subscription to receive notifications in the channel.
+B. Use Azure Automation to connect to the Azure DevOps REST API and send messages to Teams.
+C. Install the Azure Repos app for Teams and configure a subscription to receive notifications in the channel.
+D. Use an Azure function to connect to the Azure DevOps REST API and send messages to Teams.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 86
+Topic #: 7
+[All AZ-400 Questions]
+HOTSPOT -
+You are creating a YAML-based Azure pipeline to deploy an Azure Data Factory instance that has the following requirements:
+✑ If a Data Factory instance exists already, the instance must be overwritten.
+✑ No other resources in a resource group named Fabrikam must be affected.
+How should you complete the code? To answer, select the appropriate options in the answer area.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_79_0.png
+[Image 2] saved as image_79_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 87
+Topic #: 7
+[All AZ-400 Questions]
+You have an Azure DevOps project that produces Node Package Manager (npm) packages. Multiple projects consume the packages.
+You need to configure Azure Artifacts to ensure that both the latest and pre-release versions of the packages are available for consumption.
+
+What should you do?
+A. Create two feed views named @prerelease and @release, Set @release as the default view. Configure a release pipeline that tags the packages as release after successful testing.
+B. Create a feed view named @prerelease. Configure a release pipeline that tags the packages as release after successful testing.
+C. Create two feed views named @prerelease and @default. Configure a release pipeline that promotes a package to the @default view after successful testing.
+D. Create two feed views named @prerelease and @release. Set @release as the default view. Configure a release pipeline that promotes a package to the @release view after successful testing.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 88
+Topic #: 7
+[All AZ-400 Questions]
+You have an Azure subscription that contains the resources shown in the following table.
+
+
+
+Project produces npm packages that are published to Feed1. Feed1 is consumed by multiple projects.
+You need to ensure that only tested packages are available for consumption. The solution must minimize development effort.
+
+What should you do?
+A. Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that promotes a package to the @release view.
+B. Create a feed view named @release and set @release as the default view. After the npm packages test successfully, configure a release pipeline that tags the packages as release.
+C. Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that tags the packages as release.
+D. Create a feed view named @default. After the npm packages test successfully, configure a release pipeline that promotes a package to the @default view.
+Show Suggested Answer
+[Image 1] saved as image_81_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 89
+Topic #: 7
+[All AZ-400 Questions]
+Your company has an Azure DevOps project that produces Node Package Manager (npm) packages. Multiple projects consume the packages.
+
+You need to minimize the amount of disk space used by older packages in Azure Artifacts.
+
+What should you modify?
+A. the retention settings of the project’s release
+B. the retention settings of the project’s pipeline
+C. the retention settings of the project’s tests
+D. the retention settings of the company pipeline
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 90
+Topic #: 7
+[All AZ-400 Questions]
+DRAG DROP
+-
+
+You have an Azure DevOps pipeline that is used to deploy a Node.js app.
+
+You need to ensure that the dependencies are cached between builds.
+
+How should you configure the deployment YAML? To answer, drag the appropriate values to the correct targets. Each value may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_83_0.png
+[Image 2] saved as image_83_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 93
+Topic #: 14
+[All AZ-400 Questions]
+You have a private distribution group that contains provisioned and unprovisioned devices.
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.
+What should you do?
+A. Generate a new .p12 file for each device.
+B. Create an unsigned build.
+C. Register the devices on the Apple Developer portal.
+D. Create an active subscription in App Center Test.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 2
+Topic #: 2
+[All AZ-400 Questions]
+HOTSPOT -
+You plan to create alerts that will be triggered based on the page load performance of a home page.
+You have the Application Insights log query shown in the following exhibit.
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_85_0.png
+[Image 2] saved as image_85_1.png
+[Image 3] saved as image_85_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 99
+Topic #: 14
+[All AZ-400 Questions]
+You have a Microsoft ASP.NET Core web app in Azure that is accessed worldwide.
+You need to run a URL ping test once every five minutes and create an alert when the web app is unavailable from specific Azure regions. The solution must minimize development time.
+What should you do?
+A. Create an Azure Monitor Availability metric and alert.
+B. Create an Azure Application Insights availability test and alert.
+C. Write an Azure function and deploy the function to the specific regions.
+D. Create an Azure Service Health alert for the specific regions.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 14
+Topic #: 6
+[All AZ-400 Questions]
+You have an Azure DevOps organization named Contoso and an Azure subscription.
+You use Azure DevOps to build and deploy a web app named App1. Azure Monitor is configured to generate an email notification in response to alerts generated whenever App1 generates a server-side error.
+You need to receive notifications in Microsoft Teams whenever an Azure Monitor alert is generated.
+Which two actions should you perform? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. Create an Azure Monitor workbook.
+B. Create an Azure logic app that has an HTTP request trigger.
+C. Create an Azure logic app that has an Azure DevOps trigger.
+D. Modify an action group in Azure Monitor.
+E. Modify the Diagnostics settings in Azure Monitor.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 25
+Topic #: 6
+[All AZ-400 Questions]
+You manage a project by using Azure Board, and you manage the project code by using Azure Repos.
+
+You have a bug work item that has an ID of 123.
+
+You need to set the work item state to Resolved.
+
+What should you add to the commit message?
+A. #123 completes
+B. #123 Resolved
+C. Completed #123
+D. Fixes #123
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 18
+Topic #: 8
+[All AZ-400 Questions]
+SIMULATION -
+You plan to add a new web farm that will be published by using an IP address of 10.0.0.5.
+You need to allow traffic from the web farm to an Azure Database for MySQL server named az400-11566895-mysql.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+[Image 1] saved as image_89_0.png
+[Image 2] saved as image_89_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 10
+Topic #: 5
+[All AZ-400 Questions]
+DRAG DROP -
+You are creating a NuGet package.
+You plan to distribute the package to your development team privately.
+You need to share the package and test that the package can be consumed.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_90_0.png
+[Image 2] saved as image_90_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 17
+Topic #: 2
+[All AZ-400 Questions]
+DRAG DROP -
+You need to recommend a solution for deploying charts by using Helm and Tiller to Azure Kubernetes Service (AKS) in an RBAC-enabled cluster.
+Which three commands should you recommend be run in sequence? To answer, move the appropriate commands from the list of commands to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_91_0.png
+[Image 2] saved as image_91_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 43
+Topic #: 5
+[All AZ-400 Questions]
+DRAG DROP
+-
+
+You create a Git repository named Repo1 in Azure Repos.
+
+You need to configure Repo1 to meet the following requirements:
+
+• Work items must be linked to a pull request.
+• Pull requests must have a minimum of two reviewers.
+• Pull requests must complete a code review by using a third-party tool.
+
+The solution must minimize administrative effort.
+
+Which type of policy should you use for each requirement? To answer, drag the appropriate policy types to the correct requirements. Each type policy may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+
+NOTE: Each correct selection is worth one point.
+
+Show Suggested Answer
+[Image 1] saved as image_92_0.png
+[Image 2] saved as image_92_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 7
+Topic #: 4
+[All AZ-400 Questions]
+Your company has a project in Azure DevOps for a new web application.
+The company identifies security as one of the highest priorities.
+You need to recommend a solution to minimize the likelihood that infrastructure credentials will be leaked.
+What should you recommend?
+A. Add a Run Inline Azure PowerShell task to the pipeline.
+B. Add a PowerShell task to the pipeline and run Set-AzureKeyVaultSecret.
+C. Add an Azure Key Vault task to the pipeline.
+D. Add Azure Key Vault references to Azure Resource Manger templates.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 25
+Topic #: 3
+[All AZ-400 Questions]
+You are designing a strategy to monitor the baseline metrics of Azure virtual machines that run Windows Server.
+You need to collect detailed data about the processes running in the guest operating system.
+Which two agents should you deploy? Each correct answer presents part of the solution.
+NOTE: Each correct selection is worth one point.
+A. the Telegraf agent
+B. the Azure Log Analytics agent
+C. the Azure Network Watcher Agent for Windows
+D. the Dependency agent
+Show Suggested Answer
+[Image 1] saved as image_94_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 27
+Topic #: 8
+[All AZ-400 Questions]
+You need to consider the underlined segment to establish whether it is accurate.
+To deploy an application to a number of Azure virtual machines, you should create a universal group.
+Select `No adjustment required` if the underlined segment is accurate. If the underlined segment is inaccurate, select the accurate option.
+A. No adjustment required.
+B. security
+C. deployment
+D. resource
+Show Suggested Answer
+[Image 1] saved as image_95_0.png
+[Image 2] saved as image_95_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 30
+Topic #: 1
+[All AZ-400 Questions]
+DRAG DROP -
+You have recently created a web application for your company.
+You have been tasked with making sure that a summary of the exceptions that transpire in the application is automatically sent to Microsoft Teams on a daily basis.
+Which of the following Azure services should you use? Answer by dragging the correct options from the list to the answer area.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_96_0.png
+[Image 2] saved as image_96_1.png
+[Image 3] saved as image_96_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 2
+Topic #: 2
+[All AZ-400 Questions]
+HOTSPOT -
+You plan to create alerts that will be triggered based on the page load performance of a home page.
+You have the Application Insights log query shown in the following exhibit.
+
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic.
+NOTE: Each correct selection is worth one point.
+Hot Area:
+
+Show Suggested Answer
+[Image 1] saved as image_97_0.png
+[Image 2] saved as image_97_1.png
+[Image 3] saved as image_97_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 31
+Topic #: 1
+[All AZ-400 Questions]
+You are in the process of building a mobile app aimed at Android and iOS devices.
+All work items and release cycles are managed via Azure DevOps.
+You want to make sure that crash reports for issue analysis is collected, and that beta releases are distributed to your testers. Also, you want to ensure that user feedback on the functionality of new apps is received.
+Which of the following must be part of your solution?
+A. The Microsoft Test & Feedback extension.
+B. OWASP ZAP
+C. TFS Integration Platform
+D. Code Style
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 3
+Topic #: 13
+[All AZ-400 Questions]
+DRAG DROP -
+Which package feed access levels should be assigned to the Developers and Team Leaders groups for the investment planning applications suite? To answer, drag the appropriate access levels to the correct groups. Each access level may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+NOTE: Each correct selection is worth one point.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_99_0.png
+[Image 2] saved as image_99_1.png
+[Image 3] saved as image_99_2.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 3
+Topic #: 14
+[All AZ-400 Questions]
+DRAG DROP -
+You need to configure authentication for App1. The solution must support the planned changes.
+Which three actions should you perform in sequence? To answer, move all actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_100_0.png
+[Image 2] saved as image_100_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 33
+Topic #: 8
+[All AZ-400 Questions]
+DRAG DROP -
+You have an Azure DevOps organization named Contoso.
+You have 10 Azure virtual machines that run Windows Server 2019. The virtual machines host an application that you build and deploy by using Azure Pipelines.
+Each virtual machine has the Web Server (IIS) role installed and configured.
+You need to ensure that the web server configurations on the virtual machines is maintained automatically. The solution must provide centralized management of the configuration settings and minimize management overhead.
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_101_0.png
+[Image 2] saved as image_101_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 38
+Topic #: 4
+[All AZ-400 Questions]
+You are designing the security validation strategy for a project in Azure DevOps.
+You need to identify package dependencies that have known security issues and can be resolved by an update.
+What should you use?
+A. Octopus Deploy
+B. Jenkins
+C. Gradle
+D. SonarQube
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 39
+Topic #: 7
+[All AZ-400 Questions]
+Your company has an Azure DevOps project,
+The source code for the project is stored in an on-premises repository and uses on an on-premises build server.
+You plan to use Azure DevOps to control the build process on the build server by using a self-hosted agent.
+You need to implement the self-hosted agent.
+You download and install the agent on the build server.
+Which two actions should you perform next? Each correct answer presents part of the solution.
+A. From Azure, create a shared access signature (SAS).
+B. From the build server, create a certificate, and then upload the certificate to Azure Storage.
+C. From the build server, create a certificate, and then upload the certificate to Azure Key Vault.
+D. From DevOps, create a personal access token (PAT).
+E. From the build server, run config.cmd.
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 42
+Topic #: 8
+[All AZ-400 Questions]
+You have a private distribution group that contains provisioned and unprovisioned devices.
+You need to distribute a new iOS application to the distribution group by using Microsoft Visual Studio App Center.
+What should you do?
+A. Select Register devices and sign my app.
+B. Create an active subscription in App Center Test.
+C. Create an unsigned build.
+D. Add the device owner to the collaborators group.
+Show Suggested Answer
+[Image 1] saved as image_104_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 38
+Topic #: 4
+[All AZ-400 Questions]
+You are designing the security validation strategy for a project in Azure DevOps.
+You need to identify package dependencies that have known security issues and can be resolved by an update.
+What should you use?
+A. Octopus Deploy
+B. Jenkins
+C. Gradle
+D. SonarQube
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 41
+Topic #: 7
+[All AZ-400 Questions]
+DRAG DROP -
+You are deploying a new application that uses Azure virtual machines.
+You plan to use the Desired State Configuration (DSC) extension on the virtual machines.
+You need to ensure that the virtual machines always have the same Windows feature installed.
+Which three actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.
+Select and Place:
+
+Show Suggested Answer
+[Image 1] saved as image_106_0.png
+[Image 2] saved as image_106_1.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 47
+Topic #: 4
+[All AZ-400 Questions]
+SIMULATION -
+You need to prepare a network security group (NSG) named az400-123456789-nsg1 to host an Azure DevOps pipeline agent. The solution must allow only the required outbound port for Azure DevOps and deny all other inbound and outbound access to the Internet.
+To complete this task, sign in to the Microsoft Azure portal.
+Show Suggested Answer
+[Image 1] saved as image_107_0.png
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 33
+Topic #: 6
+[All AZ-400 Questions]
+You manage a project by using Azure Boards. You manage the project code by using GitHub.
+
+You have three work items that have IDs of 456, 457, and 458.
+
+You need to create a pull request that will be linked to all the work items. The solution must set the state of work item 456 to done.
+
+What should you add to the commit message?
+A. Fixes #456, #457, #458
+B. Fixes #AB456, #AB457, #AB458
+C. #456, #457, #458
+Completed #456
+D. #AB456, #AB457, #AB458
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 33
+Topic #: 6
+[All AZ-400 Questions]
+You manage a project by using Azure Boards. You manage the project code by using GitHub.
+
+You have three work items that have IDs of 456, 457, and 458.
+
+You need to create a pull request that will be linked to all the work items. The solution must set the state of work item 456 to done.
+
+What should you add to the commit message?
+A. Fixes #456, #457, #458
+B. Fixes #AB456, #AB457, #AB458
+C. #456, #457, #458
+Completed #456
+D. #AB456, #AB457, #AB458
+Show Suggested Answer
+
+
+Actual exam question from Microsoft's AZ-400
+Question #: 33
+Topic #: 6
+[All AZ-400 Questions]
+You manage a project by using Azure Boards. You manage the project code by using GitHub.
+
+You have three work items that have IDs of 456, 457, and 458.
+
+You need to create a pull request that will be linked to all the work items. The solution must set the state of work item 456 to done.
+
+What should you add to the commit message?
+A. Fixes #456, #457, #458
+B. Fixes #AB456, #AB457, #AB458
+C. #456, #457, #458
+Completed #456
+D. #AB456, #AB457, #AB458
+Show Suggested Answer
+
+

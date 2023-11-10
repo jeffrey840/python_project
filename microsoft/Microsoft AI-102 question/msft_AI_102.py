@@ -41,7 +41,7 @@ if not os.path.exists(images_dir):
     os.makedirs(images_dir)
 
 # Prepare to write to the text file
-output_text_file = "filtered_1-140.txt"
+output_text_file = "filtered_1-240.txt"
 
 # Read links from a text file
 with open('links_1-240', 'r') as f:  # Make sure this matches your actual file name
