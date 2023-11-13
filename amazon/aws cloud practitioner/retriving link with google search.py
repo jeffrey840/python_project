@@ -47,5 +47,3 @@ def google_search_and_save_links(queries):
 if __name__ == "__main__":
     topics = ["aws cloud practitioner question {} examtopics".format(i) for i in range(147, 199)]
     google_search_and_save_links(topics)
-
-
