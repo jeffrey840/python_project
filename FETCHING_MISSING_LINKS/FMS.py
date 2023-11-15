@@ -41,3 +41,9 @@ if total_expected_links and last_number < total_expected_links:
 print("Missing question numbers:")
 for number in missing_numbers:
     print(number)
+
+    # todo: left on 11-14, use FMS to return the missing zipcodes and then use amazon aws devops engineer profesional
+    # todo:  py file to find the search results from google to extract the links , make a filter to return 3 search links from the
+    # todo: google search from each missing number, you then want to save the missing links in a seperatae text file, to do this you want to
+    # todo: use google ACE file to create a different saved images and text extraction data
+
