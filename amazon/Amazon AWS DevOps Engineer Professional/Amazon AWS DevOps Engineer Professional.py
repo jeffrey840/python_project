@@ -49,6 +49,9 @@ def google_search_and_save_links(queries):
                 # Introduce a random delay before the next search
                 random_sleep()
 
+
+
+
     browser.quit()
 
 if __name__ == "__main__":
