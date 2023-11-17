@@ -54,3 +54,6 @@ def google_search_and_save_links(queries):
 if __name__ == "__main__":
     topics = ["Amazon AWS DevOps Engineer Professional question {} examtopics".format(i) for i in range(113, 214)]
     google_search_and_save_links(topics)
+
+
+
