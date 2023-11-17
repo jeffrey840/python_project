@@ -47,7 +47,3 @@ for number in missing_numbers:
     #  make a filter to return 3 search links from the
     # todo: google search from each missing number, you then want to save the missing links in a seperatae text file,
     #  to do this you want to use google ACE file to create a different saved images and text extraction data
-
-
-
-
