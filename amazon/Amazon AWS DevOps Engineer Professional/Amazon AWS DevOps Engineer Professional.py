@@ -10,6 +10,9 @@ from selenium.common.exceptions import TimeoutException
 driver_path = "/Users/jeffreycabrera/.wdm/drivers/chromedriver/mac64/118.0.5993.70/chromedriver-mac-arm64/chromedriver"
 brave_path = "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser"
 
+
+
+
 chrome_options = webdriver.ChromeOptions()
 chrome_options.binary_location = brave_path
 
