@@ -4,8 +4,8 @@
 Here are the organized questions and their respective options:
 
 1. **Which of the following statements are true?**🟥ABC
-   - A. Every recursive method must have a base case or a stopping condition.
-   - B. Every recursive call reduces the original problem, bringing it increasingly closer to a base case until it becomes that case.
+   - A. Every recursive method must have a base case or a stopping condition. ___________ this is the selection for first option, this answer is wrong
+   - B. Every recursive call reduces the original problem, bringing it increasingly closer to a base case until it becomes that case.this is the selection for first option, thi sanswer is correct
    - C. Infinite recursion can occur if recursion does not reduce the problem in a manner that allows it to eventually converge into the base case.
    - D. Every recursive method must have a return value.
    - E. A recursive method is invoked differently from a non-recursive method.
@@ -86,9 +86,9 @@ Here are the organized questions and their respective options:
 
 20. **Which of the following statements are true?** BCD
     - A. Recursive methods run faster than non-recursive methods.
-    - B. Recursive methods usually take more memory space than non-recursive methods.
-    - C. A recursive method can always be replaced by a non-recursive method.
-    - D. In some cases, however, using recursion enables you to give a natural, straightforward, simple solution to a program that would otherwise be difficult to solve.
+    - B. Recursive methods usually take more memory space than non-recursive methods.thsi is eth first selection, thsi is wrong
+    - C. A recursive method can always be replaced by a non-recursive method.thsi is eth first selection, thsi is wrong
+    - D. In some cases, however, using recursion enables you to give a natural, straightforward, simple solution to a program that would otherwise be difficult to solve.___THIS IS THE CORRECT ANS
 
 
 21. **Analyze the following functions:**
@@ -532,3 +532,5 @@ https://quizlet.com/162509469/cs-ii-chapter-18-quiz-flash-cards/
    }
    ```
    - Options: A. 0, B. 1, C. 2, D. 3 AAAAAA
+
+
