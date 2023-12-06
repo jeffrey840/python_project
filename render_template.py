@@ -1,7 +1,6 @@
-
-
-
 import re
+import os
+from jinja2 import Environment, FileSystemLoader
 
 def process_text(filename):
     with open(filename, 'r') as file:
@@ -20,25 +19,28 @@ def process_text(filename):
 
     return '\n'.join(processed_lines)
 
-content = process_text('WC_final.txt')
+def main():
+    content = process_text('WC_final.txt')
 
+    # Set up the environment to load the template
+    env = Environment(loader=FileSystemLoader('templates'))
 
+    # Load the template
+    template = env.get_template('template.html')
 
-from jinja2 import Environment, FileSystemLoader
+    # Render the template with the processed content
+    rendered_html = template.render(content=content)
 
-# Set up the environment to load the template
-env = Environment(loader=FileSystemLoader('templates'))
+    # Path for the output file
+    output_file_path = 'output.html'
 
-# Load the template
-template = env.get_template('template.html')
+    # Check if the file exists and delete it
+    if os.path.exists(output_file_path):
+        os.remove(output_file_path)
 
-# Render the template with the processed content
-rendered_html = template.render(content=content)
+    # Write the rendered HTML to a new file
+    with open(output_file_path, 'w') as html_file:
+        html_file.write(rendered_html)
 
-# Write the rendered HTML to a file
-with open('output.html', 'w') as html_file:
-    html_file.write(rendered_html)
-
-
-
-
+if __name__ == '__main__':
+    main()
