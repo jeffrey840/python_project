@@ -1,4 +1,7 @@
-# /Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/FMS_V2.py
+
+
+
+# /Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/FMS_V4.py
 
 import re
 import os
@@ -39,7 +42,7 @@ def find_missing_numbers(links, total_expected_links):
         missing_numbers.extend(range(last_number + 1, total_expected_links + 1))
     return missing_numbers
 
-# Function to perform Google search and save links
+# Function to perform Google search and save the first three links
 def google_search_and_save_links(queries, directory):
     # Paths for Brave and ChromeDriver
     driver_path = "C:\\Users\\jeffr\\.cache\\selenium\\chromedriver\\win64\\118.0.5993.70\\chromedriver.exe"
@@ -51,29 +54,49 @@ def google_search_and_save_links(queries, directory):
     # Create a new instance of the Brave browser using the specified options
     browser = webdriver.Chrome(options=chrome_options)
 
+    # XPaths for the first three search results
+    xpaths = [
+        '//*[@id="rso"]/div[1]/div/div/div[1]/div/div/span/a',
+        '//*[@id="rso"]/div[2]/div/div/div[1]/div/div/span/a',
+    ]
+
     # Ensure the directory exists
     if not os.path.exists(directory):
         os.makedirs(directory)
 
     # File to save the links
-    first_number = queries[0] if queries else "0"
-    last_number = queries[-1] if queries else "0"
+    first_number = queries[0].split(" ")[1] if queries else "0"
+    last_number = queries[-1].split(" ")[1] if queries else "0"
     file_path = os.path.join(directory, f"missing_links_{first_number}-{last_number}.txt")
+
     with open(file_path, "a") as file:
         for query in queries:
             try:
-                # Perform the Google search and save the first link
+                # Perform the Google search
                 base_url = "https://www.google.com/search?q={}"
                 browser.get(base_url.format(query))
-                xpath_to_select = '//*[@id="rso"]/div[1]/div/div/div[1]/div/div/span/a'
 
+                # Retrieve links
                 wait = WebDriverWait(browser, 10)
-                element = wait.until(EC.presence_of_element_located((By.XPATH, xpath_to_select)))
-                link = element.get_attribute("href")
-                file.write(link + "\n")
+                retrieved_links = []
+                for xpath in xpaths:
+                    try:
+                        element = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
+                        link = element.get_attribute("href")
+                        retrieved_links.append(link)
+                    except TimeoutException:
+                        continue
+
+                # Filter and save links
+                for link in retrieved_links:
+                    if "associate" in link.lower() and "professional" not in link.lower():
+                        file.write(link + "\n")
+                        print(link)
+
             except TimeoutException:
                 error_message = f"Error encountered with query: {query}\n"
                 file.write(error_message)
+                print(error_message)
             finally:
                 random_sleep()
 
@@ -92,3 +115,38 @@ if __name__ == "__main__":
     directory = "GACE_missing_links"
     queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
+
+
+def sort_and_save_filtered_links(file_path):
+    # Reading the links from the file
+    with open(file_path, 'r') as file:
+        links = file.readlines()
+
+    # Filter links and sort based on question number
+    pattern = re.compile(r"question-(\d+)")
+    filtered_sorted_links = sorted(
+        [link.strip() for link in links if "associate" in link.lower() and "professional" not in link.lower() and pattern.search(link)],
+        key=lambda x: int(pattern.search(x).group(1))
+    )
+
+    # Saving the sorted links back into the file
+    with open(file_path, 'w') as file:
+        for link in filtered_sorted_links:
+            file.write(link + "\n")
+
+def main():
+    filename = '../google/Google Associate Cloud Engineer question/links_1-255'
+    total_expected_links = extract_total_from_filename(filename)
+    links = load_and_sort_links(filename)
+    missing_numbers = find_missing_numbers(links, total_expected_links)
+
+    directory = "GACE_missing_links"
+    queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
+    google_search_and_save_links(queries, directory)
+
+    file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
+    sort_and_save_filtered_links(file_path)
+
+if __name__ == "__main__":
+    main()
+

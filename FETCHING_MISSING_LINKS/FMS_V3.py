@@ -53,11 +53,8 @@ def google_search_and_save_links(queries, directory):
 
     # XPaths for the first three search results
     xpaths = [
-
-        '//*[@id="rso"]/div[1]/div/div/div[1]/div/div/span/a'
-        '//*[@id="rso"]/div[2]/div/div/div[1]/div/div/span/a',  # First link
-        '//*[@id="rso"]/div[3]/div/div/div[1]/div/div/span/a',      # Second link
-        '//*[@id="rso"]/div[4]/div/div/div[1]/div/div/span/a'       # Third link
+        '//*[@id="rso"]/div[1]/div/div/div[1]/div/div/span/a',
+        '//*[@id="rso"]/div[2]/div/div/div[1]/div/div/span/a',
     ]
 
     # Ensure the directory exists
@@ -76,20 +73,22 @@ def google_search_and_save_links(queries, directory):
                 base_url = "https://www.google.com/search?q={}"
                 browser.get(base_url.format(query))
 
-                # Retrieve and save the first three links
+                # Retrieve links
                 wait = WebDriverWait(browser, 10)
+                retrieved_links = []
                 for xpath in xpaths:
                     try:
                         element = wait.until(EC.presence_of_element_located((By.XPATH, xpath)))
                         link = element.get_attribute("href")
-                        file.write(link + "\n")
-
-                        # Print the link to the console
-                        print(link)
-
+                        retrieved_links.append(link)
                     except TimeoutException:
-                        # If the link is not found, move to the next one
                         continue
+
+                # Filter and save links
+                for link in retrieved_links:
+                    if "associate" in link.lower() and "professional" not in link.lower():
+                        file.write(link + "\n")
+                        print(link)
 
             except TimeoutException:
                 error_message = f"Error encountered with query: {query}\n"
