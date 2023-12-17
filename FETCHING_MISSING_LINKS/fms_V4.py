@@ -143,7 +143,9 @@ def read_and_process_links(file_path):
     unique_links = list(dict.fromkeys(links))
 
     # Returning the unique links
-    return [link.strip() for link in unique_links]
+    with open(file_path, 'w') as file:
+        for link in unique_links:
+            file.write(link.strip() + "\n")
 
 def main():
     filename = '../google/Google Associate Cloud Engineer question/links_1-255'
@@ -159,13 +161,10 @@ def main():
     sort_and_save_filtered_links(file_path)
 
     file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/GACE_missing_links/missing_links_Associate-Associate.txt'
-    processed_links = read_and_process_links(file_path)
-
-    # Printing the unique links
-    for link in processed_links:
-        print("printing sorted links start")
-        print(link)
-
+    if os.path.exists(file_path):
+        read_and_process_links(file_path)
+    else:
+        print("File not found:", file_path)
 
 
 if __name__ == "__main__":
