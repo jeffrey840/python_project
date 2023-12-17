@@ -4,7 +4,8 @@ import re
 import json
 
 # Read the text file
-with open('your_text_file.txt', 'r') as file:
+with open('/Users/jeffreycabrera/PythonProject/google/Google Associate Cloud Engineer question/Test_filtered-1-255.txt', 'r') as file:
+
     text = file.read()
 
 # Split text into individual questions
@@ -27,6 +28,16 @@ for i, question in enumerate(questions, start=1):
     if q_content:
         q_data['Content'] = q_content.group(1).strip()
 
+    # Extracting question options
+    options = re.findall(r'[A-Z]\.\s(.*?)(?=[A-Z]\.|Show Suggested Answer)', question, re.DOTALL)
+    if options:
+        q_data['Options'] = options
+
+    # Extracting image details (if present)
+    img_info = re.search(r'\[Image \d+\] saved as (.+\.png)', question)
+    if img_info:
+        q_data['Image'] = img_info.group(1)
+
     parsed_questions.append(q_data)
 
 # Convert to JSON
@@ -37,6 +48,4 @@ with open('output_questions.json', 'w') as output_file:
     output_file.write(json_data)
 
 print("Conversion to JSON completed.")
-
-
 

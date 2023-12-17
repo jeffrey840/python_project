@@ -1,0 +1,52 @@
+[
+    {
+        "Question #": 23,
+        "Topic #": 1,
+        "Content": "You are building a pipeline to process time-series data. Which Google Cloud Platform services should you put in boxes 1,2,3, and 4?\n\nA. Cloud Pub/Sub, Cloud Dataflow, Cloud Datastore, BigQuery\nB. Firebase Messages, Cloud Pub/Sub, Cloud Spanner, BigQuery\nC. Cloud Pub/Sub, Cloud Storage, BigQuery, Cloud Bigtable\nD. Cloud Pub/Sub, Cloud Dataflow, Cloud Bigtable, BigQuery"
+    },
+    {
+        "Question #": 24,
+        "Topic #": 1,
+        "Content": "You have a project for your App Engine application that serves a development environment. The required testing has succeeded and you want to create a new project to serve as your production environment. What should you do?\nA. Use gcloud to create the new project, and then deploy your application to the new project.\nB. Use gcloud to create the new project and to copy the deployed application to the new project.\nC. Create a Deployment Manager configuration file that copies the current App Engine deployment into a new project.\nD. Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project."
+    },
+    {
+        "Question #": 25,
+        "Topic #": 1,
+        "Content": "You need to configure IAM access audit logging in BigQuery for external auditors. You want to follow Google-recommended practices. What should you do?\nA. Add the auditors group to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.\nB. Add the auditors group to two new custom IAM roles.\nC. Add the auditor user accounts to the 'logging.viewer' and 'bigQuery.dataViewer' predefined IAM roles.\nD. Add the auditor user accounts to two new custom IAM roles."
+    },
+    {
+        "Question #": 26,
+        "Topic #": 1,
+        "Content": "You need to set up permissions for a set of Compute Engine instances to enable them to write data into a particular Cloud Storage bucket. You want to follow\nGoogle-recommended practices. What should you do?\nA. Create a service account with an access scope. Use the access scope 'https://www.googleapis.com/auth/devstorage.write_only'.\nB. Create a service account with an access scope. Use the access scope 'https://www.googleapis.com/auth/cloud-platform'.\nC. Create a service account and add it to the IAM role 'storage.objectCreator' for that bucket.\nD. Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket."
+    },
+    {
+        "Question #": 27,
+        "Topic #": 1,
+        "Content": "You have sensitive data stored in three Cloud Storage buckets and have enabled data access logging. You want to verify activities for a particular user for these buckets, using the fewest possible steps. You need to verify the addition of metadata labels and which files have been viewed from those buckets. What should you do?\nA. Using the GCP Console, filter the Activity log to view the information.\nB. Using the GCP Console, filter the Stackdriver log to view the information.\nC. View the bucket in the Storage section of the GCP Console.\nD. Create a trace in Stackdriver to view the information."
+    },
+    {
+        "Question #": 28,
+        "Topic #": 1,
+        "Content": "You are the project owner of a GCP project and want to delegate control to colleagues to manage buckets and files in Cloud Storage. You want to follow Google- recommended practices. Which IAM roles should you grant your colleagues?\nA. Project Editor\nB. Storage Admin\nC. Storage Object Admin\nD. Storage Object Creator"
+    },
+    {
+        "Question #": 29,
+        "Topic #": 1,
+        "Content": "You have an object in a Cloud Storage bucket that you want to share with an external company. The object contains sensitive data. You want access to the content to be removed after four hours. The external company does not have a Google account to which you can grant specific user-based access privileges. You want to use the most secure method that requires the fewest steps. What should you do?\nA. Create a signed URL with a four-hour expiration and share the URL with the company.\nB. Set object access to 'public' and use object lifecycle management to remove the object after four hours.\nC. Configure the storage bucket as a static website and furnish the object's URL to the company. Delete the object from the storage bucket after four hours.\nD. Create a new Cloud Storage bucket specifically for the external company to access. Copy the object to that bucket. Delete the bucket after four hours have passed."
+    },
+    {
+        "Question #": 30,
+        "Topic #": 1,
+        "Content": "You are creating a Google Kubernetes Engine (GKE) cluster with a cluster autoscaler feature enabled. You need to make sure that each node of the cluster will run a monitoring pod that sends container metrics to a third-party monitoring solution. What should you do?\nA. Deploy the monitoring pod in a StatefulSet object.\nB. Deploy the monitoring pod in a DaemonSet object.\nC. Reference the monitoring pod in a Deployment object.\nD. Reference the monitoring pod in a cluster initializer at the GKE cluster creation time."
+    },
+    {
+        "Question #": 31,
+        "Topic #": 1,
+        "Content": "You want to send and consume Cloud Pub/Sub messages from your App Engine application. The Cloud Pub/Sub API is currently disabled. You will use a service account to authenticate your application to the API. You want to make sure your application can use Cloud Pub/Sub. What should you do?\nA. Enable the Cloud Pub/Sub API in the API Library on the GCP Console.\nB. Rely on the automatic enablement of the Cloud Pub/Sub API when the Service Account accesses it.\nC. Use Deployment Manager to deploy your application. Rely on the automatic enablement of all APIs used by the application being deployed.\nD. Grant the App Engine Default service account the role of Cloud Pub/Sub Admin. Have your application enable the API on the first connection to Cloud Pub/ Sub."
+    },
+    {
+        "Question #": 32,
+        "Topic #": 1,
+        "Content": "You need to monitor resources that are distributed over different projects in Google Cloud Platform. You want to consolidate reporting under the same Stackdriver\nMonitoring dashboard. What should you do?\nA. Use Shared VPC to connect all projects, and link Stackdriver to one of the projects.\nB. For each project, create a Stackdriver account. In each project, create a service account for that project and grant it the role of Stackdriver Account Editor in all other projects.\nC. Configure a single Stackdriver account, and link all projects to the same account.\nD. Configure a single Stackdriver account for one of the projects. In Stackdriver, create a Group and add the other project names as criteria for that Group."
+    }
+]

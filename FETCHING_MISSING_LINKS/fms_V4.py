@@ -1,6 +1,6 @@
 
 
-# thsi code return ed
+# this code return ed
 # /Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/FMS_V4.py
 
 import re
@@ -134,6 +134,17 @@ def sort_and_save_filtered_links(file_path):
         for link in filtered_sorted_links:
             file.write(link + "\n")
 
+def read_and_process_links(file_path):
+    # Reading the links from the file
+    with open(file_path, 'r') as file:
+        links = file.readlines()
+
+    # Removing duplicates while preserving order
+    unique_links = list(dict.fromkeys(links))
+
+    # Returning the unique links
+    return [link.strip() for link in unique_links]
+
 def main():
     filename = '../google/Google Associate Cloud Engineer question/links_1-255'
     total_expected_links = extract_total_from_filename(filename)
@@ -146,6 +157,16 @@ def main():
 
     file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
     sort_and_save_filtered_links(file_path)
+
+    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/GACE_missing_links/missing_links_Associate-Associate.txt'
+    processed_links = read_and_process_links(file_path)
+
+    # Printing the unique links
+    for link in processed_links:
+        print("printing sorted links start")
+        print(link)
+
+
 
 if __name__ == "__main__":
     main()
