@@ -1,7 +1,7 @@
+import os
 import re
 import json
-
-def parse_questions_from_text(text):
+def parse_questions_from_text(text,base_path):
     # Updated pattern with optional image capture
     pattern = re.compile(
         r"Question #:\s*(\d+)\s*"
@@ -17,6 +17,11 @@ def parse_questions_from_text(text):
 
     questions = []
     for match in pattern.finditer(text):
+        image_path = match.group(7).strip() if match.group(7) else None
+        if image_path:
+            # Convert to relative path
+            image_path = os.path.relpath(image_path, base_path)
+
         question_data = {
             "Question #": match.group(1),
             "Question": match.group(2).strip(),
@@ -26,11 +31,14 @@ def parse_questions_from_text(text):
                 "C": match.group(5).strip(),
                 "D": match.group(6).strip(),
             },
-            "Image": match.group(7).strip() if match.group(7) else None
+            "Image": image_path
         }
         questions.append(question_data)
     return questions
 
+
+# this is where the img locations are at
+# ../google/Google%20Associate%20Cloud%20Engineer%20question/downloaded_images/
 
 def generate_html(questions):
     html = "<html><head><title>Exam Questions</title></head><body>"
@@ -51,12 +59,16 @@ def generate_html(questions):
     return html
 
 def main(file_path):
+
+    base_path = '/Users/jeffreycabrera/PythonProject/google/Google Associate Cloud Engineer question/'
+
+
     # Read the text file
     with open(file_path, 'r') as file:
         text = file.read()
 
     # Parse the questions
-    questions = parse_questions_from_text(text)
+    questions = parse_questions_from_text(text,base_path)
 
     # Convert to JSON
     json_data = json.dumps(questions, indent=4)
