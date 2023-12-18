@@ -1,12 +1,8 @@
-
-# ============
-
-
 import re
 import json
 
 def parse_questions_from_text(text):
-    # Updated pattern to include image capture
+    # Updated pattern with optional image capture
     pattern = re.compile(
         r"Question #:\s*(\d+)\s*"
         r"Topic #:\s*\d+\s*"
@@ -17,9 +13,8 @@ def parse_questions_from_text(text):
         r"C\.\s*(.*?)\s*"
         r"D\.\s*(.*?)\s*"
         r"Show Suggested Answer\s*"
-        r"\[Image \d+\] saved as (.*?)\s*\n", re.DOTALL)
+        r"(?:\[Image \d+\] saved as (.*?)\s*\n)?", re.DOTALL)
 
-    # Extracting data and organizing into a list of dictionaries
     questions = []
     for match in pattern.finditer(text):
         question_data = {
@@ -31,10 +26,11 @@ def parse_questions_from_text(text):
                 "C": match.group(5).strip(),
                 "D": match.group(6).strip(),
             },
-            "Image": match.group(7).strip()  # Capture the image file name
+            "Image": match.group(7).strip() if match.group(7) else None
         }
         questions.append(question_data)
     return questions
+
 
 def generate_html(questions):
     html = "<html><head><title>Exam Questions</title></head><body>"
@@ -76,7 +72,7 @@ def main(file_path):
     with open('questions.html', 'w') as html_file:
         html_file.write(html_content)
 
-    print("JSON and HTML files with images have been created.")
+    print("JSON and HTML files have been created.")
 
 # The file path for your text file
 file_path = '/Users/jeffreycabrera/PythonProject/google/Google Associate Cloud Engineer question/Test_filtered-1-255.txt'
