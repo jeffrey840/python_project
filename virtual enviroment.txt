@@ -1,0 +1,10 @@
+
+to push:
+deactivate and then push
+
+
+to deactivate:
+deactivate
+
+to activate:
+source venv/bin/activate
