@@ -1,8 +1,8 @@
 # Define the range of file numbers
-file_numbers = range(1, 16)  # This will create a sequence from 1 to 15
+file_numbers = range(1, 11)  # This will create a sequence from 1 to 15
 
 # Open the merged file in write mode
-with open('merged-1_15.txt', 'w') as merged_file:
+with open('merged-1_10.txt', 'w') as merged_file:
     # Iterate through each file number
     for num in file_numbers:
         # Construct the file name
