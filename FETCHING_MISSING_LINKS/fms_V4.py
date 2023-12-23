@@ -100,7 +100,7 @@ if __name__ == "__main__":
     links = load_and_sort_links(filename)
     missing_numbers = find_missing_numbers(links, total_expected_links)
 
-    directory = "GACE_missing_links"
+    directory = "_GACE_links_DIR"
     queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
 
@@ -137,14 +137,14 @@ def main():
     links = load_and_sort_links(filename)
     missing_numbers = find_missing_numbers(links, total_expected_links)
 
-    directory = "GACE_missing_links"
+    directory = "_GACE_links_DIR"
     queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
 
     file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
     sort_and_save_filtered_links(file_path)
 
-    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/GACE_missing_links/missing_links_Associate-Associate.txt'
+    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/_GACE_links_DIR/missing_links_Associate-Associate.txt'
     if os.path.exists(file_path):
         read_and_process_links(file_path)
     else:
