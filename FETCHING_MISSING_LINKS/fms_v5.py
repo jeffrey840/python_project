@@ -15,7 +15,7 @@ def extract_total_from_filename(filename):
 def load_and_sort_links(filename):
     with open(filename, 'r') as file:
         links = file.readlines()
-    return sorted(links, key=lambda x: int(re.search(r"question-(\d+)", x).group(1)))
+    return sorted(links, key=lambda x: int(re.search(r"question-(\d+)", x).group(1)) if re.search(r"question-(\d+)", x) else 0)
 
 def find_missing_numbers(links, total_expected_links):
     pattern = re.compile(r"question-(\d+)")
@@ -29,10 +29,12 @@ def find_missing_numbers(links, total_expected_links):
             next_number = int(next_match.group(1))
             if next_number != current_number + 1:
                 missing_numbers.extend(range(current_number + 1, next_number))
-        last_number = int(current_match.group(1))
+        if current_match:
+            last_number = int(current_match.group(1))
     if total_expected_links and last_number < total_expected_links:
         missing_numbers.extend(range(last_number + 1, total_expected_links + 1))
     return missing_numbers
+
 
 def google_search_and_save_links(queries, directory):
     # Paths for Brave and ChromeDriver
@@ -141,10 +143,10 @@ def main():
     queries = [f"Google Professional Cloud Architect question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
 
-    file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
+    file_path = os.path.join(directory, "missing_links_Professional-Professional.txt")
     sort_and_save_filtered_links(file_path)
 
-    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/_GACE_links_DIR/missing_links_Associate-Associate.txt'
+    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/_GACE_links_DIR/missing_links_Professional-Professional.txt'
     if os.path.exists(file_path):
         read_and_process_links(file_path)
     else:
