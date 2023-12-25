@@ -9,13 +9,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
 def extract_total_from_filename(filename):
-    match = re.search(r'../google/Google Associate Cloud Engineer question/links_1-(\d+)', filename)
+    match = re.search(r'../google/Google Professional Cloud Architect question/links_1-(\d+)', filename)
     return int(match.group(1)) if match else None
 
 def load_and_sort_links(filename):
     with open(filename, 'r') as file:
         links = file.readlines()
-    return sorted(links, key=lambda x: int(re.search(r"question-(\d+)", x).group(1)))
+    return sorted(links, key=lambda x: int(re.search(r"question-(\d+)", x).group(1)) if re.search(r"question-(\d+)", x) else 0)
 
 def find_missing_numbers(links, total_expected_links):
     pattern = re.compile(r"question-(\d+)")
@@ -29,10 +29,12 @@ def find_missing_numbers(links, total_expected_links):
             next_number = int(next_match.group(1))
             if next_number != current_number + 1:
                 missing_numbers.extend(range(current_number + 1, next_number))
-        last_number = int(current_match.group(1))
+        if current_match:
+            last_number = int(current_match.group(1))
     if total_expected_links and last_number < total_expected_links:
         missing_numbers.extend(range(last_number + 1, total_expected_links + 1))
     return missing_numbers
+
 
 def google_search_and_save_links(queries, directory):
     # Paths for Brave and ChromeDriver
@@ -77,7 +79,7 @@ def google_search_and_save_links(queries, directory):
 
                 # Filter and save links
                 for link in retrieved_links:
-                    if "associate" in link.lower() and "professional" not in link.lower():
+                    if "professional" in link.lower() and "associate" not in link.lower():
                         file.write(link + "\n")
                         print(link)
 
@@ -95,30 +97,37 @@ def random_sleep(minimum=3, maximum=7):
     time.sleep(random.uniform(minimum, maximum))
 
 if __name__ == "__main__":
-    filename = '../google/Google Associate Cloud Engineer question/links_1-255'
+    filename = '../google/Google Professional Cloud Architect question/links_1-279'
     total_expected_links = extract_total_from_filename(filename)
     links = load_and_sort_links(filename)
     missing_numbers = find_missing_numbers(links, total_expected_links)
 
     directory = "_GACE_links_DIR"
-    queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
+    queries = [f"Google Professional Cloud Architect question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
 
 def sort_and_save_filtered_links(file_path):
     with open(file_path, 'r') as file:
         links = file.readlines()
 
+    # Debugging output to check the number of links read
+    print(f"Number of links read: {len(links)}")
+
     # Filter links and sort based on question number
     pattern = re.compile(r"question-(\d+)")
     filtered_sorted_links = sorted(
-        [link.strip() for link in links if "associate" in link.lower() and "professional" not in link.lower() and pattern.search(link)],
+        [link.strip() for link in links if "professional" in link.lower() and pattern.search(link)],
         key=lambda x: int(pattern.search(x).group(1))
     )
+
+    # Debugging output to check the number of links after filtering
+    print(f"Number of links after filtering: {len(filtered_sorted_links)}")
 
     with open(file_path, 'w') as file:
         for link in filtered_sorted_links:
             file.write(link + "\n")
     print(f"Filtered and sorted links saved to: {file_path}")
+
 
 def read_and_process_links(file_path):
     with open(file_path, 'r') as file:
@@ -132,19 +141,19 @@ def read_and_process_links(file_path):
     print(f"Processed links (duplicates removed) saved to: {file_path}")
 
 def main():
-    filename = '../google/Google Associate Cloud Engineer question/links_1-255'
+    filename = '../google/Google Professional Cloud Architect question/links_1-279'
     total_expected_links = extract_total_from_filename(filename)
     links = load_and_sort_links(filename)
     missing_numbers = find_missing_numbers(links, total_expected_links)
 
     directory = "_GACE_links_DIR"
-    queries = [f"Google Associate Cloud Engineer question {i} examtopics" for i in missing_numbers]
+    queries = [f"Google Professional Cloud Architect question {i} examtopics" for i in missing_numbers]
     google_search_and_save_links(queries, directory)
 
-    file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
+    file_path = os.path.join(directory, "missing_links_Professional-Professional.txt")
     sort_and_save_filtered_links(file_path)
 
-    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/_GACE_links_DIR/missing_links_Associate-Associate.txt'
+    file_path = '/Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/_GACE_links_DIR/missing_links_Professional-Professional.txt'
     if os.path.exists(file_path):
         read_and_process_links(file_path)
     else:
