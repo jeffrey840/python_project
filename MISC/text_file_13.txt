@@ -1,0 +1,11 @@
+Important facts from the text:
+
+- The legislative process includes steps such as the introduction, committee assignment, committee action, conference committee (if differences between houses exist), final passage, and the governor's action.
+- The governor can sign a bill into law, choose not to sign (allowing it to become law after a certain period), veto it (overridden by a two-thirds vote in each house), or use the line-item veto for appropriations bills.
+- Polarization in the Texas Legislature has increased over the years, with growing ideological differences between Democrats and Republicans.
+- Analysis using DW-NOMINATE, a methodology measuring ideological positions, shows increased ideological divergence between Democrats and Republicans in the Texas House from 1973 to 2023.
+- The ideological gap between parties has widened significantly, with Democrats becoming more liberal (with a mean of -0.69 in 2023) and Republicans becoming more conservative (with a mean of 0.17 in 2023).
+- In 2023, every Democrat in the Texas House was more liberal than every Republican, while in 1973, more than half of the Democratic members were more conservative than multiple Republicans.
+- Similar ideological polarization exists in the Texas Senate, as seen in roll-call votes that position members along the liberal-conservative dimension.
+
+Keyword for finding the text later: Ideological Polarization and Legislative Process.
