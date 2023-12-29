@@ -1,0 +1,43 @@
+
+{
+"questions": [
+{
+"number": 25,
+"question": "The rate of change in the size of a population of bacteria is proportional to the size of the population at a given time. Let p(t) represent the size of the population at time r. Which of the following differential equations describes the rate of change for this population? (a and k are positive constants.)",
+"options": {
+"a": "dp/dt = k",
+"b": "dp/dt = kp",
+"c": "dp/dt = kt",
+"d": "dp/dt = a + kp",
+"e": "dp/dt = a + kt"
+},
+"answer": "b"
+},
+{
+"number": 24,
+"question": "Let f be the function defined by f(x) = e ^ (- x ^ 2) If x = a is a solution to f(x)=f^ prime prime (x), which of the following is the value of f(a)?",
+"options": {
+"a": "0.135",
+"b": "0.143",
+"c": "0.472",
+"d": "0.707",
+"e": "0.779"
+},
+"answer": "c"
+},
+{
+"number": 22,
+"question": "If the average value of f(x) = x ^ 2 on the closed interval [0, b] is equal to 27, what is the value of b?",
+"options": {
+"a": "9",
+"b": "27",
+"c": "54",
+"d": "sqrt(27)",
+"e": "sqrt(54)"
+},
+"answer": "a"
+}
+
+
+]
+}
