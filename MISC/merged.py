@@ -1,12 +1,12 @@
 # Define the range of file numbers
-file_numbers = range(1, 17)  # This will create a sequence from 1 to 15
+file_numbers = range(1, 19)  # This will create a sequence from 1 to 15
 
 # Open the merged file in write mode
-with open('merged-1_10.txt', 'w') as merged_file:
+with open('merged-9_18.txt', 'w') as merged_file:
     # Iterate through each file number
     for num in file_numbers:
         # Construct the file name
-        file_name = f'text_file_{num}.txt'
+        file_name = f'CH8_text_file_{num}.txt'
 
         # Open the individual file in read mode
         with open(file_name, 'r') as individual_file:

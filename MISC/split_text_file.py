@@ -20,12 +20,12 @@ def split_text_file(file_path, max_word_count):
         # Prepend additional text to the chunk
         chunk = additional_text + chunk
 
-        with open(f'text_file_{file_counter}.txt', 'w') as new_file:
+        with open(f'CH8_text_file_{file_counter}.txt', 'w') as new_file:
             new_file.write(chunk)
 
-        print(f"Text file {file_counter} split complete.")
+        print(f"CH8_Text file {file_counter} split complete.")
         file_counter += 1
 
 # Usage
-split_text_file('Unit_2/govt_ch7.txt', 900)  # Replace 'path_to_your_file.txt' with your file path and 900 with your desired word limit per file
+split_text_file('Unit_2/govt_ch8.txt', 900)  # Replace 'path_to_your_file.txt' with your file path and 900 with your desired word limit per file
 
