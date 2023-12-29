@@ -1,9 +1,12 @@
-
 import json
 
 def sort_questions_by_number(data):
     if "questions" in data and isinstance(data["questions"], list):
-        sorted_questions = sorted(data["questions"], key=lambda x: x.get("question_number", 0))
+        def sort_key(item):
+            num = item.get("number")
+            return (isinstance(num, int), num)
+
+        sorted_questions = sorted(data["questions"], key=sort_key)
         data["questions"] = sorted_questions
         return data
     else:
@@ -23,5 +26,3 @@ def sort_questions_in_file(input_file, output_file):
 
 # Replace 'original_data.json' and 'sorted_data.json' with your file paths
 sort_questions_in_file('original_data.json', 'sorted_data.json')
-
-
