@@ -237,9 +237,57 @@ LO
 You have learned that Texas selects its judges using partisan elections in which parties nomi- nate candidates who are then elected by the state's voters. You also learned that this method for selecting judges has been criticized for various reasons and that many states have turned to other strategies to select their judges. So we asked the former chief justice of the Texas Supreme Court Wallace Jefferson to explain his views of the judicial selection process based on his practical experiences inside the judiciary.
 
 
+Wallace Jefferson was appointed to the Texas Supreme Court in 2001 and subsequently elected to the bench by voters in 2002. In 2004, he was named the twenty-sixth chief justice of the Texas Supreme Court. He was elected chief justice in 2006 and reelected for a six-year term in 2008. Jefferson made judicial history as the first African American justice and chief justice of the Texas Supreme Court. He is a partner at Alexander, Dubose & Jefferson LLP.
+After you have read the chief justice's essay, we will ask you to identify the major features of his proposal to reform the way Texas judges are selected, and we will ask you to evaluate Chief Justice Jefferson's proposal compared to Texas's current system for selecting judges.
+Politics in Practice
+Choosing Judges: My View from the Inside
+by Wallace B. Jefferson
+Former Chief Justice of the Texas Supreme Court
+Historically, the states, Texas included, have rejected the federal model of executively appointed judges. When Texas was a much smaller place, this probably made sense: electing judges ensured that they were people respected by-and responsive to the local community.
+Today, however, these historical justifications make little sense. Texas now has 1,904 judges in its appellate, district, county, and justice courts. These judges sit on a dizzying array of courts. This is especially apparent at the trial court level, where judges have different but frequently overlapping jurisdictions. Some hear only criminal cases; others only cases related to specific subject matters, like family or probate cases; and some only claims worth more (or less) than a specified amount of money.
+
+Even at the appellate level, Texas is one of only two states with two highest courts, one civil and one criminal. And Houston, unlike every other part of the state, has two intermediate appeals courts covering the same territory. In spite of this huge number of judges and the confusing courts system, Texas expects voters to choose good judges in contested, partisan elections. But the circumstances are stacked against the voters.
+Take Harris County, for instance. A voter in the 2018 election would have voted for just nine
+statewide officials, her member of congress, state senator, and state representative. She also
+would have voted for 75 judges.
+No voter, not even the most conscientious, could be expected to make an informed choice in each of these races. For the average voter, who probably has no more than a passing familiarity with the judicial system, these choices must be flummoxing.
+The result is that Texas voters choose their judges based almost exclusively on their partisan identity. Indeed, with few exceptions, that is probably all the vast majority of voters know about the judicial candidates on the ballot. Name recognition even for Supreme Court and Court of Criminal Appeals justices, who run statewide, is extremely low.
+What's worse is that partisan identity is a poor proxy for judicial competence. Most judges- and nearly all trial judges, who constitute the great majority of judges in Texas-are asked infrequently, if ever, to pass upon the fraught social and constitutional issues that animate media coverage of the judiciary.
 
 
+Instead, judges perform a function that is much more mundane and much more personal. Judges probate wills and apportion divorcing spouses' assets; they preside over criminal trials; they oversee business disputes.
+Most of the time, the decisions judges make matter only to the parties directly involved. Very rarely do their decisions implicate the judge's personal politics. Instead, they implicate the judge's sense of fairness, her patience, her compassion, and her intelligence. These traits are not correlated with any particular party.
+Texas's current system for selecting judges thus ensures that at every election, good and bad judges alike are swept out of office based on their party membership alone. Similarly, there is evidence that judicial candidates have lost simply because they have names commonly associated with racial or ethnic minorities or names that are just plain unusual.
+To limit the pernicious effects of judicial elections, I have long advocated that Texas move toward a system that balances Texans' desire for a direct say in choosing their judges with the need to ensure that competency and integrity are valued over partisanship and name recognition.
+My proposal would see the creation of a merit selection panel that recommends accomplished and distinguished lawyers for a place on the bench. Those judges recommended by the panel would be appointed by the governor, subject to nonpartisan retention elections. This recommendation is not a panacea, but it would limit both the negative effects of low information and partisan voting, and it would help ensure that Texas's judges are of the highest caliber.
 
+My proposal would see the creation of a merit selection panel that recommends accomplished and distinguished lawyers for a place on the bench. Those judges recommended by the panel would be appointed by the governor, subject to nonpartisan retention elections. This recommendation is not a panacea, but it would limit both the negative effects of low information and partisan voting, and it would help ensure that Texas's judges are of the highest caliber.
+Questions for Critical Thinking
+1. Among the various methods states use to select their judges, which type does the former chief justice propose that Texas use? How does this system differ from the way the state currently chooses its judges?
+2. What arguments does Chief Justice Jefferson use to support his proposals for a merit system? Why does he argue that party labels are unimportant in the judicial selection process?
+
+
+LO 9.1 Describe the differences between criminal and civil cases and between original and appellate jurisdiction. Cases in the legal system can be classified in two ways. Civil cases deal primarily with individual or property rights. Criminal cases deal with violations of penal law. There are two types of jurisdiction. Original jurisdiction is the basic power to try a case for the first time. Courts with original jurisdiction are called trial courts, and they determine the facts such as guilt in criminal cases or responsibility in civil cases. Trial courts also apply the law to the facts in each case. Appellate jurisdiction is the authority to review the decisions of a lower court by determining if the trial judge properly applied the law.
+
+LO 9.2 Explain how the courts are organized in Texas, and identify the jurisdiction of each major court.
+Among the trial courts, municipal and county courts handle minor civil or criminal cases. District courts handle all serious civil and criminal cases. Appeals from district and county courts go to one of the courts of appeal. The court of last resort for criminal cases is the Texas Court of Criminal Appeals while the Texas Supreme Court makes final decisions in most civil cases.
+The organization of the Texas court system is often viewed as too big and complicated. Lines of jurisdiction sometimes overlap. Judicial salaries and the qualifications needed to serve as a
+
+LO 9.2 Explain how the courts are organized in Texas, and identify the jurisdiction of each major court.
+Among the trial courts, municipal and county courts handle minor civil or criminal cases. District courts handle all serious civil and criminal cases. Appeals from district and county courts go to one of the courts of appeal. The court of last resort for criminal cases is the Texas Court of Criminal Appeals while the Texas Supreme Court makes final decisions in most civil cases.
+The organization of the Texas court system is often viewed as too big and complicated. Lines of jurisdiction sometimes overlap. Judicial salaries and the qualifications needed to serve as a
+
+the judges are elected by voters, sometimes in nonpartisan
+elections and sometimes in partisan elections, as in Texas. The
+goal of electing judges is to give voters democratic control over
+the judiciary. Many states attempt to combine the advantages of
+appointment and election by allowing the governor to appoint
+a judge for a short probationary period after which voters are
+allowed to decide whether or not to retain the judge. Regardless
+of the method, judicial selection is highly politicized because
+courts make life-altering decisions and often shape public
+policy.
+LO 9.5 Apply what you have learned about the Texas judiciary. You explored the methods by which we presently select judges in Texas via partisan elections. You reviewed former Texas Supreme Court Chief Justice Jefferson's proposal to reform the way judges are selected and evaluated the arguments that he presented in favor of his reform proposal.
 
 
 

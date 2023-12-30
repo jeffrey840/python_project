@@ -3,6 +3,11 @@ def split_text_file(file_path, max_word_count):
     with open(file_path, 'r') as file:
         text = file.read()
 
+    # additional_text = """given the following text provide only important facts that were mentioned in the text. \n
+    # make sure that you return specific information from the provided text to support this fact. \n
+    # You must return a small keyword in the text so that i can find it later. \n\n"""
+
+
     # Text to be added at the beginning of each file
     additional_text = """given the following text provide only important facts that were mentioned in the text. Also return a small keyword in the text so that i can find it later \n\n"""
 
