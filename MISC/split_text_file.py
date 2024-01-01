@@ -3,13 +3,13 @@ def split_text_file(file_path, max_word_count):
     with open(file_path, 'r') as file:
         text = file.read()
 
-    # additional_text = """given the following text provide only important facts that were mentioned in the text. \n
-    # make sure that you return specific information from the provided text to support this fact. \n
-    # You must return a small keyword in the text so that i can find it later. \n\n"""
+    additional_text = """given the following text provide only important facts that were mentioned in the text. \n
+    make sure that you return specific information from the provided text to support this fact. \n
+    You must return a small keyword in the text so that i can find it later. \n\n"""
 
 
-    # Text to be added at the beginning of each file
-    additional_text = """given the following text provide only important facts that were mentioned in the text. Also return a small keyword in the text so that i can find it later \n\n"""
+    # # Text to be added at the beginning of each file
+    # additional_text = """given the following text provide only important facts that were mentioned in the text. Also return a small keyword in the text so that i can find it later \n\n"""
 
     # Count total words
     words = text.split()
@@ -25,12 +25,13 @@ def split_text_file(file_path, max_word_count):
         # Prepend additional text to the chunk
         chunk = additional_text + chunk
 
-        with open(f'CH8_text_file_{file_counter}.txt', 'w') as new_file:
+        with open(f'CH5_text_file_{file_counter}.txt', 'w') as new_file:
             new_file.write(chunk)
 
-        print(f"CH8_Text file {file_counter} split complete.")
+        print(f"CH5_Text file {file_counter} split complete.")
         file_counter += 1
 
+
 # Usage
-split_text_file('Unit_2/govt_ch8.txt', 900)  # Replace 'path_to_your_file.txt' with your file path and 900 with your desired word limit per file
+split_text_file('Unit_3/govt_ch5.txt', 900)
 
