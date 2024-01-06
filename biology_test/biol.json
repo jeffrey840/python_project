@@ -1,0 +1,4841 @@
+{
+  "title": "BIOL_test_1",
+  "create_time": 1704475380.903889,
+  "update_time": 1704506287.267377,
+  "mapping": {
+    "f1eba644-bc85-4578-ac43-8d0340f2350c": {
+      "id": "f1eba644-bc85-4578-ac43-8d0340f2350c",
+      "message": {
+        "id": "f1eba644-bc85-4578-ac43-8d0340f2350c",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": null,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {},
+        "recipient": "all"
+      },
+      "parent": "aaa1bcea-3211-4608-9548-5ee54cc977af",
+      "children": [
+        "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6"
+      ]
+    },
+    "aaa1bcea-3211-4608-9548-5ee54cc977af": {
+      "id": "aaa1bcea-3211-4608-9548-5ee54cc977af",
+      "message": null,
+      "parent": null,
+      "children": [
+        "f1eba644-bc85-4578-ac43-8d0340f2350c"
+      ]
+    },
+    "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6": {
+      "id": "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6",
+      "message": {
+        "id": "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475380.904874,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Carbon dioxide is produced by\n\ngreen plants during the day only\n\ngreen plants during the night only\n\nanimals during the day only\n\nananals danng the night only\n\nOboth plants and als during both night and day\nWist is the answer"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f1eba644-bc85-4578-ac43-8d0340f2350c",
+      "children": [
+        "d197d8a2-7b1d-4a9d-a8d5-8fd078679354"
+      ]
+    },
+    "d197d8a2-7b1d-4a9d-a8d5-8fd078679354": {
+      "id": "d197d8a2-7b1d-4a9d-a8d5-8fd078679354",
+      "message": {
+        "id": "d197d8a2-7b1d-4a9d-a8d5-8fd078679354",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475385.138283,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The correct answer is \"both plants and animals during both night and day.\"\n\nBoth plants and animals continuously produce carbon dioxide (CO2). Plants emit CO2 at night as part of their respiration process. During the day, while they do photosynthesis, the amount of CO2 released is often less than the amount of CO2 they absorb. Animals, including humans, produce CO2 both day and night as a byproduct of their metabolic processes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa27bd1-f2f9-4883-a538-fc14a1eb6bb6",
+      "children": [
+        "aaa28002-fa8c-4144-910b-d114e7a7c51b"
+      ]
+    },
+    "aaa28002-fa8c-4144-910b-d114e7a7c51b": {
+      "id": "aaa28002-fa8c-4144-910b-d114e7a7c51b",
+      "message": {
+        "id": "aaa28002-fa8c-4144-910b-d114e7a7c51b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475521.841092,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following directly provides the energy needed for a contsrarion of muscle fiber\n\nAt\n\nFats\nGlucos\nSliding filaments\nPhotons o flight\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "d197d8a2-7b1d-4a9d-a8d5-8fd078679354",
+      "children": [
+        "4aae3731-82c5-4eaa-8457-e21190a499c5"
+      ]
+    },
+    "4aae3731-82c5-4eaa-8457-e21190a499c5": {
+      "id": "4aae3731-82c5-4eaa-8457-e21190a499c5",
+      "message": {
+        "id": "4aae3731-82c5-4eaa-8457-e21190a499c5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475528.723001,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The direct energy source needed for the contraction of a muscle fiber is ATP (adenosine triphosphate). During muscle contraction, ATP is broken down into ADP (adenosine diphosphate) and an inorganic phosphate, releasing energy that is used for the contraction process. Fats and glucose are sources of energy for the body, but they must be metabolically converted into ATP to be used by muscles. Sliding filaments are a part of the mechanism of muscle contraction, not an energy source. Photons of light are not involved in muscle contraction."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa28002-fa8c-4144-910b-d114e7a7c51b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa28002-fa8c-4144-910b-d114e7a7c51b",
+      "children": [
+        "aaa27852-5f8d-4293-97ab-8a093997ad16"
+      ]
+    },
+    "aaa27852-5f8d-4293-97ab-8a093997ad16": {
+      "id": "aaa27852-5f8d-4293-97ab-8a093997ad16",
+      "message": {
+        "id": "aaa27852-5f8d-4293-97ab-8a093997ad16",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475559.107896,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following structures removes excess water from a paramecium?\n\nNucleus\n\nEndoplasmic reticulum\n\nMitochondrion\n\nCilium\n\nContractile vacuole\nWhist is the answer"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "4aae3731-82c5-4eaa-8457-e21190a499c5",
+      "children": [
+        "17822da7-ef56-4096-9fbb-ca2dde4f3cc1"
+      ]
+    },
+    "17822da7-ef56-4096-9fbb-ca2dde4f3cc1": {
+      "id": "17822da7-ef56-4096-9fbb-ca2dde4f3cc1",
+      "message": {
+        "id": "17822da7-ef56-4096-9fbb-ca2dde4f3cc1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475562.909029,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The structure that removes excess water from a paramecium is the \"Contractile vacuole.\" This organelle is responsible for osmoregulation, which involves expelling excess water that enters the cell to maintain a stable internal environment."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa27852-5f8d-4293-97ab-8a093997ad16",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa27852-5f8d-4293-97ab-8a093997ad16",
+      "children": [
+        "aaa28de7-8b5f-478e-b223-a8a27d8a3421"
+      ]
+    },
+    "aaa28de7-8b5f-478e-b223-a8a27d8a3421": {
+      "id": "aaa28de7-8b5f-478e-b223-a8a27d8a3421",
+      "message": {
+        "id": "aaa28de7-8b5f-478e-b223-a8a27d8a3421",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475602.767613,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following is produced from anaerobic respiration in human muscle cells\n\nOxygen\n\nADP\n\nLactic acid\n\nEthanol\n\nAcetyl CoA\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "17822da7-ef56-4096-9fbb-ca2dde4f3cc1",
+      "children": [
+        "2dcaefa4-3ae2-4a7c-a04e-f0f7049ca771"
+      ]
+    },
+    "2dcaefa4-3ae2-4a7c-a04e-f0f7049ca771": {
+      "id": "2dcaefa4-3ae2-4a7c-a04e-f0f7049ca771",
+      "message": {
+        "id": "2dcaefa4-3ae2-4a7c-a04e-f0f7049ca771",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475608.327229,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The product of anaerobic respiration in human muscle cells is \"Lactic acid.\" When oxygen levels are low during intense exercise, muscles switch to anaerobic respiration, leading to the conversion of glucose into lactic acid."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa28de7-8b5f-478e-b223-a8a27d8a3421",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa28de7-8b5f-478e-b223-a8a27d8a3421",
+      "children": [
+        "aaa2d61c-68b4-4502-abdb-8ed8e7824da6"
+      ]
+    },
+    "aaa2d61c-68b4-4502-abdb-8ed8e7824da6": {
+      "id": "aaa2d61c-68b4-4502-abdb-8ed8e7824da6",
+      "message": {
+        "id": "aaa2d61c-68b4-4502-abdb-8ed8e7824da6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475653.146043,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following occurs when lipids and water are mixed together?\n\nThe hydrophobic lipids separate from water to form lipid droplets.\n\nThe hydrophobic water molecules separate from the lipids to form droplets.\n\nThe hydrophilic lipids separate from water to form lipid droplets.\n\nThe lipids interact with the water molecules to form a hydrogen bond network\n\nThe water dissolves the lipids to form a uniform mixture."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "2dcaefa4-3ae2-4a7c-a04e-f0f7049ca771",
+      "children": [
+        "ca80d75b-3666-4cb9-aa7a-7fe0c8597307"
+      ]
+    },
+    "ca80d75b-3666-4cb9-aa7a-7fe0c8597307": {
+      "id": "ca80d75b-3666-4cb9-aa7a-7fe0c8597307",
+      "message": {
+        "id": "ca80d75b-3666-4cb9-aa7a-7fe0c8597307",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475656.208264,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When lipids and water are mixed together, \"The hydrophobic lipids separate from water to form lipid droplets.\" This occurs because lipids are hydrophobic (water-fearing) and do not mix well with water, leading them to aggregate together away from water."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2d61c-68b4-4502-abdb-8ed8e7824da6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2d61c-68b4-4502-abdb-8ed8e7824da6",
+      "children": [
+        "aaa221f4-1350-4997-bbdf-46545ceb721e"
+      ]
+    },
+    "aaa221f4-1350-4997-bbdf-46545ceb721e": {
+      "id": "aaa221f4-1350-4997-bbdf-46545ceb721e",
+      "message": {
+        "id": "aaa221f4-1350-4997-bbdf-46545ceb721e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475701.263916,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following structures produces and disposes of hydrogen peroxide\n\nCytoskeletal fiber\n\nPeroxisome\n\nMitochondrion\n\nGolgi apparatus\n\nRibosome"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "ca80d75b-3666-4cb9-aa7a-7fe0c8597307",
+      "children": [
+        "c0c6408d-3337-4b88-a63d-a6d0ee648fd8"
+      ]
+    },
+    "c0c6408d-3337-4b88-a63d-a6d0ee648fd8": {
+      "id": "c0c6408d-3337-4b88-a63d-a6d0ee648fd8",
+      "message": {
+        "id": "c0c6408d-3337-4b88-a63d-a6d0ee648fd8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475703.985715,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The structure that produces and disposes of hydrogen peroxide in cells is the \"Peroxisome.\" Peroxisomes are involved in the metabolism of fatty acids and other metabolic tasks, including the production and breakdown of hydrogen peroxide, a byproduct of some of their reactions."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa221f4-1350-4997-bbdf-46545ceb721e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa221f4-1350-4997-bbdf-46545ceb721e",
+      "children": [
+        "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051"
+      ]
+    },
+    "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051": {
+      "id": "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051",
+      "message": {
+        "id": "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475743.000005,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The cohesiveness and adhesiveness of water are due to\n\ncoordinate covalent bonds\n\nbydrophobic interactions\n\nnonpolar covalent bonds\n\nhydrogen bondis\n\nsonse bonds\nWhich is teh a swer"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "c0c6408d-3337-4b88-a63d-a6d0ee648fd8",
+      "children": [
+        "6a392bb8-10fa-4e9b-90f1-94bedd1c476b"
+      ]
+    },
+    "6a392bb8-10fa-4e9b-90f1-94bedd1c476b": {
+      "id": "6a392bb8-10fa-4e9b-90f1-94bedd1c476b",
+      "message": {
+        "id": "6a392bb8-10fa-4e9b-90f1-94bedd1c476b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475750.046376,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The cohesiveness and adhesiveness of water are due to \"hydrogen bonds.\" These bonds occur between the hydrogen atoms of one water molecule and the oxygen atoms of another, giving water its unique properties."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2a4f4-4977-4832-bdb8-3ef17b0d1051",
+      "children": [
+        "aaa28571-951b-4080-a12e-c20d7c1beef2"
+      ]
+    },
+    "aaa28571-951b-4080-a12e-c20d7c1beef2": {
+      "id": "aaa28571-951b-4080-a12e-c20d7c1beef2",
+      "message": {
+        "id": "aaa28571-951b-4080-a12e-c20d7c1beef2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475796.272322,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following is a product of glycolysis that is transported into the matochondrion, where it im fonber oxidized?\n\nPhosphoenolpyruvate\n\nPyruvate\n\nAcetate\n\nCitrate\n\nLactate"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "6a392bb8-10fa-4e9b-90f1-94bedd1c476b",
+      "children": [
+        "f435d040-95cf-4a69-8edb-084a2c262e65"
+      ]
+    },
+    "f435d040-95cf-4a69-8edb-084a2c262e65": {
+      "id": "f435d040-95cf-4a69-8edb-084a2c262e65",
+      "message": {
+        "id": "f435d040-95cf-4a69-8edb-084a2c262e65",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475802.774645,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The product of glycolysis that is transported into the mitochondrion, where it is further oxidized, is \"Pyruvate.\" Pyruvate is the end product of glycolysis and is transported into mitochondria to enter the citric acid cycle (Krebs cycle) for further oxidation."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa28571-951b-4080-a12e-c20d7c1beef2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa28571-951b-4080-a12e-c20d7c1beef2",
+      "children": [
+        "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81"
+      ]
+    },
+    "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81": {
+      "id": "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81",
+      "message": {
+        "id": "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475834.660324,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The major function of the nucleolus is to\n\nmake membranes\n\nsynthesize ribosomes\n\nprovide energy for cellular functions\n\ntrigger the division of mitochondria\n\n◉ digest food particles following endocytosis"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f435d040-95cf-4a69-8edb-084a2c262e65",
+      "children": [
+        "5701eed7-d36f-40a7-ad6d-7f8190145fc2"
+      ]
+    },
+    "5701eed7-d36f-40a7-ad6d-7f8190145fc2": {
+      "id": "5701eed7-d36f-40a7-ad6d-7f8190145fc2",
+      "message": {
+        "id": "5701eed7-d36f-40a7-ad6d-7f8190145fc2",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475837.917318,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The major function of the nucleolus is to \"synthesize ribosomes.\" The nucleolus is a prominent substructure within the nucleus of eukaryotic cells, where it primarily focuses on the assembly of ribosomes from ribosomal RNA and proteins."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2b3cb-4fb7-4bdb-87e2-2764152dac81",
+      "children": [
+        "aaa20593-f691-4a8c-bf5a-3c23c1e8980f"
+      ]
+    },
+    "aaa20593-f691-4a8c-bf5a-3c23c1e8980f": {
+      "id": "aaa20593-f691-4a8c-bf5a-3c23c1e8980f",
+      "message": {
+        "id": "aaa20593-f691-4a8c-bf5a-3c23c1e8980f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475973.632758,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Neurotransmitters are released fotm presynaptic neurons throught which of the following process\n\nCytokinisis\nExocytoiss\nPhagocytpisis\nPlamocytosis\nEndocytosis"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "5701eed7-d36f-40a7-ad6d-7f8190145fc2",
+      "children": [
+        "b33d2946-6f77-4594-919f-46e1cc6bd2d3"
+      ]
+    },
+    "b33d2946-6f77-4594-919f-46e1cc6bd2d3": {
+      "id": "b33d2946-6f77-4594-919f-46e1cc6bd2d3",
+      "message": {
+        "id": "b33d2946-6f77-4594-919f-46e1cc6bd2d3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704475977.494439,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Neurotransmitters are released from presynaptic neurons through the process of \"Exocytosis.\" In this process, vesicles containing neurotransmitters fuse with the presynaptic membrane and release their contents into the synaptic cleft to communicate with postsynaptic neurons."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa20593-f691-4a8c-bf5a-3c23c1e8980f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa20593-f691-4a8c-bf5a-3c23c1e8980f",
+      "children": [
+        "aaa2c49f-27fc-4fec-aec3-680a298b7564"
+      ]
+    },
+    "aaa2c49f-27fc-4fec-aec3-680a298b7564": {
+      "id": "aaa2c49f-27fc-4fec-aec3-680a298b7564",
+      "message": {
+        "id": "aaa2c49f-27fc-4fec-aec3-680a298b7564",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476015.022636,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The major components of plant cell walls are\n\nsalts\n\nlipids\n\nproteins\n\nnucleic acids\n\ncarbohydrates"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "b33d2946-6f77-4594-919f-46e1cc6bd2d3",
+      "children": [
+        "009e2e9e-8b7e-4d43-bc06-104e84393a64"
+      ]
+    },
+    "009e2e9e-8b7e-4d43-bc06-104e84393a64": {
+      "id": "009e2e9e-8b7e-4d43-bc06-104e84393a64",
+      "message": {
+        "id": "009e2e9e-8b7e-4d43-bc06-104e84393a64",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476019.292647,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The major components of plant cell walls are \"carbohydrates.\" Specifically, cellulose, a complex carbohydrate, is the primary structural component of plant cell walls. Other carbohydrates like hemicellulose and pectin are also important components."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2c49f-27fc-4fec-aec3-680a298b7564",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2c49f-27fc-4fec-aec3-680a298b7564",
+      "children": [
+        "aaa20b07-cada-422d-92b2-22a5a6cd6525"
+      ]
+    },
+    "aaa20b07-cada-422d-92b2-22a5a6cd6525": {
+      "id": "aaa20b07-cada-422d-92b2-22a5a6cd6525",
+      "message": {
+        "id": "aaa20b07-cada-422d-92b2-22a5a6cd6525",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476064.627496,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "DNA replication occurs during which of the following stages of the cell cycle?\n\nG_{1} phase\n\nMetaphase\n\nTelophase\n\nS phase\n\nAnaphase"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "009e2e9e-8b7e-4d43-bc06-104e84393a64",
+      "children": [
+        "18b8ee8e-5d02-4827-bea3-994b86bac065"
+      ]
+    },
+    "18b8ee8e-5d02-4827-bea3-994b86bac065": {
+      "id": "18b8ee8e-5d02-4827-bea3-994b86bac065",
+      "message": {
+        "id": "18b8ee8e-5d02-4827-bea3-994b86bac065",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476067.365099,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "DNA replication occurs during the \"S phase\" of the cell cycle. The S phase, or synthesis phase, is dedicated to the replication of the cell's genetic material."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa20b07-cada-422d-92b2-22a5a6cd6525",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa20b07-cada-422d-92b2-22a5a6cd6525",
+      "children": [
+        "aaa28e5e-3489-43f2-bf4f-8382376ad9a3"
+      ]
+    },
+    "aaa28e5e-3489-43f2-bf4f-8382376ad9a3": {
+      "id": "aaa28e5e-3489-43f2-bf4f-8382376ad9a3",
+      "message": {
+        "id": "aaa28e5e-3489-43f2-bf4f-8382376ad9a3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476121.877254,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "bof the following organelles contains its own genome in the form of small circular chromosomes?\n\nEndoplasmic reticulum\n\n◎ Golgi apparatus\n\nLysosome\n\nMitochondrion\n\nVacuole"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "18b8ee8e-5d02-4827-bea3-994b86bac065",
+      "children": [
+        "e0a96a37-34a3-4bc1-b369-5cbd727b0256"
+      ]
+    },
+    "e0a96a37-34a3-4bc1-b369-5cbd727b0256": {
+      "id": "e0a96a37-34a3-4bc1-b369-5cbd727b0256",
+      "message": {
+        "id": "e0a96a37-34a3-4bc1-b369-5cbd727b0256",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476127.994387,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Of the options given, the organelle that contains its own genome in the form of small circular chromosomes is the \"Mitochondrion.\" Mitochondria have their own DNA, which is indeed circular and distinct from the cell's nuclear DNA."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa28e5e-3489-43f2-bf4f-8382376ad9a3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa28e5e-3489-43f2-bf4f-8382376ad9a3",
+      "children": [
+        "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2"
+      ]
+    },
+    "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2": {
+      "id": "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2",
+      "message": {
+        "id": "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476193.679257,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "ach of the following statements about sexual reproduction in arumals is true?\n\nOnly one parent is required.\n\nSpores are produced by mitosis.\n\nGametes are produced by mesosis.\n\nZygotes are formed by binary fission.\n\nOffspring are identical to their parents."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "e0a96a37-34a3-4bc1-b369-5cbd727b0256",
+      "children": [
+        "a487cc04-dc26-47b6-bf09-8ab14d40d269"
+      ]
+    },
+    "a487cc04-dc26-47b6-bf09-8ab14d40d269": {
+      "id": "a487cc04-dc26-47b6-bf09-8ab14d40d269",
+      "message": {
+        "id": "a487cc04-dc26-47b6-bf09-8ab14d40d269",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476197.655256,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The true statement about sexual reproduction in animals is: \"Gametes are produced by meiosis.\" In sexual reproduction, gametes (sperm and eggs) are formed through the process of meiosis, which reduces the chromosome number by half, allowing for genetic diversity in the offspring."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2bbf9-ce36-484a-9ba6-4c11830b10b2",
+      "children": [
+        "aaa22dbb-253f-48f7-8bda-94554d140430"
+      ]
+    },
+    "aaa22dbb-253f-48f7-8bda-94554d140430": {
+      "id": "aaa22dbb-253f-48f7-8bda-94554d140430",
+      "message": {
+        "id": "aaa22dbb-253f-48f7-8bda-94554d140430",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476245.13901,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following is a unique characteristic of arthropods\n\nA complete digestive system\n\nA central nervous system\n\nThe elimination of nitrogenous wastes\n\nA chitin-based exoskeleton\n\nThe presence of segmentation"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "a487cc04-dc26-47b6-bf09-8ab14d40d269",
+      "children": [
+        "bd10c1fc-2b13-4c7e-808f-c10db8530c36"
+      ]
+    },
+    "bd10c1fc-2b13-4c7e-808f-c10db8530c36": {
+      "id": "bd10c1fc-2b13-4c7e-808f-c10db8530c36",
+      "message": {
+        "id": "bd10c1fc-2b13-4c7e-808f-c10db8530c36",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476248.595623,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A unique characteristic of arthropods is \"A chitin-based exoskeleton.\" This exoskeleton, made of chitin, provides structural support and protection, and is a distinguishing feature of arthropods."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa22dbb-253f-48f7-8bda-94554d140430",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa22dbb-253f-48f7-8bda-94554d140430",
+      "children": [
+        "aaa2ed9d-1f0d-4669-bc95-9faa8d600437"
+      ]
+    },
+    "aaa2ed9d-1f0d-4669-bc95-9faa8d600437": {
+      "id": "aaa2ed9d-1f0d-4669-bc95-9faa8d600437",
+      "message": {
+        "id": "aaa2ed9d-1f0d-4669-bc95-9faa8d600437",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476328.206503,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following is generally true about green algae (Chlorophyta)\n\nThey are a type of bacteria.\n\nThey feed on aquatic plants.\n\nThey have roots, stems, and leaves.\n\nThey have eukaryotic cells.\n\nThey are parasites."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "bd10c1fc-2b13-4c7e-808f-c10db8530c36",
+      "children": [
+        "94b2d8ad-f07f-4f6d-922d-23d172fffaa3"
+      ]
+    },
+    "94b2d8ad-f07f-4f6d-922d-23d172fffaa3": {
+      "id": "94b2d8ad-f07f-4f6d-922d-23d172fffaa3",
+      "message": {
+        "id": "94b2d8ad-f07f-4f6d-922d-23d172fffaa3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476333.43825,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Among the options given, the statement that is generally true about green algae (Chlorophyta) is: \"They have eukaryotic cells.\" Green algae are eukaryotic organisms, meaning their cells contain a nucleus and other organelles enclosed within membranes."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2ed9d-1f0d-4669-bc95-9faa8d600437",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2ed9d-1f0d-4669-bc95-9faa8d600437",
+      "children": [
+        "aaa2a31d-5233-41a3-85d6-52a93503de8f"
+      ]
+    },
+    "aaa2a31d-5233-41a3-85d6-52a93503de8f": {
+      "id": "aaa2a31d-5233-41a3-85d6-52a93503de8f",
+      "message": {
+        "id": "aaa2a31d-5233-41a3-85d6-52a93503de8f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476385.57373,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Im Darwinian terms, the best-adapted individuals of a species are those that\n\nattract the most mates\n\ngrow to the largest size\n\nfind the most food\n\nsurvive for the longest time\n\nleave the greatest number of reproducing descendants"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "94b2d8ad-f07f-4f6d-922d-23d172fffaa3",
+      "children": [
+        "9121be5c-92ba-41ec-8271-082ded622edd"
+      ]
+    },
+    "9121be5c-92ba-41ec-8271-082ded622edd": {
+      "id": "9121be5c-92ba-41ec-8271-082ded622edd",
+      "message": {
+        "id": "9121be5c-92ba-41ec-8271-082ded622edd",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476388.464682,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In Darwinian terms, the best-adapted individuals of a species are those that \"leave the greatest number of reproducing descendants.\" This concept is central to the theory of natural selection, where reproductive success is a key indicator of an organism's fitness."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2a31d-5233-41a3-85d6-52a93503de8f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2a31d-5233-41a3-85d6-52a93503de8f",
+      "children": [
+        "aaa2ebda-7810-4ae5-89b5-3931acdeafa3"
+      ]
+    },
+    "aaa2ebda-7810-4ae5-89b5-3931acdeafa3": {
+      "id": "aaa2ebda-7810-4ae5-89b5-3931acdeafa3",
+      "message": {
+        "id": "aaa2ebda-7810-4ae5-89b5-3931acdeafa3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476439.225781,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following is true about the aboveground portion of a mushroom\n\nIt absorbs food for the organism.\n\n◎ It regulates asexual reproduction.\n\nIt performs chemosynthesis.\n\nIt is connected to an underground mycelium.\n\nIt is active in the decomposition of leaf litter."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "9121be5c-92ba-41ec-8271-082ded622edd",
+      "children": [
+        "f2d3c1f0-5362-455b-b4a5-1f5fa4e12e4c"
+      ]
+    },
+    "f2d3c1f0-5362-455b-b4a5-1f5fa4e12e4c": {
+      "id": "f2d3c1f0-5362-455b-b4a5-1f5fa4e12e4c",
+      "message": {
+        "id": "f2d3c1f0-5362-455b-b4a5-1f5fa4e12e4c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476441.865945,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The statement that is true about the aboveground portion of a mushroom is: \"It is connected to an underground mycelium.\" The visible part of a mushroom is the fruiting body connected to an extensive network of mycelium underground, which is the main vegetative part of the fungus."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2ebda-7810-4ae5-89b5-3931acdeafa3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2ebda-7810-4ae5-89b5-3931acdeafa3",
+      "children": [
+        "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e"
+      ]
+    },
+    "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e": {
+      "id": "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e",
+      "message": {
+        "id": "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476485.047497,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The wings of birds and insects can be considered to be\n\nanalogous structures that diverged\n\nanalogous structures that converged\n\nhomologous structures that diverged\n\nhomologous structures that converged\n\nO coergest structures that diverged"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f2d3c1f0-5362-455b-b4a5-1f5fa4e12e4c",
+      "children": [
+        "abe9191c-3d80-4c35-b26c-5d62d1135713"
+      ]
+    },
+    "abe9191c-3d80-4c35-b26c-5d62d1135713": {
+      "id": "abe9191c-3d80-4c35-b26c-5d62d1135713",
+      "message": {
+        "id": "abe9191c-3d80-4c35-b26c-5d62d1135713",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476487.567629,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The wings of birds and insects can be considered to be \"analogous structures that converged.\" This means they are similar in function due to convergent evolution, but they do not share a common ancestral origin."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2a9fa-b4bc-4843-bab1-6fd6e5f8e67e",
+      "children": [
+        "aaa2b467-b712-4813-a9ce-9930c083ae9f"
+      ]
+    },
+    "aaa2b467-b712-4813-a9ce-9930c083ae9f": {
+      "id": "aaa2b467-b712-4813-a9ce-9930c083ae9f",
+      "message": {
+        "id": "aaa2b467-b712-4813-a9ce-9930c083ae9f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476539.148327,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following features is similar in monocot and dicot plants?\n\nThe position of the vascular bundles\n\nThe number of cotyledons in the seeds\n\nThe structure of the roots\n\nThe presence of a seed coat around the seeds\n\nThe number of petals on the flowers"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "abe9191c-3d80-4c35-b26c-5d62d1135713",
+      "children": [
+        "f988a76f-554d-4f8b-9878-05fee11126fa"
+      ]
+    },
+    "f988a76f-554d-4f8b-9878-05fee11126fa": {
+      "id": "f988a76f-554d-4f8b-9878-05fee11126fa",
+      "message": {
+        "id": "f988a76f-554d-4f8b-9878-05fee11126fa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476541.425197,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The feature that is similar in both monocot and dicot plants is \"The presence of a seed coat around the seeds.\" Both monocots and dicots have a protective seed coat surrounding their seeds."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2b467-b712-4813-a9ce-9930c083ae9f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2b467-b712-4813-a9ce-9930c083ae9f",
+      "children": [
+        "aaa272a7-a966-4dbc-a1eb-b8026e3504b3"
+      ]
+    },
+    "aaa272a7-a966-4dbc-a1eb-b8026e3504b3": {
+      "id": "aaa272a7-a966-4dbc-a1eb-b8026e3504b3",
+      "message": {
+        "id": "aaa272a7-a966-4dbc-a1eb-b8026e3504b3",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476601.256602,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Imenintale prolonged responses to stimuli typically result from signaling by which of the following types of mulsadso\n\nNeurotransmitters\n\nHormones\n\nEnzymes\n\nAntibodies\n\nGlycolipids"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f988a76f-554d-4f8b-9878-05fee11126fa",
+      "children": [
+        "23738519-6b91-4099-b7cf-41c69b8619a1"
+      ]
+    },
+    "23738519-6b91-4099-b7cf-41c69b8619a1": {
+      "id": "23738519-6b91-4099-b7cf-41c69b8619a1",
+      "message": {
+        "id": "23738519-6b91-4099-b7cf-41c69b8619a1",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476603.840984,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Sustained, prolonged responses to stimuli typically result from signaling by \"Hormones.\" Hormones are chemical messengers released by endocrine glands that travel through the bloodstream to target organs, producing long-lasting effects."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa272a7-a966-4dbc-a1eb-b8026e3504b3",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa272a7-a966-4dbc-a1eb-b8026e3504b3",
+      "children": [
+        "aaa2408b-ccf0-4470-843a-1b34967825c2"
+      ]
+    },
+    "aaa2408b-ccf0-4470-843a-1b34967825c2": {
+      "id": "aaa2408b-ccf0-4470-843a-1b34967825c2",
+      "message": {
+        "id": "aaa2408b-ccf0-4470-843a-1b34967825c2",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476750.659698,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the process of photosynthesis, which of the following molecules plays a direct role in the light reactions but in the Calvin cycle \n\nAt\nNadph\nChlorophyll \nCarbon dioxide \nRubisco\n\n\n\n"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "23738519-6b91-4099-b7cf-41c69b8619a1",
+      "children": [
+        "128d7d59-4a00-4c2f-b09f-3625093ee703"
+      ]
+    },
+    "128d7d59-4a00-4c2f-b09f-3625093ee703": {
+      "id": "128d7d59-4a00-4c2f-b09f-3625093ee703",
+      "message": {
+        "id": "128d7d59-4a00-4c2f-b09f-3625093ee703",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476755.235315,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the process of photosynthesis, \"Chlorophyll\" plays a direct role in the light reactions but not in the Calvin cycle. Chlorophyll is the pigment responsible for absorbing light energy, which is essential for the light-dependent reactions, but it does not play a role in the Calvin cycle, where carbon fixation occurs."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2408b-ccf0-4470-843a-1b34967825c2",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2408b-ccf0-4470-843a-1b34967825c2",
+      "children": [
+        "aaa25dbe-12ad-464e-86be-465c21e6afaa"
+      ]
+    },
+    "aaa25dbe-12ad-464e-86be-465c21e6afaa": {
+      "id": "aaa25dbe-12ad-464e-86be-465c21e6afaa",
+      "message": {
+        "id": "aaa25dbe-12ad-464e-86be-465c21e6afaa",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476803.511902,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Whath of the following minerals causes the red color of red blood cells\n\nCalorim\n\nTron\n\nSulphur\n\nPhosphorus"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "128d7d59-4a00-4c2f-b09f-3625093ee703",
+      "children": [
+        "41fc5988-16a3-4723-94cc-1ac3c7be00aa"
+      ]
+    },
+    "41fc5988-16a3-4723-94cc-1ac3c7be00aa": {
+      "id": "41fc5988-16a3-4723-94cc-1ac3c7be00aa",
+      "message": {
+        "id": "41fc5988-16a3-4723-94cc-1ac3c7be00aa",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476806.4912,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The mineral that causes the red color of red blood cells is \"Iron.\" Iron is a key component of hemoglobin, the protein in red blood cells that binds oxygen and gives blood its red color."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa25dbe-12ad-464e-86be-465c21e6afaa",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa25dbe-12ad-464e-86be-465c21e6afaa",
+      "children": [
+        "aaa27b78-f0fb-42f3-9206-35678e21dd97"
+      ]
+    },
+    "aaa27b78-f0fb-42f3-9206-35678e21dd97": {
+      "id": "aaa27b78-f0fb-42f3-9206-35678e21dd97",
+      "message": {
+        "id": "aaa27b78-f0fb-42f3-9206-35678e21dd97",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476962.393387,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Color can be added to certain flowers, such as carnations, by placing cut stems in the colored water, which of the following plant structures is responsible for moving the colored water to the flower\n\nPetiole\nLeaf\nXylem\nPhloem\nCambium"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "41fc5988-16a3-4723-94cc-1ac3c7be00aa",
+      "children": [
+        "286905b8-d411-43a0-aae2-5d74ddd0349f"
+      ]
+    },
+    "286905b8-d411-43a0-aae2-5d74ddd0349f": {
+      "id": "286905b8-d411-43a0-aae2-5d74ddd0349f",
+      "message": {
+        "id": "286905b8-d411-43a0-aae2-5d74ddd0349f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704476965.856156,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The plant structure responsible for moving colored water to the flower in such experiments is the \"Xylem.\" The xylem is responsible for the transport of water and dissolved minerals from the roots throughout the plant, including to the flowers."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa27b78-f0fb-42f3-9206-35678e21dd97",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa27b78-f0fb-42f3-9206-35678e21dd97",
+      "children": [
+        "aaa2b079-c3e5-45c9-bb9f-c503468f529d"
+      ]
+    },
+    "aaa2b079-c3e5-45c9-bb9f-c503468f529d": {
+      "id": "aaa2b079-c3e5-45c9-bb9f-c503468f529d",
+      "message": {
+        "id": "aaa2b079-c3e5-45c9-bb9f-c503468f529d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477031.734026,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When blood glucoes levels rise abos e acceptable levels, the pancreas releases which of the following\n\nSecretin\n\nGlucagon\n\nChole Mokm"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "286905b8-d411-43a0-aae2-5d74ddd0349f",
+      "children": [
+        "0856fb0a-c586-433a-92c3-c9fda58072bb"
+      ]
+    },
+    "0856fb0a-c586-433a-92c3-c9fda58072bb": {
+      "id": "0856fb0a-c586-433a-92c3-c9fda58072bb",
+      "message": {
+        "id": "0856fb0a-c586-433a-92c3-c9fda58072bb",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477034.759503,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When blood glucose levels rise above acceptable levels, the pancreas releases \"Insulin.\" Insulin is the hormone responsible for lowering blood glucose levels by facilitating the uptake of glucose into cells."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2b079-c3e5-45c9-bb9f-c503468f529d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2b079-c3e5-45c9-bb9f-c503468f529d",
+      "children": [
+        "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9"
+      ]
+    },
+    "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9": {
+      "id": "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9",
+      "message": {
+        "id": "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477072.386731,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Body temperature in mammals is regulated by which part of the brain\n\nHypothalamus\n\nCerebellum\n\nMedulla oblongata\n\nCerebrum\n\nThalamus"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "0856fb0a-c586-433a-92c3-c9fda58072bb",
+      "children": [
+        "4e35c404-5767-401b-a81d-2b45cbf9ffa9"
+      ]
+    },
+    "4e35c404-5767-401b-a81d-2b45cbf9ffa9": {
+      "id": "4e35c404-5767-401b-a81d-2b45cbf9ffa9",
+      "message": {
+        "id": "4e35c404-5767-401b-a81d-2b45cbf9ffa9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477075.070196,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Body temperature in mammals is regulated by the \"Hypothalamus\" part of the brain. The hypothalamus acts as the body's thermostat, controlling and regulating body temperature."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f954-67dc-42eb-a40b-1f5c7e91d6f9",
+      "children": [
+        "aaa2aec4-e834-4bc1-974f-49e1407f7719"
+      ]
+    },
+    "aaa2aec4-e834-4bc1-974f-49e1407f7719": {
+      "id": "aaa2aec4-e834-4bc1-974f-49e1407f7719",
+      "message": {
+        "id": "aaa2aec4-e834-4bc1-974f-49e1407f7719",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477116.476724,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following best describes pollen\n\nIt houses the mature fruit.\n\nIt is a small seed that can germinate and form a new plant.\n\nIt is the male gametophyte stage of a flowering plant.\n\nIt is the zygote that must land on soil to grow.\n\nIt is a spore."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "4e35c404-5767-401b-a81d-2b45cbf9ffa9",
+      "children": [
+        "15e56e0b-b533-4c88-a1be-f698ce309c1e"
+      ]
+    },
+    "15e56e0b-b533-4c88-a1be-f698ce309c1e": {
+      "id": "15e56e0b-b533-4c88-a1be-f698ce309c1e",
+      "message": {
+        "id": "15e56e0b-b533-4c88-a1be-f698ce309c1e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477120.152451,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The option that best describes pollen is: \"It is the male gametophyte stage of a flowering plant.\" Pollen carries the male reproductive cells (sperm cells) of flowering plants and is involved in the process of fertilization."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2aec4-e834-4bc1-974f-49e1407f7719",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2aec4-e834-4bc1-974f-49e1407f7719",
+      "children": [
+        "aaa29183-2bec-4584-b049-228ff249cc3c"
+      ]
+    },
+    "aaa29183-2bec-4584-b049-228ff249cc3c": {
+      "id": "aaa29183-2bec-4584-b049-228ff249cc3c",
+      "message": {
+        "id": "aaa29183-2bec-4584-b049-228ff249cc3c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477174.18233,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Amylase is secreted in which of the following?\n\nMouth of a human\n\nRumen of a cow\n\nGizzard of a bird\n\nLarge intestine of a shark\n\nGills of a fish"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "15e56e0b-b533-4c88-a1be-f698ce309c1e",
+      "children": [
+        "e29b84f3-6260-48ab-9cd0-85dc2f5d32d9"
+      ]
+    },
+    "e29b84f3-6260-48ab-9cd0-85dc2f5d32d9": {
+      "id": "e29b84f3-6260-48ab-9cd0-85dc2f5d32d9",
+      "message": {
+        "id": "e29b84f3-6260-48ab-9cd0-85dc2f5d32d9",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477177.589612,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Amylase is secreted in the \"Mouth of a human.\" This enzyme begins the process of starch digestion in the human oral cavity."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa29183-2bec-4584-b049-228ff249cc3c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa29183-2bec-4584-b049-228ff249cc3c",
+      "children": [
+        "aaa2463c-85c7-4c61-aea1-50b0e813086f"
+      ]
+    },
+    "aaa2463c-85c7-4c61-aea1-50b0e813086f": {
+      "id": "aaa2463c-85c7-4c61-aea1-50b0e813086f",
+      "message": {
+        "id": "aaa2463c-85c7-4c61-aea1-50b0e813086f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477219.136381,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Inhalation of carbon monoxide is dangerous because it\n\ndamages the lung alveoli\n\ncauses the heart to beat irregularly\n\nbinds to hemoglobin more readily than oxygen does\n\ndisplaces carbon dioxide from the blood\n\ncauses internal bleeding"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "e29b84f3-6260-48ab-9cd0-85dc2f5d32d9",
+      "children": [
+        "779fbb09-f695-468f-a599-896bd0a9d782"
+      ]
+    },
+    "779fbb09-f695-468f-a599-896bd0a9d782": {
+      "id": "779fbb09-f695-468f-a599-896bd0a9d782",
+      "message": {
+        "id": "779fbb09-f695-468f-a599-896bd0a9d782",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477228.499907,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Inhalation of carbon monoxide is dangerous because it \"binds to hemoglobin more readily than oxygen does.\" Carbon monoxide has a much higher affinity for hemoglobin than oxygen, which prevents oxygen from being effectively carried to body tissues."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2463c-85c7-4c61-aea1-50b0e813086f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2463c-85c7-4c61-aea1-50b0e813086f",
+      "children": [
+        "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246"
+      ]
+    },
+    "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246": {
+      "id": "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246",
+      "message": {
+        "id": "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477290.350459,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "By trapping and digesting insects carnivorous plants are\n\ncompensating for the low availability of calcium in the soil\n\nreducing the population size of herbivores\n\nobtaining nitrogen in a nitrogen-poor environment\n\nensuring the production of seeds\n\nextracting keratin, which can be used to strengthen plant cell walls"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "779fbb09-f695-468f-a599-896bd0a9d782",
+      "children": [
+        "4fe1733b-e4bd-43c1-8961-e90e995362b8"
+      ]
+    },
+    "4fe1733b-e4bd-43c1-8961-e90e995362b8": {
+      "id": "4fe1733b-e4bd-43c1-8961-e90e995362b8",
+      "message": {
+        "id": "4fe1733b-e4bd-43c1-8961-e90e995362b8",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477293.413243,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "By trapping and digesting insects, carnivorous plants are \"obtaining nitrogen in a nitrogen-poor environment.\" These plants have adapted to their nutrient-poor habitats by deriving some essential nutrients, especially nitrogen, from the bodies of their insect prey."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2ffdb-b0a2-4198-ba2a-40ac4f355246",
+      "children": [
+        "aaa236af-47a0-4e7a-982a-51ed5f1d657d"
+      ]
+    },
+    "aaa236af-47a0-4e7a-982a-51ed5f1d657d": {
+      "id": "aaa236af-47a0-4e7a-982a-51ed5f1d657d",
+      "message": {
+        "id": "aaa236af-47a0-4e7a-982a-51ed5f1d657d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477411.461996,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "I'm mamals, the food passageway and gas exchange passageway intersection and cross at which of the following \n\nLleum\nNasal sinus\nTrachea\nPharyngitis\nBronchi"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "4fe1733b-e4bd-43c1-8961-e90e995362b8",
+      "children": [
+        "321a72ce-a67e-48d0-bece-fe2f79e43b5e"
+      ]
+    },
+    "321a72ce-a67e-48d0-bece-fe2f79e43b5e": {
+      "id": "321a72ce-a67e-48d0-bece-fe2f79e43b5e",
+      "message": {
+        "id": "321a72ce-a67e-48d0-bece-fe2f79e43b5e",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477415.643553,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In mammals, the food passageway and gas exchange passageway intersect and cross at the \"Pharynx.\" The pharynx is a part of the throat situated posterior to the mouth and nasal cavity, and it serves as a pathway for both food (leading to the esophagus) and air (leading to the trachea)."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa236af-47a0-4e7a-982a-51ed5f1d657d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa236af-47a0-4e7a-982a-51ed5f1d657d",
+      "children": [
+        "aaa22e0a-4655-4f0b-b24f-f6f5193abe71"
+      ]
+    },
+    "aaa22e0a-4655-4f0b-b24f-f6f5193abe71": {
+      "id": "aaa22e0a-4655-4f0b-b24f-f6f5193abe71",
+      "message": {
+        "id": "aaa22e0a-4655-4f0b-b24f-f6f5193abe71",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477468.599172,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Histamine and other vasoactive amines are directly involved in\n\nincreased excretion of protein wastes\n\nreduced production of lymphocytes\n\ndilation and leaking of blood vessels\n\nprecipitation of infecting viruses\n\nlysis of bacteria"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "321a72ce-a67e-48d0-bece-fe2f79e43b5e",
+      "children": [
+        "b98216ec-0167-4763-8fc7-ca099dae2aca"
+      ]
+    },
+    "b98216ec-0167-4763-8fc7-ca099dae2aca": {
+      "id": "b98216ec-0167-4763-8fc7-ca099dae2aca",
+      "message": {
+        "id": "b98216ec-0167-4763-8fc7-ca099dae2aca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477472.050636,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Histamine and other vasoactive amines are directly involved in the \"dilation and leaking of blood vessels.\" They are released during inflammatory responses and allergic reactions, causing blood vessels to dilate and become more permeable, leading to swelling and redness in the affected area."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa22e0a-4655-4f0b-b24f-f6f5193abe71",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa22e0a-4655-4f0b-b24f-f6f5193abe71",
+      "children": [
+        "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7"
+      ]
+    },
+    "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7": {
+      "id": "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7",
+      "message": {
+        "id": "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477530.370234,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Whelk of the following is a noncarbohydrate substance that is found in wood and gives wood strength au\n\nCellulose\n\nChitin\n\nStarch\n\nAmylose\n\nLignin"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "b98216ec-0167-4763-8fc7-ca099dae2aca",
+      "children": [
+        "c75d12bc-d245-4c8b-9a45-4176829b7422"
+      ]
+    },
+    "c75d12bc-d245-4c8b-9a45-4176829b7422": {
+      "id": "c75d12bc-d245-4c8b-9a45-4176829b7422",
+      "message": {
+        "id": "c75d12bc-d245-4c8b-9a45-4176829b7422",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477533.438194,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The noncarbohydrate substance found in wood that gives it strength is \"Lignin.\" Lignin is a complex organic polymer that provides structural support and rigidity to plant cell walls, especially in wood and bark."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa21801-9fe3-4e7f-a1fc-8dbae1282bf7",
+      "children": [
+        "aaa2ffd8-2cf6-4614-adb4-96693fed9d07"
+      ]
+    },
+    "aaa2ffd8-2cf6-4614-adb4-96693fed9d07": {
+      "id": "aaa2ffd8-2cf6-4614-adb4-96693fed9d07",
+      "message": {
+        "id": "aaa2ffd8-2cf6-4614-adb4-96693fed9d07",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477576.756421,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following hormones stimulates ovulation\n\nEstrogen\n\nTestosterone\n\nHuman chorrome gonadotropin\n\nLutenuzume hormone\n\nProgesterone"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "c75d12bc-d245-4c8b-9a45-4176829b7422",
+      "children": [
+        "003c8c73-ae3b-404e-8e5b-d0e2eefd9a6b"
+      ]
+    },
+    "003c8c73-ae3b-404e-8e5b-d0e2eefd9a6b": {
+      "id": "003c8c73-ae3b-404e-8e5b-d0e2eefd9a6b",
+      "message": {
+        "id": "003c8c73-ae3b-404e-8e5b-d0e2eefd9a6b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477580.611907,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The hormone that stimulates ovulation is \"Luteinizing hormone (LH).\" LH is crucial in triggering the release of an egg from the ovary in females during the menstrual cycle."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2ffd8-2cf6-4614-adb4-96693fed9d07",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2ffd8-2cf6-4614-adb4-96693fed9d07",
+      "children": [
+        "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29"
+      ]
+    },
+    "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29": {
+      "id": "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29",
+      "message": {
+        "id": "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477620.34945,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which ot the following is the method by which the majonty of C*O_{1} is transported in mammalian bloo\n\nBound to hemoglobin\n\nOn the surface of red blood cells\n\nAs bicarbonate tont\n\nDissolved in lyniph\n\nAs C*O_{1} gas"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "003c8c73-ae3b-404e-8e5b-d0e2eefd9a6b",
+      "children": [
+        "ff2d558d-bd36-42c1-8163-79dae7312fd5"
+      ]
+    },
+    "ff2d558d-bd36-42c1-8163-79dae7312fd5": {
+      "id": "ff2d558d-bd36-42c1-8163-79dae7312fd5",
+      "message": {
+        "id": "ff2d558d-bd36-42c1-8163-79dae7312fd5",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477625.198558,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The majority of CO₂ in mammalian blood is transported \"As bicarbonate ions.\" CO₂ is primarily transported in the blood in the form of bicarbonate (HCO₃⁻), which is formed as a result of CO₂ reacting with water in red blood cells."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa22093-cf58-4e3b-b75d-9d3e1c6fbf29",
+      "children": [
+        "aaa286b9-5cae-4c36-9237-07192cb62c69"
+      ]
+    },
+    "aaa286b9-5cae-4c36-9237-07192cb62c69": {
+      "id": "aaa286b9-5cae-4c36-9237-07192cb62c69",
+      "message": {
+        "id": "aaa286b9-5cae-4c36-9237-07192cb62c69",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477793.054064,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a normal healthy adult mammal, blood containing the highest concentration of oxygen is found in which of the following \n\nThe aorta\nThe pulmonary artery\nThe pulmonary vein\nThe right atrium\nThe anterior van cava"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "ff2d558d-bd36-42c1-8163-79dae7312fd5",
+      "children": [
+        "c8695a62-56cd-4b8e-a46c-d61a405f008f"
+      ]
+    },
+    "c8695a62-56cd-4b8e-a46c-d61a405f008f": {
+      "id": "c8695a62-56cd-4b8e-a46c-d61a405f008f",
+      "message": {
+        "id": "c8695a62-56cd-4b8e-a46c-d61a405f008f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477797.105014,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a normal healthy adult mammal, blood containing the highest concentration of oxygen is found in \"The pulmonary vein.\" This is because the pulmonary vein carries oxygenated blood from the lungs to the left atrium of the heart, making it the site of the highest oxygen concentration."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa286b9-5cae-4c36-9237-07192cb62c69",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa286b9-5cae-4c36-9237-07192cb62c69",
+      "children": [
+        "aaa21724-0f39-4c77-b9df-a0eb9556f773"
+      ]
+    },
+    "aaa21724-0f39-4c77-b9df-a0eb9556f773": {
+      "id": "aaa21724-0f39-4c77-b9df-a0eb9556f773",
+      "message": {
+        "id": "aaa21724-0f39-4c77-b9df-a0eb9556f773",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477834.623926,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Individuals who are carriers for a genetic condition have\n\ntwo copies of the allele causing the condition\n\na mild presentation of the condition\n\none recessive allele for the condition\n\na somatic mutation in the gene for the condition\n\nan undiagnosed condition"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "c8695a62-56cd-4b8e-a46c-d61a405f008f",
+      "children": [
+        "9ebada10-fe69-4e55-9f47-4a2387dbb534"
+      ]
+    },
+    "9ebada10-fe69-4e55-9f47-4a2387dbb534": {
+      "id": "9ebada10-fe69-4e55-9f47-4a2387dbb534",
+      "message": {
+        "id": "9ebada10-fe69-4e55-9f47-4a2387dbb534",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477837.620955,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Individuals who are carriers for a genetic condition typically have \"one recessive allele for the condition.\" They possess one normal allele and one allele for the condition, but do not show symptoms because the condition is recessive."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa21724-0f39-4c77-b9df-a0eb9556f773",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa21724-0f39-4c77-b9df-a0eb9556f773",
+      "children": [
+        "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed"
+      ]
+    },
+    "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed": {
+      "id": "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed",
+      "message": {
+        "id": "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477890.424386,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The genetic diversity of living organisms is due to the\n\n◎ presence of both ribose and deoxyribose in DNA\n\ntypes of hydrogen bonds joining molecules of DNA\n\narrangement of phosphates in DNA\n\norder of the nitrogenous bases in DNA\n\nabsence of uracil in DNA"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "9ebada10-fe69-4e55-9f47-4a2387dbb534",
+      "children": [
+        "02522aa9-1d58-48c8-9b5e-036c980904b3"
+      ]
+    },
+    "02522aa9-1d58-48c8-9b5e-036c980904b3": {
+      "id": "02522aa9-1d58-48c8-9b5e-036c980904b3",
+      "message": {
+        "id": "02522aa9-1d58-48c8-9b5e-036c980904b3",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477893.411326,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The genetic diversity of living organisms is due to the \"order of the nitrogenous bases in DNA.\" The sequence of these bases (adenine, thymine, cytosine, and guanine) in DNA molecules is what encodes genetic information and leads to diversity."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2da94-8a14-4c04-9ac4-2b0dd95015ed",
+      "children": [
+        "aaa2498a-2704-4784-96bd-733a4182d4e8"
+      ]
+    },
+    "aaa2498a-2704-4784-96bd-733a4182d4e8": {
+      "id": "aaa2498a-2704-4784-96bd-733a4182d4e8",
+      "message": {
+        "id": "aaa2498a-2704-4784-96bd-733a4182d4e8",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477938.970502,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a eukaryotic cell, heterochromatin is found in which of the following\n\nThe nucleus\n\nA chloroplast\n\nA mitochondrion\n\nThe cell wall\n\nThe Golgi apparatus"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "02522aa9-1d58-48c8-9b5e-036c980904b3",
+      "children": [
+        "2c091c0f-a973-420b-8082-eed1ba5c4092"
+      ]
+    },
+    "2c091c0f-a973-420b-8082-eed1ba5c4092": {
+      "id": "2c091c0f-a973-420b-8082-eed1ba5c4092",
+      "message": {
+        "id": "2c091c0f-a973-420b-8082-eed1ba5c4092",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477942.978837,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In a eukaryotic cell, heterochromatin is found in \"The nucleus.\" Heterochromatin is a tightly packed form of DNA, which makes it less accessible for transcription and is located within the nucleus of the cell."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa2498a-2704-4784-96bd-733a4182d4e8",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2498a-2704-4784-96bd-733a4182d4e8",
+      "children": [
+        "aaa238e4-5577-4fa4-95e0-8e1945dad563"
+      ]
+    },
+    "aaa238e4-5577-4fa4-95e0-8e1945dad563": {
+      "id": "aaa238e4-5577-4fa4-95e0-8e1945dad563",
+      "message": {
+        "id": "aaa238e4-5577-4fa4-95e0-8e1945dad563",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477986.430637,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "When are introns removed from newly transcribed RNA\n\nDanng tRNA synthesis\n\nAfter transcription and before translation\n\nWhile translation is occurring\n\nAfter polypeptide synthesis is complete\n\nDuring DNA unwinding"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "2c091c0f-a973-420b-8082-eed1ba5c4092",
+      "children": [
+        "5bb6355f-7fd8-4cf4-86a8-a19535d018fc"
+      ]
+    },
+    "5bb6355f-7fd8-4cf4-86a8-a19535d018fc": {
+      "id": "5bb6355f-7fd8-4cf4-86a8-a19535d018fc",
+      "message": {
+        "id": "5bb6355f-7fd8-4cf4-86a8-a19535d018fc",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704477990.862956,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Introns are removed from newly transcribed RNA \"After transcription and before translation.\" This process, known as RNA splicing, occurs in the nucleus where introns are removed and exons are joined together to form the mature mRNA molecule that is then translated into a protein."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "gpt-4",
+          "parent_id": "aaa238e4-5577-4fa4-95e0-8e1945dad563",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa238e4-5577-4fa4-95e0-8e1945dad563",
+      "children": [
+        "aaa2850d-ee24-4294-aebd-f17ee666acd5"
+      ]
+    },
+    "aaa2850d-ee24-4294-aebd-f17ee666acd5": {
+      "id": "aaa2850d-ee24-4294-aebd-f17ee666acd5",
+      "message": {
+        "id": "aaa2850d-ee24-4294-aebd-f17ee666acd5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478093.483707,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following events occurs during mesosis and not during titosts\n\nFormation of identical chromatids\n\nSeparation of chromatids into daughter cells\n\nDNA replication\n\nPairing of homologous chromosomes\n\nBreakdown of the nuclear envelope"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "5bb6355f-7fd8-4cf4-86a8-a19535d018fc",
+      "children": [
+        "8c7581d5-86fe-4853-ad27-00535f1f0942"
+      ]
+    },
+    "8c7581d5-86fe-4853-ad27-00535f1f0942": {
+      "id": "8c7581d5-86fe-4853-ad27-00535f1f0942",
+      "message": {
+        "id": "8c7581d5-86fe-4853-ad27-00535f1f0942",
+        "author": {
+          "role": "system",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478094.933386,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            ""
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 0,
+        "metadata": {
+          "rebase_system_message": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2850d-ee24-4294-aebd-f17ee666acd5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2850d-ee24-4294-aebd-f17ee666acd5",
+      "children": [
+        "d9d82419-ccad-437f-9994-923a288aeece"
+      ]
+    },
+    "d9d82419-ccad-437f-9994-923a288aeece": {
+      "id": "d9d82419-ccad-437f-9994-923a288aeece",
+      "message": {
+        "id": "d9d82419-ccad-437f-9994-923a288aeece",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478094.933977,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The event that occurs during meiosis but not during mitosis is the \"Pairing of homologous chromosomes.\" In meiosis, homologous chromosomes pair up during prophase I, leading to genetic recombination and the formation of haploid daughter cells. This process does not occur in mitosis, where daughter cells are genetically identical to the parent cell."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "8c7581d5-86fe-4853-ad27-00535f1f0942",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "8c7581d5-86fe-4853-ad27-00535f1f0942",
+      "children": [
+        "aaa267de-4e70-40da-a563-d95834100f53",
+        "aaa2ad9e-823e-452a-805f-451e2d1f7bc9"
+      ]
+    },
+    "aaa267de-4e70-40da-a563-d95834100f53": {
+      "id": "aaa267de-4e70-40da-a563-d95834100f53",
+      "message": {
+        "id": "aaa267de-4e70-40da-a563-d95834100f53",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478147.457971,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Racana poriont that blocks ribosome function. Therefore in most dy following processes? directly affects which of the\n\nTranscription\n\nDNA replication\n\nTranslation\n\nPosttranscriptional modification\n\nOmRNA processing"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "d9d82419-ccad-437f-9994-923a288aeece",
+      "children": [
+        "5a0f2685-f23e-4e5c-8269-405d5bf72803"
+      ]
+    },
+    "5a0f2685-f23e-4e5c-8269-405d5bf72803": {
+      "id": "5a0f2685-f23e-4e5c-8269-405d5bf72803",
+      "message": {
+        "id": "5a0f2685-f23e-4e5c-8269-405d5bf72803",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478148.888164,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The statement seems to be related to \"Translation\" because ribosomes are directly involved in the translation process. Ribosomes are cellular structures responsible for protein synthesis during translation. If a substance blocks ribosome function, it would directly affect the translation process, which is the synthesis of proteins from mRNA templates."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa267de-4e70-40da-a563-d95834100f53",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa267de-4e70-40da-a563-d95834100f53",
+      "children": []
+    },
+    "aaa2ad9e-823e-452a-805f-451e2d1f7bc9": {
+      "id": "aaa2ad9e-823e-452a-805f-451e2d1f7bc9",
+      "message": {
+        "id": "aaa2ad9e-823e-452a-805f-451e2d1f7bc9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478186.346788,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Richin is a poison that blocks ribosome function. Therefore in most dy following processes? directly affects which of the\n\nTranscription\n\nDNA replication\n\nTranslation\n\nPosttranscriptional modification\n\nOmRNA processing"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "d9d82419-ccad-437f-9994-923a288aeece",
+      "children": [
+        "71f6d56d-2f5f-4230-86c5-e386363b56b7"
+      ]
+    },
+    "71f6d56d-2f5f-4230-86c5-e386363b56b7": {
+      "id": "71f6d56d-2f5f-4230-86c5-e386363b56b7",
+      "message": {
+        "id": "71f6d56d-2f5f-4230-86c5-e386363b56b7",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478187.63024,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ricin directly affects the process of \"Translation.\" Ricin is a toxic protein that interferes with ribosome function, inhibiting the translation of mRNA into proteins. This disruption of translation can be lethal to cells and organisms. It does not directly impact transcription, DNA replication, posttranscriptional modification, or mRNA processing."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2ad9e-823e-452a-805f-451e2d1f7bc9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2ad9e-823e-452a-805f-451e2d1f7bc9",
+      "children": [
+        "aaa2c5dc-f3fb-4d3b-931b-363947870b16"
+      ]
+    },
+    "aaa2c5dc-f3fb-4d3b-931b-363947870b16": {
+      "id": "aaa2c5dc-f3fb-4d3b-931b-363947870b16",
+      "message": {
+        "id": "aaa2c5dc-f3fb-4d3b-931b-363947870b16",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478235.901723,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "How many different allelic combinations (gametes) can an organism with a genotype of AaBBCe make?\n\n03\n\n04\n\nوه\n\n16"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "71f6d56d-2f5f-4230-86c5-e386363b56b7",
+      "children": [
+        "888fe9ef-a171-460b-be24-c905e51387ca"
+      ]
+    },
+    "888fe9ef-a171-460b-be24-c905e51387ca": {
+      "id": "888fe9ef-a171-460b-be24-c905e51387ca",
+      "message": {
+        "id": "888fe9ef-a171-460b-be24-c905e51387ca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478237.667336,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "An organism with the genotype AaBBCe can produce \"16\" different allelic combinations (gametes). This can be calculated by multiplying the number of possible combinations for each gene independently. For example, if \"Aa\" represents two different alleles, \"Bb\" represents four different alleles, and \"Ce\" represents two different alleles, then you can calculate the total combinations as 2 (Aa) x 4 (Bb) x 2 (Ce) = 16."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2c5dc-f3fb-4d3b-931b-363947870b16",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2c5dc-f3fb-4d3b-931b-363947870b16",
+      "children": [
+        "aaa2caaf-6567-4129-8272-6f5c62d14177"
+      ]
+    },
+    "aaa2caaf-6567-4129-8272-6f5c62d14177": {
+      "id": "aaa2caaf-6567-4129-8272-6f5c62d14177",
+      "message": {
+        "id": "aaa2caaf-6567-4129-8272-6f5c62d14177",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478283.347733,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Agarose gel electrophoresis separates DNA fragments on the basis of\n\nmolecular size\n\nnucleotide sequence\n\namino acid sequence\n\nrelative water content\n\nDNA source"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "888fe9ef-a171-460b-be24-c905e51387ca",
+      "children": [
+        "c7e42045-d9af-48dd-ac9a-95162cf90709"
+      ]
+    },
+    "c7e42045-d9af-48dd-ac9a-95162cf90709": {
+      "id": "c7e42045-d9af-48dd-ac9a-95162cf90709",
+      "message": {
+        "id": "c7e42045-d9af-48dd-ac9a-95162cf90709",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478284.454228,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Agarose gel electrophoresis separates DNA fragments on the basis of \"molecular size.\" DNA molecules are pushed through an agarose gel by an electric field, and smaller DNA fragments move faster through the gel than larger ones, leading to separation based on size."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2caaf-6567-4129-8272-6f5c62d14177",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2caaf-6567-4129-8272-6f5c62d14177",
+      "children": [
+        "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c"
+      ]
+    },
+    "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c": {
+      "id": "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c",
+      "message": {
+        "id": "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478365.549088,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The ozone laver helps prevent skin damage caused by which of the following types of electromagnetic diseastung Earth's surface\n\nInfrared\n\nUltraviolet\n\nMicrowave\n\nVisible light\n\nRadio wave"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "c7e42045-d9af-48dd-ac9a-95162cf90709",
+      "children": [
+        "b77e063e-25c0-4d97-a240-b8f8f814a39b"
+      ]
+    },
+    "b77e063e-25c0-4d97-a240-b8f8f814a39b": {
+      "id": "b77e063e-25c0-4d97-a240-b8f8f814a39b",
+      "message": {
+        "id": "b77e063e-25c0-4d97-a240-b8f8f814a39b",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478366.795602,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The ozone layer helps prevent skin damage caused by \"Ultraviolet\" (UV) radiation from the sun. The ozone layer absorbs and filters out a significant portion of harmful UV radiation, which can otherwise cause skin damage, including sunburn and an increased risk of skin cancer."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2bbf0-c304-47c4-bad9-dc86ac298d6c",
+      "children": [
+        "aaa27f15-959d-4628-81df-1c6725ec7000"
+      ]
+    },
+    "aaa27f15-959d-4628-81df-1c6725ec7000": {
+      "id": "aaa27f15-959d-4628-81df-1c6725ec7000",
+      "message": {
+        "id": "aaa27f15-959d-4628-81df-1c6725ec7000",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478436.948254,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Cold temperatures low annual precipitation, and the presence of mosses and lichens as the dominant organs are characteristic of which of the following biomes?\n\nTemperate forest\n\nDesert\n\nTropical rain forest\n\nTundra\n\nSavanna"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "b77e063e-25c0-4d97-a240-b8f8f814a39b",
+      "children": [
+        "f7a9695c-ef74-4d83-9232-b60ccb469c3d"
+      ]
+    },
+    "f7a9695c-ef74-4d83-9232-b60ccb469c3d": {
+      "id": "f7a9695c-ef74-4d83-9232-b60ccb469c3d",
+      "message": {
+        "id": "f7a9695c-ef74-4d83-9232-b60ccb469c3d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478438.252716,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Cold temperatures, low annual precipitation, and the presence of mosses and lichens as dominant organisms are characteristic of the \"Tundra\" biome. The tundra biome is known for its harsh climate and limited plant life, with mosses and lichens being some of the primary vegetation."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa27f15-959d-4628-81df-1c6725ec7000",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa27f15-959d-4628-81df-1c6725ec7000",
+      "children": [
+        "aaa2f809-7524-4905-8691-e419ffc0b3c7"
+      ]
+    },
+    "aaa2f809-7524-4905-8691-e419ffc0b3c7": {
+      "id": "aaa2f809-7524-4905-8691-e419ffc0b3c7",
+      "message": {
+        "id": "aaa2f809-7524-4905-8691-e419ffc0b3c7",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478477.48082,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following best describes the abyssal zone of the ocean\n\nIt has the highest species diversity of all ocean zones.\n\nIt is characterized by abundant sunlight and low levels of dissolved oxygen.\n\nIt contains the area between high tide and low tide.\n\nIt generally has uniform environmental conditions.\n\nIt is the region where freshwater and ocean salt water mix."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f7a9695c-ef74-4d83-9232-b60ccb469c3d",
+      "children": [
+        "481ec8d9-0b23-4922-93b2-ea79bdb51950"
+      ]
+    },
+    "481ec8d9-0b23-4922-93b2-ea79bdb51950": {
+      "id": "481ec8d9-0b23-4922-93b2-ea79bdb51950",
+      "message": {
+        "id": "481ec8d9-0b23-4922-93b2-ea79bdb51950",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478478.634388,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The statement that best describes the abyssal zone of the ocean is: \"It generally has uniform environmental conditions.\" The abyssal zone is the deepest part of the ocean and is known for its consistent, extreme environmental conditions, including low temperatures, high pressure, and darkness."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f809-7524-4905-8691-e419ffc0b3c7",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f809-7524-4905-8691-e419ffc0b3c7",
+      "children": [
+        "aaa2f05b-7886-43d3-87cb-a14d784a2ca5"
+      ]
+    },
+    "aaa2f05b-7886-43d3-87cb-a14d784a2ca5": {
+      "id": "aaa2f05b-7886-43d3-87cb-a14d784a2ca5",
+      "message": {
+        "id": "aaa2f05b-7886-43d3-87cb-a14d784a2ca5",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478535.202348,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If the necessary environmental conditions for a species to thrive are unevenly distributed within the geographical Soundanes of that species, the distribution of the organisans will be\n\nuniform\n\nrandom\n\nclustered\n\nunmeasurable\n\nmeaningless"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "481ec8d9-0b23-4922-93b2-ea79bdb51950",
+      "children": [
+        "f4ab8090-1cf1-488a-9114-d2ad8d0b600c"
+      ]
+    },
+    "f4ab8090-1cf1-488a-9114-d2ad8d0b600c": {
+      "id": "f4ab8090-1cf1-488a-9114-d2ad8d0b600c",
+      "message": {
+        "id": "f4ab8090-1cf1-488a-9114-d2ad8d0b600c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478536.419125,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "If the necessary environmental conditions for a species to thrive are unevenly distributed within the geographical boundaries of that species, the distribution of the organisms will typically be \"clustered.\" Organisms will tend to cluster or aggregate in areas where the conditions are favorable for their survival and reproduction, creating clusters or groups within their range."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f05b-7886-43d3-87cb-a14d784a2ca5",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f05b-7886-43d3-87cb-a14d784a2ca5",
+      "children": [
+        "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d"
+      ]
+    },
+    "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d": {
+      "id": "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d",
+      "message": {
+        "id": "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478611.854806,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The edges effect can be observed whenever two very different habitats are adjacent to one another, Which of the factor that changes as one moves from a clear cut into the adjacent forest?\n\nRelative humidity\n\nAir temperature\n\nWind speed\n\nCommunity diversity\n\nLight availability"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f4ab8090-1cf1-488a-9114-d2ad8d0b600c",
+      "children": [
+        "5742acaf-5295-417d-9a5f-b34130678b2d"
+      ]
+    },
+    "5742acaf-5295-417d-9a5f-b34130678b2d": {
+      "id": "5742acaf-5295-417d-9a5f-b34130678b2d",
+      "message": {
+        "id": "5742acaf-5295-417d-9a5f-b34130678b2d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478613.338733,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The factor that changes as one moves from a clear-cut area into the adjacent forest in the context of the edge effect is \"Light availability.\" In edge habitats, there is often a significant change in light levels due to the transition from an open area to a shaded forest, which can influence the types of species and communities that thrive in these transitional zones."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2aa44-5d9c-4ac8-8d87-9ecf14c6f32d",
+      "children": [
+        "aaa23180-d2d6-4b69-820d-9ca95451b7df"
+      ]
+    },
+    "aaa23180-d2d6-4b69-820d-9ca95451b7df": {
+      "id": "aaa23180-d2d6-4b69-820d-9ca95451b7df",
+      "message": {
+        "id": "aaa23180-d2d6-4b69-820d-9ca95451b7df",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478674.323507,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Wuch of the following is most likely true about a community in which the biomass is increasing?\n\nNet productivity is negative.\n\nGross productivity is negative.\n\nThe community is undergoing primary succession.\n\nThere are more primary carnivores than producers.\n\nPrimary productivity exceeds energy needed for respiration."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "5742acaf-5295-417d-9a5f-b34130678b2d",
+      "children": [
+        "f683f9e4-bd39-4482-8538-386e041f7626"
+      ]
+    },
+    "f683f9e4-bd39-4482-8538-386e041f7626": {
+      "id": "f683f9e4-bd39-4482-8538-386e041f7626",
+      "message": {
+        "id": "f683f9e4-bd39-4482-8538-386e041f7626",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478675.887967,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The statement that is most likely true about a community in which the biomass is increasing is: \"Primary productivity exceeds energy needed for respiration.\" When biomass is increasing, it suggests that the community is producing more organic material (biomass) through primary productivity (photosynthesis) than is being consumed by organisms for respiration. This results in a net increase in biomass within the community."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa23180-d2d6-4b69-820d-9ca95451b7df",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa23180-d2d6-4b69-820d-9ca95451b7df",
+      "children": [
+        "aaa2496e-9b51-40d7-9f65-23eebc8b887d"
+      ]
+    },
+    "aaa2496e-9b51-40d7-9f65-23eebc8b887d": {
+      "id": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+      "message": {
+        "id": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478728.766336,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "of the following types of organisms are most likely to be found at the bottom of a very deep\n\nPasteverdhetic orgamums that depend on dissolved oxygen\n\nPhotosynthetic organisms that primarily undergo anaerobic respiration\n\nCheminthetic organisms that require carbon dioxide for aerobse respiration\n\nHerareplat organsims that prey on other heterotrophs\n\nAndidiceruins that require high temperature and low pressure"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "f683f9e4-bd39-4482-8538-386e041f7626",
+      "children": [
+        "45235a79-f3b2-4c90-a8fb-b41aac698c16",
+        "6d2e5748-4df8-4d97-942b-4bb42f73c6ab"
+      ]
+    },
+    "45235a79-f3b2-4c90-a8fb-b41aac698c16": {
+      "id": "45235a79-f3b2-4c90-a8fb-b41aac698c16",
+      "message": {
+        "id": "45235a79-f3b2-4c90-a8fb-b41aac698c16",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478730.649943,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "At the bottom of a very deep ocean, where light and oxygen levels are limited, you would be most likely to find \"Chemosynthetic organisms that require carbon dioxide for aerobic respiration.\" These organisms can use chemicals as an energy source and do not rely on sunlight for photosynthesis. They are adapted to low-oxygen environments and can perform aerobic respiration using alternative energy sources like chemical compounds."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+      "children": []
+    },
+    "6d2e5748-4df8-4d97-942b-4bb42f73c6ab": {
+      "id": "6d2e5748-4df8-4d97-942b-4bb42f73c6ab",
+      "message": {
+        "id": "6d2e5748-4df8-4d97-942b-4bb42f73c6ab",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478747.300405,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "In the deep ocean, at the bottom of very deep trenches, the types of organisms that are most likely to be found are \"Chemosynthetic organisms that require carbon dioxide for aerobic respiration.\" These organisms often rely on chemosynthesis, a process that uses chemical energy from inorganic compounds to produce organic matter, and they do not rely on sunlight for photosynthesis due to the absence of light at such depths."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2496e-9b51-40d7-9f65-23eebc8b887d",
+      "children": [
+        "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f"
+      ]
+    },
+    "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f": {
+      "id": "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f",
+      "message": {
+        "id": "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478934.138744,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Bqses on current hypotheses, which of the following best represents the order in shach key substances and drawase Corted during the emergence of life on Earth\n\ndecals of life lipid spheres, protocells living cells free oxygen in the atmosphere\n\nChennals of life free oxygen in the atmosphere lipid spheres protocells living cells\n\nChevocals of life free oxygen in the atmosphere, protocells lipid spheres, living cells\n\neven in the atmosphere, chemicals of life lipid spheres protocells living cells\n\nCheescak of life upid spheres protocells, free oxygen in the atmosphere living cells"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "6d2e5748-4df8-4d97-942b-4bb42f73c6ab",
+      "children": [
+        "21661d5b-604d-4df4-a846-bd88c4086bc4"
+      ]
+    },
+    "21661d5b-604d-4df4-a846-bd88c4086bc4": {
+      "id": "21661d5b-604d-4df4-a846-bd88c4086bc4",
+      "message": {
+        "id": "21661d5b-604d-4df4-a846-bd88c4086bc4",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704478936.452632,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Based on current hypotheses regarding the emergence of life on Earth, the most likely order in which key substances and processes occurred is:\n\n1. Chemicals of life\n2. Lipid spheres (protocells)\n3. Protocells\n4. Living cells\n5. Free oxygen in the atmosphere\n\nThis sequence represents a plausible progression from the formation of basic organic compounds to the development of simple cell-like structures (protocells) and eventually the emergence of more complex living cells. The accumulation of free oxygen in the atmosphere likely occurred later due to the activities of photosynthetic organisms."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa20c63-fa9d-4327-89ae-6ba3c2bbd10f",
+      "children": [
+        "aaa239be-eefe-4194-aeb8-375fcc75fc7a"
+      ]
+    },
+    "aaa239be-eefe-4194-aeb8-375fcc75fc7a": {
+      "id": "aaa239be-eefe-4194-aeb8-375fcc75fc7a",
+      "message": {
+        "id": "aaa239be-eefe-4194-aeb8-375fcc75fc7a",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479128.564418,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Spint punde spycall contams three organelles that have doubteranes. These are the\n\nvacuole chloroplast, and mitochondrion\n\nchloroplast, mitochondrion, and nucleus\n\nchloroplast Golgi apparatus and toucieus\n\ndplast, Golgapparitions and vacuole\n\nmitochondrion Glaspettand vacuole"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "21661d5b-604d-4df4-a846-bd88c4086bc4",
+      "children": [
+        "bad83b74-bb2a-4f19-8b71-e077fcdd633c"
+      ]
+    },
+    "bad83b74-bb2a-4f19-8b71-e077fcdd633c": {
+      "id": "bad83b74-bb2a-4f19-8b71-e077fcdd633c",
+      "message": {
+        "id": "bad83b74-bb2a-4f19-8b71-e077fcdd633c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479130.266403,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The organelles that have double membranes in a typical plant cell (spinach, in this case) are the \"chloroplast, mitochondrion, and nucleus.\" These organelles have a double membrane structure."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa239be-eefe-4194-aeb8-375fcc75fc7a",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa239be-eefe-4194-aeb8-375fcc75fc7a",
+      "children": [
+        "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f"
+      ]
+    },
+    "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f": {
+      "id": "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f",
+      "message": {
+        "id": "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479315.663107,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "C*M_{2}\n\n5M_{2}\n\nCIL\n\nTheobroming\n\nC*M_{2}\n\nCaflione\n\nthecus shum shove caffeme and theokromme should be classified as"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "bad83b74-bb2a-4f19-8b71-e077fcdd633c",
+      "children": [
+        "25c86d9c-e14e-4599-a3b2-5d48e7fc4200"
+      ]
+    },
+    "25c86d9c-e14e-4599-a3b2-5d48e7fc4200": {
+      "id": "25c86d9c-e14e-4599-a3b2-5d48e7fc4200",
+      "message": {
+        "id": "25c86d9c-e14e-4599-a3b2-5d48e7fc4200",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479316.955692,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It appears that you've provided a list of chemical compounds and their names. To classify these compounds, I'll need more context or information about their chemical properties or characteristics. Please provide additional details or specify the classification criteria you would like to use."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa22fd2-1e83-4dd4-9c8f-2cc1bea72f4f",
+      "children": [
+        "aaa273c5-ca20-429c-b065-f5ce6158079d",
+        "aaa234ea-42a3-42db-acaa-3e1e8aec8c14"
+      ]
+    },
+    "aaa273c5-ca20-429c-b065-f5ce6158079d": {
+      "id": "aaa273c5-ca20-429c-b065-f5ce6158079d",
+      "message": {
+        "id": "aaa273c5-ca20-429c-b065-f5ce6158079d",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479386.689316,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "CH\n\nC*H_{2}\n\nCaffeme\n\nerattuen ema shove, caffirme and theokromme should be classified as\nAmino acids\nCarbohydrate \nFatty acids\nPurine\nSteroids "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "25c86d9c-e14e-4599-a3b2-5d48e7fc4200",
+      "children": [
+        "14e4b456-b1fa-4302-a4dc-3bf28fdea401"
+      ]
+    },
+    "14e4b456-b1fa-4302-a4dc-3bf28fdea401": {
+      "id": "14e4b456-b1fa-4302-a4dc-3bf28fdea401",
+      "message": {
+        "id": "14e4b456-b1fa-4302-a4dc-3bf28fdea401",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479388.409931,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Based on the provided information, \"caffeme,\" \"erattuen,\" \"ema shove,\" and \"theokromme\" do not fit into any of the common classifications such as amino acids, carbohydrates, fatty acids, purines, or steroids. It's possible that these are not standard chemical names, or more context is needed to classify them accurately. Please provide additional information or clarification if needed."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa273c5-ca20-429c-b065-f5ce6158079d",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa273c5-ca20-429c-b065-f5ce6158079d",
+      "children": []
+    },
+    "aaa234ea-42a3-42db-acaa-3e1e8aec8c14": {
+      "id": "aaa234ea-42a3-42db-acaa-3e1e8aec8c14",
+      "message": {
+        "id": "aaa234ea-42a3-42db-acaa-3e1e8aec8c14",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479442.499749,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "CH\n\nC*H_{2}\n\nCaffeme\n\nBased on thier structures shown \nshove, caffirme and theokromme should be classified as\nAmino acids\nCarbohydrate \nFatty acids\nPurine\nSteroids "
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "25c86d9c-e14e-4599-a3b2-5d48e7fc4200",
+      "children": [
+        "3568afa6-0465-4009-a8a0-b656509a61ca"
+      ]
+    },
+    "3568afa6-0465-4009-a8a0-b656509a61ca": {
+      "id": "3568afa6-0465-4009-a8a0-b656509a61ca",
+      "message": {
+        "id": "3568afa6-0465-4009-a8a0-b656509a61ca",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479444.034558,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Based on the structures shown, \"shove, caffeme, and theokromme\" should be classified as \"Purines.\" Purines are a type of organic compound commonly found in nucleic acids (DNA and RNA) and are characterized by a double-ring structure. The structures you provided appear to be related to purines."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa234ea-42a3-42db-acaa-3e1e8aec8c14",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa234ea-42a3-42db-acaa-3e1e8aec8c14",
+      "children": [
+        "aaa26171-0b32-474a-a463-9ffc95f9e559"
+      ]
+    },
+    "aaa26171-0b32-474a-a463-9ffc95f9e559": {
+      "id": "aaa26171-0b32-474a-a463-9ffc95f9e559",
+      "message": {
+        "id": "aaa26171-0b32-474a-a463-9ffc95f9e559",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479581.591268,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Abologist who wished to study evolution would most likely choose which of the following in designing an expermtent\n\nOrganisms kept under constant laboratory condatums with adequate supplies of food, nest materials, and other thsources\n\nOigaraims that reproduce asexually and have long generation tanses\n\nOrganisms that are large so they can be observed easily\n\nOrganisms that reproduce sexually and have short generation times\n\nOrganismis that can only be observed with a microscope"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "3568afa6-0465-4009-a8a0-b656509a61ca",
+      "children": [
+        "bdac118e-1b49-4ea9-abf3-b8df253ad802"
+      ]
+    },
+    "bdac118e-1b49-4ea9-abf3-b8df253ad802": {
+      "id": "bdac118e-1b49-4ea9-abf3-b8df253ad802",
+      "message": {
+        "id": "bdac118e-1b49-4ea9-abf3-b8df253ad802",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479583.27229,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A biologist who wishes to study evolution would most likely choose \"Organisms that reproduce sexually and have short generation times\" in designing an experiment. This choice allows for faster generational turnover and the observation of genetic variation and evolutionary changes over a relatively short period. Short generation times are advantageous in studying evolutionary processes such as natural selection, adaptation, and genetic diversity."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa26171-0b32-474a-a463-9ffc95f9e559",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa26171-0b32-474a-a463-9ffc95f9e559",
+      "children": [
+        "aaa250fc-5340-433f-b20d-65805d7badf9"
+      ]
+    },
+    "aaa250fc-5340-433f-b20d-65805d7badf9": {
+      "id": "aaa250fc-5340-433f-b20d-65805d7badf9",
+      "message": {
+        "id": "aaa250fc-5340-433f-b20d-65805d7badf9",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479718.674151,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Ervamelin is a protein component of tooth enamel in most mammals. Scoretuts lave found that the DNA of certain nammatino spectes contains the gene encoding enamelin even though these mammals do not have teeth.\n\nThe contmond presence of a nonfunctional enamelin gene un mammalian species that lack teeth is best Jensded as\n\na homologous trat\n\nan analogous trast\n\nsympatric evolution\n\nallopatric evolution\n\nvestigial molecular trait"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "bdac118e-1b49-4ea9-abf3-b8df253ad802",
+      "children": [
+        "a16943df-ddbf-4027-9d79-7fc4cd4f177d"
+      ]
+    },
+    "a16943df-ddbf-4027-9d79-7fc4cd4f177d": {
+      "id": "a16943df-ddbf-4027-9d79-7fc4cd4f177d",
+      "message": {
+        "id": "a16943df-ddbf-4027-9d79-7fc4cd4f177d",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479720.417584,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The continued presence of a nonfunctional enamelin gene in mammalian species that lack teeth is best described as a \"vestigial molecular trait.\" Vestigial traits are remnants of structures or functions that were present in ancestors but have lost their original purpose over evolutionary time. In this case, the enamelin gene is present in these mammals due to their evolutionary history, even though they no longer have teeth or a functional use for enamel."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa250fc-5340-433f-b20d-65805d7badf9",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa250fc-5340-433f-b20d-65805d7badf9",
+      "children": [
+        "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b"
+      ]
+    },
+    "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b": {
+      "id": "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b",
+      "message": {
+        "id": "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479923.33107,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A nervous impulse is transmitted from one nesaron to another by\n\nof sodium and potassium tons across the cell membrane\n\nАбвестной и чипotransmitter from the axon of one neuron to the dendrite of another neuron\n\ntad between adjacent cells and active transport of calcrum through membrane\n\nαπομόνοια κανtars at the cell body of the presynaptic neuron\n\ncalmost ampere the gap between neurous"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "a16943df-ddbf-4027-9d79-7fc4cd4f177d",
+      "children": [
+        "ddbace88-049d-4835-898b-f99795cccf03"
+      ]
+    },
+    "ddbace88-049d-4835-898b-f99795cccf03": {
+      "id": "ddbace88-049d-4835-898b-f99795cccf03",
+      "message": {
+        "id": "ddbace88-049d-4835-898b-f99795cccf03",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704479924.720332,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "A nervous impulse is transmitted from one neuron to another by the \"release of a neurotransmitter from the axon of one neuron to the dendrite of another neuron\" at a synapse. This process involves the release of neurotransmitters, which carry the signal from one neuron to the next across the synaptic gap."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f13e-4fba-40f8-90f5-527c36f8cb9b",
+      "children": [
+        "aaa25f47-e03f-4f94-91a3-32ece9b037e6",
+        "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c"
+      ]
+    },
+    "aaa25f47-e03f-4f94-91a3-32ece9b037e6": {
+      "id": "aaa25f47-e03f-4f94-91a3-32ece9b037e6",
+      "message": {
+        "id": "aaa25f47-e03f-4f94-91a3-32ece9b037e6",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480015.221607,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following corect about vertebrate Lady function\n\nport from the kidney is liquid in birds and reptiles but solid in mammals.\n\nmakes is urethra bladderwater outside. The cried wportant than the kidney for the maintenance of esmotic balance. De row the kulam imesgmficant."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "ddbace88-049d-4835-898b-f99795cccf03",
+      "children": [
+        "536f4ab9-d0be-4de5-a129-3238936a934f"
+      ]
+    },
+    "536f4ab9-d0be-4de5-a129-3238936a934f": {
+      "id": "536f4ab9-d0be-4de5-a129-3238936a934f",
+      "message": {
+        "id": "536f4ab9-d0be-4de5-a129-3238936a934f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480017.209999,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "It seems that the provided text is fragmented and unclear. However, I will attempt to provide some clarification:\n\n1. \"Urethra bladderwater outside\" is not clear and appears to be incomplete or miswritten.\n\n2. \"The cried wportant than the kidney for the maintenance of esmotic balance\" is also unclear and incomplete.\n\nIf you have a specific question or if you could provide more context, I'd be happy to try to assist you further. Please clarify your question or provide additional information for a more accurate response."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa25f47-e03f-4f94-91a3-32ece9b037e6",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa25f47-e03f-4f94-91a3-32ece9b037e6",
+      "children": []
+    },
+    "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c": {
+      "id": "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c",
+      "message": {
+        "id": "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480058.171503,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following corect about vertebrate kidny function\n\nport from the kidney is liquid in birds and reptiles but solid in mammals.\n\nmakes is urethra bladderwater outside. The cried wportant than the kidney for the maintenance of esmotic balance. De row the kulam imesgmficant."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "ddbace88-049d-4835-898b-f99795cccf03",
+      "children": [
+        "2bc1f482-c68e-4c34-a22d-7aa3abdbfe46"
+      ]
+    },
+    "2bc1f482-c68e-4c34-a22d-7aa3abdbfe46": {
+      "id": "2bc1f482-c68e-4c34-a22d-7aa3abdbfe46",
+      "message": {
+        "id": "2bc1f482-c68e-4c34-a22d-7aa3abdbfe46",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480059.35064,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The question appears to be incomplete or unclear, making it difficult to determine the correct statement about vertebrate kidney function. Please provide a complete and clear statement or question, and I'll be happy to help you with the information you need."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa20e50-431d-427f-a2ed-3c9ee5c7c61c",
+      "children": [
+        "aaa21db5-6829-4c66-85df-4efbc204106c"
+      ]
+    },
+    "aaa21db5-6829-4c66-85df-4efbc204106c": {
+      "id": "aaa21db5-6829-4c66-85df-4efbc204106c",
+      "message": {
+        "id": "aaa21db5-6829-4c66-85df-4efbc204106c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480150.126818,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Aplids have piercing mouthparts used to acquire nutrients from plants. An analysis of an aphid's gut tients revealed a solution of sucrose and water. Based on the analysis, which of the following plat uces the source of the sucrose?\n\nCuticle\n\nCambrum\n\nXylem\n\nPhloem\n\nGuard cells"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "2bc1f482-c68e-4c34-a22d-7aa3abdbfe46",
+      "children": [
+        "1be39082-740c-412c-96d7-66f9f99d245f"
+      ]
+    },
+    "1be39082-740c-412c-96d7-66f9f99d245f": {
+      "id": "1be39082-740c-412c-96d7-66f9f99d245f",
+      "message": {
+        "id": "1be39082-740c-412c-96d7-66f9f99d245f",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480151.947405,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The source of the sucrose in an aphid's gut is most likely the \"Phloem\" of the plant. Phloem is the tissue in plants responsible for transporting sugars, including sucrose, from the leaves (where photosynthesis occurs) to other parts of the plant, including the stem and roots. Aphids feed on plant sap by piercing the phloem and extracting the sugary sap, which is composed of sucrose and water."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa21db5-6829-4c66-85df-4efbc204106c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa21db5-6829-4c66-85df-4efbc204106c",
+      "children": [
+        "aaa2754e-ae67-4cb9-8753-e9fe12a2532c"
+      ]
+    },
+    "aaa2754e-ae67-4cb9-8753-e9fe12a2532c": {
+      "id": "aaa2754e-ae67-4cb9-8753-e9fe12a2532c",
+      "message": {
+        "id": "aaa2754e-ae67-4cb9-8753-e9fe12a2532c",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480357.556459,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which one of the following statements correctly summarizes the movement of energy and matter in a tentesimal ecosystem?\n\nBoth energy and matter repeatedly cycle within the system.\n\nBoth energy and matter flow unidirectionally through the system.\n\nBoth en gy and matter mcrease as they flow through the system.\n\nEnergy flows through the system, matter cycles within the system.\n\nMatter flows through the system, energy cycles within the system."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "1be39082-740c-412c-96d7-66f9f99d245f",
+      "children": [
+        "9b03b7ed-741c-4086-a10f-c9487219b0a6"
+      ]
+    },
+    "9b03b7ed-741c-4086-a10f-c9487219b0a6": {
+      "id": "9b03b7ed-741c-4086-a10f-c9487219b0a6",
+      "message": {
+        "id": "9b03b7ed-741c-4086-a10f-c9487219b0a6",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480359.502499,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The statement that correctly summarizes the movement of energy and matter in a terrestrial ecosystem is: \"Energy flows through the system, matter cycles within the system.\"\n\nIn terrestrial ecosystems, energy from the sun enters the ecosystem and flows through it, typically in a unidirectional manner, as energy is used by organisms and lost as heat. On the other hand, matter (such as carbon, nitrogen, and other elements) cycles within the ecosystem as it is taken up by organisms, recycled, and returned to the environment."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2754e-ae67-4cb9-8753-e9fe12a2532c",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2754e-ae67-4cb9-8753-e9fe12a2532c",
+      "children": [
+        "aaa2f7c4-7833-49e4-ab83-7000de436cf1"
+      ]
+    },
+    "aaa2f7c4-7833-49e4-ab83-7000de436cf1": {
+      "id": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+      "message": {
+        "id": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+        "author": {
+          "role": "user",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480417.748652,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "Which of the following structures is correctly paired with its fanction?\n\nMicrovillus.. locomotion\n\nAlveolus.. impulse transmission\n\nGlomerulus.. filtration\n\nNeuron.. nutrient uptake\n\nSarcomere.. gas exchange"
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": null,
+        "weight": 1,
+        "metadata": {
+          "timestamp_": "absolute",
+          "message_type": null
+        },
+        "recipient": "all"
+      },
+      "parent": "9b03b7ed-741c-4086-a10f-c9487219b0a6",
+      "children": [
+        "5b29b368-202d-45e3-b4b8-ed538b335c1c",
+        "27ad667a-8342-4fb8-a656-1d395b6a1cbf"
+      ]
+    },
+    "5b29b368-202d-45e3-b4b8-ed538b335c1c": {
+      "id": "5b29b368-202d-45e3-b4b8-ed538b335c1c",
+      "message": {
+        "id": "5b29b368-202d-45e3-b4b8-ed538b335c1c",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480419.173088,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The structure correctly paired with its function is:\n\n- Glomerulus.. filtration\n\nThe glomerulus is a part of the kidney where blood is filtered to form urine. It plays a crucial role in the filtration of waste products and excess substances from the blood."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+      "children": []
+    },
+    "27ad667a-8342-4fb8-a656-1d395b6a1cbf": {
+      "id": "27ad667a-8342-4fb8-a656-1d395b6a1cbf",
+      "message": {
+        "id": "27ad667a-8342-4fb8-a656-1d395b6a1cbf",
+        "author": {
+          "role": "assistant",
+          "name": null,
+          "metadata": {}
+        },
+        "create_time": 1704480461.806756,
+        "update_time": null,
+        "content": {
+          "content_type": "text",
+          "parts": [
+            "The structure correctly paired with its function is:\n\n\"Glomerulus.. filtration.\"\n\nThe glomerulus is part of the kidney's nephron and is responsible for filtering blood to remove waste products and excess substances, ultimately forming urine. This is its primary function in the excretory system. The other pairs are not correctly matched with their functions."
+          ]
+        },
+        "status": "finished_successfully",
+        "end_turn": true,
+        "weight": 1,
+        "metadata": {
+          "finish_details": {
+            "type": "stop",
+            "stop_tokens": [
+              100260
+            ]
+          },
+          "inline_gizmo_id": null,
+          "is_complete": true,
+          "message_type": null,
+          "model_slug": "text-davinci-002-render-sha",
+          "parent_id": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+          "timestamp_": "absolute"
+        },
+        "recipient": "all"
+      },
+      "parent": "aaa2f7c4-7833-49e4-ab83-7000de436cf1",
+      "children": []
+    }
+  },
+  "moderation_results": [],
+  "current_node": "27ad667a-8342-4fb8-a656-1d395b6a1cbf",
+  "plugin_ids": null,
+  "conversation_id": "fc0bb3cf-fbd7-4423-a64c-a61f5ef8c03c",
+  "conversation_template_id": null,
+  "gizmo_id": null,
+  "is_archived": false,
+  "safe_urls": [],
+  "id": "fc0bb3cf-fbd7-4423-a64c-a61f5ef8c03c"
+}

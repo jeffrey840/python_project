@@ -1,3 +1,4 @@
+# /Users/jeffreycabrera/PythonProject/FETCHING_MISSING_LINKS/FMS_V5.py
 
 import re
 import os
@@ -37,6 +38,10 @@ def find_missing_numbers(links, total_expected_links):
     if total_expected_links and last_number < total_expected_links:
         missing_numbers.extend(range(last_number + 1, total_expected_links + 1))
     return missing_numbers
+
+
+
+
 
 # Function to perform Google search and save the first three links
 def google_search_and_save_links(queries, directory):
@@ -118,10 +123,13 @@ def sort_and_save_filtered_links(file_path):
     with open(file_path, 'r') as file:
         links = file.readlines()
 
+    # Removing duplicates while preserving order
+    unique_links = list(dict.fromkeys(links))
+
     # Filter links and sort based on question number
     pattern = re.compile(r"question-(\d+)")
     filtered_sorted_links = sorted(
-        [link.strip() for link in links if "associate" in link.lower() and "professional" not in link.lower() and pattern.search(link)],
+        [link.strip() for link in unique_links if "associate" in link.lower() and "professional" not in link.lower() and pattern.search(link)],
         key=lambda x: int(pattern.search(x).group(1))
     )
 
@@ -129,19 +137,6 @@ def sort_and_save_filtered_links(file_path):
     with open(file_path, 'w') as file:
         for link in filtered_sorted_links:
             file.write(link + "\n")
-
-def read_and_process_links(file_path):
-    # Reading the links from the file
-    with open(file_path, 'r') as file:
-        links = file.readlines()
-
-    # Removing duplicates while preserving order
-    unique_links = list(dict.fromkeys(links))
-
-    # Returning the unique links
-    with open(file_path, 'w') as file:
-        for link in unique_links:
-            file.write(link.strip() + "\n")
 
 def main():
     filename = '../google/Google Associate Cloud Engineer question/links_1-255'
@@ -155,13 +150,6 @@ def main():
 
     file_path = os.path.join(directory, "missing_links_Associate-Associate.txt")
     sort_and_save_filtered_links(file_path)
-
-    file_path = '/FETCHING_MISSING_LINKS/fms_44_Log_GACE_missing_links/missing_links_Associate-Associate.txt'
-    if os.path.exists(file_path):
-        read_and_process_links(file_path)
-    else:
-        print("File not found:", file_path)
-
 
 if __name__ == "__main__":
     main()
