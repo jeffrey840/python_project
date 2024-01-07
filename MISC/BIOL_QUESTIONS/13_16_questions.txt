@@ -1,0 +1,26 @@
+{
+    "Item 200 parts": {
+        "content": "A nervous impulse is transmitted from one neuron to another by"
+    },
+    "Item 201 parts": {
+        "content": "Diffusion of a neurotransmitter from the axon of one neuron to the dendrite of another neuron"
+    },
+    "Item 202 parts": {
+        "content": "Which of the following statements is correct about vertebrate kidney function?"
+    },
+    "Item 202 parts": {
+        "content": "The functional unit of the kidney is the nephron."
+    },
+    "Item 203 parts": {
+        "content": "A leg bone from a chicken carcass was placed in acetic acid and left to soak for several hours. After removal from the acid, the bone was observed to be soft and pliable. Which of the following best explains the change in the bone?"
+    },
+    "Item 203 parts": {
+        "content": "The acid dissolved mineral deposits in the bone matrix."
+    },
+    "Item 204 parts": {
+        "content": "Which of the following best describes a difference between an open circulatory system and a closed circulatory system?"
+    },
+    "Item 204 parts": {
+        "content": "In an open circulatory system, blood mixes with the interstitial fluid, and in a closed circulatory system, blood stays inside blood vessels."
+    }
+}

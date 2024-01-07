@@ -1,0 +1,26 @@
+{
+    "Item 200 parts": {
+        "content": "A plant palisade mesophyll cell contains three organelles that have double membranes. These are the"
+    },
+    "Item 201 parts": {
+        "content": "Chloroplast, mitochondrion, and nucleus"
+    },
+    "Item 202 parts": {
+        "content": "Which of the following statements about plant and animal cells is correct?"
+    },
+    "Item 202 parts": {
+        "content": "Plant cells synthesize most of their ATP in mitochondria and chloroplasts, while animal cells produce most of their ATP in mitochondria only."
+    },
+    "Item 203 parts": {
+        "content": "Which of the following is required by all living organisms on Earth?"
+    },
+    "Item 203 parts": {
+        "content": "Water"
+    },
+    "Item 204 parts": {
+        "content": "Electrons are removed from water and transferred to chlorophyll in which of the following metabolic pathways?"
+    },
+    "Item 204 parts": {
+        "content": "The light-dependent reactions of photosynthesis"
+    }
+}

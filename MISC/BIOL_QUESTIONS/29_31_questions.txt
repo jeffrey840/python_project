@@ -1,0 +1,20 @@
+{
+    "Item 200 parts": {
+        "content": "Enamelin is a protein component of tooth enamel in most mammals. Scientists have found that the DNA of certain mammalian species contains the gene encoding enamelin even though these mammals do not have teeth. The continued presence of a nonfunctional enamelin gene in mammalian species that lack teeth is best described as"
+    },
+    "Item 201 parts": {
+        "content": "A vestigial molecular trait"
+    },
+    "Item 202 parts": {
+        "content": "Many plants have evolved unique colors, scents, and nectar suitable for attracting species that help with the process of pollination. Similarly, the pollinator species have evolved special adaptations that allow them to transfer pollen and ensure seed on the plants they typically visit. Which of the following best describes the evolution of traits in these plant species and their pollinators?"
+    },
+    "Item 202 parts": {
+        "content": "Coevolution"
+    },
+    "Item 203 parts": {
+        "content": "Moths generally mate at night. In the absence of light, which of the following best explains how the males find females?"
+    },
+    "Item 203 parts": {
+        "content": "They follow trails of chemicals called pheromones that are produced by the females."
+    }
+}
