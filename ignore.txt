@@ -1,0 +1,38 @@
+b) Which of these two is the larger when it is being interpreted on a computer using
+signed-two’s complement representation?
+
+Certainly! Let's break down the calculations for each number in detail, using signed two's complement representation.
+
+For `11111100`:
+
+starts with a `1`, indicating it's a negative number in signed two's complement representation.
+
+Original: `11111100`
+
+1: Invert the bits -> `00000011`
+
+2: Add `1` -> `00000100`
+
+result, `00000100`, in decimal is `4`. Since the original number was negative, its value is `-4`.
+
+For `01110000`:
+
+starts with a `0`, indicating it's a positive number.
+
+Original: `01110000`
+
+results to `112` in decimal, as it's a positive number.
+
+0 x 2^7 = 0
+1 x 2^6 = 64
+1 x 2^5 = 32
+1 x 2^4 = 16
+0 x 2^3 = 0
+0 x 2^2 = 0
+0 x 2^1 = 0
+0 x 2^0 = 0
+64 + 32 + 16 = 112
+
+Hence, `11111100` represents `-4` when interpreted as a signed two's complement number, and `01110000` represents `112`, making `01110000` the larger number.
+
+01110000 is the larger number when interpreted on a computer using signed two's complement representation
