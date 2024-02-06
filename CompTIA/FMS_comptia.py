@@ -1,6 +1,7 @@
 import re
 
-# todo: thsiswiill extracy eth numbers from teh txt file thta i s missing numbers
+
+# todo: this will extract eth numbers from teh txt file that is missing numbers
 def find_missing_questions_from_file(file_path):
     # Open and read the file
     with open(file_path, 'r') as file:
