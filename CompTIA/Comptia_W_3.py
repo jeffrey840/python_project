@@ -40,7 +40,7 @@ def google_search_and_save_links(queries, directory):
     browser = webdriver.Chrome(options=chrome_options)
 
     # File to save the links
-    file_path = os.path.join(directory, "links_200-854.txt")
+    file_path = os.path.join(directory, "links_284-600.txt")
     with open(file_path, "a") as file:
         for query in queries:
             try:
@@ -80,5 +80,5 @@ def google_search_and_save_links(queries, directory):
 
 if __name__ == "__main__":
     directory = "CompTIA_Security+"
-    topics = ["sy0-601 question {} site: examtopics.com".format(i) for i in range(200, 854)]
+    topics = ["sy0-601 question {} site: examtopics.com".format(i) for i in range(00, 000)]
     google_search_and_save_links(topics, directory)
