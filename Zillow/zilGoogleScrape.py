@@ -1,7 +1,7 @@
 from selenium import webdriver
-from selenium_stealth import stealth
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.common.exceptions import NoSuchElementException
 from fake_useragent import UserAgent
 import time
 
@@ -15,36 +15,32 @@ chrome_options = Options()
 chrome_options.add_argument(f"user-agent={user_agent}")
 
 # Specify your own path to the ChromeDriver
-driver_path = "path_to_your_chromedriver"
+driver_path = "C:\\Users\\jeffr\\.cache\\selenium\\chromedriver\\win64\\118.0.5993.70\\chromedriver.exe"
+brave_path = "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
 service = Service(executable_path=driver_path)
 browser = webdriver.Chrome(options=chrome_options)
 
-# Apply selenium-stealth to make the Selenium-driven Chrome more undetectable
-stealth(browser,
-        languages=["en-US", "en"],
-        vendor="Google Inc.",
-        platform="Win32",
-        webgl_vendor="Intel Inc.",
-        renderer="Intel Iris OpenGL Engine",
-        fix_hairline=True,
-        )
-
 # Your target URL
-url = "https://www.zillow.com/homes/for_sale/Houston/2_p/"
+url = "https://www.zillow.com/homes/for_sale/Houston-tx-77080/2_p/"
 
 try:
     browser.get(url)
-    # Adjust the sleep time as necessary to ensure the page loads completely
-    time.sleep(10)
+    # Adjust the sleep time or use WebDriverWait for more robust waiting
+    time.sleep(10)  # Wait for the page to fully load
+
+    # Scroll down to the element
+    element = browser.find_element("xpath", "/html/body")
+    browser.execute_script("arguments[0].scrollIntoView();", element)
+    time.sleep(10)  # Wait for scrolling to complete
 
     # Your target XPath
-    xpath = "/html"
+    xpath = "/html/body"
     element = browser.find_element("xpath", xpath)
     content = element.get_attribute('innerHTML')
 
     if content:
-        print("Content was successfully retrieved. Here's a snippet:")
-        print(content[:200])  # Print a snippet to verify
+        print("Content was successfully retrieved. Here's the full content:")
+        print(content)  # Print the full content
     else:
         print("No content found at the specified XPath.")
 except Exception as e:
