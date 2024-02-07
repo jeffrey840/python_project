@@ -27,14 +27,17 @@ try:
     browser.get(url)
     # Adjust the sleep time or use WebDriverWait for more robust waiting
     time.sleep(10)  # Wait for the page to fully load
+# /html/body/div[1]/div/div[2]/div/div/div[1]/div[1]/ul/li[9]/div/div/script/
+#     //*[@id="grid-search-results"]/ul/li[8]/div/div/script
+#     document.querySelector("#grid-search-results > ul > li:nth-child(1) > div > div > script")
 
-    # Scroll down to the element
-    element = browser.find_element("xpath", "/html/body")
+    # Scroll down to the elementa
+    element = browser.find_element("xpath", "/html/body/div[1]/div/div[2]/div/div/div[1]/div[1]/ul/li[9]/div/div/script")
     browser.execute_script("arguments[0].scrollIntoView();", element)
     time.sleep(10)  # Wait for scrolling to complete
 
     # Your target XPath
-    xpath = "/html/body"
+    xpath = "/html/body/div[1]/div/div[2]/div/div/div[1]/div[1]/ul/li[9]/div/div/script"
     element = browser.find_element("xpath", xpath)
     content = element.get_attribute('innerHTML')
 
