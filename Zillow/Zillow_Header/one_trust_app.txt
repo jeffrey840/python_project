@@ -1,0 +1,53 @@
+
+
+
+one trust app
+
+Request URL:
+https://s.zillowstatic.com/s3/pfs/oneTrustApp-e5791bc677bf7cc903ff.js
+Request Method:
+GET
+Status Code:
+200 OK
+Remote Address:
+3.161.193.129:443
+Referrer Policy:
+unsafe-url
+:authority:
+s.zillowstatic.com
+:method:
+GET
+:path:
+/s3/pfs/oneTrustApp-e5791bc677bf7cc903ff.js
+:scheme:
+https
+Accept:
+*/*
+Accept-Encoding:
+gzip, deflate, br
+Accept-Language:
+en-US,en;q=0.8
+If-Modified-Since:
+Wed, 31 Jan 2024 23:00:56 GMT
+If-None-Match:
+"52ccf7af1a3a09d38b48daa3949d7c4b"
+Referer:
+https://www.zillow.com/
+Sec-Ch-Ua:
+"Not_A Brand";v="8", "Chromium";v="120", "Brave";v="120"
+Sec-Ch-Ua-Mobile:
+?1
+Sec-Ch-Ua-Platform:
+"Android"
+Sec-Fetch-Dest:
+script
+Sec-Fetch-Mode:
+no-cors
+Sec-Fetch-Site:
+cross-site
+Sec-Gpc:
+1
+User-Agent:
+Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36
+
+

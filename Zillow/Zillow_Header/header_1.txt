@@ -1,0 +1,71 @@
+
+
+headers
+Request URL:
+https://www.zillow.com/homes/for_sale/Houston-tx-77080/2_p/
+Request Method:
+GET
+Status Code:
+403 Forbidden
+Remote Address:
+127.0.0.1:9050
+Referrer Policy:
+strict-origin-when-cross-origin
+Cache-Control:
+no-cache
+Content-Length:
+4672
+Content-Type:
+text/html
+Date:
+Thu, 08 Feb 2024 17:07:13 GMT
+Server:
+CloudFront
+Via:
+1.1 098d6395a0558ff140166a3bcc78ccbe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id:
+pjMLzrhffDgjZMzgHFb7zTtwQVQqk1JNzaIee3SrIdgpRExyIGheUw==
+X-Amz-Cf-Pop:
+WAW51-P2
+X-Cache:
+LambdaGeneratedResponse from cloudfront
+:authority:
+www.zillow.com
+:method:
+GET
+:path:
+/homes/for_sale/Houston-tx-77080/2_p/
+:scheme:
+https
+Accept:
+text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Accept-Encoding:
+gzip, deflate, br
+Accept-Language:
+en-US,en;q=0.9
+Cache-Control:
+max-age=0
+Cookie:
+aws-waf-token=f991751b-a2ed-4b5b-a499-bbad9d3af567:CgoAh5d3n7caAAAA:XSwuM185e2nlZwSr6J+2Ka/gs19HQPYVmw6vWihpij0JEkD6x+xH+oKfpytlkamnftddHetYI5+0B615fkwczkgFgyNcFCHIWYZWmJ+Ky5o7zU9VGhVYr8/KtJdlFAhMJmuMudsBCBeSspHULLf89qo9f2a/eNB9aQlZmZk9jqAOGPDU4B8wnTw5O22NQotH8a9Gp83pyPdzblS/wkL0
+Referer:
+https://www.zillow.com/homes/for_sale/Houston-tx-77080/2_p/
+Sec-Ch-Ua:
+"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+Sec-Ch-Ua-Mobile:
+?0
+Sec-Ch-Ua-Platform:
+"macOS"
+Sec-Fetch-Dest:
+document
+Sec-Fetch-Mode:
+navigate
+Sec-Fetch-Site:
+same-origin
+Sec-Fetch-User:
+?1
+Upgrade-Insecure-Requests:
+1
+User-Agent:
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+
+
