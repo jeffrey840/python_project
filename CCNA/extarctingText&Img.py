@@ -38,7 +38,7 @@ if not os.path.exists(images_dir):
 output_text_file = "compTiaSecurity+.txt"
 
 # Assuming 'links_1-255' is the name of your file containing the URLs
-with open('TestingLinkExtraction.txt', 'r') as f:
+with open('CCNA/', 'r') as f:
     links = [line.strip() for line in f]
 
 with open(output_text_file, "w") as textfile:

@@ -36,7 +36,7 @@ def find_missing_questions_from_file(file_path):
 
 
 # Specify the path to the text file
-file_path = 'CCNA/links_1-100.txt' # Replace with the actual path
+file_path = 'CCNA/organized_links_run1.txt' # Replace with the actual path
 
 # Call the function with the path to your text file
 # Note: We won't actually run this line because we don't have a real file path specified
@@ -47,3 +47,4 @@ file_path = 'CCNA/links_1-100.txt' # Replace with the actual path
 # find_missing_questions_from_file
 missing_questions_from_file = find_missing_questions_from_file(file_path)
 print(missing_questions_from_file)
+print(len(missing_questions_from_file))
