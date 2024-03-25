@@ -36,7 +36,7 @@ def google_search_and_save_links(queries, directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-    file_path = os.path.join(directory, "run_2_links_specific_questions.txt")
+    file_path = os.path.join(directory, "run_1_links_specific_questions.txt")
     browser = webdriver.Chrome( options=chrome_options)
     try:
         with open(file_path, "a") as file:

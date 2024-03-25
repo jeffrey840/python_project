@@ -36,8 +36,8 @@ def organize_links_by_questions_and_save(file_path1, file_path2, output_file_pat
 
 # Example usage of the function
 # Note: Replace these file paths with the actual paths to your input and output files
-file_path1 = 'links_1-854.txt'
-file_path2 = 'links_specific_questions.txt'
+file_path1 = 'CCNA/links_1-1400.txt'
+file_path2 = 'CCNA/links_specific_questions.txt'
 output_file_path = 'organized_links.txt'
 
 # Uncomment and run the function with actual file paths to use it
