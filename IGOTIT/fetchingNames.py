@@ -23,7 +23,7 @@ def random_sleep(minimum=0.5, maximum=1.5):
     time.sleep(random.uniform(minimum, maximum))
 
 
-def type_with_delay(element, text, min_delay=0.1, max_delay=0.5):
+def type_with_delay(element, text, min_delay=0.05, max_delay=0.1):
     """Simulates typing into a web element with random delays between key presses."""
     for character in text:
         element.send_keys(character)
@@ -63,7 +63,9 @@ def google_search(names):
 
 
 if __name__ == "__main__":
-    names = ["Alvin Sun", "Amarillo Globe-News", "The Progress", "Andrews County News", "Western Observer", "Aransas Pass Progress", "Archer County News", "Athens Daily Review", "Cass County Citizens", "Journal-Sun"]
+    names = ["Brenham Banner-Press", "Brownfield News", "The Brownsville Herald", "Brownwood Bulletin", "The Eagle", "Buffalo Express", "Burkburnett Informer Star", "Burnet Bulletin", "Citizens Gazette", "Burleson County Tribune", "The Cameron Herald", "The Canadian Record", "Canton Herald", "Van Zandt News", "The Canyon News", "Carrizo Springs Javelin", "The Panola Watchman", "Hill Country News Weekender", "Celina Record", "The Light and Champion"]
+
+
 
     google_search(names)
 
