@@ -40,7 +40,7 @@ def google_search_and_save_links(names, directory):
     browser = webdriver.Chrome(options=chrome_options)
 
     # File to save the links
-    file_path = os.path.join(directory, "links_2-300.txt")
+    file_path = os.path.join(directory, "links.txt")
     with open(file_path, "a") as file:
         for name in names:
             try:
@@ -54,7 +54,7 @@ def google_search_and_save_links(names, directory):
 
                 # Clear it if necessary, then type the name with delays
                 search_box.clear()
-                type_with_delay(search_box, name)
+                type_with_delay(search_box, name + " Texas")
                 search_box.send_keys(Keys.ENTER)
 
                 # Wait for the search results to load and retrieve the link of the first search result
@@ -67,10 +67,23 @@ def google_search_and_save_links(names, directory):
                 file.write(link + "\n")
 
             except TimeoutException:
+                # If primary Xpath fails, try alternative XPaths
+                try:
+                    xpath_to_select_alternative1 = '//*[@id="rso"]/div[1]/div/div/div/div[1]/div/div/span/a'
+                    element_alternative1 = wait.until(EC.presence_of_element_located((By.XPATH, xpath_to_select_alternative1)))
+                    link = element_alternative1.get_attribute("href")
+                    file.write(link + "\n")
+                except TimeoutException:
+                    xpath_to_select_alternative2 = '//*[@id="rso"]/div[1]/div/div/div/div/div/div/div/div[1]/div/span/a'
+                    element_alternative2 = wait.until(EC.presence_of_element_located((By.XPATH, xpath_to_select_alternative2)))
+                    link = element_alternative2.get_attribute("href")
+                    file.write(link + "\n")
+
                 # Log the error and the name that caused it
                 error_message = f"Error encountered with name: {name}\n"
                 file.write(error_message)
                 print(error_message)
+
             finally:
                 # Introduce a random delay before the next search
                 random_sleep(11, 14)
@@ -79,6 +92,8 @@ def google_search_and_save_links(names, directory):
 
 
 if __name__ == "__main__":
-    directory = "CCNA"
-    names = ["Abernathy Advocate", "Abilene Reporter-News", "Albany News", "The Community News", "Alice Echo-News Journal", "Alpine Avalanche", "Alvin Sun", "Amarillo Globe-News", "The Progress", "Andrews County News", "Western Observer", "Aransas Pass Progress", "Archer County News", "Athens Daily Review", "Cass County Citizens", "Journal-Sun"]
+    directory = "Igotit_dir"
+    names = ["Abilene Reporter-News", "Albany News", "The Community News", "Alice Echo-News Journal", "Alpine Avalanche", "Alvin Sun", "Amarillo Globe-News", "The Progress"]
     google_search_and_save_links(names, directory)
+
+
