@@ -1,6 +1,21 @@
-https://www.reporternews.com/
+https://name.com/
 Error encountered with name: Abilene Reporter-News
 https://www.thealbanynews.net/
 Error encountered with name: Albany News
 https://www.community-news.com/
 Error encountered with name: The Community News
+Abernathy Advocate:
+https://www.abernathyadvocate.com/
+Error encountered with name: Abernathy Advocate
+Abilene Reporter-News:
+https://www.reporternews.com/
+Error encountered with name: Abilene Reporter-News
+Albany News:
+https://www.thealbanynews.net/
+Error encountered with name: Albany News
+The Community News:
+https://www.community-news.com/
+Error encountered with name: The Community News
+Alice Echo-News Journal:
+https://www.alicetx.com/
+Error encountered with name: Alice Echo-News Journal
