@@ -63,7 +63,9 @@ def google_search(names):
 
 
 if __name__ == "__main__":
-    names = ["Brenham Banner-Press", "Brownfield News", "The Brownsville Herald", "Brownwood Bulletin", "The Eagle", "Buffalo Express", "Burkburnett Informer Star", "Burnet Bulletin", "Citizens Gazette", "Burleson County Tribune", "The Cameron Herald", "The Canadian Record", "Canton Herald", "Van Zandt News", "The Canyon News", "Carrizo Springs Javelin", "The Panola Watchman", "Hill Country News Weekender", "Celina Record", "The Light and Champion"]
+    names = ["Centerville News", "The Red River Sun", "Clarendon Enterprise", "The Claude News", "Cleburne Times-Review", "The Clifton Record", "The Facts", "Clyde Journal", "Coleman Chronicle & Democrat-Voice", "Colorado City Record", "Colorado County Citizen", "The Banner Press Newspaper", "The Comanche Chief", "The Comfort News", "The Courier", "Cooper Review"]
+
+
 
 
 
