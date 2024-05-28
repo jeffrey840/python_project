@@ -12,7 +12,7 @@ soup = BeautifulSoup(html_content, 'html.parser')
 names = [a.get_text() for a in soup.find_all('a')]
 
 # Write the names to a file
-with open("E_contractors_list.txt", "w") as file:
+with open("L_contractors_list.txt", "w") as file:
     for name in names:
         file.write(name + "\n")
 
